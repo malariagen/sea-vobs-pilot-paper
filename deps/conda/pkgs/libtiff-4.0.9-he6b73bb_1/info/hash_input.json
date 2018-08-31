@@ -1,7 +1,0 @@
-{
-  "jpeg": "9",
-  "cxx_compiler": "toolchain_cxx",
-  "zlib": "1.2",
-  "xz": "5.2",
-  "c_compiler": "toolchain_c"
-}

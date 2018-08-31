@@ -1,6 +1,0 @@
-{
-  "zlib": "1.2",
-  "libiconv": "1.15",
-  "c_compiler": "toolchain_c",
-  "libffi": "3.2"
-}

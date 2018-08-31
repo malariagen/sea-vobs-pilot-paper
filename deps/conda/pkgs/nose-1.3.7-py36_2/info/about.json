@@ -1,8 +1,0 @@
-{
-  "description": "NOTE: Nose has been in maintenance mode for the past several years and will\nlikely cease without a new person/team to take over maintainership. New\nprojects should consider using Nose2, py.test, or just plain\nunittest/unittest2.\n",
-  "dev_url": "https://github.com/nose-devs/nose/",
-  "doc_url": "https://nose.readthedocs.org",
-  "home": "http://readthedocs.org/docs/nose/",
-  "license": "LGPL-2.1",
-  "summary": "Nose extends unittest to make testing easier"
-}

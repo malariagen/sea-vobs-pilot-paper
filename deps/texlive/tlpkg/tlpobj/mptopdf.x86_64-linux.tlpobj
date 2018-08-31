@@ -1,8 +1,0 @@
-name mptopdf.x86_64-linux
-category Package
-revision 18674
-shortdesc x86_64-linux files of mptopdf
-containersize 352
-containerchecksum 469b29537029fc50b8f2ef3b90ef2d16e7c2177078b3548fc456758ef881ac49d354006b750b8daf6b0dee5b9a9d4f12852cce4a9f9e9f458094a5f3d29e124b
-binfiles arch=x86_64-linux size=1
- bin/x86_64-linux/mptopdf

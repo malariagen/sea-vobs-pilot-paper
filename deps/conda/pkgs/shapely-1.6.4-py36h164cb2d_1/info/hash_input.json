@@ -1,5 +1,0 @@
-{
-  "numpy": "1.9",
-  "c_compiler": "toolchain_c",
-  "geos": "3.6.2"
-}

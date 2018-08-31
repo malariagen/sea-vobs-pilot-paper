@@ -1,8 +1,0 @@
-lib/libpixman-1.la
-lib/libpixman-1.so.0.34.0
-lib/libpixman-1.so
-lib/libpixman-1.a
-include/pixman-1/pixman.h
-include/pixman-1/pixman-version.h
-lib/pkgconfig/pixman-1.pc
-lib/libpixman-1.so.0

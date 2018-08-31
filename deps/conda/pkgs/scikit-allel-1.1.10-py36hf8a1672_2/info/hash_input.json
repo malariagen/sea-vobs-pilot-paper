@@ -1,5 +1,0 @@
-{
-  "cxx_compiler": "toolchain_cxx",
-  "numpy": "1.9",
-  "c_compiler": "toolchain_c"
-}
