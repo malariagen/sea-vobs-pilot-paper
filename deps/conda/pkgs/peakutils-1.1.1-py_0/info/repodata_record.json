@@ -1,0 +1,23 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.14"
+  ],
+  "features": "",
+  "fn": "peakutils-1.1.1-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "918cbdfe00fd2b9ebba65c9b958b900c",
+  "name": "peakutils",
+  "noarch": "python",
+  "size": 9790,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/peakutils-1.1.1-py_0.tar.bz2",
+  "version": "1.1.1"
+}

@@ -1,0 +1,34 @@
+name metago
+category Package
+revision 15878
+shortdesc MetaPost output of Go positions
+longdesc The package allows you to draw Go game positions with MetaPost.
+longdesc Two methods of usage are provided, either using the package
+longdesc programmatically, or using the package via a script (which may
+longdesc produce several images).
+containersize 5044
+containerchecksum 8897793fde3c229551407ac1456ac1e5ba9e1fddd930d1ae5d818e5bf26c35af047bfcaeb8eddd9ab860a4444888a35552f5921d5691de91999fff83ebf9f6ec
+doccontainersize 27136
+doccontainerchecksum 931807fbd5b930890eea30e0abd9cd00306cbc7f24769f142c69e3fc6299f51b0fc8e5de75d6be3c071c23a6989966922b6a147e8cb969b107d2c78d13d4983f
+docfiles size=24
+ texmf-dist/doc/metapost/metago/README details="Readme"
+ texmf-dist/doc/metapost/metago/example-program.mp
+ texmf-dist/doc/metapost/metago/example-program.pdf
+ texmf-dist/doc/metapost/metago/example-script-1.pdf
+ texmf-dist/doc/metapost/metago/example-script-2.pdf
+ texmf-dist/doc/metapost/metago/example-script-3.pdf
+ texmf-dist/doc/metapost/metago/example-script-4.pdf
+ texmf-dist/doc/metapost/metago/example-script-5.pdf
+ texmf-dist/doc/metapost/metago/example-script-6.pdf
+ texmf-dist/doc/metapost/metago/example-script-7.pdf
+ texmf-dist/doc/metapost/metago/example-script-8.pdf
+ texmf-dist/doc/metapost/metago/example-script.mp
+ texmf-dist/doc/metapost/metago/script.go
+runfiles size=5
+ texmf-dist/metapost/metago/metago.mp
+catalogue-also go igo
+catalogue-ctan /graphics/metapost/contrib/macros/metago
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics mp-use games
+catalogue-version 0.9

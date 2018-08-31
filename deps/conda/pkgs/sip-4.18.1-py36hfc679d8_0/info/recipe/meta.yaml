@@ -1,0 +1,73 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Aug 27 19:52:40 2018
+# ------------------------------------------------
+
+package:
+    name: sip
+    version: 4.18.1
+source:
+    sha256: 9bce7a2dbf7f105bf68ad1bab58eebc0ce33087ec40396da756463f086ffa290
+    url: http://sourceforge.net/projects/pyqt/files/sip/sip-4.18.1/sip-4.18.1.tar.gz
+build:
+    number: '0'
+    string: py36hfc679d8_0
+requirements:
+    build:
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - toolchain_cxx_linux-64 2.1.6 0
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.8.24 ha4d7672_0
+        - libffi 3.2.1 hfc679d8_4
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - libgcc-ng >=4.9
+        - libstdcxx-ng >=4.9
+        - python >=3.6,<3.7.0a0
+test:
+    files:
+        - test
+    imports:
+        - sip
+    requires:
+        - toolchain_cxx_linux-64
+about:
+    description: 'SIP is a tool that makes it very easy to create Python bindings
+        for C and
+
+        C++ libraries. SIP comprises a code generator and a Python module. The
+
+        code generator processes a set of specification files and generates C or
+
+        C++ code which is then compiled to create the bindings extension module.
+
+        The SIP Python module provides support functions to the automatically
+
+        generated code.
+
+        '
+    dev_url: https://github.com/ifwe/sip
+    doc_url: http://pyqt.sourceforge.net/Docs/sip4/
+    home: http://www.riverbankcomputing.com/software/sip/intro
+    license: GPL-3.0
+    license_file: LICENSE
+    summary: Create Python bindings for C and C++ libraries
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - msarahan
+        - ocefpaf

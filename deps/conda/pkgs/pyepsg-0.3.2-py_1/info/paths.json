@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "4b33836e4b85a03ab5e063d98351ad0ece8ef381cd59ffc18604973c24196963",
+      "size_in_bytes": 1859
+    },
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "0b674c13eaa0cef79edb0eb814010f1fbd890140bd10889ec566d20ae40580ff",
+      "size_in_bytes": 277
+    },
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "79ba14be71050a9d7f2c87a622aa4927a571a2939e8266b931a7f04a990defb7",
+      "size_in_bytes": 96
+    },
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "7cc4959877dbe6b6c63a8eb1bfe3bfb545fa8fe5b28b1b2c13e4a7c1c0d1c4d4",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "site-packages/pyepsg-0.3.2-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bfe4b963e4d3dced52006a835d500b7e5fb420c44faa4e5a02aaabb6b540aa72",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/pyepsg.py",
+      "path_type": "hardlink",
+      "sha256": "61c9eb4008af156f8c919e7ca0fe76813f1f94e94ea0080d1df76c74af23ff93",
+      "size_in_bytes": 8754
+    }
+  ],
+  "paths_version": 1
+}

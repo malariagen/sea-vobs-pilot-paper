@@ -1,0 +1,22 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "matplotlib",
+    "numpy",
+    "pandas",
+    "patsy",
+    "python",
+    "scipy",
+    "statsmodels"
+  ],
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "name": "seaborn",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1531205136533,
+  "version": "0.8.1"
+}

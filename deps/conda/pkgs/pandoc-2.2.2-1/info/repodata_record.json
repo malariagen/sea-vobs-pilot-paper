@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "gmp",
+    "zlib 1.2.11.*"
+  ],
+  "features": "",
+  "fn": "pandoc-2.2.2-1.tar.bz2",
+  "license": "GPL-2.0",
+  "md5": "77a6c97cbe0eaf379b75058814d0e304",
+  "name": "pandoc",
+  "platform": "linux",
+  "size": 21763463,
+  "subdir": "linux-64",
+  "timestamp": 1531948745568,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pandoc-2.2.2-1.tar.bz2",
+  "version": "2.2.2"
+}

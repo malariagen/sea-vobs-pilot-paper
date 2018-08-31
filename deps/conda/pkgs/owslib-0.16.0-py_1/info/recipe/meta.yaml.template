@@ -1,0 +1,49 @@
+{% set version = "0.16.0" %}
+
+package:
+  name: owslib
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/O/OWSLib/OWSLib-{{ version }}.tar.gz
+  sha256: ec95a5e93c145a5d84b0074b9ea27570943486552a669151140debf08a100554
+
+build:
+  number: 1
+  noarch: python
+  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
+
+requirements:
+  host:
+    - python
+    - pip
+  run:
+    - python
+    - python-dateutil
+    - pytz
+    - requests
+    - pyproj
+    - lxml
+
+test:
+  imports:
+    - owslib.coverage
+    - owslib.waterml
+    - owslib.swe.observation
+    - owslib.swe.sensor
+    - owslib
+    - owslib.feature
+    - owslib.swe
+
+about:
+  home: https://geopython.github.io/OWSLib
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  summary: 'OGC Web Service utility library'
+
+extra:
+  recipe-maintainers:
+    - kalxas
+    - tomkralidis
+    - pelson
+    - ocefpaf

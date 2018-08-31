@@ -1,0 +1,141 @@
+% \iffalse meta-comment
+%
+%% File: l3draw-scopes.dtx Copyright(C) 2018 The LaTeX3 Project
+%
+% It may be distributed and/or modified under the conditions of the
+% LaTeX Project Public License (LPPL), either version 1.3c of this
+% license or (at your option) any later version.  The latest version
+% of this license is in the file
+%
+%    http://www.latex-project.org/lppl.txt
+%
+% This file is part of the "l3experimental bundle" (The Work in LPPL)
+% and all files in that bundle must be distributed together.
+%
+% -----------------------------------------------------------------------
+%
+% The development version of the bundle can be found at
+%
+%    https://github.com/latex3/latex3
+%
+% for those people who are interested.
+%
+%<*driver>
+\RequirePackage{expl3}
+\documentclass[full]{l3doc}
+\begin{document}
+  \DocInput{\jobname.dtx}
+\end{document}
+%</driver>
+% \fi
+%
+% \title{^^A
+%   The \pkg{l3draw} package\\ Drawing scopes^^A
+% }
+%
+% \author{^^A
+%  The \LaTeX3 Project\thanks
+%    {^^A
+%      E-mail:
+%        \href{mailto:latex-team@latex-project.org}
+%          {latex-team@latex-project.org}^^A
+%    }^^A
+% }
+%
+% \date{Released 2018/02/21}
+%
+% \maketitle
+%
+% \begin{implementation}
+%
+% \section{\pkg{l3draw-scopes} implementation}
+%
+%    \begin{macrocode}
+%<*initex|package>
+%    \end{macrocode}
+%
+%    \begin{macrocode}
+%<@@=draw>
+%    \end{macrocode}
+%
+% \subsection{Drawing environment}
+%
+% \begin{variable}
+%   {\g_@@_xmax_dim, \g_@@_xmin_dim, \g_@@_ymax_dim, \g_@@_ymin_dim}
+%   Used to track the overall (official) size of the image created: may
+%   not actually be the natural size of the content.
+%    \begin{macrocode}
+\dim_new:N \g_@@_xmax_dim
+\dim_new:N \g_@@_xmin_dim
+\dim_new:N \g_@@_ymax_dim
+\dim_new:N \g_@@_ymin_dim
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{variable}{\l_@@_update_bb_bool}
+%   Flag to indicate that a path (or similar) should update the bounding box
+%   of the drawing.
+%    \begin{macrocode}
+\bool_new:N \l_@@_update_bb_bool
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{variable}{\l_@@_main_box}
+%   Box for setting the drawing.
+%    \begin{macrocode}
+\box_new:N \l_@@_main_box
+%    \end{macrocode}
+% \end{variable}
+%
+% \begin{macro}{\draw_begin:, \draw_end:}
+%   Drawings are created by setting them into a box, then adjusting the box
+%   before inserting into the surroundings. At present the content is simply
+%   collected then dumped: work will be required to manipulate the size as
+%   this data becomes more defined. It may be that a coffin construct is
+%   better here in the longer term: that may become clearer as the code is
+%   completed. Another obvious question is whether/where vertical mode should
+%   be ended (\emph{i.e.}~should this behave like a raw |\vbox| or like
+%   a coffin). In contrast to \pkg{pgf}, we use a vertical box here: material
+%   between explicit instructions should not be present anyway. (Consider
+%   adding an |\everypar| hook as done for the \LaTeXe{} preamble.)
+%    \begin{macrocode}
+\cs_new_protected:Npn \draw_begin:
+  {
+    \vbox_set:Nw \l_@@_main_box
+      \driver_draw_begin:
+      \dim_gset:Nn \g_@@_xmax_dim { -\c_max_dim }
+      \dim_gset:Nn \g_@@_xmin_dim {  \c_max_dim }
+      \dim_gset:Nn \g_@@_ymax_dim { -\c_max_dim }
+      \dim_gset:Nn \g_@@_ymin_dim {  \c_max_dim }
+      \bool_set_true:N \l_@@_update_bb_bool
+      \draw_transform_reset:
+      \draw_linewidth:n { \l_draw_default_linewidth_dim }
+  }
+\cs_new_protected:Npn \draw_end:
+  {
+      \driver_draw_end:
+    \vbox_set_end:
+    \hbox_set:Nn \l_@@_main_box
+      {
+        \skip_horizontal:n { -\g_@@_xmin_dim }
+        \box_move_down:nn { \g_@@_ymin_dim }
+          { \box_use_drop:N \l_@@_main_box }
+      }
+    \box_set_ht:Nn \l_@@_main_box
+      { \g_@@_ymax_dim - \g_@@_ymin_dim }
+    \box_set_dp:Nn \l_@@_main_box { 0pt }
+    \box_set_wd:Nn \l_@@_main_box
+      { \g_@@_xmax_dim - \g_@@_xmin_dim }
+    \mode_leave_vertical:
+    \box_use_drop:N \l_@@_main_box
+  }
+%    \end{macrocode}
+% \end{macro}
+%
+%    \begin{macrocode}
+%</initex|package>
+%    \end{macrocode}
+%
+% \end{implementation}
+%
+% \PrintIndex

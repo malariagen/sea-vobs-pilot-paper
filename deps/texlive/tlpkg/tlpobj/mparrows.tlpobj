@@ -1,0 +1,23 @@
+name mparrows
+category Package
+revision 39729
+shortdesc MetaPost module with different types of arrow heads
+longdesc A package to provide different types of arrow heads to be used
+longdesc with MetaPost commands drawarrow and drawdblarrow commands.
+containersize 1348
+containerchecksum a009f3e80a6d57668540ffc4c0389b43f9b02c1d72129344cbb6b2e00466b75413c0662e1d6d18b7a3ee28bcdc3541845ebfc3c85c388f502cb59ec35b3a2445
+doccontainersize 114288
+doccontainerchecksum d24cd5bb790c72a01a1b7678646ae97b883ee024760d025350f91f74a32d48cd3253c3da99b1aeb4b028fbbeaee0d6d579ece46be947bbcf1dec027acf4c18cd
+docfiles size=39
+ texmf-dist/doc/metapost/mparrows/LICENSE
+ texmf-dist/doc/metapost/mparrows/README details="Readme"
+ texmf-dist/doc/metapost/mparrows/mparrows.pdf details="Package documentation"
+ texmf-dist/doc/metapost/mparrows/mparrows.tex
+ texmf-dist/doc/metapost/mparrows/mparrowsexamples.mp
+runfiles size=2
+ texmf-dist/metapost/mparrows/mparrows.mp
+catalogue-ctan /graphics/metapost/contrib/macros/mparrows
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics mp-supp
+catalogue-version 0.1

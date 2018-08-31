@@ -1,0 +1,59 @@
+# This file created by conda-build 3.10.3
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun May 20 00:51:16 2018
+# ------------------------------------------------
+
+package:
+    name: statsmodels
+    version: 0.9.0
+source:
+    sha256: 6461f93a842c649922c2c9a9bc9d9c4834110b89de8c4af196a791ab8f42ba3b
+    url: https://pypi.io/packages/source/s/statsmodels/statsmodels-0.9.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    build:
+        - blas 1.1 openblas
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - cython 0.28.2 py36_0
+        - libgfortran 3.0.0 1
+        - ncurses 5.9 10
+        - numpy 1.11.3 py36_blas_openblas_203
+        - openblas 0.2.20 7
+        - openssl 1.0.2o 0
+        - pandas 0.23.0 py36_0
+        - patsy 0.5.0 py36_0
+        - python 3.6.5 1
+        - python-dateutil 2.7.3 py_0
+        - pytz 2018.4 py_0
+        - readline 7.0 0
+        - scipy 1.1.0 py36_blas_openblas_200
+        - setuptools 39.1.0 py36_0
+        - six 1.11.0 py36_1
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - xz 5.2.3 0
+        - zlib 1.2.11 0
+    run:
+        - numpy >=1.11
+        - pandas
+        - patsy
+        - python >=3.6,<3.7.0a0
+        - scipy
+test:
+    imports:
+        - statsmodels
+about:
+    home: https://www.statsmodels.org
+    license: BSD 3-Clause
+    summary: Statistical computations and models for use with SciPy
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - croth1
+        - ocefpaf
+        - tomaugspurger

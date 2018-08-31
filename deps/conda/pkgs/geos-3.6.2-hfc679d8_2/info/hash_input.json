@@ -1,0 +1,4 @@
+{
+  "cxx_compiler": "toolchain_cxx",
+  "c_compiler": "toolchain_c"
+}

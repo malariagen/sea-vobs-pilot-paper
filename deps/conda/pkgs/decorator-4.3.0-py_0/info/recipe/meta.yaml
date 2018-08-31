@@ -1,0 +1,50 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Sun Apr 15 17:55:26 2018
+# ------------------------------------------------
+
+package:
+    name: decorator
+    version: 4.3.0
+source:
+    fn: decorator-4.3.0.tar.gz
+    sha256: c39efa13fbdeb4506c476c9b3babf6a718da943dab7811c206005a4a956c080c
+    url: https://pypi.io/packages/source/d/decorator/decorator-4.3.0.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '0'
+    script: python -m pip install --no-deps .
+    string: py_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - xz 5.2.3 0
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - setuptools 39.0.1 py36_0
+        - pip 9.0.3 py36_0
+        - wheel 0.31.0 py36_0
+        - python 3.6.5 1
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - sqlite 3.20.1 2
+        - openssl 1.0.2o 0
+    run:
+        - python
+test:
+    imports:
+        - decorator
+about:
+    home: https://github.com/micheles/decorator
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Better living through Python with decorators.
+extra:
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - pelson
+        - ocefpaf
+        - scopatz

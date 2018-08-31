@@ -1,0 +1,22 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pandocfilters-1.4.2-py_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "ba6f4a308f1ea22abe1d72e72544af76",
+  "name": "pandocfilters",
+  "noarch": "python",
+  "size": 8939,
+  "subdir": "noarch",
+  "timestamp": 1531512387814,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pandocfilters-1.4.2-py_1.tar.bz2",
+  "version": "1.4.2"
+}

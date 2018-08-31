@@ -1,0 +1,15 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "python"
+  ],
+  "license": "MIT",
+  "name": "humanize",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1530662805401,
+  "version": "0.5.1"
+}

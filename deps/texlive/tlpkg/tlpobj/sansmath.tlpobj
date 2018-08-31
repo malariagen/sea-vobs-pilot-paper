@@ -1,0 +1,22 @@
+name sansmath
+category Package
+revision 17997
+shortdesc Maths in a sans font
+longdesc The package defines a new math version sans, and a command
+longdesc \sansmath that behaves somewhat like \boldmath
+containersize 3356
+containerchecksum 67b0264f2dec13c9c5acea76689fa0cf219adb00dec08a13cf03c5812d34d9cd240529d64fc77fbd2f1a675211d7b077cde42988a1524cf96f0c006009a595b5
+doccontainersize 182248
+doccontainerchecksum dbd873a58eff17f83107cbc7fe6d195c9ae06f4eb35b3780a1d2c0c50d4f47bf48d2737d1d091c15049ad1f9ef0e19fda8e45b2f975462b2dc99452c2d35083a
+docfiles size=48
+ texmf-dist/doc/latex/sansmath/miscdoc.sty
+ texmf-dist/doc/latex/sansmath/sansmath.pdf details="Package documentation"
+ texmf-dist/doc/latex/sansmath/sansmath.tex
+runfiles size=2
+ texmf-dist/tex/latex/sansmath/sansmath.sty
+catalogue-also sfmath
+catalogue-ctan /macros/latex/contrib/sansmath
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics font-supp-maths
+catalogue-version 1.1

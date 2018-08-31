@@ -1,0 +1,203 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/svgwrite-1.1.12-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "59a030718a8b78fec4c1d68448a32fe83409eba2e6b0cb3ede868cf3449dd996",
+      "size_in_bytes": 7382
+    },
+    {
+      "_path": "site-packages/svgwrite-1.1.12-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "01581fb700e49f1dceb208cbc55b1e695881ad1f3bdcaa8a6772ab1f8e1556a9",
+      "size_in_bytes": 3096
+    },
+    {
+      "_path": "site-packages/svgwrite-1.1.12-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/svgwrite-1.1.12-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "e833a6c85424f534d16e6d11d053f9fe1b8998ca8852027af0a8aaf3d63abc66",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "site-packages/svgwrite-1.1.12-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "111daa96e0529ac44e645d05164665eb051f4fcc19c943bc64f3b6902c3b8371",
+      "size_in_bytes": 23
+    },
+    {
+      "_path": "site-packages/svgwrite/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "be90032db415add7052c02c749544e0906c5b6bdc094cff7c678816358774bf9",
+      "size_in_bytes": 2479
+    },
+    {
+      "_path": "site-packages/svgwrite/animate.py",
+      "path_type": "hardlink",
+      "sha256": "4bd19ecdcf7239ac006783d9d4b81c447e0365fb560d46f42ba4badcf13ab2a4",
+      "size_in_bytes": 6663
+    },
+    {
+      "_path": "site-packages/svgwrite/base.py",
+      "path_type": "hardlink",
+      "sha256": "158ca8e707e693dda19d9fbecf0e8384e5e08f3017f133f8e4f5c3bbc62390bc",
+      "size_in_bytes": 8064
+    },
+    {
+      "_path": "site-packages/svgwrite/container.py",
+      "path_type": "hardlink",
+      "sha256": "8258d384739c875e6cd431566ec4aea13a5878fa4e5f774d85ec7c53e9bcb2de",
+      "size_in_bytes": 9109
+    },
+    {
+      "_path": "site-packages/svgwrite/data/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/svgwrite/data/colors.py",
+      "path_type": "hardlink",
+      "sha256": "63c58061bf7f940681263b64e50166fd1228552860012c39efd875d2026eac5a",
+      "size_in_bytes": 2845
+    },
+    {
+      "_path": "site-packages/svgwrite/data/full11.py",
+      "path_type": "hardlink",
+      "sha256": "b7ccaeca64301aca029bb54cf16bb48e60bcb37b440694d56f906c40edfb7493",
+      "size_in_bytes": 76415
+    },
+    {
+      "_path": "site-packages/svgwrite/data/pattern.py",
+      "path_type": "hardlink",
+      "sha256": "379999ed7d58296fd3d4d8d1b6c619826df12323a04d8243149ff6c5fba3d0ad",
+      "size_in_bytes": 1064
+    },
+    {
+      "_path": "site-packages/svgwrite/data/svgparser.py",
+      "path_type": "hardlink",
+      "sha256": "1c6b6dbe0c3ff599dd31a7eeeeff963548eff3aba8d5e193e38dc480430c5982",
+      "size_in_bytes": 6977
+    },
+    {
+      "_path": "site-packages/svgwrite/data/tiny12.py",
+      "path_type": "hardlink",
+      "sha256": "c4bc5533559e33e9280bebb02c953d588c6a17610c1ba03c67662db11ad9dec8",
+      "size_in_bytes": 58851
+    },
+    {
+      "_path": "site-packages/svgwrite/data/typechecker.py",
+      "path_type": "hardlink",
+      "sha256": "382bcf33effae5c8a29af20b332cfa6cc74007a6babb7a680231999424d7ae82",
+      "size_in_bytes": 11957
+    },
+    {
+      "_path": "site-packages/svgwrite/data/types.py",
+      "path_type": "hardlink",
+      "sha256": "efc1135ba7ec36a9130e9d15e721e0346cf7c6b1dbcffa0a65bf6204620bec56",
+      "size_in_bytes": 2807
+    },
+    {
+      "_path": "site-packages/svgwrite/drawing.py",
+      "path_type": "hardlink",
+      "sha256": "45bb3072431961557a052b369a1819bad1376d13c882aabec88596360f0521c2",
+      "size_in_bytes": 4722
+    },
+    {
+      "_path": "site-packages/svgwrite/elementfactory.py",
+      "path_type": "hardlink",
+      "sha256": "a27a81a7118d5ba6e2faeca32bff456c6429969765a6b11cc43af6599b54c3f6",
+      "size_in_bytes": 2297
+    },
+    {
+      "_path": "site-packages/svgwrite/etree.py",
+      "path_type": "hardlink",
+      "sha256": "09b5b1a14ca784b7359af0d4879dbc243543d7aa5767e60c4fc568871eaef6db",
+      "size_in_bytes": 1361
+    },
+    {
+      "_path": "site-packages/svgwrite/filters.py",
+      "path_type": "hardlink",
+      "sha256": "d070625a2381c08381fd55d286fb0a642b3d212e32d7c73e20da0d9506015261",
+      "size_in_bytes": 8002
+    },
+    {
+      "_path": "site-packages/svgwrite/gradients.py",
+      "path_type": "hardlink",
+      "sha256": "c38d61bf2370ea94a47bc9379310438dea549fe1003cbfa8310e8fa1f6cf9d0a",
+      "size_in_bytes": 4758
+    },
+    {
+      "_path": "site-packages/svgwrite/image.py",
+      "path_type": "hardlink",
+      "sha256": "2d0b4ea33e4e5f96f3bc5c1223431900e78df8fbba0d2e0903f739def75a25e6",
+      "size_in_bytes": 2492
+    },
+    {
+      "_path": "site-packages/svgwrite/masking.py",
+      "path_type": "hardlink",
+      "sha256": "b95e9df4be830d9d5716546c37a93d4d2f0dec8b577241e5b6aa74fcb0d8e32b",
+      "size_in_bytes": 1856
+    },
+    {
+      "_path": "site-packages/svgwrite/mixins.py",
+      "path_type": "hardlink",
+      "sha256": "3ea56e285a53f727f1d048157b40c3f48740f2a2aa08f233c19818332f12049f",
+      "size_in_bytes": 10749
+    },
+    {
+      "_path": "site-packages/svgwrite/params.py",
+      "path_type": "hardlink",
+      "sha256": "67fa088ca1d6229b28c7924e7cfec9d3fc6d2ec66a2895f45d6c07866c84d004",
+      "size_in_bytes": 1903
+    },
+    {
+      "_path": "site-packages/svgwrite/path.py",
+      "path_type": "hardlink",
+      "sha256": "c317f4e6ddd19bc52a1df12ff07bae852acc15fb3f4dedfa290dcff8b9bd4ab1",
+      "size_in_bytes": 2893
+    },
+    {
+      "_path": "site-packages/svgwrite/pattern.py",
+      "path_type": "hardlink",
+      "sha256": "145fca4933d07e57cb8456e334c70b2e636f7cc2e4fa345c2c6906ddcaefbacd",
+      "size_in_bytes": 1973
+    },
+    {
+      "_path": "site-packages/svgwrite/shapes.py",
+      "path_type": "hardlink",
+      "sha256": "09d2deaaee81564ed8464de1b764658b63136354d5aba4e32c9ecc29ba242828",
+      "size_in_bytes": 5943
+    },
+    {
+      "_path": "site-packages/svgwrite/solidcolor.py",
+      "path_type": "hardlink",
+      "sha256": "c2313fd74f46aa4d71dc8e9d8e8f1b4ab986d9298a438b04eb791795d91660de",
+      "size_in_bytes": 1734
+    },
+    {
+      "_path": "site-packages/svgwrite/text.py",
+      "path_type": "hardlink",
+      "sha256": "82122956e36ea14aee43375e69d0315c0df95bf1a7ed2f4b57c770ad209d8af3",
+      "size_in_bytes": 8164
+    },
+    {
+      "_path": "site-packages/svgwrite/utils.py",
+      "path_type": "hardlink",
+      "sha256": "56ecd302513edfb2ab413ba3b83595ffb311f1b2912fa8802f78f23b5ddc5874",
+      "size_in_bytes": 6920
+    },
+    {
+      "_path": "site-packages/svgwrite/validator2.py",
+      "path_type": "hardlink",
+      "sha256": "bd8e3d581aed794b4a45b804f1154985ac05f0ee3d268d017d382653e562e455",
+      "size_in_bytes": 6205
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,10 @@
+site-packages/tblib-1.3.2-py2.7.egg-info/PKG-INFO
+site-packages/tblib-1.3.2-py2.7.egg-info/SOURCES.txt
+site-packages/tblib-1.3.2-py2.7.egg-info/dependency_links.txt
+site-packages/tblib-1.3.2-py2.7.egg-info/installed-files.txt
+site-packages/tblib-1.3.2-py2.7.egg-info/not-zip-safe
+site-packages/tblib-1.3.2-py2.7.egg-info/top_level.txt
+site-packages/tblib/__init__.py
+site-packages/tblib/cpython.py
+site-packages/tblib/decorators.py
+site-packages/tblib/pickling_support.py

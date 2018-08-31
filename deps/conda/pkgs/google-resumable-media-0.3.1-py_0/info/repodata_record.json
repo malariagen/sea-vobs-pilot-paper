@@ -1,0 +1,22 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "six"
+  ],
+  "features": "",
+  "fn": "google-resumable-media-0.3.1-py_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "7c16ae50d49ac757ca4b49b612146135",
+  "name": "google-resumable-media",
+  "noarch": "python",
+  "size": 29021,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/google-resumable-media-0.3.1-py_0.tar.bz2",
+  "version": "0.3.1"
+}

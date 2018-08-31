@@ -1,0 +1,26 @@
+name latexmp
+category Package
+revision 15878
+shortdesc Interface for LaTeX-based typesetting in MetaPost
+longdesc The MetaPost package latexMP implements a user-friendly
+longdesc interface to access LaTeX-based typesetting capabilities in
+longdesc MetaPost. The text to be typeset is given as string. This
+longdesc allows even dynamic text elements, for example counters, to be
+longdesc used in labels. Compared to other implementations it is much
+longdesc more flexible, since it can be used as direct replacement for
+longdesc btex..etex, and much faster, compared for example to the
+longdesc solution provided by tex.mp
+containersize 5284
+containerchecksum d9d0ae6f0701609f5ea4b5df19160ed26710e5917e623ade57eabd3289525b3eed34b7dd9fc3166cc8e87c6be5ada2b52da0364aa61bee06d8831a6b6bce519a
+doccontainersize 147412
+doccontainerchecksum c82e0fac070f2331d4348d01c88e78c0b4797b39c11a58b93108eee2edde1f89b2d8d7b510b542bd9439a33b28d0439613544eb7ffc6f8591591a6bea6b6cb91
+docfiles size=44
+ texmf-dist/doc/metapost/latexmp/README details="Readme"
+ texmf-dist/doc/metapost/latexmp/latexmp.pdf details="Package documentation"
+runfiles size=4
+ texmf-dist/metapost/latexmp/latexmp.mp
+catalogue-ctan /graphics/metapost/contrib/macros/latexmp
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics graphics-text
+catalogue-version 1.2.1

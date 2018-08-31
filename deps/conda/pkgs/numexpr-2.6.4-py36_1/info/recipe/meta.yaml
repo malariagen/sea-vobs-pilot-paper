@@ -1,0 +1,68 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Tue Feb 13 18:25:56 2018
+# ------------------------------------------------
+
+package:
+    name: numexpr
+    version: 2.6.4
+source:
+    sha256: f0bef9a3a5407fb8d6344cf91b658bef7c13ec8a8eb13f423822d9d2ca5af6ce
+    url: https://pypi.io/packages/source/n/numexpr/numexpr-2.6.4.tar.gz
+build:
+    noarch: ''
+    noarch_python: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py36_1
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - python 3.6.4 0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - pip 9.0.1 py36_1
+        - openblas 0.2.20 7
+        - readline 7.0 0
+        - setuptools 38.5.1 py36_0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - numpy 1.11.3 py36_blas_openblas_203
+        - blas 1.1 openblas
+        - libgfortran 3.0.0 1
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - wheel 0.30.0 py36_2
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - setuptools
+        - numpy >=1.11
+test:
+    commands:
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+    imports:
+        - numexpr
+        - numexpr.interpreter
+about:
+    description: 'Numexpr is a fast numerical expression evaluator for NumPy. With
+        it,
+
+        expressions that operate on arrays (like "3*a+4*b") are accelerated and use
+
+        less memory than doing the same calculation in Python.
+
+        '
+    dev_url: https://github.com/pydata/numexpr
+    doc_url: https://github.com/pydata/numexpr/wiki/Numexpr-Users-Guide
+    home: https://github.com/pydata/numexpr
+    license: MIT
+    license_file: LICENSE.txt
+    summary: Fast numerical expression evaluator for NumPy.
+extra:
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - scopatz
+        - djkirkham

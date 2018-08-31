@@ -1,0 +1,7 @@
+{
+  "c_compiler": "toolchain_c",
+  "cxx_compiler": "toolchain_cxx",
+  "numpy": "1.9",
+  "geos": "3.6.2",
+  "proj4": "5.1.0"
+}

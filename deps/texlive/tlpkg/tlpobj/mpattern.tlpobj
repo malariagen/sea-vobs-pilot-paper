@@ -1,0 +1,22 @@
+name mpattern
+category Package
+revision 15878
+shortdesc Patterns in MetaPost
+longdesc A package for defining and using patterns in MetaPost, using
+longdesc the Pattern Color Space available in PostScript Level 2.
+containersize 2752
+containerchecksum 7b0bbb7d7b2af4ad9b297041a03aa427e483fdaac744dacbcdfec88fa5863babdc19f6a956e3e8e792be5ac35151d63723ba2098f27961187daff052a72cd228
+doccontainersize 11324
+doccontainerchecksum a8940332cee4f62de2db7e3edd0274c17b34dd4aac2d4f22e3b92f454d7529725f7c346d6232d63a71d0cc4b76188a21ffbc8d67985f91ddd54c1c7d19273f0b
+docfiles size=8
+ texmf-dist/doc/metapost/mpattern/README details="Package Readme (English)" language="en"
+ texmf-dist/doc/metapost/mpattern/README.PL details="Package Readme (Polish)" language="pl"
+ texmf-dist/doc/metapost/mpattern/mpattern_test.pdf details="Package test output"
+ texmf-dist/doc/metapost/mpattern/mpattern_test.tex
+ texmf-dist/doc/metapost/mpattern/test.mp
+runfiles size=2
+ texmf-dist/metapost/mpattern/mpattern.mp
+catalogue-ctan /graphics/metapost/contrib/macros/mpattern
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics graphics-use

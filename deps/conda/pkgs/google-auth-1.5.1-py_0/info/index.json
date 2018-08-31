@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "cachetools >=2.0.0,<3dev",
+    "pyasn1-modules >=0.2.1",
+    "python",
+    "rsa >=3.1.4,<4dev",
+    "six >=1.9.0,<2dev"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "google-auth",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1533242094586,
+  "version": "1.5.1"
+}

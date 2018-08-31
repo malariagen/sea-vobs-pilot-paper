@@ -1,0 +1,92 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/async-timeout-3.0.0-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/async_timeout/__init__.py",
+    "lib/python3.6/site-packages/async_timeout/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/async_timeout/py.typed"
+  ],
+  "fn": "async-timeout-3.0.0-py36_0.tar.bz2",
+  "license": "Apache 2.0",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/async-timeout-3.0.0-py36_0",
+    "type": 1
+  },
+  "md5": "70726c94383847763f934d7532af244f",
+  "name": "async-timeout",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/async-timeout-3.0.0-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "1bac3c1c6697b0e0c10d186768f0efe4e68ae47b000e96a3183c631535e38ecf",
+        "sha256_in_prefix": "1bac3c1c6697b0e0c10d186768f0efe4e68ae47b000e96a3183c631535e38ecf",
+        "size_in_bytes": 5065
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "e188e9ef50261f3b79839e6cad886741e6f5c0be5890b9c309d10c8d272f881e",
+        "sha256_in_prefix": "e188e9ef50261f3b79839e6cad886741e6f5c0be5890b9c309d10c8d272f881e",
+        "size_in_bytes": 317
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout-3.0.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "sha256_in_prefix": "f683387bb4f0abc883ffbfd0dcccf413a18f201eaf26f445a3e501c1442d0435",
+        "size_in_bytes": 14
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "046e849277a2a2408332935b124d9f118d5f72a03f44536e7abc4dca1811e1a8",
+        "sha256_in_prefix": "046e849277a2a2408332935b124d9f118d5f72a03f44536e7abc4dca1811e1a8",
+        "size_in_bytes": 3617
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "17879ee09572c0799992c612e72d85f2dbf03525459e324939ba559ebac9400a",
+        "sha256_in_prefix": "17879ee09572c0799992c612e72d85f2dbf03525459e324939ba559ebac9400a",
+        "size_in_bytes": 3385
+      },
+      {
+        "_path": "lib/python3.6/site-packages/async_timeout/py.typed",
+        "path_type": "hardlink",
+        "sha256": "f4b24fed0274a31618ac1b665ee162af331b4b70fdff74f3f9ddedc94b4da745",
+        "sha256_in_prefix": "f4b24fed0274a31618ac1b665ee162af331b4b70fdff74f3f9ddedc94b4da745",
+        "size_in_bytes": 11
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 10882,
+  "subdir": "linux-64",
+  "timestamp": 1525993166995,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/async-timeout-3.0.0-py36_0.tar.bz2",
+  "version": "3.0.0"
+}

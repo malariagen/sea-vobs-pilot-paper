@@ -1,0 +1,37 @@
+name mfpic4ode
+category Package
+revision 17745
+shortdesc Macros to draw direction fields and solutions of ODEs
+longdesc The package is a small set of macros for drawing direction
+longdesc fields, phase portraits and trajectories of differential
+longdesc equations and two dimensional autonomous systems. The Euler,
+longdesc Runge-Kutta and 4th order Runge-Kutta algorithms are available
+longdesc to solve the ODEs. The picture is translated into mfpic macros
+longdesc and MetaPost is used to create the final drawing. The package
+longdesc is was designed for use with LaTeX, but it can be used in plain
+longdesc TeX as well. Online demonstration of the mfpic4ode macros is
+longdesc available on the Mfpic Previewer as Example 6.
+containersize 2404
+containerchecksum 24c1954aae6086239b48c601b390e16dc004fef5c49c7d997b0348b0c7ceb9940f9c5be2fe3a7eb47b11782d7dc2beb04c0052fe07fbe8d374b8e0636bf714c2
+doccontainersize 629696
+doccontainerchecksum 935df65f8a695e18de722320c005947ea85da19eb80031c4f91dd7ae421a5640d11658e2a5a0efde9e71b773fb4dc7cf4f68d3053edc7dc049a34574c73cb0de
+docfiles size=172
+ texmf-dist/doc/latex/mfpic4ode/README details="Readme"
+ texmf-dist/doc/latex/mfpic4ode/demo/demo-plain.pdf
+ texmf-dist/doc/latex/mfpic4ode/demo/demo-plain.tex
+ texmf-dist/doc/latex/mfpic4ode/demo/demo.pdf details="Examples of use"
+ texmf-dist/doc/latex/mfpic4ode/demo/demo.tex
+ texmf-dist/doc/latex/mfpic4ode/mfpic4ode.pdf details="Package documentation"
+srccontainersize 5668
+srccontainerchecksum 0e0b2ce6dda12a3c75faeef0914816f9659a09a8864233515da22fb2993bb2827dd9995dfa67b3c5cb187140410e2db96897b2bcff34c8ccac7c0fb8d193d855
+srcfiles size=5
+ texmf-dist/source/latex/mfpic4ode/mfpic4ode.dtx
+ texmf-dist/source/latex/mfpic4ode/mfpic4ode.ins
+runfiles size=3
+ texmf-dist/tex/latex/mfpic4ode/mfpic4ode.sty
+ texmf-dist/tex/latex/mfpic4ode/mfpic4ode.tex
+catalogue-ctan /macros/latex/contrib/mfpic4ode
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics graphics-plotfn maths
+catalogue-version 0.4

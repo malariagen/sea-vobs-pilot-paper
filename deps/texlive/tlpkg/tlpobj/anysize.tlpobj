@@ -1,0 +1,21 @@
+name anysize
+category Package
+revision 15878
+shortdesc A simple package to set up document margins
+longdesc This package is considered obsolete; alternatives are the
+longdesc typearea package from the koma-script bundle, or the geometry
+longdesc package.
+containersize 1384
+containerchecksum 386243f854d08a697f20dc00838bd38eb1609934d5f2ed3f33acb9ab65c3d4363e25ed7233f3092f91f7c10565e39fd6db27645cd10f4cad6f4347cd1b9761dc
+doccontainersize 34436
+doccontainerchecksum e20de7281a26fadaa5bea3b2a087eae944f76922c9e25f77fc133c849d8c0da7f2b1f312ec75cccd24649ec346cbc1da60e004b6f5ac670e3215dbb3da38116a
+docfiles size=13
+ texmf-dist/doc/latex/anysize/README details="Package Readme"
+ texmf-dist/doc/latex/anysize/anysize.pdf details="Package documentation"
+ texmf-dist/doc/latex/anysize/anysize.tex
+runfiles size=1
+ texmf-dist/tex/latex/anysize/anysize.sty
+catalogue-ctan /macros/latex/contrib/anysize
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics geometry

@@ -1,0 +1,91 @@
+name l3experimental
+category Package
+revision 46720
+shortdesc Experimental LaTeX3 concepts
+longdesc The l3experimental packages are a collection of experimental
+longdesc implementations for aspects of the LaTeX3 kernel, dealing with
+longdesc higher-level ideas such as the Designer Interface. Some of them
+longdesc work as stand alone packages, providing new functionality, and
+longdesc can be used on top of LaTeX2e with no changes to the existing
+longdesc kernel. The present release includes: xgalley, which controls
+longdesc boxes receiving text for typesetting. l3regex: kernel support
+longdesc for regular expression search and replace operations; l3str:
+longdesc kernel support for string manipulation; l3tl-build: kernel
+longdesc support for token list building; l3tl_analysis: kernel support
+longdesc for token list analysis; and xcoffins, which allows the
+longdesc alignment of boxes using a series of 'handle' positions,
+longdesc supplementing the simple TeX reference point. All the files of
+longdesc the bundle are also available in the Subversion (SVN)
+longdesc repository of the LaTeX3 Project. The bundle on CTAN is based
+longdesc on a snapshot of the SVN repository.
+containersize 26756
+containerchecksum c4c92290d451fe9fc49d5ead5d2b886e4f530afa710790d239ab75f081ffa75a277737350651e568a2969e2921811a654cf032e4e5c13b7b32d88e658788c1cf
+doccontainersize 2782792
+doccontainerchecksum d4903b2c284d845e2456679c69c8a2ec7482874be1059cce990ba05276cdcd48ece1d1e436f4a6f4c3298196353747896b30544d95ffc14165267505e145c8fc
+docfiles size=824
+ texmf-dist/doc/latex/l3experimental/README.md details="Readme"
+ texmf-dist/doc/latex/l3experimental/l3color/l3color.pdf
+ texmf-dist/doc/latex/l3experimental/l3draw/l3draw-code.pdf
+ texmf-dist/doc/latex/l3experimental/l3draw/l3draw-code.tex
+ texmf-dist/doc/latex/l3experimental/l3draw/l3draw.pdf
+ texmf-dist/doc/latex/l3experimental/l3str/l3str-convert.pdf
+ texmf-dist/doc/latex/l3experimental/l3str/l3str-format.pdf
+ texmf-dist/doc/latex/l3experimental/xcoffins/xcoffins.pdf details="coffins documentation"
+ texmf-dist/doc/latex/l3experimental/xgalley/l3galley.pdf
+ texmf-dist/doc/latex/l3experimental/xgalley/xgalley.pdf details="galley documentation"
+srccontainersize 83204
+srccontainerchecksum a70f1d2f6e822c5a72bd3723cdf107f07ca8649492be1fc7e6f831a937ff8ae9adf630b2d58fc75d30ba10bf3279bd066e2874682965b47d37e1510dac0904a1
+srcfiles size=125
+ texmf-dist/source/latex/l3experimental/l3color/l3color.dtx
+ texmf-dist/source/latex/l3experimental/l3color/l3color.ins
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-paths.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-points.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-scopes.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-softpath.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-state.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw-transforms.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw.dtx
+ texmf-dist/source/latex/l3experimental/l3draw/l3draw.ins
+ texmf-dist/source/latex/l3experimental/l3str/l3str-convert.dtx
+ texmf-dist/source/latex/l3experimental/l3str/l3str-format.dtx
+ texmf-dist/source/latex/l3experimental/l3str/l3str.ins
+ texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.dtx
+ texmf-dist/source/latex/l3experimental/xcoffins/xcoffins.ins
+ texmf-dist/source/latex/l3experimental/xgalley/l3galley.dtx
+ texmf-dist/source/latex/l3experimental/xgalley/xgalley.dtx
+ texmf-dist/source/latex/l3experimental/xgalley/xgalley.ins
+runfiles size=67
+ texmf-dist/tex/latex/l3experimental/l3color/l3color.sty
+ texmf-dist/tex/latex/l3experimental/l3draw/l3draw.sty
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-convert.sty
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88591.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885910.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885911.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885913.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885914.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885915.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso885916.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88592.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88593.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88594.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88595.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88596.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88597.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88598.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-iso88599.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-utf16.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-utf32.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-enc-utf8.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-esc-hex.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-esc-name.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-esc-string.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-esc-url.def
+ texmf-dist/tex/latex/l3experimental/l3str/l3str-format.sty
+ texmf-dist/tex/latex/l3experimental/xcoffins/xcoffins.sty
+ texmf-dist/tex/latex/l3experimental/xgalley/l3galley.sty
+ texmf-dist/tex/latex/l3experimental/xgalley/xgalley.sty
+catalogue-also l3kernel l3packages
+catalogue-ctan /macros/latex/contrib/l3experimental
+catalogue-date 2018-02-21 22:56:07 +0100
+catalogue-license lppl1.3c
+catalogue-topics macro-supp layout latex3 pre-release

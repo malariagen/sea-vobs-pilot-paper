@@ -1,0 +1,26 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "lxml",
+    "pyproj",
+    "python",
+    "python-dateutil",
+    "pytz",
+    "requests"
+  ],
+  "features": "",
+  "fn": "owslib-0.16.0-py_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "a5870e60942a5597d444eb43738dd50f",
+  "name": "owslib",
+  "noarch": "python",
+  "size": 102818,
+  "subdir": "noarch",
+  "timestamp": 1535498980638,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/owslib-0.16.0-py_1.tar.bz2",
+  "version": "0.16.0"
+}

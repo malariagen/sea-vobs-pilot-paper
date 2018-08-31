@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_7",
+  "build_number": 7,
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "xorg-libxdmcp",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1532353162711,
+  "version": "1.1.2"
+}

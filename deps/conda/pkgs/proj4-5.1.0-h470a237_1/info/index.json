@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_1",
+  "build_number": 1,
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "license": "MIT",
+  "name": "proj4",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1529592179501,
+  "version": "5.1.0"
+}

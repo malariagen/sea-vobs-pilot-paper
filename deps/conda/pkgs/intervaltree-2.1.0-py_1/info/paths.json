@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "7e7494f0a558fe0e67986ed92c93dca2c43c6511fc6b96e1d570654d7d1e42f9",
+      "size_in_bytes": 22741
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "67d097b36c4179b3b2a78254be800ed8806a540c873f63213f7908adca01801d",
+      "size_in_bytes": 386
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "eb84f5c602503272f6e97be99522f082f7fc24684a426d4509eb6f063fbe20c3",
+      "size_in_bytes": 306
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "015b34abea9ffb5d20b35b645617c02dd79b268e2e3ee555057ed84fdd6b8905",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a8189645eb37752c83b432a7aa44544b61f97d8c9809e0176019154ed4c2b908",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "site-packages/intervaltree-2.1.0-py2.7.egg-info/zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/intervaltree/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "be639a6757a3751fb764cdf7713a25a094bc2fa0af4d7987490c28705d346c5d",
+      "size_in_bytes": 799
+    },
+    {
+      "_path": "site-packages/intervaltree/interval.py",
+      "path_type": "hardlink",
+      "sha256": "e45fc6c124a5f11d8e7fc755d5a9f2708578cacc78ecbc849e3f5c3000716c65",
+      "size_in_bytes": 9094
+    },
+    {
+      "_path": "site-packages/intervaltree/intervaltree.py",
+      "path_type": "hardlink",
+      "sha256": "d97bcd0c4a528d82946573f14171bebb4346c18cee1b17fa312d98ce4d9d0994",
+      "size_in_bytes": 37105
+    },
+    {
+      "_path": "site-packages/intervaltree/node.py",
+      "path_type": "hardlink",
+      "sha256": "cd1d5001228b1060f48ffbeced0f21558a371015b559c81b998a75ee22e4a332",
+      "size_in_bytes": 20704
+    }
+  ],
+  "paths_version": 1
+}

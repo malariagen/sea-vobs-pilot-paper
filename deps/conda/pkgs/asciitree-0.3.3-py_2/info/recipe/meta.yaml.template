@@ -1,0 +1,40 @@
+{% set version = "0.3.3" %}
+{% set sha256 = "4aa4b9b649f85e3fcb343363d97564aa1fb62e249677f2e18a96765145cc0f6e" %}
+
+package:
+  name: asciitree
+  version: {{ version }}
+
+source:
+  fn: asciitree-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/a/asciitree/asciitree-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  noarch: python
+  number: 2
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+
+  run:
+    - python
+
+test:
+  imports:
+    - asciitree
+
+about:
+  home: http://github.com/mbr/asciitree
+  license: MIT
+  license_file: LICENSE
+  summary: 'Draws ASCII trees.'
+
+extra:
+  recipe-maintainers:
+    - kain88-de
+    - dotsdl

@@ -1,0 +1,3 @@
+/opt/anaconda1anaconda2anaconda3 text bin/gsl-config
+/opt/anaconda1anaconda2anaconda3 text lib/libgsl.la
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/gsl.pc

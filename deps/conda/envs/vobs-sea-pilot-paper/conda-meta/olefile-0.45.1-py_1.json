@@ -1,0 +1,102 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/olefile-0.45.1-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/olefile-0.45.1-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/olefile-0.45.1-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/olefile-0.45.1-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/olefile-0.45.1-py2.7.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/olefile-0.45.1-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/olefile/__init__.py",
+    "lib/python3.6/site-packages/olefile/olefile.py",
+    "lib/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.pyc"
+  ],
+  "fn": "olefile-0.45.1-py_1.tar.bz2",
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/olefile-0.45.1-py_1",
+    "type": 1
+  },
+  "md5": "eb73c2af007c543d9d85a333163a2bc5",
+  "name": "olefile",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/olefile-0.45.1-py_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/olefile-0.45.1-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "ec31e8096e5099b22cc66e718cd38a854ce32eea02256f824061b87facd8b893",
+        "sha256_in_prefix": "ec31e8096e5099b22cc66e718cd38a854ce32eea02256f824061b87facd8b893",
+        "size_in_bytes": 10835
+      },
+      {
+        "_path": "site-packages/olefile-0.45.1-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "6682a6cdf5f1799ac8614c8fb0e37cdeb9636521c3e3cae97565bc2086ba777e",
+        "sha256_in_prefix": "6682a6cdf5f1799ac8614c8fb0e37cdeb9636521c3e3cae97565bc2086ba777e",
+        "size_in_bytes": 572
+      },
+      {
+        "_path": "site-packages/olefile-0.45.1-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/olefile-0.45.1-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "d34f4ecc8d3a86ab3050be7e690f1afb082b6965de5bef4ee662a65348b75dae",
+        "sha256_in_prefix": "d34f4ecc8d3a86ab3050be7e690f1afb082b6965de5bef4ee662a65348b75dae",
+        "size_in_bytes": 148
+      },
+      {
+        "_path": "site-packages/olefile-0.45.1-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b",
+        "sha256_in_prefix": "bad496e3f9cfa7eaf2b510fb56f312fbc812a7d05498a6110cd7757b1f50da4b",
+        "size_in_bytes": 8
+      },
+      {
+        "_path": "site-packages/olefile/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5e81aec95ac09c993ad53fcfd93b3a6f67f1d1ff0bfee49214cabcfe51f0c17a",
+        "sha256_in_prefix": "5e81aec95ac09c993ad53fcfd93b3a6f67f1d1ff0bfee49214cabcfe51f0c17a",
+        "size_in_bytes": 995
+      },
+      {
+        "_path": "site-packages/olefile/olefile.py",
+        "path_type": "hardlink",
+        "sha256": "feeeda9c8d82b2653c33c82c312ebd87c074208b39a2b98f710f5103108fddca",
+        "sha256_in_prefix": "feeeda9c8d82b2653c33c82c312ebd87c074208b39a2b98f710f5103108fddca",
+        "size_in_bytes": 104859
+      },
+      {
+        "_path": "lib/python3.6/site-packages/olefile/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/olefile/__pycache__/olefile.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 30749,
+  "subdir": "noarch",
+  "timestamp": 1530967284321,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/olefile-0.45.1-py_1.tar.bz2",
+  "version": "0.45.1"
+}

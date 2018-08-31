@@ -1,0 +1,60 @@
+{% set version = "0.16.0" %}
+
+package:
+  name: cartopy
+  version: {{ version }}
+
+source:
+  url: https://github.com/SciTools/cartopy/archive/v{{ version }}.tar.gz
+  sha256: cadf62434492c965220b37f0548bc58180466ad6894a1db57dbc51cd43467e5c
+  patches:
+    # Cartopy geos_c patch.
+    - cartopy.win.patch  # [win]
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - cython
+    - numpy
+    - msinttypes  # [win and vc<14]
+    - geos
+    - proj4
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - six
+    - pillow
+    - owslib
+    - proj4
+    - geos
+    - shapely
+    - scipy
+    - pyshp
+    - matplotlib
+    - pyepsg
+
+test:
+  imports:
+    - cartopy
+    - cartopy.mpl.geoaxes
+    - cartopy.crs
+
+about:
+  home: http://scitools.org.uk/cartopy
+  license: GNU LGPL
+  license_file: COPYING
+  summary: 'A library providing cartographic tools for python.'
+
+extra:
+  recipe-maintainers:
+    - marqh
+    - ocefpaf
+    - pelson
+    - dopplershift

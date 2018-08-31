@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "asciitree",
+    "fasteners",
+    "numcodecs >=0.5.3",
+    "numpy >=1.7",
+    "python"
+  ],
+  "license": "MIT",
+  "name": "zarr",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "version": "2.2.0"
+}

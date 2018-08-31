@@ -1,0 +1,49 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sat Jun 23 19:24:17 2018
+# ------------------------------------------------
+
+package:
+    name: gmp
+    version: 6.1.2
+source:
+    fn: gmp-6.1.2.tar.bz2
+    sha256: 5275bb04f4863a13516b2f39392ac5e272f5e1bb8057b18aec1c9b79d73d8fb2
+    url: https://gmplib.org/download/gmp/gmp-6.1.2.tar.bz2
+build:
+    number: '0'
+    run_exports:
+        - gmp >=6.1.2,<7.0a0
+    string: hfc679d8_0
+requirements:
+    build:
+        - m4 1.4.18 0
+        - toolchain 2.1.5 0
+        - toolchain_c_linux-64 2.1.5 0
+        - toolchain_cxx_linux-64 2.1.5 0
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+        - libstdcxx-ng >=4.9
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libgmp.a
+        - test -f ${PREFIX}/lib/libgmp.so
+        - test -f ${PREFIX}/lib/libgmpxx.a
+        - test -f ${PREFIX}/lib/libgmpxx.so
+    files:
+        - test.c
+about:
+    home: http://gmplib.org/
+    license: GPL 2 and LGPL 3
+    license_file: COPYING.LESSERv3
+    summary: The GNU multiprecision library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - asmeurer
+        - isuruf
+        - jakirkham

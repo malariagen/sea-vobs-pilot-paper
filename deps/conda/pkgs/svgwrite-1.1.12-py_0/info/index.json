@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "pyparsing >=2.0.1",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "svgwrite",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "version": "1.1.12"
+}

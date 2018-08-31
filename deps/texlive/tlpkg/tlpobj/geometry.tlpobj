@@ -1,0 +1,40 @@
+name geometry
+category Package
+revision 19716
+shortdesc Flexible and complete interface to document dimensions
+longdesc The package provides an easy and flexible user interface to
+longdesc customize page layout, implementing auto-centering and auto-
+longdesc balancing mechanisms so that the users have only to give the
+longdesc least description for the page layout. For example, if you want
+longdesc to set each margin 2cm without header space, what you need is
+longdesc just \usepackage[margin=2cm,nohead]{geometry}. The package
+longdesc knows about all the standard paper sizes, so that the user need
+longdesc not know what the nominal 'real' dimensions of the paper are,
+longdesc just its standard name (such as a4, letter, etc.). An important
+longdesc feature is the package's ability to communicate the paper size
+longdesc it's set up to the output (whether via DVI \specials or via
+longdesc direct interaction with pdf(La)TeX).
+containersize 8548
+containerchecksum 85b90b6b30495b1f02c95e040e6db45762cc73fb301e9b25f9b83c7ce8fdab2f29c64f611e20842df6820c326761d62440abd4ceef52794381b9633d67eacb03
+doccontainersize 192128
+doccontainerchecksum f80aa69969bb810eb5f7b740def08507ddf78777e3281372bd614a6be2d023d2d8a28942ac0bdffad62ccf3761a72d8e68436d336ede367f3002643b99fed7b5
+docfiles size=54
+ texmf-dist/doc/latex/geometry/README details="Package Readme"
+ texmf-dist/doc/latex/geometry/changes.txt
+ texmf-dist/doc/latex/geometry/geometry-samples.tex
+ texmf-dist/doc/latex/geometry/geometry.cfg
+ texmf-dist/doc/latex/geometry/geometry.pdf details="Users' manual"
+srccontainersize 32688
+srccontainerchecksum d9b43c38287613c50cef84e0a77266fc2ef4c4da25eedc50971e41d4de1c77eab7d84a237f412c0652b6022d818e653e0adf2de4a917037b953bce2c4db3fc46
+srcfiles size=39
+ texmf-dist/source/latex/geometry/geometry.drv
+ texmf-dist/source/latex/geometry/geometry.dtx
+ texmf-dist/source/latex/geometry/geometry.ins
+runfiles size=10
+ texmf-dist/tex/latex/geometry/geometry.sty
+catalogue-also vmargin typearea
+catalogue-ctan /macros/latex/contrib/geometry
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics geometry
+catalogue-version 5.6

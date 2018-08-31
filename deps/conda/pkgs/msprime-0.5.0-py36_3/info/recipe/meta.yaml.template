@@ -1,0 +1,73 @@
+{% set name = "msprime" %}
+{% set version = "0.5.0" %}
+{% set file_ext = "tar.gz" %}
+{% set hash_type = "sha256" %}
+{% set hash_value = "e1ad0392608f23a66f2192bd052d161fb507aaaa85af5ae4bdd50504ef9b4fa7" %}
+
+package:
+  name: '{{ name|lower }}'
+  version: '{{ version }}'
+
+source:
+  fn: '{{ name }}-{{ version }}.{{ file_ext }}'
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.{{ file_ext }}
+  '{{ hash_type }}': '{{ hash_value }}'
+
+build:
+  number: 3
+  entry_points:
+    - mspms=msprime.cli:mspms_main
+    - msp=msprime.cli:msp_main
+  script: python setup.py install --single-version-externally-managed --record=record.txt
+  skip: True  # [win and py<35]
+
+# Numpy version requirement copied from conda-forge h5py feedstock
+# Pinning GSL to 2.2.1 for compatability with bioconda. No packages 
+# for Windows at 1.16, so taking whatever is available in 2.x.
+# Pinning hdf5 to the version specified in 
+# https://github.com/conda-forge/conda-forge.github.io/blob/master/scripts/pin_the_slow_way.py
+requirements:
+  build:
+    - python
+    - setuptools
+    - setuptools_scm
+    - svgwrite
+    - six
+    - numpy 1.8.*   # [not (win and (py35 or py36))]
+    - numpy 1.9.*   # [win and py35]
+    - numpy 1.11.*  # [win and py36]
+    - hdf5 1.10.1
+    - gsl         # [win]
+    - gsl ==2.2.1  # [not win]
+  run:
+    - python
+    - svgwrite
+    - six
+    - numpy >=1.8   # [not (win and (py35 or py36))]
+    - numpy >=1.9   # [win and py35]
+    - numpy >=1.11  # [win and py36]
+    - hdf5 1.10.1
+    - h5py
+    - gsl         # [win]
+    - gsl ==2.2.1  # [not win]
+
+test:
+  imports:
+    - msprime
+  commands:
+    - mspms --help
+    - msp --help
+
+about:
+  home: http://pypi.python.org/pypi/msprime
+  license: GPL-3.0
+  license_family: GPL
+  license_file: 'LICENSE'
+  summary: A fast and accurate coalescent simulator.
+  description: Coalescent simulator and library for working with succinct tree sequences.
+  doc_url: 'http://msprime.readthedocs.io/en/stable'
+  dev_url: 'https://github.com/jeromekelleher/msprime'
+
+extra:
+  recipe-maintainers:
+    - jeromekelleher

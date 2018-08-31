@@ -1,0 +1,5 @@
+{
+  "c_compiler": "toolchain_c",
+  "zlib": "1.2",
+  "cxx_compiler": "toolchain_cxx"
+}

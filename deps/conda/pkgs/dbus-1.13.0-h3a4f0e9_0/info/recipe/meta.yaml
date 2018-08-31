@@ -1,0 +1,71 @@
+# This file created by conda-build 3.10.7
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Jun  3 16:16:21 2018
+# ------------------------------------------------
+
+package:
+    name: dbus
+    version: 1.13.0
+source:
+    patches:
+        - 0001-Add-var-lib-dbus-machine-id-as-a-fallback.patch
+        - 0002-Make-it-possible-to-read-files-on-proc-which-reports.patch
+        - 0003-Use-proc-sys-kernel-random-boot_id-as-last-resort-fa.patch
+    sha256: 837abf414c0cdac4c8586ea6f93a999446470b10abcfeefe19ed8a7921854d2e
+    url: http://dbus.freedesktop.org/releases/dbus/dbus-1.13.0.tar.gz
+build:
+    detect_binary_files_with_prefix: true
+    number: '0'
+    string: h3a4f0e9_0
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - pkg-config 0.29.2 1
+        - toolchain 2.1.4 0
+        - toolchain_c_linux-64 2.1.4 0
+        - zlib 1.2.11 h470a237_3
+    host:
+        - ca-certificates 2018.4.16 0
+        - expat 2.2.5 0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - python 3.6.5 1
+        - readline 7.0 0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - xz 5.2.3 0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - expat >=2.2.5,<2.3.0a0
+        - libgcc-ng >=4.9
+test:
+    commands:
+        - dbus-daemon --version
+        - dbus-uuidgen
+about:
+    description: 'D-Bus is a message bus system, a simple way for applications
+
+        to talk to one another. In addition to interprocess communication, D-Bus helps
+
+        coordinate process lifecycle; it makes it simple and reliable to code a "single
+
+        instance" application or daemon, and to launch applications and daemons on
+
+        demand when their services are needed.
+
+        '
+    dev_url: git://anongit.freedesktop.org/dbus/dbus
+    doc_source_url: https://cgit.freedesktop.org/dbus/dbus/tree/doc
+    doc_url: https://www.freedesktop.org/wiki/IntroductionToDBus/
+    home: http://www.freedesktop.org/wiki/Software/dbus/
+    license: GPL2
+    license_file: COPYING
+    summary: Simple message bus system for applications to talk to one another
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - mingwandroid
+        - nehaljwani

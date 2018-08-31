@@ -1,0 +1,20 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "pyshp-1.2.12-py_0.tar.bz2",
+  "license": "MIT",
+  "md5": "92b3b3c332ba6edc59e453e94e0dace6",
+  "name": "pyshp",
+  "noarch": "python",
+  "size": 22364,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyshp-1.2.12-py_0.tar.bz2",
+  "version": "1.2.12"
+}

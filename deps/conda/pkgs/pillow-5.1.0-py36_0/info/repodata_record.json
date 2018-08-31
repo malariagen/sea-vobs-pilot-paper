@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "freetype 2.8.1",
+    "jpeg 9*",
+    "libtiff >=4.0.8,<4.0.10",
+    "olefile",
+    "python 3.6*",
+    "tk 8.6.*",
+    "zlib 1.2.11"
+  ],
+  "features": "",
+  "fn": "pillow-5.1.0-py36_0.tar.bz2",
+  "license": "PIL",
+  "md5": "7e156e90a1af3508989164859d30b33f",
+  "name": "pillow",
+  "platform": "linux",
+  "size": 1013381,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pillow-5.1.0-py36_0.tar.bz2",
+  "version": "5.1.0"
+}

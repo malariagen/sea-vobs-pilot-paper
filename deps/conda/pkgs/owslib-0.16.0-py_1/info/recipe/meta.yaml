@@ -1,0 +1,63 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Aug 28 23:27:07 2018
+# ------------------------------------------------
+
+package:
+    name: owslib
+    version: 0.16.0
+source:
+    sha256: ec95a5e93c145a5d84b0074b9ea27570943486552a669151140debf08a100554
+    url: https://pypi.io/packages/source/O/OWSLib/OWSLib-0.16.0.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/owslib_1535498949553/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py_1
+requirements:
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.8.24 ha4d7672_0
+        - certifi 2018.8.24 py27_1
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - pip 18.0 py27_1
+        - python 2.7.15 h9fef7bc_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.2.0 py27_0
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - wheel 0.31.1 py27_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - lxml
+        - pyproj
+        - python
+        - python-dateutil
+        - pytz
+        - requests
+test:
+    imports:
+        - owslib
+        - owslib.coverage
+        - owslib.feature
+        - owslib.swe
+        - owslib.swe.observation
+        - owslib.swe.sensor
+        - owslib.waterml
+about:
+    home: https://geopython.github.io/OWSLib
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: OGC Web Service utility library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kalxas
+        - ocefpaf
+        - pelson
+        - tomkralidis

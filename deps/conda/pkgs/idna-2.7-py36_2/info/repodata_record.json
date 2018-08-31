@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "idna-2.7-py36_2.tar.bz2",
+  "license": "BSD Like",
+  "md5": "b3a27b82101adf741e215d2d93b9010c",
+  "name": "idna",
+  "platform": "linux",
+  "size": 134048,
+  "subdir": "linux-64",
+  "timestamp": 1531377575009,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/idna-2.7-py36_2.tar.bz2",
+  "version": "2.7"
+}

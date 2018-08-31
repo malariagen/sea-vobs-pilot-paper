@@ -1,0 +1,60 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Jun 25 14:03:44 2018
+# ------------------------------------------------
+
+package:
+    name: multidict
+    version: 4.3.1
+source:
+    fn: multidict-4.3.1.tar.gz
+    sha256: 5ba766433c30d703f6b2c17eb0b6826c6f898e5f58d89373e235f07764952314
+    url: https://pypi.io/packages/source/m/multidict/multidict-4.3.1.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36h470a237_0
+requirements:
+    build:
+        - toolchain 2.1.5 0
+        - toolchain_c_linux-64 2.1.5 0
+    host:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - python 3.6.5 1
+        - readline 7.0 0
+        - setuptools 39.2.0 py36_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - xz 5.2.3 0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - libgcc-ng >=4.9
+        - python >=3.6,<3.7.0a0
+test:
+    commands:
+        - py.test tests
+    requires:
+        - pytest
+    source_files:
+        - tests
+about:
+    description: 'Multidicts are useful for working with HTTP headers, URL query args
+        etc.
+
+        '
+    dev_url: http://github.com/aio-libs/multidict
+    doc_url: http://multidict.readthedocs.io/
+    home: http://github.com/aio-libs/multidict
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: multidict implementation
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kszucs
+        - sodre

@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "features": "",
+  "fn": "libtool-2.4.6-h470a237_1.tar.bz2",
+  "license": "GPL 3",
+  "md5": "78f72973537658791d6b7e546780ae8e",
+  "name": "libtool",
+  "platform": "linux",
+  "size": 526889,
+  "subdir": "linux-64",
+  "timestamp": 1532545259994,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/libtool-2.4.6-h470a237_1.tar.bz2",
+  "version": "2.4.6"
+}

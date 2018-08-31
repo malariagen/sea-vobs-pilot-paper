@@ -1,0 +1,50 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Mon Jan 15 08:53:31 2018
+# ------------------------------------------------
+
+package:
+    name: pyasn1-modules
+    version: 0.2.1
+source:
+    fn: pyasn1-modules-0.2.1.tar.gz
+    sha256: af00ea8f2022b6287dc375b2c70f31ab5af83989fc6fe9eacd4976ce26cd7ccc
+    url: https://pypi.io/packages/source/p/pyasn1-modules/pyasn1-modules-0.2.1.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py_0
+requirements:
+    build:
+        - python 3.6.4 0
+        - xz 5.2.3 0
+        - ca-certificates 2017.11.5 0
+        - openssl 1.0.2n 0
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - certifi 2017.11.5 py36_0
+        - setuptools 38.4.0 py36_0
+        - tk 8.6.7 0
+        - ncurses 5.9 10
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - pyasn1 >=0.4.1,<0.5.0
+test:
+    imports:
+        - pyasn1_modules
+about:
+    dev_url: https://github.com/etingof/pyasn1-modules
+    doc_url: http://pyasn1.sourceforge.net/
+    home: http://pyasn1.sourceforge.net/
+    license: BSD 2-Clause
+    license_family: BSD
+    license_file: LICENSE.txt
+    summary: A collection of ASN.1-based protocols modules.
+extra:
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - pmlandwehr

@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "fontconfig 2.12.*",
+    "freetype 2.8.1",
+    "harfbuzz 1.7.*",
+    "libpng >=1.6.32,<1.6.35"
+  ],
+  "license": "LGPL-2.1",
+  "name": "pango",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "version": "1.40.14"
+}

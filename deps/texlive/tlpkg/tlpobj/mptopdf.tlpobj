@@ -1,0 +1,31 @@
+name mptopdf
+category Package
+revision 45678
+shortdesc mpost to PDF, native MetaPost graphics inclusion
+longdesc The mptopdf script does standalone conversion from mpost to
+longdesc PDF, using the supp-* and syst-* files.  They also allow native
+longdesc MetaPost graphics inclusion in LaTeX (via pdftex.def) and
+longdesc ConTeXt.  They can be used independently of the rest of
+longdesc ConTeXt, yet are maintained as part of it.  So in TeX Live we
+longdesc pull them out to this separate package for the benefit of LaTeX
+longdesc users who do not install the rest of ConTeXt.  This can be
+longdesc found on CTAN in macros/pdftex/graphics.
+depend plain
+depend mptopdf.ARCH
+execute AddFormat name=mptopdf engine=pdftex           options="-translate-file=cp227.tcx mptopdf.tex"           fmttriggers=plain
+containersize 38420
+containerchecksum 1a0a3c3c63428cbff613f9862d51c0245ba89e9cc96b92dee960c6410163aaef10c47fc46a6d76e7357f527fb95f2d7fdade01302b6562b9c8414bf844173d32
+doccontainersize 13572
+doccontainerchecksum 734b618464150608d29e7995a5549f7f8ab33c2d5d8dc23da3114c0b9e2d897c6d401de2e9d63fa8eb3fcd726394699942edcfde3654e000c59904e9690c122b
+docfiles size=6
+ texmf-dist/doc/context/scripts/mkii/mptopdf.man
+ texmf-dist/doc/man/man1/mptopdf.1
+ texmf-dist/doc/man/man1/mptopdf.man1.pdf
+runfiles size=43
+ texmf-dist/scripts/context/perl/mptopdf.pl
+ texmf-dist/scripts/context/stubs/mswin/mptopdf.exe
+ texmf-dist/tex/context/base/mkii/supp-mis.mkii
+ texmf-dist/tex/context/base/mkii/supp-mpe.mkii
+ texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ texmf-dist/tex/context/base/mkii/syst-tex.mkii
+ texmf-dist/tex/generic/context/mptopdf/mptopdf.tex

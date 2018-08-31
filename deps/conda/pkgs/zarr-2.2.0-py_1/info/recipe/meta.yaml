@@ -1,0 +1,57 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Fri Mar  9 20:29:22 2018
+# ------------------------------------------------
+
+package:
+    name: zarr
+    version: 2.2.0
+source:
+    fn: zarr-2.2.0.tar.gz
+    sha256: 678eba19c4ba5821e8d0f64cc59eeaf9b86db5b2229836903687794756dce407
+    url: https://pypi.io/packages/source/z/zarr/zarr-2.2.0.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_1
+requirements:
+    build:
+        - setuptools_scm 1.15.7 py36_0
+        - certifi 2018.1.18 py36_0
+        - python 3.6.4 0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - setuptools 38.5.2 py36_0
+        - pip 9.0.1 py36_1
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - wheel 0.30.0 py36_2
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - asciitree
+        - numpy >=1.7
+        - fasteners
+        - numcodecs >=0.5.3
+test:
+    commands:
+        - pytest -v --pyargs zarr
+    imports:
+        - zarr
+    requires:
+        - pytest
+about:
+    home: https://github.com/zarr-developers/zarr
+    license: MIT
+    license_file: LICENSE
+    summary: An implementation of chunked, compressed, N-dimensional arrays for Python.
+extra:
+    final: true
+    recipe-maintainers:
+        - alimanfoo
+        - jakirkham

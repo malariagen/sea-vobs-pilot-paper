@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "python"
+  ],
+  "license": "BSD 2-Clause",
+  "license_family": "BSD",
+  "name": "olefile",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1530967284321,
+  "version": "0.45.1"
+}

@@ -1,0 +1,80 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Sun Nov 26 23:32:59 2017
+# ------------------------------------------------
+
+package:
+    name: pango
+    version: 1.40.14
+source:
+    sha256: 90af1beaa7bf9e4c52db29ec251ec4fd0a8f2cc185d521ad1f88d01b3a6a17e3
+    url: http://ftp.gnome.org/pub/GNOME/sources/pango/1.40/pango-1.40.14.tar.xz
+build:
+    detect_binary_files_with_prefix: 'true'
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    string: '0'
+requirements:
+    build:
+        - ncurses 5.9 10
+        - readline 6.2 0
+        - libiconv 1.15 0
+        - tk 8.5.19 2
+        - graphite2 1.3.10 0
+        - libpng 1.6.34 0
+        - pixman 0.34.0 1
+        - zlib 1.2.11 0
+        - gobject-introspection 1.55.0 py27_0
+        - glib 2.55.0 0
+        - python 2.7.14 1
+        - harfbuzz 1.7.1 0
+        - xz 5.2.3 0
+        - gettext 0.19.7 1
+        - fontconfig 2.12.6 0
+        - perl 5.22.2.1 0
+        - icu 58.2 0
+        - sqlite 3.13.0 1
+        - openssl 1.0.2l 0
+        - libxml2 2.9.5 2
+        - cairo 1.14.10 0
+        - pcre 8.39 0
+        - freetype 2.8.1 0
+        - ca-certificates 2017.11.5 0
+        - pkg-config 0.29.1 2
+        - libffi 3.2.1 3
+    run:
+        - harfbuzz 1.7.*
+        - fontconfig 2.12.*
+        - freetype 2.8.1
+        - libpng >=1.6.32,<1.6.35
+test:
+    commands:
+        - pango-view --help
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    description: 'Pango is a library for laying out and rendering of text, with an
+        emphasis
+
+        on internationalization. Pango can be used anywhere that text layout is
+
+        needed, though most of the work on Pango so far has been done in the
+
+        context of the GTK+ widget toolkit. Pango forms the core of text and font
+
+        handling for GTK+-2.x.
+
+        '
+    dev_url: https://github.com/phuang/pango
+    doc_url: http://www.pango.org/
+    home: http://www.pango.org/
+    license: LGPL-2.1
+    license_file: COPYING
+    summary: Text layout and rendering engine.
+extra:
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - ccordoba12
+        - jakirkham
+        - pkgw

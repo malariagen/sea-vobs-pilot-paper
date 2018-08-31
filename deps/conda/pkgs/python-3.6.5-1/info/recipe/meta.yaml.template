@@ -1,0 +1,85 @@
+{% set version = "3.6.5" %}
+
+package:
+  name: python
+  version: {{ version }}
+
+source:
+  url: https://www.python.org/ftp/python/{{ version }}/Python-{{ version }}.tgz
+  sha256: 53a3e17d77cd15c5230192b6a8c1e031c07cd9f34a2f089a731c6f6bd343d5c6
+  patches:
+    - omit-local-site-packages.patch  # [osx]
+    - osx64-dist.patch                # [osx and x86_64]
+    - win-find_exe.patch              # [win]
+    - win-library_bin.patch           # [win]
+    # Adjust FD_SETSIZE to allow select() to wait on more connections
+    # simultaneously.  Desirable for serious use of Tornado on Windows.
+    # See also:
+    # - https://bugs.python.org/issue28708
+    # - https://github.com/zeromq/libzmq/issues/1165
+    - fd_setsize.patch                # [win]
+    - mingw-w64--DMS_WINXX.patch
+    - win-msc_ver-1900.patch
+    - fix-ABI-issue29943.patch
+    - do-not-download-externals.patch  # [win]
+    - 0015-Fix-find_library-so-that-it-looks-in-sys.prefix-lib-.patch
+    - winsdk.patch                     # [win]
+
+build:
+  number: 1
+  # Windows has issues updating python if conda is using files itself.
+  # Copy rather than link.
+  no_link:
+    - DLLs/_ctypes.pyd  # [win]
+    - bin/python3.6     # [unix]
+  track_features:
+    - vc14              # [win]
+  script_env:
+    - python_branding
+
+requirements:
+  build:
+    - 7za               # [win]
+    - bzip2 1.0.*       # [unix]
+    - curl >=7.44.0,<8              # [win]
+    - nasm 2.11.06      # [win]
+    - openssl 1.0.*     # [unix]
+    - readline 7.0     # [unix]
+    - sqlite 3.20.*     # [unix]
+    - tk 8.6.*          # [unix]
+    - xz 5.2.*          # [unix]
+    - zlib 1.2.11        # [unix]
+    - ncurses 5.9      # [linux]
+  run:
+    - openssl 1.0.*     # [unix]
+    - readline 7.0     # [unix]
+    - sqlite 3.20.*     # [unix]
+    - tk 8.6.*          # [unix]
+    - xz 5.2.*          # [unix]
+    - zlib 1.2.11        # [unix]
+    - ncurses 5.9      # [linux]
+    - vs2015_runtime    # [win]
+
+test:
+  commands:
+    - python -V
+    - python3 -V            # [unix]
+    - 2to3 -h
+    - pydoc -h
+    - python3-config --help  # [unix]
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+about:
+  home: http://www.python.org/
+  license: PSF
+  license_file: LICENSE
+  summary: 'General purpose programming language.'
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - jjhelmus
+    - msarahan
+    - pelson
+    - ocefpaf

@@ -1,0 +1,63 @@
+{% set version = "5.4.1" %}
+{% set sha256 = "7d6143d10e9b026df888e0b2936ceff1827ef2f2087646b4dd475c8dcef58606" %}
+
+package:
+  name: notebook
+  version: {{ version }}
+
+source:
+  fn: notebook-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/n/notebook/notebook-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  script:
+    - pip install --no-deps .
+  number: 0
+  entry_points:
+    - jupyter-notebook = notebook.notebookapp:main
+    - jupyter-nbextension = notebook.nbextensions:main
+    - jupyter-serverextension = notebook.serverextensions:main
+    - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+
+requirements:
+  build:
+    - python
+    - pip
+  run:
+    - ipykernel
+    - ipython_genutils
+    - jinja2
+    - jupyter_core >=4.4.0
+    - jupyter_client >=5.2.0
+    - nbconvert
+    - nbformat
+    - python
+    - send2trash
+    - terminado >=0.8.1
+    - tornado >=4
+    - traitlets >=4.2.1
+
+test:
+  commands:
+    - jupyter notebook -h
+    - jupyter nbextension -h
+    - jupyter serverextension -h
+    - jupyter bundlerextension -h
+  imports:
+    - notebook
+
+about:
+  home: http://jupyter.org
+  license: BSD 3-clause
+  license_file: COPYING.md
+  summary: A web-based notebook environment for interactive computing
+
+extra:
+  recipe-maintainers:
+    - SylvainCorlay
+    - jakirkham
+    - minrk
+    - pelson
+    - gnestor
+    - takluyver

@@ -1,0 +1,46 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Jun 21 14:40:09 2018
+# ------------------------------------------------
+
+package:
+    name: proj4
+    version: 5.1.0
+source:
+    -   sha256: 6b1379a53317d9b5b8c723c1dc7bf2e3a8eb22ceb46b8807a1ce48ef65685bb3
+        url: http://download.osgeo.org/proj/proj-5.1.0.tar.gz
+    -   folder: nad
+        sha256: ffcad4453fac3b4a13ca678ef343e688496e18019f35709ef03c5f200e9fb85a
+        url: http://download.osgeo.org/proj/proj-datumgrid-1.7.zip
+build:
+    number: '1'
+    run_exports:
+        - proj4 >=5.1.0,<5.1.1.0a0
+    string: h470a237_1
+requirements:
+    build:
+        - toolchain 2.1.5 0
+        - toolchain_c_linux-64 2.1.5 0
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+test:
+    commands:
+        - test -f $PREFIX/share/proj/conus
+        - echo -105 40 | proj +proj=utm +zone=13 +ellps=WGS84
+        - echo -117 30 | cs2cs +proj=latlong +datum=NAD27 +to +proj=latlong +datum=NAD83
+        - echo -105 40 | cs2cs +init=epsg:4326 +to +init=epsg:2975
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    home: https://proj4.org/
+    license: MIT
+    license_file: COPYING
+    summary: Cartographic projection software.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - pelson

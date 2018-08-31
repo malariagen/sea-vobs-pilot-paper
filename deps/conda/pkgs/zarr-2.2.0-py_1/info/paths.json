@@ -1,0 +1,227 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/DESCRIPTION.rst",
+      "path_type": "hardlink",
+      "sha256": "d0ed22c65330c29e10d8f97bda73b3e176f0b336266c33cdc53e8e80a7bfb817",
+      "size_in_bytes": 809
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "19960ac483778f211de211e234d56619a686e9a7f06524c6603e0da2e8a91dfe",
+      "size_in_bytes": 1927
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "e3cda2fbfa89f144a6fdf49b311bcfbcfccd9605038b9733612c208fcdf1d483",
+      "size_in_bytes": 4296
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "d263bbf9a28ce8af421de511739343619c8b587e65991fabe13b4f8a71f1cfb6",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/metadata.json",
+      "path_type": "hardlink",
+      "sha256": "a52681b0af288665a7cb55b1845e1eb311dfd4753e6133a677a37570fcc49f60",
+      "size_in_bytes": 1200
+    },
+    {
+      "_path": "site-packages/zarr-2.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "98550fbb38e7990973626584d0db5a3235a31d61afcf077c02d518026020f725",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/zarr/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "166d4328b5665abfbb0ecabcf7f6f5415bf685df6a94557760fee37bc69ae233",
+      "size_in_bytes": 846
+    },
+    {
+      "_path": "site-packages/zarr/attrs.py",
+      "path_type": "hardlink",
+      "sha256": "c86edb4084dffe7f1b096e21742d9ec6ca235b02a158827fef1110d1907b4141",
+      "size_in_bytes": 4109
+    },
+    {
+      "_path": "site-packages/zarr/codecs.py",
+      "path_type": "hardlink",
+      "sha256": "c9f2e408145926bcf3e1c1e060cba3e38d4c6f448555987dd58da89fedddc86f",
+      "size_in_bytes": 176
+    },
+    {
+      "_path": "site-packages/zarr/compat.py",
+      "path_type": "hardlink",
+      "sha256": "939977e21e4deeb3deaa36c4fc90857cc9b36efed084e3ae3259c098544d0ae3",
+      "size_in_bytes": 593
+    },
+    {
+      "_path": "site-packages/zarr/convenience.py",
+      "path_type": "hardlink",
+      "sha256": "8f5f08e9eb6b45c1db85666d00884ee14fbc5f4a1afe5f17646be847042db99e",
+      "size_in_bytes": 37007
+    },
+    {
+      "_path": "site-packages/zarr/core.py",
+      "path_type": "hardlink",
+      "sha256": "62701e3508f6cb1e4591de5fd29930cc0ebeafa097621024703145daf0d87278",
+      "size_in_bytes": 75733
+    },
+    {
+      "_path": "site-packages/zarr/creation.py",
+      "path_type": "hardlink",
+      "sha256": "add15cdd6381f5b11fd933d04dbcd6137002f963ca64c576fb4dcf77497736ec",
+      "size_in_bytes": 17708
+    },
+    {
+      "_path": "site-packages/zarr/errors.py",
+      "path_type": "hardlink",
+      "sha256": "1ac3340a017357927772ac09a5f9108fd927873aa72ba791f7780a9d9533a3b3",
+      "size_in_bytes": 1708
+    },
+    {
+      "_path": "site-packages/zarr/hierarchy.py",
+      "path_type": "hardlink",
+      "sha256": "1166379855ee88ea7f7e54552df7905264aac814a050f445b5bdb7789ef2488e",
+      "size_in_bytes": 37855
+    },
+    {
+      "_path": "site-packages/zarr/indexing.py",
+      "path_type": "hardlink",
+      "sha256": "819200434e7a64d3e492f7feef7d2dcba06be815f05f48d8fd9ecf20e08c9146",
+      "size_in_bytes": 28007
+    },
+    {
+      "_path": "site-packages/zarr/meta.py",
+      "path_type": "hardlink",
+      "sha256": "0c4841a3ac64084c35eaeda1a57ea3ee0149f98551ecd6b56a551c9ea441768b",
+      "size_in_bytes": 4962
+    },
+    {
+      "_path": "site-packages/zarr/meta_v1.py",
+      "path_type": "hardlink",
+      "sha256": "fa98871969aa49e093b1bce687a8b9945280385611d81ec4f0b30dc0d65337c2",
+      "size_in_bytes": 1976
+    },
+    {
+      "_path": "site-packages/zarr/storage.py",
+      "path_type": "hardlink",
+      "sha256": "3193a371161b5a25c5f24af7f0eb34a9eaeae2c00bdf79497b2ed24ed3dec595",
+      "size_in_bytes": 62927
+    },
+    {
+      "_path": "site-packages/zarr/sync.py",
+      "path_type": "hardlink",
+      "sha256": "5d131aacae38ce55216f0263eade2054295d4df008162d07e3a29c2ed60ec9d9",
+      "size_in_bytes": 1274
+    },
+    {
+      "_path": "site-packages/zarr/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ff99bacfc804f8acf1c9111e91e981448cc33fa4ff146ca3351127f602e4b38c",
+      "size_in_bytes": 89
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_attrs.py",
+      "path_type": "hardlink",
+      "sha256": "72d66ce56ae4ea816a15c93041b77addfa8f7b6b9efd263257f4c3b01fb5ce5b",
+      "size_in_bytes": 7654
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_convenience.py",
+      "path_type": "hardlink",
+      "sha256": "16d5df6cca5cc9052a03217e256e861cb9f117863dbedafdc94a365244a30fe3",
+      "size_in_bytes": 19667
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_core.py",
+      "path_type": "hardlink",
+      "sha256": "d7c85a77791bcd750119de7da14c860cb6f9e8f1cdd0d449806380c9c9a99722",
+      "size_in_bytes": 61182
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_creation.py",
+      "path_type": "hardlink",
+      "sha256": "d021481da025a7b36f40ddf39a8cdbda791f55413abd675a93d8c09eb2e834df",
+      "size_in_bytes": 13980
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_filters.py",
+      "path_type": "hardlink",
+      "sha256": "69dde328d11bcd4fc865f12e6d1d539ff526889a42ceee6c7fdc22d3359072d5",
+      "size_in_bytes": 5995
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_hierarchy.py",
+      "path_type": "hardlink",
+      "sha256": "4a2beed4083e996e0f9c3587086a520f611ad7663aed7557ae299a8a671549df",
+      "size_in_bytes": 36733
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_indexing.py",
+      "path_type": "hardlink",
+      "sha256": "edd364fe4b577448408fac700a29b94940106c233e906beafb110bd52281f9f3",
+      "size_in_bytes": 40032
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_info.py",
+      "path_type": "hardlink",
+      "sha256": "73bde800fa1a3224cc268a2ef0bb1badf50c0ba3e78b9c80018d0e1c1743d0f6",
+      "size_in_bytes": 1089
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_meta.py",
+      "path_type": "hardlink",
+      "sha256": "9c7f24968152742a436c10b6ac510ae2477782c279629ef2877e3f729e3e8ae5",
+      "size_in_bytes": 6783
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_storage.py",
+      "path_type": "hardlink",
+      "sha256": "d9bbf7b88e32299e07e46e5af4cd968b6dd739dd7e74bbc78e211d4eec9c72c7",
+      "size_in_bytes": 41845
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_sync.py",
+      "path_type": "hardlink",
+      "sha256": "ba8847c132dbc068f12e77abe518034ed1d935515c95ed30e339d38e47c72ee9",
+      "size_in_bytes": 9394
+    },
+    {
+      "_path": "site-packages/zarr/tests/test_util.py",
+      "path_type": "hardlink",
+      "sha256": "4fe690dfcfd77d49a15f3167932821d8c344f87e1f01fb81660dda3afd031eb2",
+      "size_in_bytes": 5446
+    },
+    {
+      "_path": "site-packages/zarr/tests/util.py",
+      "path_type": "hardlink",
+      "sha256": "079bdd17b9e0314867456b4aeba59ac69a9cab4f0c1b979b12bb7a1e3cc4c5d4",
+      "size_in_bytes": 1002
+    },
+    {
+      "_path": "site-packages/zarr/util.py",
+      "path_type": "hardlink",
+      "sha256": "b93b0c1b54884d410f99ba837cf18ad1f0d9107ea5a304cbfabdf3d225ad1d12",
+      "size_in_bytes": 17615
+    },
+    {
+      "_path": "site-packages/zarr/version.py",
+      "path_type": "hardlink",
+      "sha256": "8d97cb296e5a7c6e8231f67dbd51ed37c37dbed5732bcc99a81d8bdab391790b",
+      "size_in_bytes": 116
+    }
+  ],
+  "paths_version": 1
+}

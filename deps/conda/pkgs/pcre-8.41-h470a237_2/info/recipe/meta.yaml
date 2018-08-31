@@ -1,0 +1,58 @@
+# This file created by conda-build 3.12.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu Jul 26 12:17:05 2018
+# ------------------------------------------------
+
+package:
+    name: pcre
+    version: '8.41'
+source:
+    fn: pcre-8.41.tar.gz
+    sha256: 244838e1f1d14f7e2fa7681b857b3a8566b74215f28133f14a8f5e59241b682c
+    url: ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/pcre-8.41.tar.gz
+build:
+    number: '2'
+    string: h470a237_2
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libtool 2.4.6 h470a237_1
+        - pkg-config 0.29.2 hf5063d0_2
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - zlib 1.2.11 h470a237_3
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+test:
+    commands:
+        - pcre-config --version
+        - pcregrep --help
+        - pcretest --help
+        - test -f "${PREFIX}/include/pcre.h"
+        - test -f "${PREFIX}/include/pcre_scanner.h"
+        - test -f "${PREFIX}/include/pcre_stringpiece.h"
+        - test -f "${PREFIX}/include/pcrecpp.h"
+        - test -f "${PREFIX}/include/pcrecpparg.h"
+        - test -f "${PREFIX}/include/pcreposix.h"
+        - test -f "${PREFIX}/lib/libpcre.a"
+        - test -f "${PREFIX}/lib/libpcre.so"
+        - test -f "${PREFIX}/lib/libpcrecpp.a"
+        - test -f "${PREFIX}/lib/libpcrecpp.so"
+        - test -f "${PREFIX}/lib/libpcreposix.a"
+        - test -f "${PREFIX}/lib/libpcreposix.so"
+about:
+    home: http://www.pcre.org/
+    license: BSD 3-Clause
+    license_file: LICENCE
+    summary: Regular expression pattern matching using the same syntax and semantics
+        as Perl 5.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - saraedum
+        - scopatz
+        - sebastian-luna-valero

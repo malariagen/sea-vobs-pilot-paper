@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "async-timeout-3.0.0-py36_0.tar.bz2",
+  "license": "Apache 2.0",
+  "md5": "70726c94383847763f934d7532af244f",
+  "name": "async-timeout",
+  "platform": "linux",
+  "size": 10882,
+  "subdir": "linux-64",
+  "timestamp": 1525993166995,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/async-timeout-3.0.0-py36_0.tar.bz2",
+  "version": "3.0.0"
+}

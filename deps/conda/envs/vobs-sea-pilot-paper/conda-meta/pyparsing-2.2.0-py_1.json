@@ -1,0 +1,88 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyparsing-2.2.0-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py2.7.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/pyparsing-2.2.0-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pyparsing.py",
+    "lib/python3.6/site-packages/__pycache__/pyparsing.cpython-36.pyc"
+  ],
+  "fn": "pyparsing-2.2.0-py_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyparsing-2.2.0-py_1",
+    "type": 1
+  },
+  "md5": "f1137b581d005bd59c3ad01a1121fa21",
+  "name": "pyparsing",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyparsing-2.2.0-py_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyparsing-2.2.0-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "afada6b098f6a7ece33f30ea50515a4f92d816f48642a6c13c5bcc24e300fb91",
+        "sha256_in_prefix": "afada6b098f6a7ece33f30ea50515a4f92d816f48642a6c13c5bcc24e300fb91",
+        "size_in_bytes": 920
+      },
+      {
+        "_path": "site-packages/pyparsing-2.2.0-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "a53da553f1352adb4aa3402eeb4702bf8ecb201daba7993e1a9ab70e7210c0be",
+        "sha256_in_prefix": "a53da553f1352adb4aa3402eeb4702bf8ecb201daba7993e1a9ab70e7210c0be",
+        "size_in_bytes": 5059
+      },
+      {
+        "_path": "site-packages/pyparsing-2.2.0-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pyparsing-2.2.0-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "9762e5e51ca5fa525efa7c39f1bfc1b2f9169be0f56436f8d2a9da2a4e66445e",
+        "sha256_in_prefix": "9762e5e51ca5fa525efa7c39f1bfc1b2f9169be0f56436f8d2a9da2a4e66445e",
+        "size_in_bytes": 89
+      },
+      {
+        "_path": "site-packages/pyparsing-2.2.0-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "7943a31b3255865437592dab140cb698ddcb5ffec5293339192274e237e72e65",
+        "sha256_in_prefix": "7943a31b3255865437592dab140cb698ddcb5ffec5293339192274e237e72e65",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/pyparsing.py",
+        "path_type": "hardlink",
+        "sha256": "6040e69cedd4a0b936aba7486b8f7f9eb4e36e00b598dd05b9175c25a446b1e3",
+        "sha256_in_prefix": "6040e69cedd4a0b936aba7486b8f7f9eb4e36e00b598dd05b9175c25a446b1e3",
+        "size_in_bytes": 231039
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/pyparsing.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 51750,
+  "subdir": "noarch",
+  "timestamp": 1531006064876,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyparsing-2.2.0-py_1.tar.bz2",
+  "version": "2.2.0"
+}

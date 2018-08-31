@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "ncurses 5.9",
+    "openssl 1.0.*",
+    "readline 7.0",
+    "sqlite 3.20.*",
+    "tk 8.6.*",
+    "xz 5.2.*",
+    "zlib 1.2.11",
+    "pip"
+  ],
+  "features": "",
+  "fn": "python-3.6.5-1.tar.bz2",
+  "license": "PSF",
+  "md5": "20fd7f938b92af8cfb3c0f9bd2893c57",
+  "name": "python",
+  "platform": "linux",
+  "size": 22061235,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/python-3.6.5-1.tar.bz2",
+  "version": "3.6.5"
+}

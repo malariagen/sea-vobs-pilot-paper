@@ -1,0 +1,89 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/prettytable-0.7.2-py_2",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/prettytable-0.7.2-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/prettytable-0.7.2-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/prettytable-0.7.2-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/prettytable-0.7.2-py2.7.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/prettytable-0.7.2-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/prettytable.py",
+    "lib/python3.6/site-packages/__pycache__/prettytable.cpython-36.pyc"
+  ],
+  "fn": "prettytable-0.7.2-py_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/prettytable-0.7.2-py_2",
+    "type": 1
+  },
+  "md5": "8bf840b76c87e5b06798ceda641f83ba",
+  "name": "prettytable",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/prettytable-0.7.2-py_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "8dbd32cf3df4c10d3ec0061e7dfa1ad2ea32ced28d9f8b48148d6193574cd362",
+        "sha256_in_prefix": "8dbd32cf3df4c10d3ec0061e7dfa1ad2ea32ced28d9f8b48148d6193574cd362",
+        "size_in_bytes": 710
+      },
+      {
+        "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "2e316701adf261a738590acc54494cb84ddb9d4dda22a863cef0d48bb43a3556",
+        "sha256_in_prefix": "2e316701adf261a738590acc54494cb84ddb9d4dda22a863cef0d48bb43a3556",
+        "size_in_bytes": 230
+      },
+      {
+        "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "114ef9832b41ec9389840d9729122c27ae65b512b164df20a67e6dc0f5e1627d",
+        "sha256_in_prefix": "114ef9832b41ec9389840d9729122c27ae65b512b164df20a67e6dc0f5e1627d",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "528a09acd9ba89ab39e0b4e395a757b5d6e30b536df6c81dff5b7fdb85170534",
+        "sha256_in_prefix": "528a09acd9ba89ab39e0b4e395a757b5d6e30b536df6c81dff5b7fdb85170534",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "site-packages/prettytable.py",
+        "path_type": "hardlink",
+        "sha256": "7db30219256548be448ad71156bff6888773ac8f34018d4ec3b7d92849486231",
+        "sha256_in_prefix": "7db30219256548be448ad71156bff6888773ac8f34018d4ec3b7d92849486231",
+        "size_in_bytes": 54204
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/prettytable.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 14057,
+  "subdir": "noarch",
+  "timestamp": 1531795962382,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prettytable-0.7.2-py_2.tar.bz2",
+  "version": "0.7.2"
+}

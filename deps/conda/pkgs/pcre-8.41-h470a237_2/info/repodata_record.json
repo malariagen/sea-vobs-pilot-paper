@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "features": "",
+  "fn": "pcre-8.41-h470a237_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "43bfea42af779815bca6c229cfa1766d",
+  "name": "pcre",
+  "platform": "linux",
+  "size": 250367,
+  "subdir": "linux-64",
+  "timestamp": 1532607536494,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pcre-8.41-h470a237_2.tar.bz2",
+  "version": "8.41"
+}

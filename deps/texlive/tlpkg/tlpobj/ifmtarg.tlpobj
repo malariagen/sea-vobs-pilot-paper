@@ -1,0 +1,23 @@
+name ifmtarg
+category Package
+revision 19363
+shortdesc If-then-else command for processing potentially empty arguments
+containersize 684
+containerchecksum ea153cba91caa2875b9fa523ee3f1c0fb56437fd314a9ad05f6f3053f643b000a0f8d2b85e41c4c7e0ec3f822595684218de76c243b705899820fcbc607b9008
+doccontainersize 172164
+doccontainerchecksum 5a05457f1b3527e11dc101783dbeb98373d0a50cc2c1fe1932ad709c46f27f1cbd99f6daf9a95e20b7b7f6d5acb7fec156115dc4800b3e70085e1a0136e51324
+docfiles size=43
+ texmf-dist/doc/latex/ifmtarg/README
+ texmf-dist/doc/latex/ifmtarg/ifmtarg.pdf details="Package documentation"
+srccontainersize 2712
+srccontainerchecksum 51b7dd09ed79e0623cbc375016f73f411d8d462c16c15bbc1a327e62920c673598478cb03e96cddd7838f1061587c45cb46f918ac2b3748e9dc689fd090c3c15
+srcfiles size=3
+ texmf-dist/source/latex/ifmtarg/ifmtarg.ins
+ texmf-dist/source/latex/ifmtarg/ifmtarg.tex
+runfiles size=1
+ texmf-dist/tex/latex/ifmtarg/ifmtarg.sty
+catalogue-ctan /macros/latex/contrib/ifmtarg
+catalogue-date 2016-06-18 16:48:54 +0200
+catalogue-license lppl
+catalogue-topics macro-supp
+catalogue-version 1.2a

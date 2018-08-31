@@ -1,0 +1,42 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Jul  1 18:21:43 2018
+# ------------------------------------------------
+
+package:
+    name: jpeg
+    version: 9c
+source:
+    sha256: 650250979303a649e21f87b5ccd02672af1ea6954b911342ea491f351ceb7122
+    url: http://www.ijg.org/files/jpegsrc.v9c.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - jpeg >=9c,<10a
+    string: h470a237_0
+requirements:
+    build:
+        - toolchain 2.1.5 0
+        - toolchain_c_linux-64 2.1.5 0
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+test:
+    commands:
+        - djpeg -dct int -ppm -outfile testout.ppm testorig.jpg
+    files:
+        - testorig.jpg
+about:
+    home: http://www.ijg.org/
+    license: IJG
+    license_file: /home/conda/recipe_root/LICENSE.txt
+    summary: read/write jpeg COM, EXIF, IPTC medata
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gillins
+        - jakirkham
+        - msarahan
+        - ocefpaf

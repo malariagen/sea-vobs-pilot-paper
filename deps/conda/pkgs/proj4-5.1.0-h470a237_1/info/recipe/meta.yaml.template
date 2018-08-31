@@ -1,0 +1,48 @@
+{% set version = "5.1.0" %}
+{% set datumgrid_ver = "1.7" %}
+
+package:
+  name: proj4
+  version: {{ version }}
+
+source:
+  - url: http://download.osgeo.org/proj/proj-{{ version }}.tar.gz
+    sha256: 6b1379a53317d9b5b8c723c1dc7bf2e3a8eb22ceb46b8807a1ce48ef65685bb3
+  - url: http://download.osgeo.org/proj/proj-datumgrid-{{ datumgrid_ver }}.zip
+    sha256: ffcad4453fac3b4a13ca678ef343e688496e18019f35709ef03c5f200e9fb85a
+    folder: nad
+
+
+build:
+  number: 1
+  run_exports:
+    # so name changes in bugfix revisions.  Pin to bugfix revision.
+    #    https://abi-laboratory.pro/tracker/timeline/proj/
+    - {{ pin_subpackage('proj4', max_pin='x.x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+
+test:
+  commands:
+    # Check if NAD27/NAD83 datum shifting is present if `conus` is present.
+    - test -f $PREFIX/share/proj/conus  # [not win]
+    - if not exist %PREFIX%\\Library\\SHARE\\conus exit 1  # [win]
+    - echo -105 40 | proj +proj=utm +zone=13 +ellps=WGS84
+    - echo -117 30 | cs2cs +proj=latlong +datum=NAD27 +to +proj=latlong +datum=NAD83
+    - echo -105 40 | cs2cs +init=epsg:4326 +to +init=epsg:2975
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+about:
+  home: https://proj4.org/
+  license: MIT
+  license_file: COPYING
+  summary: 'Cartographic projection software.'
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - pelson
+    - msarahan

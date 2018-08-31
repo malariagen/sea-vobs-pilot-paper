@@ -1,0 +1,58 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Sat May 26 08:43:32 2018
+# ------------------------------------------------
+
+package:
+    name: openblas
+    version: 0.2.20
+source:
+    fn: openblas-0.2.20.tar.gz
+    patches:
+        - gh_1247.patch
+        - gh_1259.patch
+        - gh_1256.patch
+        - gh_1264.patch
+        - gh_1279.patch
+        - gh_1323.patch
+        - gh_1350.patch
+        - gh_1377.patch
+        - gh_1417.patch
+    sha256: 5ef38b15d9c652985774869efd548b8e3e972e1e99475c673b25537ed7bcf394
+    url: https://github.com/xianyi/OpenBLAS/archive/v0.2.20.tar.gz
+build:
+    features: ''
+    msvc_compiler: '14.0'
+    noarch: ''
+    noarch_python: false
+    number: '8'
+    string: '8'
+requirements:
+    build:
+        - mpfr 3.1.5 0
+        - cloog 0.18.0 0
+        - isl 0.12.2 0
+        - gmp 6.1.2 0
+        - mpc 1.1.0 4
+        - perl 5.22.2.1 0
+        - gcc 4.8.5 7
+        - toolchain 2.1.3 0
+    run:
+        - libgfortran
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libopenblas.a
+        - python -c "import ctypes; ctypes.cdll['${PREFIX}/lib/libopenblas${SHLIB_EXT}']"
+about:
+    home: http://www.openblas.net/
+    license: BSD 3-Clause
+    license_file: LICENSE
+    summary: An optimized BLAS library based on GotoBLAS2 1.13 BSD version.
+extra:
+    final: true
+    recipe-maintainers:
+        - gillins
+        - groutr
+        - jakirkham
+        - jschueller
+        - isuruf

@@ -1,0 +1,60 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Tue Apr 10 00:55:19 2018
+# ------------------------------------------------
+
+package:
+    name: numcodecs
+    version: 0.5.5
+source:
+    fn: numcodecs-0.5.5.tar.gz
+    sha256: 7fdb60c40e902933f2ca4f65c8489d56697e7b0e4dffac4cb48ac58d8cce3aad
+    url: https://pypi.io/packages/source/n/numcodecs/numcodecs-0.5.5.tar.gz
+build:
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    script:
+        - export DISABLE_NUMCODECS_AVX2=""
+        - python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - readline 7.0 0
+        - setuptools_scm 1.17.0 py36_0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - setuptools 39.0.1 py36_0
+        - cython 0.28.1 py36_0
+        - python 3.6.5 1
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - numpy
+        - msgpack-python
+test:
+    commands:
+        - pytest -v --pyargs numcodecs
+    imports:
+        - numcodecs
+        - numcodecs.blosc
+        - numcodecs.lz4
+        - numcodecs.zstd
+    requires:
+        - pytest
+about:
+    home: https://github.com/zarr-developers/numcodecs
+    license: MIT
+    license_file: LICENSE
+    summary: A Python package providing buffer compression and transformation codecs
+        for use in data storage and communication applications.
+extra:
+    final: true
+    recipe-maintainers:
+        - alimanfoo
+        - jakirkham

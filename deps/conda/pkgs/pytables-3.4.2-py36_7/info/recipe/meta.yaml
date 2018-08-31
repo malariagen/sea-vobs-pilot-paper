@@ -1,0 +1,89 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Wed Nov  8 17:27:45 2017
+# ------------------------------------------------
+
+package:
+    name: pytables
+    version: 3.4.2
+source:
+    patches:
+        - noavx2.patch
+    sha256: 629a0227bb2b315c5d97629073696609eaee41d0fc89e03f997412613cd46d3a
+    url: https://github.com/PyTables/PyTables/archive/v3.4.2.tar.gz
+build:
+    entry_points:
+        - pt2to3 = tables.scripts.pt2to3:main
+        - ptdump = tables.scripts.ptdump:main
+        - ptrepack = tables.scripts.ptrepack:main
+        - pttree = tables.scripts.pttree:main
+    noarch: ''
+    noarch_python: false
+    number: '7'
+    string: py36_7
+requirements:
+    build:
+        - ncurses 5.9 10
+        - readline 6.2 0
+        - tk 8.5.19 2
+        - openblas 0.2.19 2
+        - ca-certificates 2017.7.27.1 0
+        - libgfortran 3.0.0 1
+        - setuptools 36.6.0 py36_1
+        - blas 1.1 openblas
+        - zlib 1.2.11 0
+        - lzo 2.10 0
+        - xz 5.2.3 0
+        - numexpr 2.6.4 py36_0
+        - certifi 2017.7.27.1 py36_0
+        - sqlite 3.13.0 1
+        - openssl 1.0.2l 0
+        - numpy 1.8.2 py36_blas_openblas_200
+        - python 3.6.3 1
+        - bzip2 1.0.6 1
+        - hdf5 1.10.1 1
+        - cython 0.27.3 py36_0
+    run:
+        - python
+        - six
+        - numpy >=1.8
+        - numexpr
+        - hdf5 1.10.1
+        - zlib 1.2.11
+        - lzo 2.*
+        - bzip2 1.0.*
+test:
+    commands:
+        - pt2to3 -h
+        - ptdump -h
+        - ptrepack -h
+        - pttree -h
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+    requires:
+        - setuptools
+        - mock
+about:
+    description: 'PyTables is a package for managing hierarchical datasets and designed
+        to
+
+        efficiently and easily cope with extremely large amounts of data. PyTables
+
+        is built on top of the HDF5 library, using the Python language and the
+
+        NumPy package.
+
+        '
+    dev_url: https://github.com/PyTables
+    doc_url: http://www.pytables.org/
+    home: http://www.pytables.org
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: Brings together Python, HDF5 and NumPy to easily handle large amounts
+        of data.
+extra:
+    final: true
+    recipe-maintainers:
+        - msarahan
+        - ocefpaf
+        - tomkooij
+        - scopatz

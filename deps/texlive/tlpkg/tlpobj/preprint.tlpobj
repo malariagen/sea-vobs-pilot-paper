@@ -1,0 +1,50 @@
+name preprint
+category Package
+revision 30447
+shortdesc A bundle of packages provided "as is"
+longdesc The bundle comprises: authblk, which permits footnote style
+longdesc author/affiliation input in the \author command, balance, to
+longdesc balance the end of \twocolumn pages, figcaps, to send figure
+longdesc captions, etc., to end document, fullpage, to set narrow page
+longdesc margins and set a fixed page style, and sublabel, which permits
+longdesc counters to be subnumbered.
+containersize 7060
+containerchecksum b8b42c0555761d5758aefc107de450a1af9af119947668181aab3618d00cd46f94ab28397851213d0c245676b8d0264ae95007cc40ae2b04377d5b54f44497f7
+doccontainersize 634320
+doccontainerchecksum b7dd68c9324930d0b5c12c0271db8b9128bfb2e2dd9f7ebf2484917903da10b7d86842b39fa8ddb438a3f9cb3834d5335dd3d0ff8571b9e1c3812b2b3c2beef2
+docfiles size=189
+ texmf-dist/doc/latex/preprint/README details="Readme"
+ texmf-dist/doc/latex/preprint/authblk.pdf
+ texmf-dist/doc/latex/preprint/balance.pdf
+ texmf-dist/doc/latex/preprint/figcaps.pdf
+ texmf-dist/doc/latex/preprint/fullpage.pdf
+ texmf-dist/doc/latex/preprint/sublabel.pdf
+srccontainersize 36600
+srccontainerchecksum b41f77d63f12547a429c7e1797e4824c535f735740cc4e39a212670490ded342167d3822850d96ad018c4c604e37a239c0a80af6da23e5766a068d3b5e4660ac
+srcfiles size=56
+ texmf-dist/source/latex/preprint/authblk.drv
+ texmf-dist/source/latex/preprint/authblk.dtx
+ texmf-dist/source/latex/preprint/authblk.ins
+ texmf-dist/source/latex/preprint/balance.drv
+ texmf-dist/source/latex/preprint/balance.dtx
+ texmf-dist/source/latex/preprint/balance.ins
+ texmf-dist/source/latex/preprint/figcaps.drv
+ texmf-dist/source/latex/preprint/figcaps.dtx
+ texmf-dist/source/latex/preprint/figcaps.ins
+ texmf-dist/source/latex/preprint/fullpage.drv
+ texmf-dist/source/latex/preprint/fullpage.dtx
+ texmf-dist/source/latex/preprint/fullpage.ins
+ texmf-dist/source/latex/preprint/sublabel.drv
+ texmf-dist/source/latex/preprint/sublabel.dtx
+ texmf-dist/source/latex/preprint/sublabel.ins
+runfiles size=9
+ texmf-dist/tex/latex/preprint/authblk.sty
+ texmf-dist/tex/latex/preprint/balance.sty
+ texmf-dist/tex/latex/preprint/figcaps.sty
+ texmf-dist/tex/latex/preprint/fullpage.sty
+ texmf-dist/tex/latex/preprint/sublabel.sty
+catalogue-ctan /macros/latex/contrib/preprint
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license collection
+catalogue-topics collection
+catalogue-version 2011

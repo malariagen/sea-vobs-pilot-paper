@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*"
+  ],
+  "features": "",
+  "fn": "cython-0.28.1-py36_0.tar.bz2",
+  "license": "Apache-2.0",
+  "md5": "218c75c8812433f9ab10ed365008b765",
+  "name": "cython",
+  "platform": "linux",
+  "size": 9700120,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cython-0.28.1-py36_0.tar.bz2",
+  "version": "0.28.1"
+}

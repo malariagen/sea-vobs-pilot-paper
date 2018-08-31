@@ -1,0 +1,98 @@
+name pdftex
+category TLCore
+revision 44166
+shortdesc A TeX extension for direct creation of PDF
+longdesc An extension of TeX which can be configured to directly
+longdesc generate PDF documents instead of DVI. All current free TeX
+longdesc distributions including TeX Live, MacTeX and MiKTeX include
+longdesc pdfTeX (Plain TeX) and pdfLaTeX (LaTeX). ConTeXt was originally
+longdesc designed around use of pdfTeX, though nowadays it is focused on
+longdesc LuaTeX).
+depend kpathsea
+depend cm
+depend etex
+depend hyphen-base
+depend knuth-lib
+depend plain
+depend tex-ini-files
+depend pdftex.ARCH
+execute AddFormat name=pdftex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *pdfetex.ini"           fmttriggers=cm,etex,hyphen-base,knuth-lib,plain,tex-ini-files
+execute AddFormat name=etex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *etex.ini"           fmttriggers=cm,etex,hyphen-base,knuth-lib,plain
+execute AddFormat name=pdfetex engine=pdftex patterns=language.def           options="-translate-file=cp227.tcx *pdfetex.ini"           fmttriggers=cm,etex,hyphen-base,knuth-lib,plain,tex-ini-files
+execute addMap dummy-space.map
+containersize 36696
+containerchecksum 64a35dc0e86a70f5d80671565cb5288e55b9b1c2079562cff7830042fec3d4eb962ed57e59f67eaf0ddeabdd5d7f8aea6d344bedb1b6573185b37801bf1f19b0
+doccontainersize 1459960
+doccontainerchecksum a7e9bcf8af36c9fdbd8bc9ed8d073e127e81f0050bde8f84b3437c4df25faa737a723f338873e330926ef96e97dbcf288ebcdc6d8f9928ba796021b856587cad
+docfiles size=688
+ texmf-dist/doc/man/man1/pdfetex.1
+ texmf-dist/doc/man/man1/pdfetex.man1.pdf
+ texmf-dist/doc/man/man1/pdftex.1
+ texmf-dist/doc/man/man1/pdftex.man1.pdf
+ texmf-dist/doc/pdftex/NEWS
+ texmf-dist/doc/pdftex/README
+ texmf-dist/doc/pdftex/manual/ChangeLog
+ texmf-dist/doc/pdftex/manual/Makefile
+ texmf-dist/doc/pdftex/manual/README
+ texmf-dist/doc/pdftex/manual/makefiles.cmd
+ texmf-dist/doc/pdftex/manual/pdftex-a.pdf details="User manual"
+ texmf-dist/doc/pdftex/manual/pdftex-i.tex
+ texmf-dist/doc/pdftex/manual/pdftex-syntax.txt
+ texmf-dist/doc/pdftex/manual/pdftex-t.tex
+ texmf-dist/doc/pdftex/manual/pdftex-w.tex
+ texmf-dist/doc/pdftex/manual/syntaxform.awk
+ texmf-dist/doc/pdftex/manual/syntaxform.pl
+ texmf-dist/doc/pdftex/samplepdftex/cmr10.103
+ texmf-dist/doc/pdftex/samplepdftex/obj.dat
+ texmf-dist/doc/pdftex/samplepdftex/pdfcolor.tex
+ texmf-dist/doc/pdftex/samplepdftex/pic.eps
+ texmf-dist/doc/pdftex/samplepdftex/pic.jpg
+ texmf-dist/doc/pdftex/samplepdftex/pic.mps
+ texmf-dist/doc/pdftex/samplepdftex/pic.pdf
+ texmf-dist/doc/pdftex/samplepdftex/pic.png
+ texmf-dist/doc/pdftex/samplepdftex/pic16.png
+ texmf-dist/doc/pdftex/samplepdftex/rgb.icc
+ texmf-dist/doc/pdftex/samplepdftex/samplepdf.0
+ texmf-dist/doc/pdftex/samplepdftex/samplepdf.1
+ texmf-dist/doc/pdftex/samplepdftex/samplepdf.tex details="Primitive usage examples"
+ texmf-dist/doc/pdftex/samplepdftex/supp-mis.tex
+ texmf-dist/doc/pdftex/samplepdftex/supp-pdf.tex
+ texmf-dist/doc/pdftex/samplepdftex/tmp.pdf
+ texmf-dist/doc/pdftex/tests/01-fake-interword-space/Makefile
+ texmf-dist/doc/pdftex/tests/01-fake-interword-space/dummy-space.pfb
+ texmf-dist/doc/pdftex/tests/01-fake-interword-space/dummy-space.tfm
+ texmf-dist/doc/pdftex/tests/01-fake-interword-space/fake-interword-space.tex
+ texmf-dist/doc/pdftex/tests/02-pdfmatch/Makefile
+ texmf-dist/doc/pdftex/tests/02-pdfmatch/test-pdfmatch.tex
+ texmf-dist/doc/pdftex/tests/03-deterministic-output/Makefile
+ texmf-dist/doc/pdftex/tests/03-deterministic-output/test-SOURCE_DATE_EPOCH.tex
+ texmf-dist/doc/pdftex/tests/03-deterministic-output/test-fixed-date-id.tex
+ texmf-dist/doc/pdftex/tests/03-deterministic-output/test-no-date-id.tex
+ texmf-dist/doc/pdftex/tests/03-deterministic-output/test-prim.tex
+ texmf-dist/doc/pdftex/tests/04-pdfsuppressptexinfo/Makefile
+ texmf-dist/doc/pdftex/tests/04-pdfsuppressptexinfo/abc.tex
+ texmf-dist/doc/pdftex/tests/04-pdfsuppressptexinfo/test-pdfinfoomitdate.tex
+ texmf-dist/doc/pdftex/tests/04-pdfsuppressptexinfo/test-pdfsuppressptexinfo.tex
+ texmf-dist/doc/pdftex/tests/04-pdfsuppressptexinfo/test-pdftrailer.tex
+ texmf-dist/doc/pdftex/tests/05-mediabox/Makefile
+ texmf-dist/doc/pdftex/tests/05-mediabox/test-normal.tex
+ texmf-dist/doc/pdftex/tests/05-mediabox/test-omit-mediabox.tex
+ texmf-dist/doc/pdftex/tests/06-pkmap/Makefile
+ texmf-dist/doc/pdftex/tests/06-pkmap/cmb10.72pk
+ texmf-dist/doc/pdftex/tests/06-pkmap/cmr10.72pk
+ texmf-dist/doc/pdftex/tests/06-pkmap/prepatch.pdf
+ texmf-dist/doc/pdftex/tests/06-pkmap/test-pkmap.tex
+ texmf-dist/doc/pdftex/tests/07-mapwarn/Makefile
+ texmf-dist/doc/pdftex/tests/07-mapwarn/test-mapwarn.tex
+ texmf-dist/doc/pdftex/tests/Common.mak
+runfiles size=65
+ texmf-dist/fonts/map/dvips/dummy-space/dummy-space.map
+ texmf-dist/fonts/tfm/public/pdftex/dummy-space.tfm
+ texmf-dist/fonts/type1/public/pdftex/dummy-space.pfb
+ texmf-dist/scripts/simpdftex/simpdftex
+ texmf-dist/tex/generic/config/pdftex-dvi.tex
+ texmf-dist/tex/generic/pdftex/glyphtounicode.tex
+ texmf-dist/tex/generic/pdftex/pdfcolor.tex
+catalogue-date 2017-04-18 05:31:40 +0200
+catalogue-license gpl
+catalogue-topics engine

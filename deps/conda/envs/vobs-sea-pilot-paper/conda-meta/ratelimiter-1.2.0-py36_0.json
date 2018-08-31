@@ -1,0 +1,92 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/ratelimiter-1.2.0-py36_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/ratelimiter.cpython-36.pyc",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/ratelimiter.py"
+  ],
+  "fn": "ratelimiter-1.2.0-py36_0.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/ratelimiter-1.2.0-py36_0",
+    "type": 1
+  },
+  "md5": "976e195726cb31c7cdf33c2de8b585ec",
+  "name": "ratelimiter",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/ratelimiter-1.2.0-py36_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/ratelimiter.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "6f3525987a77bee662b76634f1209bb0e0348b55ea13c0064ac5b7a660e20438",
+        "sha256_in_prefix": "6f3525987a77bee662b76634f1209bb0e0348b55ea13c0064ac5b7a660e20438",
+        "size_in_bytes": 3844
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "38e54ac82e22190e08c3b7fd83c80ec7b3afc4ad714d0384e28d73ede451395e",
+        "sha256_in_prefix": "38e54ac82e22190e08c3b7fd83c80ec7b3afc4ad714d0384e28d73ede451395e",
+        "size_in_bytes": 4825
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "d1de539f01423fedd87329a88515d504d18b0b9c56bc34b49b226265fe252294",
+        "sha256_in_prefix": "d1de539f01423fedd87329a88515d504d18b0b9c56bc34b49b226265fe252294",
+        "size_in_bytes": 232
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "d777751db66776deb9f144042b0a3e10620042815870fff38621446e0bb13a6c",
+        "sha256_in_prefix": "d777751db66776deb9f144042b0a3e10620042815870fff38621446e0bb13a6c",
+        "size_in_bytes": 65
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter-1.2.0-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "91379171042a9b57c6a87349c470b0501f54cdb4c85040fce77e7ede957a467c",
+        "sha256_in_prefix": "91379171042a9b57c6a87349c470b0501f54cdb4c85040fce77e7ede957a467c",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.6/site-packages/ratelimiter.py",
+        "path_type": "hardlink",
+        "sha256": "299e5ec657602d2caeaae8d98b7ff9aa175a58c601beb9948ebd56830cd8c630",
+        "sha256_in_prefix": "299e5ec657602d2caeaae8d98b7ff9aa175a58c601beb9948ebd56830cd8c630",
+        "size_in_bytes": 4775
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 12281,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ratelimiter-1.2.0-py36_0.tar.bz2",
+  "version": "1.2.0"
+}

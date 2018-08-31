@@ -1,0 +1,44 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Thu May  3 21:33:08 2018
+# ------------------------------------------------
+
+package:
+    name: pixman
+    version: 0.34.0
+source:
+    patches: ''
+    sha256: 21b6b249b51c6800dc9553b65106e1e37d0e25df942c90531d4c3997aa20a88e
+    url: http://cairographics.org/releases/pixman-0.34.0.tar.gz
+build:
+    features: ''
+    noarch: ''
+    noarch_python: false
+    number: '2'
+    string: '2'
+requirements:
+    build:
+        - zlib 1.2.11 0
+        - pkg-config 0.29.2 1
+    run: ''
+test:
+    commands:
+        - test -f ${PREFIX}/lib/libpixman-1.a
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    description: 'Pixman is a low-level software library for pixel manipulation, providing
+
+        features such as image compositing and trapezoid rasterization.
+
+        '
+    dev_url: https://cgit.freedesktop.org/pixman/
+    home: http://www.pixman.org/
+    license: MIT
+    license_file: COPYING
+    summary: A low-level software library for pixel manipulation.
+extra:
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - jakirkham
+        - ocefpaf

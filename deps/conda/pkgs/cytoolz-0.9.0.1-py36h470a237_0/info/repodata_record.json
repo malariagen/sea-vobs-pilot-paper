@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py36h470a237_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "python >=3.6,<3.7.0a0",
+    "toolz >=0.8.0"
+  ],
+  "features": "",
+  "fn": "cytoolz-0.9.0.1-py36h470a237_0.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "bff3f3d243c898dcc9cad6291dd3251b",
+  "name": "cytoolz",
+  "platform": "linux",
+  "size": 1364323,
+  "subdir": "linux-64",
+  "timestamp": 1531348123495,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cytoolz-0.9.0.1-py36h470a237_0.tar.bz2",
+  "version": "0.9.0.1"
+}

@@ -1,0 +1,49 @@
+name xkeyval
+category Package
+revision 35741
+shortdesc Extension of the keyval package
+longdesc This package is an extension of the keyval package and offers
+longdesc additional macros for setting keys and declaring and setting
+longdesc class or package options. The package allows the programmer to
+longdesc specify a prefix to the name of the macros it defines for keys,
+longdesc and to define families of key definitions; these all help use
+longdesc in documents where several packages define their own sets of
+longdesc keys.
+containersize 13116
+containerchecksum acb82c41d3f15bce4ffef3c86cc1fd26ceb39c3ba25aebb62cdc9de730883f23440836f50f4250543fc5a6b002b92e7509796fe4edeb2fafd0db84dd9fe57f38
+doccontainersize 388316
+doccontainerchecksum 06c8621061e35417ea30d82dbbd1947a8c588e89baff79110004bf0c02300591e73b94e0ee17b88caccbdccd224ee61a7e9c1397273d701588b87f754b385a8c
+docfiles size=125
+ texmf-dist/doc/latex/xkeyval/README details="Package README"
+ texmf-dist/doc/latex/xkeyval/xkeyval.bib
+ texmf-dist/doc/latex/xkeyval/xkeyval.pdf details="Package documentation"
+ texmf-dist/doc/latex/xkeyval/xkvpream.ble
+srccontainersize 47564
+srccontainerchecksum b45d2bccf8f9615818e972b8bb88f677e62e8f6a6498704e1f71a06fdb8b6ebed95eb471e67b0463f5d3876711e7bd3d04a921b92e596123de6b915b1012fa97
+srcfiles size=54
+ texmf-dist/source/latex/xkeyval/xkeyval.dtx
+runfiles size=28
+ texmf-dist/tex/generic/xkeyval/keyval.tex
+ texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+ texmf-dist/tex/generic/xkeyval/xkeyval.tex
+ texmf-dist/tex/generic/xkeyval/xkvex1.tex
+ texmf-dist/tex/generic/xkeyval/xkvex2.tex
+ texmf-dist/tex/generic/xkeyval/xkvex3.tex
+ texmf-dist/tex/generic/xkeyval/xkvex4.tex
+ texmf-dist/tex/generic/xkeyval/xkvtxhdr.tex
+ texmf-dist/tex/generic/xkeyval/xkvutils.tex
+ texmf-dist/tex/latex/xkeyval/pst-xkey.sty
+ texmf-dist/tex/latex/xkeyval/xkeyval.sty
+ texmf-dist/tex/latex/xkeyval/xkveca.cls
+ texmf-dist/tex/latex/xkeyval/xkvecb.cls
+ texmf-dist/tex/latex/xkeyval/xkvesa.sty
+ texmf-dist/tex/latex/xkeyval/xkvesb.sty
+ texmf-dist/tex/latex/xkeyval/xkvesc.sty
+ texmf-dist/tex/latex/xkeyval/xkvltxp.sty
+ texmf-dist/tex/latex/xkeyval/xkvview.sty
+catalogue-also pst-xkey
+catalogue-ctan /macros/latex/contrib/xkeyval
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl1.3
+catalogue-topics keyval
+catalogue-version 2.7a

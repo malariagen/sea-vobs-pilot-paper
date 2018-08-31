@@ -1,0 +1,158 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.8",
+    "python",
+    "scipy >=0.14"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/peakutils-1.1.1-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/DESCRIPTION.rst",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/INSTALLER",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/METADATA",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/RECORD",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/WHEEL",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/metadata.json",
+    "lib/python3.6/site-packages/PeakUtils-1.1.1.dist-info/top_level.txt",
+    "lib/python3.6/site-packages/peakutils/__init__.py",
+    "lib/python3.6/site-packages/peakutils/baseline.py",
+    "lib/python3.6/site-packages/peakutils/peak.py",
+    "lib/python3.6/site-packages/peakutils/plot.py",
+    "lib/python3.6/site-packages/peakutils/prepare.py",
+    "lib/python3.6/site-packages/peakutils/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/peakutils/__pycache__/baseline.cpython-36.pyc",
+    "lib/python3.6/site-packages/peakutils/__pycache__/peak.cpython-36.pyc",
+    "lib/python3.6/site-packages/peakutils/__pycache__/plot.cpython-36.pyc",
+    "lib/python3.6/site-packages/peakutils/__pycache__/prepare.cpython-36.pyc"
+  ],
+  "fn": "peakutils-1.1.1-py_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/peakutils-1.1.1-py_0",
+    "type": 1
+  },
+  "md5": "918cbdfe00fd2b9ebba65c9b958b900c",
+  "name": "peakutils",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/peakutils-1.1.1-py_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/DESCRIPTION.rst",
+        "path_type": "hardlink",
+        "sha256": "3824eeb8de8b716ba58474b7779adf8ddb10b56db69fb1c4345461ea30ba7a0a",
+        "sha256_in_prefix": "3824eeb8de8b716ba58474b7779adf8ddb10b56db69fb1c4345461ea30ba7a0a",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "174dba46b42ddfc60580e8379251701854453cb93013e451260bcedc3e5ed33b",
+        "sha256_in_prefix": "174dba46b42ddfc60580e8379251701854453cb93013e451260bcedc3e5ed33b",
+        "size_in_bytes": 645
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "b476e8f05d4ea8658215f37ea91f824bbbfa05c6232db86f4ae6ca1fba00c230",
+        "sha256_in_prefix": "b476e8f05d4ea8658215f37ea91f824bbbfa05c6232db86f4ae6ca1fba00c230",
+        "size_in_bytes": 1210
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "d263bbf9a28ce8af421de511739343619c8b587e65991fabe13b4f8a71f1cfb6",
+        "sha256_in_prefix": "d263bbf9a28ce8af421de511739343619c8b587e65991fabe13b4f8a71f1cfb6",
+        "size_in_bytes": 93
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/metadata.json",
+        "path_type": "hardlink",
+        "sha256": "e8724032f47a5bc4c3382a535ee20fced45d07cb1f4b1390e8a6f3763020749f",
+        "sha256_in_prefix": "e8724032f47a5bc4c3382a535ee20fced45d07cb1f4b1390e8a6f3763020749f",
+        "size_in_bytes": 847
+      },
+      {
+        "_path": "site-packages/PeakUtils-1.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "f6e52702a2c41f8309547f7b2175a0a2667a05fb2c19f75936d7f61a71f4b0df",
+        "sha256_in_prefix": "f6e52702a2c41f8309547f7b2175a0a2667a05fb2c19f75936d7f61a71f4b0df",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/peakutils/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "341d5cb6f9c2d6fd64298647e4a1a6746c759bb75eefa66bc2aed4b0d9fa217d",
+        "sha256_in_prefix": "341d5cb6f9c2d6fd64298647e4a1a6746c759bb75eefa66bc2aed4b0d9fa217d",
+        "size_in_bytes": 90
+      },
+      {
+        "_path": "site-packages/peakutils/baseline.py",
+        "path_type": "hardlink",
+        "sha256": "3072f62e44dcb7c516a411af4808f5e3f1563ed452f7ccd0445ba8e119802edb",
+        "sha256_in_prefix": "3072f62e44dcb7c516a411af4808f5e3f1563ed452f7ccd0445ba8e119802edb",
+        "size_in_bytes": 2623
+      },
+      {
+        "_path": "site-packages/peakutils/peak.py",
+        "path_type": "hardlink",
+        "sha256": "0d8e8458a53854cfc9e51b9b83b4f343cc94ea754ada65b36cf1c052779ad854",
+        "sha256_in_prefix": "0d8e8458a53854cfc9e51b9b83b4f343cc94ea754ada65b36cf1c052779ad854",
+        "size_in_bytes": 6376
+      },
+      {
+        "_path": "site-packages/peakutils/plot.py",
+        "path_type": "hardlink",
+        "sha256": "5aa94999f16d2f1bc9c95b1e0221605b16bc074e26da33d9e9e0fb67d833bc49",
+        "sha256_in_prefix": "5aa94999f16d2f1bc9c95b1e0221605b16bc074e26da33d9e9e0fb67d833bc49",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "site-packages/peakutils/prepare.py",
+        "path_type": "hardlink",
+        "sha256": "ad3b989e6d972c0b400dd61d8e42befe8a98397d3a56dd267ebb5ab688709bdd",
+        "sha256_in_prefix": "ad3b989e6d972c0b400dd61d8e42befe8a98397d3a56dd267ebb5ab688709bdd",
+        "size_in_bytes": 970
+      },
+      {
+        "_path": "lib/python3.6/site-packages/peakutils/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/peakutils/__pycache__/baseline.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/peakutils/__pycache__/peak.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/peakutils/__pycache__/plot.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/peakutils/__pycache__/prepare.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "peakutils==1.1.1",
+  "size": 9790,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/peakutils-1.1.1-py_0.tar.bz2",
+  "version": "1.1.1"
+}

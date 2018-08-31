@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py36h14c3975_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "asn1crypto >=0.21.0",
+    "cffi >=1.7",
+    "idna >=2.1",
+    "libgcc-ng >=7.2.0",
+    "openssl 1.0.*",
+    "openssl >=1.0.2o,<1.0.3a",
+    "python >=3.6,<3.7.0a0",
+    "six >=1.4.1"
+  ],
+  "features": "",
+  "fn": "cryptography-2.2.2-py36h14c3975_0.tar.bz2",
+  "license": "Apache 2.0 or BSD 3-Clause, PSF 2",
+  "license_family": "BSD",
+  "md5": "1d2edf3f08333b5e8f414c1bc3a9124f",
+  "name": "cryptography",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1522685313430,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/cryptography-2.2.2-py36h14c3975_0.tar.bz2",
+  "version": "2.2.2"
+}

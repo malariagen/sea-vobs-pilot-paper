@@ -1,0 +1,43 @@
+{% set version = "0.3.8" %}
+
+package:
+  name: partd
+  version: {{ version }}
+
+source:
+  fn: partd-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/partd/partd-{{ version }}.tar.gz
+  sha256: 67291f1c4827cde3e0148b3be5d69af64b6d6169feb9ba88f0a6cfe77089400f
+
+build:
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+    - locket
+    - toolz
+
+  run:
+    - python
+    - locket
+    - toolz
+
+test:
+  imports:
+    - partd
+
+about:
+  home: https://github.com/dask/partd
+  license: BSD 3-Clause
+  summary: Data structure for on-disk shuffle operations
+
+extra:
+  recipe-maintainers:
+    - jcrist
+    - mrocklin
+    - koverholt

@@ -1,0 +1,100 @@
+{
+  "arch": "x86_64",
+  "build": "py36_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/entrypoints-0.2.3-py36_2",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/__pycache__/entrypoints.cpython-36.pyc",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/requires.txt",
+    "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/entrypoints.py"
+  ],
+  "fn": "entrypoints-0.2.3-py36_2.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/entrypoints-0.2.3-py36_2",
+    "type": 1
+  },
+  "md5": "972743fa6b1b3fe4ce7844891ed9df5c",
+  "name": "entrypoints",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/entrypoints-0.2.3-py36_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/entrypoints.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "3e76bf9b211010ef30f229dbe2e10a2b28d76ca3e0a2afe2b55b3621d0a16b4d",
+        "sha256_in_prefix": "3e76bf9b211010ef30f229dbe2e10a2b28d76ca3e0a2afe2b55b3621d0a16b4d",
+        "size_in_bytes": 6599
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "8931fba42a351d8924d76841e82ed3676ee5f852829d0c48710e54c7190649a6",
+        "sha256_in_prefix": "8931fba42a351d8924d76841e82ed3676ee5f852829d0c48710e54c7190649a6",
+        "size_in_bytes": 309
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "ada7db4e9dbbf95423bf1e9992613430e7a6ed2767039117244593ae93ba8758",
+        "sha256_in_prefix": "ada7db4e9dbbf95423bf1e9992613430e7a6ed2767039117244593ae93ba8758",
+        "size_in_bytes": 188
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "583c30c2074df3d1e470fab6a0a271385ca5b426d8dba62a2b0d0af0bd538fa2",
+        "sha256_in_prefix": "583c30c2074df3d1e470fab6a0a271385ca5b426d8dba62a2b0d0af0bd538fa2",
+        "size_in_bytes": 129
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "5656bac1111ddda7c0d5c51cec121259b5795e1b9e44013d4339a529ca616d61",
+        "sha256_in_prefix": "5656bac1111ddda7c0d5c51cec121259b5795e1b9e44013d4339a529ca616d61",
+        "size_in_bytes": 46
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints-0.2.3-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d57ff2399ba5512b6f05d0898f1513f08cf342b82164c27c7527ed43cc5c986b",
+        "sha256_in_prefix": "d57ff2399ba5512b6f05d0898f1513f08cf342b82164c27c7527ed43cc5c986b",
+        "size_in_bytes": 12
+      },
+      {
+        "_path": "lib/python3.6/site-packages/entrypoints.py",
+        "path_type": "hardlink",
+        "sha256": "2d473278bb86d11f51819dfe9abd7d5e9400f47f89c5ddabe6ab39f40a59560f",
+        "sha256_in_prefix": "2d473278bb86d11f51819dfe9abd7d5e9400f47f89c5ddabe6ab39f40a59560f",
+        "size_in_bytes": 6997
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 9135,
+  "subdir": "linux-64",
+  "timestamp": 1535409505162,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/entrypoints-0.2.3-py36_2.tar.bz2",
+  "version": "0.2.3"
+}

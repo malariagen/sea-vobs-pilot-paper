@@ -1,0 +1,24 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "pygments",
+    "python",
+    "six >=1.9.0",
+    "wcwidth"
+  ],
+  "features": "",
+  "fn": "prompt_toolkit-1.0.15-py_1.tar.bz2",
+  "license": "BSD 3-clause",
+  "md5": "f5bea0930b268df84653cb32c8d1542f",
+  "name": "prompt_toolkit",
+  "noarch": "python",
+  "size": 157625,
+  "subdir": "noarch",
+  "timestamp": 1535296662569,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prompt_toolkit-1.0.15-py_1.tar.bz2",
+  "version": "1.0.15"
+}

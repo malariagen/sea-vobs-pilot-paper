@@ -1,0 +1,24 @@
+name bbcard
+category Package
+revision 19440
+shortdesc Bullshit bingo, calendar and baseball-score cards
+longdesc Three jiffy packages for creating cards of various sorts with
+longdesc MetaPost.
+containersize 6828
+containerchecksum 1756c7b5cf9ecef059a76f213d25bfec4ca85da965e8e05ba588c33492a65768a7e1574daf5e3774d9f46459cf567a4786bd25b3bb9da7e8c201b492e36af74e
+doccontainersize 2192
+doccontainerchecksum 5b877cfd14162e666d7d593b32f59dbbad62b139561400f62788c95d99f231fdda072b83ab4e001e63354809b033eaf324bfcdf59eeb99423104d58e4506b7ac
+docfiles size=4
+ texmf-dist/doc/metapost/bbcard/README.TEXLIVE
+ texmf-dist/doc/metapost/bbcard/README.bbcard details="Bullshit bingo readme"
+ texmf-dist/doc/metapost/bbcard/README.calendar details="Calendar readme"
+ texmf-dist/doc/metapost/bbcard/README.scorecard details="Scorecard readme"
+runfiles size=6
+ texmf-dist/metapost/bbcard/bbcard.mp
+ texmf-dist/metapost/bbcard/breakwidth.mp
+ texmf-dist/metapost/bbcard/calendar.mp
+ texmf-dist/metapost/bbcard/scorecard.mp
+catalogue-ctan /graphics/metapost/contrib/macros/bbcard
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics games calendar card-gen

@@ -1,0 +1,54 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Jul  3 20:02:57 2018
+# ------------------------------------------------
+
+package:
+    name: googleapis-common-protos
+    version: 1.5.3
+source:
+    fn: googleapis-common-protos-1.5.3.tar.gz
+    sha256: c075eddaa2628ab519e01b7d75b76e66c40eaa50fc52758d8225f84708950ef2
+    url: https://pypi.io/packages/source/g/googleapis-common-protos/googleapis-common-protos-1.5.3.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_1
+requirements:
+    build:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py27_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - pip 9.0.3 py27_0
+        - python 2.7.15 0
+        - readline 7.0 0
+        - setuptools 39.2.0 py27_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - wheel 0.31.0 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - protobuf >=3.0.0
+        - python
+test:
+    imports:
+        - google.api
+about:
+    description: This library contains the python classes generated from the common
+        protos in the googleapis repository.
+    dev_url: https://github.com/googleapis/googleapis
+    doc_url: https://github.com/googleapis/googleapis/blob/master/README.md
+    home: https://github.com/googleapis/googleapis
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: Common protobufs used in Google APIs
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - parthea
+        - tswast

@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36h0f667ec_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "chardet-3.0.4-py36h0f667ec_1.tar.bz2",
+  "license": "LGPL2",
+  "license_family": "GPL",
+  "md5": "d46061b631f1c77986cc321e0cab3bb4",
+  "name": "chardet",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505691602341,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/chardet-3.0.4-py36h0f667ec_1.tar.bz2",
+  "version": "3.0.4"
+}

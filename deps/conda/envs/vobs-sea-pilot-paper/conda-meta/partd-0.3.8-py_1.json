@@ -1,0 +1,275 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "locket",
+    "python",
+    "toolz"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/partd-0.3.8-py_1",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/requires.txt",
+    "lib/python3.6/site-packages/partd-0.3.8-py2.7.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/partd/__init__.py",
+    "lib/python3.6/site-packages/partd/buffer.py",
+    "lib/python3.6/site-packages/partd/compatibility.py",
+    "lib/python3.6/site-packages/partd/compressed.py",
+    "lib/python3.6/site-packages/partd/core.py",
+    "lib/python3.6/site-packages/partd/dict.py",
+    "lib/python3.6/site-packages/partd/encode.py",
+    "lib/python3.6/site-packages/partd/file.py",
+    "lib/python3.6/site-packages/partd/numpy.py",
+    "lib/python3.6/site-packages/partd/pandas.py",
+    "lib/python3.6/site-packages/partd/pickle.py",
+    "lib/python3.6/site-packages/partd/python.py",
+    "lib/python3.6/site-packages/partd/utils.py",
+    "lib/python3.6/site-packages/partd/zmq.py",
+    "lib/python3.6/site-packages/partd/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/buffer.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/compatibility.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/compressed.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/core.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/dict.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/encode.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/file.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/numpy.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/pandas.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/pickle.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/python.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/utils.cpython-36.pyc",
+    "lib/python3.6/site-packages/partd/__pycache__/zmq.cpython-36.pyc"
+  ],
+  "fn": "partd-0.3.8-py_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/partd-0.3.8-py_1",
+    "type": 1
+  },
+  "md5": "dba6f5b5a510dc0adb2aa71a66d30a0f",
+  "name": "partd",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/partd-0.3.8-py_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "5a77929aeeb78007a4e2499977bcc92dcd413735b7dcee4bdf223c9569c7bdea",
+        "sha256_in_prefix": "5a77929aeeb78007a4e2499977bcc92dcd413735b7dcee4bdf223c9569c7bdea",
+        "size_in_bytes": 5078
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "90c96f978ecd58658e21ad31e7a06d7bc8764a79a1c40379e331b120b72fbadd",
+        "sha256_in_prefix": "90c96f978ecd58658e21ad31e7a06d7bc8764a79a1c40379e331b120b72fbadd",
+        "size_in_bytes": 786
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "5385ba4ac468038af31e3251dfa217998c71f31d21d4d250a393f6479c3cf2e7",
+        "sha256_in_prefix": "5385ba4ac468038af31e3251dfa217998c71f31d21d4d250a393f6479c3cf2e7",
+        "size_in_bytes": 632
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/requires.txt",
+        "path_type": "hardlink",
+        "sha256": "46c62bd0eb798407cc00b2eea2d2cd3b33335e6d00517974d39fc345a8f21e2f",
+        "sha256_in_prefix": "46c62bd0eb798407cc00b2eea2d2cd3b33335e6d00517974d39fc345a8f21e2f",
+        "size_in_bytes": 57
+      },
+      {
+        "_path": "site-packages/partd-0.3.8-py2.7.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "59dc05418698e0b523c6a72db52edbb7332c3f24605fbd45812f64ff2cc74c47",
+        "sha256_in_prefix": "59dc05418698e0b523c6a72db52edbb7332c3f24605fbd45812f64ff2cc74c47",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/partd/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "4f6c41d54eddecae02c7474bf625f139596f888ee24cff02bda456f84e434a96",
+        "sha256_in_prefix": "4f6c41d54eddecae02c7474bf625f139596f888ee24cff02bda456f84e434a96",
+        "size_in_bytes": 473
+      },
+      {
+        "_path": "site-packages/partd/buffer.py",
+        "path_type": "hardlink",
+        "sha256": "341c9d066eea722502ad10661fcc34ac1d10f13631e4e1aab506bc6ccfd9540c",
+        "sha256_in_prefix": "341c9d066eea722502ad10661fcc34ac1d10f13631e4e1aab506bc6ccfd9540c",
+        "size_in_bytes": 3637
+      },
+      {
+        "_path": "site-packages/partd/compatibility.py",
+        "path_type": "hardlink",
+        "sha256": "93c44280a786f537865d962596112bd88a2fd0c72e47d86240ac3b58151340bf",
+        "sha256_in_prefix": "93c44280a786f537865d962596112bd88a2fd0c72e47d86240ac3b58151340bf",
+        "size_in_bytes": 329
+      },
+      {
+        "_path": "site-packages/partd/compressed.py",
+        "path_type": "hardlink",
+        "sha256": "1615897f8b6ae15ae03861056f1d7e373cffe55cf72cda47edbeb7ca6b3a8ea7",
+        "sha256_in_prefix": "1615897f8b6ae15ae03861056f1d7e373cffe55cf72cda47edbeb7ca6b3a8ea7",
+        "size_in_bytes": 973
+      },
+      {
+        "_path": "site-packages/partd/core.py",
+        "path_type": "hardlink",
+        "sha256": "1c21656c0eb722c0004846e20cab89b6725d94d680bddfe7adb0fb858cd87fbd",
+        "sha256_in_prefix": "1c21656c0eb722c0004846e20cab89b6725d94d680bddfe7adb0fb858cd87fbd",
+        "size_in_bytes": 2307
+      },
+      {
+        "_path": "site-packages/partd/dict.py",
+        "path_type": "hardlink",
+        "sha256": "cffb1a7b5393cd6ff76de61214ca1e5a2c958a71cbed7a04317788598791f877",
+        "sha256_in_prefix": "cffb1a7b5393cd6ff76de61214ca1e5a2c958a71cbed7a04317788598791f877",
+        "size_in_bytes": 1701
+      },
+      {
+        "_path": "site-packages/partd/encode.py",
+        "path_type": "hardlink",
+        "sha256": "d6d7780d4b8b48bd22f55b3ccd015a22d67fa9d867932e73a7f02855d95bf858",
+        "sha256_in_prefix": "d6d7780d4b8b48bd22f55b3ccd015a22d67fa9d867932e73a7f02855d95bf858",
+        "size_in_bytes": 1287
+      },
+      {
+        "_path": "site-packages/partd/file.py",
+        "path_type": "hardlink",
+        "sha256": "357b021695ebf1709f608f5fdc002427933358276be5ff15569965c034206b5b",
+        "sha256_in_prefix": "357b021695ebf1709f608f5fdc002427933358276be5ff15569965c034206b5b",
+        "size_in_bytes": 3990
+      },
+      {
+        "_path": "site-packages/partd/numpy.py",
+        "path_type": "hardlink",
+        "sha256": "28f42142cb2ddd4e5d6da5f582eaf4c68e00de6a1b14b2880a2f5f7e925e9af3",
+        "sha256_in_prefix": "28f42142cb2ddd4e5d6da5f582eaf4c68e00de6a1b14b2880a2f5f7e925e9af3",
+        "size_in_bytes": 4049
+      },
+      {
+        "_path": "site-packages/partd/pandas.py",
+        "path_type": "hardlink",
+        "sha256": "c7922414302cbcd3b033cde01a469310f090aaf9095834a8cdd820cad942b95b",
+        "sha256_in_prefix": "c7922414302cbcd3b033cde01a469310f090aaf9095834a8cdd820cad942b95b",
+        "size_in_bytes": 6205
+      },
+      {
+        "_path": "site-packages/partd/pickle.py",
+        "path_type": "hardlink",
+        "sha256": "8099d9327e0113cbcb4385374644bffc0e38a8729a12a56ad4fb2e504ae2a118",
+        "sha256_in_prefix": "8099d9327e0113cbcb4385374644bffc0e38a8729a12a56ad4fb2e504ae2a118",
+        "size_in_bytes": 420
+      },
+      {
+        "_path": "site-packages/partd/python.py",
+        "path_type": "hardlink",
+        "sha256": "d91a6efb7817a926b0f97e5f80b85d566cae7af652281f25a1ff20664be8bb5b",
+        "sha256_in_prefix": "d91a6efb7817a926b0f97e5f80b85d566cae7af652281f25a1ff20664be8bb5b",
+        "size_in_bytes": 813
+      },
+      {
+        "_path": "site-packages/partd/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3c5c5a9db2ff2bf6b1bdbb8c95a83e4bdbf8ba95a840cb1e30a29656dbae6ea6",
+        "sha256_in_prefix": "3c5c5a9db2ff2bf6b1bdbb8c95a83e4bdbf8ba95a840cb1e30a29656dbae6ea6",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "site-packages/partd/zmq.py",
+        "path_type": "hardlink",
+        "sha256": "cbb18ab60e37de2320a3bbef9940aa166ed91c6e153849e400474e8a32ad0ebb",
+        "sha256_in_prefix": "cbb18ab60e37de2320a3bbef9940aa166ed91c6e153849e400474e8a32ad0ebb",
+        "size_in_bytes": 9713
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/buffer.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/compatibility.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/compressed.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/core.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/dict.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/encode.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/file.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/numpy.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/pandas.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/pickle.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/python.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/utils.cpython-36.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/partd/__pycache__/zmq.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 14398,
+  "subdir": "noarch",
+  "timestamp": 1531070302573,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/partd-0.3.8-py_1.tar.bz2",
+  "version": "0.3.8"
+}

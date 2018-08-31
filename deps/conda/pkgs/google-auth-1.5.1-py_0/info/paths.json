@@ -1,0 +1,233 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/google/auth/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "69fe23300fa0dbb9280a04532979baf5964cc3315022740bc2a87aaa7c67b3df",
+      "size_in_bytes": 836
+    },
+    {
+      "_path": "site-packages/google/auth/_cloud_sdk.py",
+      "path_type": "hardlink",
+      "sha256": "869bc09b79d60657d98ddfd4b584c0dcaed8d1c55c08583d7ca31f7ba0d81615",
+      "size_in_bytes": 3963
+    },
+    {
+      "_path": "site-packages/google/auth/_default.py",
+      "path_type": "hardlink",
+      "sha256": "02f8969eb254334d5a04493f83807cc9928a74f6725b9d6057baeb6cd466998f",
+      "size_in_bytes": 11668
+    },
+    {
+      "_path": "site-packages/google/auth/_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "84c6e24473d3697d35e40ff8729936dbf821ba347897d0260e450f7004323bab",
+      "size_in_bytes": 6227
+    },
+    {
+      "_path": "site-packages/google/auth/_oauth2client.py",
+      "path_type": "hardlink",
+      "sha256": "f26b94309b95e1c8ec12e1e926908d4809b47b583e31474f485af3f20f77364e",
+      "size_in_bytes": 5823
+    },
+    {
+      "_path": "site-packages/google/auth/_service_account_info.py",
+      "path_type": "hardlink",
+      "sha256": "8e464a269ade5080d4d4257e2306527f284725dae0d4b0b852d19ea79a9be1d9",
+      "size_in_bytes": 2350
+    },
+    {
+      "_path": "site-packages/google/auth/app_engine.py",
+      "path_type": "hardlink",
+      "sha256": "5d2208a9637f377b0c98e371bc6e52d310a863afc1a8371fa41df4c45dcb654a",
+      "size_in_bytes": 4955
+    },
+    {
+      "_path": "site-packages/google/auth/compute_engine/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "513c2bb7f1b6404e496914f59d39c1dadac6027d86b97ad53b2ab5e983e9dbe2",
+      "size_in_bytes": 816
+    },
+    {
+      "_path": "site-packages/google/auth/compute_engine/_metadata.py",
+      "path_type": "hardlink",
+      "sha256": "0f49a55393b86e90581bf9ae71fbfe2bfdc4d236bfaad13018dd9e4da6a4b064",
+      "size_in_bytes": 7207
+    },
+    {
+      "_path": "site-packages/google/auth/compute_engine/credentials.py",
+      "path_type": "hardlink",
+      "sha256": "69950f44cabd9a44cff814226f8edebfab85e8f19a6f626e3faf96fdd76322d4",
+      "size_in_bytes": 8709
+    },
+    {
+      "_path": "site-packages/google/auth/credentials.py",
+      "path_type": "hardlink",
+      "sha256": "b722438ce341bb7a9e6c614b15583789b1bc3d4c3f7b8d42cc25ad1fc94ebdb1",
+      "size_in_bytes": 11593
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9bb2eabdfd31c9cc0b0b6f54960d2a8536577d565a48305dc56bc124a2ec65eb",
+      "size_in_bytes": 2445
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/_cryptography_rsa.py",
+      "path_type": "hardlink",
+      "sha256": "d9d663635ce4a82dffc627afaf73e0a2dd5e264edc1023c66faa59db6ba39ed6",
+      "size_in_bytes": 5000
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/_python_rsa.py",
+      "path_type": "hardlink",
+      "sha256": "d25042242123896031133b35eca78c44291340b79284cf9cea11746ffffaadb3",
+      "size_in_bytes": 5998
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/base.py",
+      "path_type": "hardlink",
+      "sha256": "e190f11a51b7f65ac9d07c8fae68162193fc1650b8ed55ee567d1e2a1f9cba26",
+      "size_in_bytes": 4210
+    },
+    {
+      "_path": "site-packages/google/auth/crypt/rsa.py",
+      "path_type": "hardlink",
+      "sha256": "e158bd6972c13e4b3ffef29a4590927989f391e62e193d5295462bcc222096c3",
+      "size_in_bytes": 1078
+    },
+    {
+      "_path": "site-packages/google/auth/environment_vars.py",
+      "path_type": "hardlink",
+      "sha256": "852a50e483f3086b8df353153fc674d8a025bc3bd700bbdd5ddd5cee74488770",
+      "size_in_bytes": 1828
+    },
+    {
+      "_path": "site-packages/google/auth/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "9a5c23f991903fc893efab5385e947394c8b3e2c365aa74e311a320920089f1e",
+      "size_in_bytes": 1069
+    },
+    {
+      "_path": "site-packages/google/auth/iam.py",
+      "path_type": "hardlink",
+      "sha256": "7a9c4d5c4e27c03cc85664e504ec93b97ee688f23ac7bf15212236c5a7490030",
+      "size_in_bytes": 3625
+    },
+    {
+      "_path": "site-packages/google/auth/jwt.py",
+      "path_type": "hardlink",
+      "sha256": "24730c9091e79040999a55e2525e669fec15a4a1fa7f1eebd97655ac8ad48272",
+      "size_in_bytes": 26709
+    },
+    {
+      "_path": "site-packages/google/auth/transport/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "64971b1755609b70c915d59f90c81a1229c6865f1016f1fbb767a32e4dde4ca7",
+      "size_in_bytes": 3442
+    },
+    {
+      "_path": "site-packages/google/auth/transport/_http_client.py",
+      "path_type": "hardlink",
+      "sha256": "e414d75d1e19e2038e8dec6c87a2805519e728f8195b8d3aee2ef83f2eb18b95",
+      "size_in_bytes": 3750
+    },
+    {
+      "_path": "site-packages/google/auth/transport/grpc.py",
+      "path_type": "hardlink",
+      "sha256": "f9ebff148965e03a8e5e81f0248122a09015864fc07e1a1672b4fc0abbeda8ee",
+      "size_in_bytes": 5020
+    },
+    {
+      "_path": "site-packages/google/auth/transport/requests.py",
+      "path_type": "hardlink",
+      "sha256": "a49f11894050a4415caa74edfefb2c98f4a25f5f85d451d7180ffb9d813e5204",
+      "size_in_bytes": 8618
+    },
+    {
+      "_path": "site-packages/google/auth/transport/urllib3.py",
+      "path_type": "hardlink",
+      "sha256": "070e9c048847c82259785ef903f07653a4bcb8997e3fe3f39af69c654dfd3d43",
+      "size_in_bytes": 9335
+    },
+    {
+      "_path": "site-packages/google/oauth2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "671d0af25c543049a9d9cc36acf2bfea937bfd534af97dc48d6af2658ace571c",
+      "size_in_bytes": 620
+    },
+    {
+      "_path": "site-packages/google/oauth2/_client.py",
+      "path_type": "hardlink",
+      "sha256": "c14335359e6d3279b1e09a8b3b71125e9ffc930a8e952dc6e24cd6710ff2ec2a",
+      "size_in_bytes": 7966
+    },
+    {
+      "_path": "site-packages/google/oauth2/credentials.py",
+      "path_type": "hardlink",
+      "sha256": "28046bde4cb823706143ec253d63cb12e63eb3d567adf1e6d1038c604a74243f",
+      "size_in_bytes": 7488
+    },
+    {
+      "_path": "site-packages/google/oauth2/id_token.py",
+      "path_type": "hardlink",
+      "sha256": "ba4cedc4125e8cb3cd4ce6d98d0d24dfd5aa64c6e0b740217bd0bf7f50da651f",
+      "size_in_bytes": 5590
+    },
+    {
+      "_path": "site-packages/google/oauth2/service_account.py",
+      "path_type": "hardlink",
+      "sha256": "0a371efecf911147a2bfce498727cdacf0156843ae02bda4061e9b8ae201e11b",
+      "size_in_bytes": 20517
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1-py2.7-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+      "size_in_bytes": 539
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "111eabb0085009407bfb9c4ff7ef4fcf5e2c4a928148efc832449e98cb4e8c05",
+      "size_in_bytes": 3019
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "09642643a27446d8375464b7484a0ee39866fb65e18d45013941348d77701760",
+      "size_in_bytes": 4344
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "81dbae3f206f149412434cddcb117b934cf29c35db21bbe0e59047a17ba6e6e9",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/google_auth-1.5.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    }
+  ],
+  "paths_version": 1
+}

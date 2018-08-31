@@ -1,0 +1,51 @@
+{% set version = "1.12.5" %}
+
+package:
+  name: gstreamer
+  version: {{ version }}
+
+source:
+  url: https://gstreamer.freedesktop.org/src/gstreamer/gstreamer-{{ version }}.tar.xz
+  sha256: 9f750d845a326880b24c1ccc913d07df8f38cd9e63009714795ae175b6c29c6a
+
+build:
+  skip: true  # [not linux]
+  number: 0
+  run_exports:
+    # remove symbols at .90 patch releases just before minor versions?
+    #    https://abi-laboratory.pro/tracker/timeline/gstreamer/
+    - {{ pin_subpackage('gstreamer', max_pin='x.x') }}
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - bison
+    - flex
+    - m4
+    - perl
+  host:
+    - glib
+    - xz
+  run:
+    - glib
+
+test:
+  commands:
+    - gst-inspect-1.0 --version
+    - gst-launch-1.0  --version
+    - gst-stats-1.0 --version
+    - gst-typefind-1.0 --version
+
+about:
+  home: http://gstreamer.freedesktop.org/
+  license: LGPL 2
+  summary: "Library for constructing graphs of media-handling components"
+  description:
+  doc_url: https://gstreamer.freedesktop.org/documentation/
+  dev_url: https://cgit.freedesktop.org/gstreamer/gstreamer/tree/
+  doc_source_url: https://cgit.freedesktop.org/gstreamer/gstreamer/tree/docs
+
+extra:
+  recipe-maintainers:
+    - ccordoba12
+    - mingwandroid

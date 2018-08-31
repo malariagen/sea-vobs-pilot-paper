@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/free/linux-64",
+  "constrains": [],
+  "date": "2016-12-23",
+  "depends": [
+    "python 3.6*"
+  ],
+  "features": "",
+  "fn": "datrie-0.7.1-py36_0.tar.bz2",
+  "license": "LGPLv2",
+  "license_family": "LGPL",
+  "md5": "80bfd1beff2e2f92d98ec2516a4796dd",
+  "name": "datrie",
+  "platform": "linux",
+  "size": 483405,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/free/linux-64/datrie-0.7.1-py36_0.tar.bz2",
+  "version": "0.7.1"
+}

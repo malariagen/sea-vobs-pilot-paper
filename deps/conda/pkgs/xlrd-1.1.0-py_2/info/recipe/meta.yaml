@@ -1,0 +1,51 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Fri Dec  8 14:40:11 2017
+# ------------------------------------------------
+
+package:
+    name: xlrd
+    version: 1.1.0
+source:
+    fn: xlrd-1.1.0.tar.gz
+    patches:
+        - patch
+    sha256: 8a21885513e6d915fe33a8ee5fdfa675433b61405ba13e2a69e62ee36828d7e2
+    url: https://pypi.io/packages/source/x/xlrd/xlrd-1.1.0.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '2'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py_2
+requirements:
+    build:
+        - xz 5.2.3 0
+        - ca-certificates 2017.11.5 0
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - certifi 2017.11.5 py36_0
+        - tk 8.6.7 0
+        - sqlite 3.20.1 0
+        - setuptools 38.2.4 py36_0
+        - python 3.6.3 2
+        - ncurses 5.9 10
+        - openssl 1.0.2m 0
+    run:
+        - python
+test:
+    files:
+        - test.xlsx
+about:
+    dev_url: https://github.com/python-excel/xlrd/blob/master/docs/index.rst
+    doc_url: http://xlrd.readthedocs.io/en/latest/
+    home: http://www.python-excel.org/
+    license: BSD 3-Clause and BSD with advertising
+    license_family: BSD
+    license_file: LICENSE
+    summary: Library for developers to extract data from Microsoft Excel (tm) spreadsheet
+        files
+extra:
+    final: true
+    recipe-maintainers:
+        - cokelaer

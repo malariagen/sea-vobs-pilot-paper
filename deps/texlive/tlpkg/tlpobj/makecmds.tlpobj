@@ -1,0 +1,26 @@
+name makecmds
+category Package
+revision 15878
+shortdesc The new \makecommand command always (re)defines a command
+longdesc The package provides a \makecommand command, which is like
+longdesc \(re)newcommand except it always (re)defines a command. There
+longdesc is also \makeenvironment and \provideenvironment for
+longdesc environments.
+containersize 1340
+containerchecksum ebb1caeec15639475ae47bd4f10ba2f084dd4695233ef7a8eb8e7a13bc8cda38e267fdae1ac61c7ebc7b21e1ba18e67fad3a22cdc82955494fc686e8401b90c0
+doccontainersize 115604
+doccontainerchecksum 20a906f8a4e0b7756105ac356250eb258fe5658b6bda420385574e3afc6afb740bafe403d613ee6f94e6e5647c1d9004692a5e21b6955382cf94f5a10e23ec4f
+docfiles size=34
+ texmf-dist/doc/latex/makecmds/README details="Readme"
+ texmf-dist/doc/latex/makecmds/makecmds.pdf
+srccontainersize 5292
+srccontainerchecksum a1da6ecdad892e8977519e45111c901f900d85a76e6441662909d75746566db1cb9e6b3df828cc2383dc5df0f9444395f36528aecfd0f93d9c515ce1c3db5516
+srcfiles size=5
+ texmf-dist/source/latex/makecmds/makecmds.dtx
+ texmf-dist/source/latex/makecmds/makecmds.ins
+runfiles size=1
+ texmf-dist/tex/latex/makecmds/makecmds.sty
+catalogue-ctan /macros/latex/contrib/makecmds
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics macro-supp

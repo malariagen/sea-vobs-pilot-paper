@@ -1,0 +1,21 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "simplegeneric-0.8.1-py_1.tar.bz2",
+  "license": "Zope Public",
+  "md5": "a561caf8601e8d85547c77a54ee99333",
+  "name": "simplegeneric",
+  "noarch": "python",
+  "size": 6864,
+  "subdir": "noarch",
+  "timestamp": 1530899629183,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/simplegeneric-0.8.1-py_1.tar.bz2",
+  "version": "0.8.1"
+}

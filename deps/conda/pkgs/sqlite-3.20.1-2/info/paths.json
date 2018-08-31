@@ -1,0 +1,75 @@
+{
+  "paths": [
+    {
+      "_path": "bin/sqlite3",
+      "path_type": "hardlink",
+      "sha256": "02d26146391b6bcf2e03ae0ee9cf3ae14039808fd537e4e7c490aed3da5f3e37",
+      "size_in_bytes": 1251240
+    },
+    {
+      "_path": "include/msvc.h",
+      "path_type": "hardlink",
+      "sha256": "392617748e8b1b7e926ce279cab7867685ea38eccec71be1468545469fefd170",
+      "size_in_bytes": 1043
+    },
+    {
+      "_path": "include/sqlite3.h",
+      "path_type": "hardlink",
+      "sha256": "2d2cecf709cb7718a1ffa10f1b8450ea1384c8c3263cb1fb3024f456c18c5cba",
+      "size_in_bytes": 498184
+    },
+    {
+      "_path": "include/sqlite3ext.h",
+      "path_type": "hardlink",
+      "sha256": "ed0fa2db2fd8e0b28d919007248cc701ce7b2b6510a885cab8cb39ae87492a7e",
+      "size_in_bytes": 30199
+    },
+    {
+      "_path": "lib/libsqlite3.a",
+      "path_type": "hardlink",
+      "sha256": "ddbde8ccd372d4b750e853ec6c29fadcc5daf12dde1447a873d4a2a49d8c5eb7",
+      "size_in_bytes": 1329174
+    },
+    {
+      "_path": "lib/libsqlite3.la",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "fff2b0fb008335984622f423c70cfbecb3fb65efe1047411215ad07ddd602d7a",
+      "size_in_bytes": 1031
+    },
+    {
+      "_path": "lib/libsqlite3.so",
+      "path_type": "softlink",
+      "sha256": "d2c1e7248ae88a1e2ddfe67a24525cff99cd860fd777e8c26ff5e50eb4c75469",
+      "size_in_bytes": 1165114
+    },
+    {
+      "_path": "lib/libsqlite3.so.0",
+      "path_type": "softlink",
+      "sha256": "d2c1e7248ae88a1e2ddfe67a24525cff99cd860fd777e8c26ff5e50eb4c75469",
+      "size_in_bytes": 1165114
+    },
+    {
+      "_path": "lib/libsqlite3.so.0.8.6",
+      "path_type": "hardlink",
+      "sha256": "d2c1e7248ae88a1e2ddfe67a24525cff99cd860fd777e8c26ff5e50eb4c75469",
+      "size_in_bytes": 1165114
+    },
+    {
+      "_path": "lib/pkgconfig/sqlite3.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "8986f3253e608b9373d7a0ae8c209d0939fa0e141808b9a2d1f0d1a91d3e3b52",
+      "size_in_bytes": 300
+    },
+    {
+      "_path": "share/man/man1/sqlite3.1",
+      "path_type": "hardlink",
+      "sha256": "fb3333f3a5deabad321ca7c332e059cbf3b8bb1a39f24d95700876c2ddd26c86",
+      "size_in_bytes": 8928
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,179 @@
+{
+  "paths": [
+    {
+      "_path": "bin/vcf_filter.py",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "f09dcac7a80779255b0c38d6f2318448e64a47b983c2d81da131a6499d68eef6",
+      "size_in_bytes": 6677
+    },
+    {
+      "_path": "bin/vcf_melt",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "42fa4113d1e74a681ee0d6c3815101ee1dfec7c3c86318dfe7f7220926bba002",
+      "size_in_bytes": 1359
+    },
+    {
+      "_path": "bin/vcf_sample_filter.py",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "97df5879a8366a4a25acf97624a04123a1bbf0c4b7200a3db2b31d59d24ba17e",
+      "size_in_bytes": 1286
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "3b8f625e56b1dd8db0da8f2d1b1703e61ccde3b40a699316056675b236b807f7",
+      "size_in_bytes": 1098
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "9ae29fa57e6a0fdc9d5090d42a27a2991a3a8e9a98164ef39c1f860ba383f854",
+      "size_in_bytes": 1910
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "a83426db6639a23b1ecdfb5d907b053ee86f0b19d04b10f78d23dc9e904b515e",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "9884cb6bcf9806edea3cabe5641e63df263cdba8348aa40af9e2cb3c4c305a1d",
+      "size_in_bytes": 232
+    },
+    {
+      "_path": "lib/python3.6/site-packages/PyVCF-0.6.8.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "1f48669e487480c41360ea205fdd2d3f81dc6a44ff5a26a8381fdc2df2a66f1b",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "dea8d6a8dd8c3e7ecb2b0da9ca905cfe77814ce41e45833b3864617217ce5fc3",
+      "size_in_bytes": 384
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c43af82accd47406ace78c8303ed6987be851a994d0c4fffaf3a6b1817eab8e3",
+      "size_in_bytes": 555
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/filters.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "449b5b7bda023cb428ebed0a71f95c0ba94813d2706c0daa5433723f64ac8f6b",
+      "size_in_bytes": 8925
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/model.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "106fa1b0374810e6740f755fc2c8118188b13a8528599cdda115c685106a8584",
+      "size_in_bytes": 24216
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/parser.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0e2c3fb5ebee07981b776c3d6e1975270e3f8c48eede58200c25e48d0b659014",
+      "size_in_bytes": 21160
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/sample_filter.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "3a3637245c1f7486ab5a9b69dcd646e0bd06294866caa4c96b3755721c1673e1",
+      "size_in_bytes": 4153
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/__pycache__/utils.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "bb71400d4cda276af4bf010855869f5f4de5acc0346582ff8ec94ffb3b45308c",
+      "size_in_bytes": 3914
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/cparse.pyx",
+      "path_type": "hardlink",
+      "sha256": "38066592154e64d30321798956095790c5704f7c3d799536cf0c1baccf610c3f",
+      "size_in_bytes": 2398
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/filters.py",
+      "path_type": "hardlink",
+      "sha256": "5717bd4570d200027bb30d6855f9cec508c3b3ad8becd465d3775701a08b2f63",
+      "size_in_bytes": 6240
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/model.py",
+      "path_type": "hardlink",
+      "sha256": "ef5f0474e02df0eb7e57749b1dc5c261b8112b1fa395cc1cd752057b5bc2dea5",
+      "size_in_bytes": 23697
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/parser.py",
+      "path_type": "hardlink",
+      "sha256": "9e33dd8467498d103221a2771791cd54933086b192f8bdfa7ee7fea7d08c8ea7",
+      "size_in_bytes": 27487
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/sample_filter.py",
+      "path_type": "hardlink",
+      "sha256": "957e6dc98152d7fdf5ac0674ab1b062c5b1edf90e6e350e49a58926525415d69",
+      "size_in_bytes": 4023
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ad3e2b9a7fe22e3f9a36ad512a1d879745f272bc3a8724541d8f4b2916527e66",
+      "size_in_bytes": 131
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/prof.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "003d37042e49fc09143cfca628b473eada2157b506e4aa0bf697b8876c267132",
+      "size_in_bytes": 848
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/__pycache__/test_vcf.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e264fa73d82749c5caea56ee0db32bae9c0077ae61f5c54b759e246572f99bcb",
+      "size_in_bytes": 48025
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/prof.py",
+      "path_type": "hardlink",
+      "sha256": "ba003cde186a98d77703762cbc36e9e1ce0352777a3a340ca6cdef5ea789d603",
+      "size_in_bytes": 712
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/test/test_vcf.py",
+      "path_type": "hardlink",
+      "sha256": "79317d593d5031ee8d7d7bdecf2e66a36f5da4e03d497a4fe1d262db2b8182ed",
+      "size_in_bytes": 55069
+    },
+    {
+      "_path": "lib/python3.6/site-packages/vcf/utils.py",
+      "path_type": "hardlink",
+      "sha256": "1ab0cd9cff2037e5566b60bd4f0ef2c9d291569455c5ac1225d80b14df8a574b",
+      "size_in_bytes": 3278
+    }
+  ],
+  "paths_version": 1
+}

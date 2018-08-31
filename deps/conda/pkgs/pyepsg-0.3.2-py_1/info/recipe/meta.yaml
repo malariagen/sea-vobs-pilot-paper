@@ -1,0 +1,50 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Jul  9 11:33:35 2018
+# ------------------------------------------------
+
+package:
+    name: pyepsg
+    version: 0.3.2
+source:
+    fn: pyepsg-0.3.2.tar.gz
+    sha256: 2af92df0f398db458485b76d58ba8303202c93ed30ccd27c4c6463e90b4a79d2
+    url: https://github.com/rhattersley/pyepsg/archive/v0.3.2.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_1
+requirements:
+    host:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py27_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - pip 9.0.3 py27_0
+        - python 2.7.15 0
+        - readline 7.0 0
+        - setuptools 39.2.0 py27_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - wheel 0.31.1 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python
+        - requests
+test:
+    imports:
+        - pyepsg
+about:
+    home: https://pypi.python.org/pypi/pyepsg
+    license: LGPL-3.0
+    license_file: COPYING.LESSER
+    summary: Easy access to the EPSG database via http://epsg.io/
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - rhattersley

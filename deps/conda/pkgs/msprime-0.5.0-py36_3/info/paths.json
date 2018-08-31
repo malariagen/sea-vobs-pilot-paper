@@ -1,0 +1,203 @@
+{
+  "paths": [
+    {
+      "_path": "bin/msp",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "2dbd8af952d82501c95761132885d23859906e0b11b9ad552b0b6e4a7175cd49",
+      "size_in_bytes": 149
+    },
+    {
+      "_path": "bin/mspms",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "3753db44fe0e9efd39c0a5609a0173abe31cceb156827a8f3bcc3c085f576d90",
+      "size_in_bytes": 151
+    },
+    {
+      "_path": "lib/python3.6/site-packages/_msprime.cpython-36m-x86_64-linux-gnu.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/feedstock_root/build_artefacts/msprime_1527676579771/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+      "sha256": "83ae323312f314ade04b4377ab9b16b37a15dbaf0aea955306f79743ccc2ad4b",
+      "size_in_bytes": 1325920
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "1cf2e830104e1f14ffd4ef226b74e4b060f3b173514fedfcb7021720c9840054",
+      "size_in_bytes": 2383
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "7f369e2abf2d36b3d0e8fc5dfb7dd0110328012d4e2fbd5f2ec7c8219036734a",
+      "size_in_bytes": 2967
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "e2d222d2fccfa066f96dc5a22d684191f8d18ffb4e34bfbd16d49d4184687f02",
+      "size_in_bytes": 77
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/pbr.json",
+      "path_type": "hardlink",
+      "sha256": "48fc76e7a707eb558fcab88b832e92a36e9f4fb4785c0b72c32e2c064307d62c",
+      "size_in_bytes": 47
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "44256131e737978a81b5193de67e297ccaec7f774e165d2f9d9f52fd3335bdf8",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime-0.5.0-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "1ae1a4adf4c119a5107cdd34af49e40fbe1d9229a915e334aeeb855a558bf447",
+      "size_in_bytes": 17
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e9121ceebd232108ebc318178731c8317edf655172329f1774095aca6eebe47e",
+      "size_in_bytes": 1222
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "234876577cf769406fcdfd7619cb5e1ee1d721f5efd37dfbe3a3d7505c8a0723",
+      "size_in_bytes": 607
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/_version.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9f6b6093f0090dbc8c1d0721c20ab8bf36a51165cfdc777f89e86b9d8bd972d2",
+      "size_in_bytes": 147
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/cli.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "26ee29773e41d3cd725cb3cf1f52fa3f11b436bff09bc837e13d1fe0dc7668a1",
+      "size_in_bytes": 28954
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/drawing.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "e8c672427fe014988b208a2935c839288536c440264d950de3fd88644c3063e2",
+      "size_in_bytes": 10986
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/exceptions.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2d5b5daf2f5006902cf161ef2cd1b59fbc6a62b0f09ad96d06af22c0db8a7b5a",
+      "size_in_bytes": 416
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/formats.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "4f0d30e8c70b9e23325c024e580b715f52f103975847253ec5f3a2d922d0f421",
+      "size_in_bytes": 10177
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/provenance.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "c548a02a02be4b118f83588ad810f300631586247d0b1ed62361630e8ea82c6d",
+      "size_in_bytes": 1402
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/simulations.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "540022ebb84dd02a60dd5ac296913f20b5de1f93d837248e1c81924b66720353",
+      "size_in_bytes": 42310
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/stats.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "7c6851aedcf4879c882503999cee2a072605a9a571e3c383938e8dbfc04b1f37",
+      "size_in_bytes": 46462
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/tables.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "8910a8d10fff5499c98f2d2437c97e5b40546c75588850a8f8e3bfa4a249181c",
+      "size_in_bytes": 52767
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/__pycache__/trees.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "feb4512ca18b2ab8a60b79b0a1468c7678b712e09f1d977591f8d66dfc8dc185",
+      "size_in_bytes": 82671
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/_version.py",
+      "path_type": "hardlink",
+      "sha256": "8ef52dec615eb2d1d17e33faa25a7124d88eb9df6501a2e7c9b2a58057ea4f8a",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/cli.py",
+      "path_type": "hardlink",
+      "sha256": "1d93465160987cbc6d297996ab653e545cee13ab5180db77fd1f7de6f6a7b969",
+      "size_in_bytes": 39943
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/drawing.py",
+      "path_type": "hardlink",
+      "sha256": "00051bd1ec8cea63663cb057bdc24bb2a7f78e5e950e82b67602119f6c7d740b",
+      "size_in_bytes": 15111
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "5b60119168d6b1854ceaee433ddde2e6aa468a1059149a934510aa11203ee966",
+      "size_in_bytes": 845
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/formats.py",
+      "path_type": "hardlink",
+      "sha256": "e70f0c7bee1cffe71d2190c75bc53404f5fec0d01117c1816da80c89480f653e",
+      "size_in_bytes": 15764
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/provenance.py",
+      "path_type": "hardlink",
+      "sha256": "7785b2c5b2f6962c6c60eaa6062f765ee73c55cd7de0a9a445ddc86015adcbdb",
+      "size_in_bytes": 2374
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/simulations.py",
+      "path_type": "hardlink",
+      "sha256": "4409cbd54a76d1bb35779c63ee9dda4cf86b8ba021b6df2203dc398f8d15ed74",
+      "size_in_bytes": 47258
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/stats.py",
+      "path_type": "hardlink",
+      "sha256": "16e3b60c31c021ce54b5d4987512f5745f7b9aa81c0ad12a77c247ab4175a7d4",
+      "size_in_bytes": 50639
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/tables.py",
+      "path_type": "hardlink",
+      "sha256": "341be1f4459a9b1a0ddd0fd14296d54a8f52157b3f255e969911ad8c76c6051a",
+      "size_in_bytes": 56056
+    },
+    {
+      "_path": "lib/python3.6/site-packages/msprime/trees.py",
+      "path_type": "hardlink",
+      "sha256": "66aef868a605993215cc91b4bdebcc4c43da819ab68716c02cddbf1d7f66d577",
+      "size_in_bytes": 87181
+    }
+  ],
+  "paths_version": 1
+}

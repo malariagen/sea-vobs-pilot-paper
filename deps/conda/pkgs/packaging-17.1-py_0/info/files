@@ -1,0 +1,16 @@
+site-packages/packaging/markers.py
+site-packages/packaging/__about__.py
+site-packages/packaging/__init__.py
+site-packages/packaging/requirements.py
+site-packages/packaging/_compat.py
+site-packages/packaging-17.1.dist-info/top_level.txt
+site-packages/packaging-17.1.dist-info/WHEEL
+site-packages/packaging-17.1.dist-info/DESCRIPTION.rst
+site-packages/packaging-17.1.dist-info/METADATA
+site-packages/packaging/_structures.py
+site-packages/packaging/version.py
+site-packages/packaging-17.1.dist-info/metadata.json
+site-packages/packaging-17.1.dist-info/INSTALLER
+site-packages/packaging/utils.py
+site-packages/packaging/specifiers.py
+site-packages/packaging-17.1.dist-info/RECORD

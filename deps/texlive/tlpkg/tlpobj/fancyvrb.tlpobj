@@ -1,0 +1,39 @@
+name fancyvrb
+category Package
+revision 18492
+shortdesc Sophisticated verbatim text
+longdesc Flexible handling of verbatim text including: verbatim commands
+longdesc in footnotes; a variety of verbatim environments with many
+longdesc parameters; ability to define new customized verbatim
+longdesc environments; save and restore verbatim text and environments;
+longdesc write and read files in verbatim mode; build "example"
+longdesc environments (showing both result and verbatim source).
+containersize 12164
+containerchecksum bd96399219b8f4f3a699931dce431f343fe195edf6620669f7bd20811e530602287363da1032958d4bf8ed2632f1bca9fb406b9a992ab3c9ef1fcd45629490e4
+doccontainersize 446428
+doccontainerchecksum 9b5b420812997dcd4fc1eca8c8f07270266d62e10f48fd9853bf40f9be7de24ba4be079e69b1b36886b0657fffed8a943c5d152bfee06f40b3cb6eb849e569a1
+docfiles size=134
+ texmf-dist/doc/latex/fancyvrb/Changes
+ texmf-dist/doc/latex/fancyvrb/Makefile
+ texmf-dist/doc/latex/fancyvrb/README details="Readme"
+ texmf-dist/doc/latex/fancyvrb/README.contrib
+ texmf-dist/doc/latex/fancyvrb/fancyvrb.pdf details="Package documentation"
+ texmf-dist/doc/latex/fancyvrb/fvrb-ex.pdf details="Example environments"
+ texmf-dist/doc/latex/fancyvrb/t-fvrbex.tex
+srccontainersize 34820
+srccontainerchecksum 2133c96bcb9fa28c689f13b7facbe7ddb9a1861cc810b9b6e181ada7abe0ebfc28fa539abfd839ab1299de6f4784634b66e38c77a9558f2c614168c320a2cf87
+srcfiles size=48
+ texmf-dist/source/latex/fancyvrb/fancyvrb.dtx
+ texmf-dist/source/latex/fancyvrb/fancyvrb.ins
+ texmf-dist/source/latex/fancyvrb/fvrb-ex.dtx
+ texmf-dist/source/latex/fancyvrb/fvrb-ex.ins
+runfiles size=18
+ texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+ texmf-dist/tex/latex/fancyvrb/fvrb-ex.sty
+ texmf-dist/tex/latex/fancyvrb/hbaw.sty
+ texmf-dist/tex/latex/fancyvrb/hcolor.sty
+catalogue-ctan /macros/latex/contrib/fancyvrb
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics verbatim
+catalogue-version 2.8

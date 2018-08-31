@@ -1,0 +1,15 @@
+bin/pyfasta
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/PKG-INFO
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/SOURCES.txt
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/dependency_links.txt
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/entry_points.txt
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/not-zip-safe
+lib/python3.6/site-packages/pyfasta-0.5.2-py3.6.egg-info/top_level.txt
+lib/python3.6/site-packages/pyfasta/__init__.py
+lib/python3.6/site-packages/pyfasta/__pycache__/__init__.cpython-36.pyc
+lib/python3.6/site-packages/pyfasta/__pycache__/fasta.cpython-36.pyc
+lib/python3.6/site-packages/pyfasta/__pycache__/records.cpython-36.pyc
+lib/python3.6/site-packages/pyfasta/__pycache__/split_fasta.cpython-36.pyc
+lib/python3.6/site-packages/pyfasta/fasta.py
+lib/python3.6/site-packages/pyfasta/records.py
+lib/python3.6/site-packages/pyfasta/split_fasta.py

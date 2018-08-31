@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h3a4f0e9_0",
+  "build_number": 0,
+  "depends": [
+    "expat >=2.2.5,<2.3.0a0",
+    "libgcc-ng >=4.9"
+  ],
+  "license": "GPL2",
+  "name": "dbus",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1528042741753,
+  "version": "1.13.0"
+}

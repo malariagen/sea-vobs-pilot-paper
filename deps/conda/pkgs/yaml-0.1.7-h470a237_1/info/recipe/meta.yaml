@@ -1,0 +1,56 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Aug  7 14:35:13 2018
+# ------------------------------------------------
+
+package:
+    name: yaml
+    version: 0.1.7
+source:
+    patches:
+        - CMakeLists.txt.patch
+    sha256: 8088e457264a98ba451a90b8661fcb4f9d6f478f7265d48322a196cec2480729
+    url: http://pyyaml.org/download/libyaml/yaml-0.1.7.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - yaml >=0.1.7,<0.2.0a0
+    string: h470a237_1
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libtool 2.4.6 h470a237_1
+        - pkg-config 0.29.2 hf5063d0_2
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - zlib 1.2.11 h470a237_3
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+test:
+    commands:
+        - test -f "${PREFIX}/include/yaml.h"
+        - test -f "${PREFIX}/lib/libyaml.a"
+        - test -f "${PREFIX}/lib/libyaml.so"
+about:
+    description: 'YAML is a human friendly data serialization standard for all programming
+
+        languages.
+
+        '
+    dev_url: https://github.com/yaml
+    doc_source_url: https://github.com/yaml/www.yaml.org/tree/master/docs
+    doc_url: http://www.yaml.org/spec/1.2/spec.html
+    home: http://pyyaml.org/wiki/LibYAML
+    license: MIT
+    summary: A C library for parsing and emitting YAML
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - msarahan
+        - ocefpaf
+        - pelson

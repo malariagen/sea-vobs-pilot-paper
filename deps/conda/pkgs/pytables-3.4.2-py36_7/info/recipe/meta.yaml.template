@@ -1,0 +1,81 @@
+{% set version="3.4.2" %}
+
+package:
+  name: pytables
+  version: {{ version }}
+
+source:
+  url: https://github.com/PyTables/PyTables/archive/v{{ version }}.tar.gz
+  sha256: 629a0227bb2b315c5d97629073696609eaee41d0fc89e03f997412613cd46d3a
+  patches:
+      - noavx2.patch
+
+build:
+  number: 7
+  entry_points:
+    - pt2to3 = tables.scripts.pt2to3:main
+    - ptdump = tables.scripts.ptdump:main
+    - ptrepack = tables.scripts.ptrepack:main
+    - pttree = tables.scripts.pttree:main
+
+requirements:
+  build:
+    - python
+    - setuptools
+    - cython
+    - numpy 1.8.*  # [not (win and (py35 or py36))]
+    - numpy 1.9.*  # [win and py35]
+    - numpy 1.11.*  # [win and py36]
+    - zlib 1.2.11
+    - lzo 2.*  # [linux]
+    - bzip2 1.0.*
+    - hdf5 1.10.1
+    - numexpr
+    # Building blosc is done internally. The version is up-to-date.
+    # - blosc
+  run:
+    - python
+    - six
+    - numpy >=1.8  # [not (win and (py35 or py36))]
+    - numpy >=1.9  # [win and py35]
+    - numpy >=1.11  # [win and py36]
+    - numexpr
+    - hdf5 1.10.1
+    - zlib 1.2.11
+    - lzo 2.*  # [linux]
+    - bzip2 1.0.*
+    # building blosc is done internally. The version is up-to-date.
+    # - blosc
+
+test:
+  requires:
+    - setuptools
+    - mock
+  commands:
+    - pt2to3 -h
+    - ptdump -h
+    - ptrepack -h
+    - pttree -h
+    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
+    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
+
+
+about:
+  home: http://www.pytables.org
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: 'Brings together Python, HDF5 and NumPy to easily handle large amounts of data.'
+  description: |
+    PyTables is a package for managing hierarchical datasets and designed to
+    efficiently and easily cope with extremely large amounts of data. PyTables
+    is built on top of the HDF5 library, using the Python language and the
+    NumPy package.
+  doc_url: http://www.pytables.org/
+  dev_url: https://github.com/PyTables
+
+extra:
+  recipe-maintainers:
+    - msarahan
+    - ocefpaf
+    - tomkooij
+    - scopatz

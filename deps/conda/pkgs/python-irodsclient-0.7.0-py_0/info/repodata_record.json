@@ -1,0 +1,23 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "prettytable >=0.7.2",
+    "python",
+    "six >=1.10.0",
+    "xmlrunner >=1.7.7"
+  ],
+  "features": "",
+  "fn": "python-irodsclient-0.7.0-py_0.tar.bz2",
+  "license": "BSD-3-Clause",
+  "md5": "be484063a0bd74189ac6123eb897b784",
+  "name": "python-irodsclient",
+  "noarch": "python",
+  "size": 63455,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/python-irodsclient-0.7.0-py_0.tar.bz2",
+  "version": "0.7.0"
+}

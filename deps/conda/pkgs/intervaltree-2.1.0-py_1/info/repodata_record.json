@@ -1,0 +1,23 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python",
+    "sortedcontainers"
+  ],
+  "features": "",
+  "fn": "intervaltree-2.1.0-py_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "md5": "d9b4272e3c7160ff549b813e9628e023",
+  "name": "intervaltree",
+  "noarch": "python",
+  "size": 20968,
+  "subdir": "noarch",
+  "timestamp": 1531714247757,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/intervaltree-2.1.0-py_1.tar.bz2",
+  "version": "2.1.0"
+}

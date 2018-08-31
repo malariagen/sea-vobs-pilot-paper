@@ -1,0 +1,27 @@
+name feynmp-auto
+category Package
+revision 30223
+shortdesc Automatic processing of feynmp graphics
+longdesc The package takes care of running Metapost on the output files
+longdesc produced by the feynmp package, so that the compiled pictures
+longdesc will be available in the next run of LaTeX. The package honours
+longdesc options that apply to feynmp.
+containersize 1912
+containerchecksum 555858178bb28a8f395dbd00c48fc72079ffe73fa97656d6968ada0472ae7c7edd114828afd40c73f622c78f98e2a5ea5f7791bc4913c2b7bd11d1dbd043869b
+doccontainersize 375268
+doccontainerchecksum b2bafa4576fa70ff886c1c79ac0b4cfa5b5dd19bb7f010b3195626d8e687df4f4f4c30d56240d4431bd3e62c1845af695d9323322287fb20532a013cc5bcd745
+docfiles size=93
+ texmf-dist/doc/latex/feynmp-auto/README details="Readme"
+ texmf-dist/doc/latex/feynmp-auto/feynmp-auto.pdf details="Package documentation"
+srccontainersize 4764
+srccontainerchecksum 90b5388e4aa91426eb3fca978c1e3010f2fbd0690e4e82d4c6a42dd5ba3dbdef571c16a034cc7da4ee632c5ef60789f90c3c420b846c8d9ee813ec7c97f3b890
+srcfiles size=4
+ texmf-dist/source/latex/feynmp-auto/feynmp-auto.dtx
+ texmf-dist/source/latex/feynmp-auto/feynmp-auto.ins
+runfiles size=1
+ texmf-dist/tex/latex/feynmp-auto/feynmp-auto.sty
+catalogue-ctan /macros/latex/contrib/feynmp-auto
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl1.3
+catalogue-topics graphics-inline
+catalogue-version 1.1

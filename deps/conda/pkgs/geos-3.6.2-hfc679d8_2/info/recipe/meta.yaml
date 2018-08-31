@@ -1,0 +1,58 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Jun 20 19:13:56 2018
+# ------------------------------------------------
+
+package:
+    name: geos
+    version: 3.6.2
+source:
+    sha256: e9ac89baab59dbb585c38f8b8449627d53b57ae79100d8bbca836907c0b6c27a
+    url: https://github.com/libgeos/libgeos/archive/3.6.2.tar.gz
+build:
+    number: '2'
+    run_exports:
+        - geos >=3.6.2,<3.6.3.0a0
+    string: hfc679d8_2
+requirements:
+    build:
+        - autoconf 2.69 pl5.22.2.1_5
+        - automake 1.15.1 pl5.22.2.1_0
+        - libtool 2.4.6 0
+        - m4 1.4.18 0
+        - perl 5.22.2.1 0
+        - toolchain 2.1.5 0
+        - toolchain_c_linux-64 2.1.5 0
+        - toolchain_cxx_linux-64 2.1.5 0
+    host:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+    run:
+        - libgcc-ng >=4.9
+        - libstdcxx-ng >=4.9
+test:
+    commands:
+        - geos-config --version
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    description: 'GEOS (Geometry Engine - Open Source) is a C++ port of the Java Topology
+
+        Suite (JTS). As such, it aims to contain the complete functionality of
+
+        JTS in C++.
+
+        '
+    dev_url: https://github.com/libgeos/libgeos
+    doc_url: http://trac.osgeo.org/geos/
+    home: http://trac.osgeo.org/geos/
+    license: LGPLv2.1
+    license_file: COPYING
+    summary: Geometry Engine - Open Source.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gillins
+        - msarahan
+        - ocefpaf
+        - pelson

@@ -1,0 +1,22 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "prettytable-0.7.2-py_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "8bf840b76c87e5b06798ceda641f83ba",
+  "name": "prettytable",
+  "noarch": "python",
+  "size": 14057,
+  "subdir": "noarch",
+  "timestamp": 1531795962382,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/prettytable-0.7.2-py_2.tar.bz2",
+  "version": "0.7.2"
+}

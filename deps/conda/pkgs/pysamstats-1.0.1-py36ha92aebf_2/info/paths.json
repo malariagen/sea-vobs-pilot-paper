@@ -1,0 +1,165 @@
+{
+  "paths": [
+    {
+      "_path": "bin/pysamstats",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+      "sha256": "b8290c5c3f09f5608ec872c5043fc499d685225f76a8e2978527009039b35f0f",
+      "size_in_bytes": 10748
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats-1.0.1-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "caf5512ba2e6d883ea3d31b1bb1872b776443832cdce5722b2cc098917d49f7b",
+      "size_in_bytes": 682
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats-1.0.1-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "e950eacde2a78eb0d4ea3ec62349cb41801866c3c6019c2dc22f6a3e204739b4",
+      "size_in_bytes": 458
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats-1.0.1-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats-1.0.1-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "cfd9bcec52e9ba22084804c47f2fd50d306befc0556152fe8aad21037a8a878a",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "888e736bf0255fd1eb1c6ccc6cd8dd6171da347e7df3bc1a0b103d3e7f08def7",
+      "size_in_bytes": 159
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "91fdbdcef8212b098c4606da038fa3b52c896a19b67ebe90d7ab6f314a24351b",
+      "size_in_bytes": 299
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/binned.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0b644fba87f916793fd32d38cbcd2367e10065e1db021c36e41bc4b087568fd0",
+      "size_in_bytes": 3881
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/config.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "261c343dfde421a773783d3f0cbc3be23f726a23f5fc9d1d687ce7f8de255a74",
+      "size_in_bytes": 9062
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/io.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "da61578c852c919a368ea1d23ea29c6c0a699611ac6ea437a188dd7d4753a691",
+      "size_in_bytes": 5278
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/pileup.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "46d611200048202d80e519a4a28b2da6273787e3d702fed710772daf5d5c8aca",
+      "size_in_bytes": 5762
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/__pycache__/util.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "9a3d15e0c46d3eafcc0b73f3d5ace5dcd79f041355c779b6ceffaa6ad13e7b92",
+      "size_in_bytes": 1741
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/binned.py",
+      "path_type": "hardlink",
+      "sha256": "95c9cc6b4768171d09350c6b317047c8f18a1b210c8195ae9082f125ea9c2851",
+      "size_in_bytes": 4880
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/config.py",
+      "path_type": "hardlink",
+      "sha256": "af2b25c6ea4e417b81657f5819fbd5e1b218600c74056ca0e3651fa0cf70e356",
+      "size_in_bytes": 10061
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/io.py",
+      "path_type": "hardlink",
+      "sha256": "04a2365ca86eb5f8e0963293a6267ad7caed36865a819a276558262bc3660b40",
+      "size_in_bytes": 7511
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/opt.cpython-36m-x86_64-linux-gnu.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/opt/conda/conda-bld/pysamstats_1530237967704/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pl",
+      "sha256": "8cabb24a73bfb01f1fa4b265dbcc780d88f44c6bd3b967de311a8cfc186967a9",
+      "size_in_bytes": 4261634
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/pileup.py",
+      "path_type": "hardlink",
+      "sha256": "5c2d3aa2644f766711e59943a3fb472e945c91366aa67d678d8d2d0077913292",
+      "size_in_bytes": 7166
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "ff99bacfc804f8acf1c9111e91e981448cc33fa4ff146ca3351127f602e4b38c",
+      "size_in_bytes": 89
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "0b52e8dd31e405691e72b1d5a05997d189e3a0a170589ec83c583ba432483511",
+      "size_in_bytes": 232
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/__pycache__/test_binned.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "ec7fad2f7e8b01d502d7b46b5aff992e4db5a9572870a130e818a4178a06ea8e",
+      "size_in_bytes": 12791
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/__pycache__/test_pileup.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "16fe58f5e9e2532af7a22a216ed4eb372aa8f9f750ed96f993988cbd9a15fb07",
+      "size_in_bytes": 34788
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/__pycache__/util.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "6d2ad671113f449ff242623ede31aabf7ae8554968b3e7c3a40ce106573471e2",
+      "size_in_bytes": 3273
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/test_binned.py",
+      "path_type": "hardlink",
+      "sha256": "9bb76eb092051864d8afc51dd94afaa780176f4ead5c0bf7703ee72067930bbe",
+      "size_in_bytes": 22734
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/test_pileup.py",
+      "path_type": "hardlink",
+      "sha256": "d47743e37a716c9bfb3b8416fcbd443b0967455d34a63f0fe57fb45cc6456cc7",
+      "size_in_bytes": 45909
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/test/util.py",
+      "path_type": "hardlink",
+      "sha256": "5429bb4d60c86add0a1cdfc31912583b230251d192ce26e27539269e1e1bad0e",
+      "size_in_bytes": 2663
+    },
+    {
+      "_path": "lib/python3.6/site-packages/pysamstats/util.py",
+      "path_type": "hardlink",
+      "sha256": "5a6d927a3a34e77d9c993f0803ecc6024934ad91b78de66f891c33c4c0fd02cb",
+      "size_in_bytes": 1515
+    }
+  ],
+  "paths_version": 1
+}

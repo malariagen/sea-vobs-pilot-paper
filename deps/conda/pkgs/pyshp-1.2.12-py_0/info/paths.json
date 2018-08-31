@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "afb28f16e2a081d5467b8dba78a6af7d5b5c6510b8ee1946af9e0654f9abe2bc",
+      "size_in_bytes": 32497
+    },
+    {
+      "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "00d5b90590b5be7c6e69d0bdf73a424ad25af20faa5d3609d2f1a207588dfee3",
+      "size_in_bytes": 844
+    },
+    {
+      "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "097c2a9cb7ad421e7c270ac687124becfb1149014a706daec977bf21fd6c3345",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/shapefile.py",
+      "path_type": "hardlink",
+      "sha256": "2e809022c114057596d5bf0fe77634206b0c4e65341f49bd5c9d4dd2ca3ad85c",
+      "size_in_bytes": 52285
+    }
+  ],
+  "paths_version": 1
+}

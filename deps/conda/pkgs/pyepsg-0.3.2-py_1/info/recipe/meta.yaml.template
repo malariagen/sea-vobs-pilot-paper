@@ -1,0 +1,40 @@
+{% set version = "0.3.2" %}
+
+package:
+  name: pyepsg
+  version: {{ version }}
+
+source:
+  fn: pyepsg-{{ version }}.tar.gz
+  url: https://github.com/rhattersley/pyepsg/archive/v{{ version }}.tar.gz
+  sha256: 2af92df0f398db458485b76d58ba8303202c93ed30ccd27c4c6463e90b4a79d2
+
+build:
+  noarch: python
+  number: 1
+  script: python -m pip install --no-deps --ignore-installed .
+
+requirements:
+  host:
+    - pip
+    - python
+    - setuptools
+  run:
+    - python
+    - requests
+
+test:
+  imports:
+    - pyepsg
+
+about:
+  home: https://pypi.python.org/pypi/pyepsg
+  license: LGPL-3.0
+  license_file: COPYING.LESSER
+  summary: 'Easy access to the EPSG database via http://epsg.io/'
+
+extra:
+  recipe-maintainers:
+    - pelson
+    - rhattersley
+    - ocefpaf

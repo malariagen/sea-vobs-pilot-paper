@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py36hf1a2d64_1",
+  "build_number": 1,
+  "depends": [
+    "geos >=3.6.2,<3.6.3.0a0",
+    "libgcc-ng >=4.9",
+    "libstdcxx-ng >=4.9",
+    "matplotlib",
+    "numpy >=1.9.3,<2.0a0",
+    "owslib",
+    "pillow",
+    "proj4 >=5.1.0,<5.1.1.0a0",
+    "pyepsg",
+    "pyshp",
+    "python >=3.6,<3.7.0a0",
+    "scipy",
+    "shapely",
+    "six"
+  ],
+  "license": "GNU LGPL",
+  "name": "cartopy",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1535659210150,
+  "version": "0.16.0"
+}

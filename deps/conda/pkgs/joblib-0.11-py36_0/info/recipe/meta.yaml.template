@@ -1,0 +1,35 @@
+{% set version = "0.11" %}
+
+package:
+  name: joblib
+  version: {{ version }}
+
+source:
+  fn: joblib-{{ version }}.tar.gz
+  url: https://github.com/joblib/joblib/archive/{{ version }}.tar.gz
+  sha256: 40b2fe577a5004ab48786678ee254735f50a5b7e741708c556c1bb87e87c118a
+
+build:
+  number: 0
+  script: python setup.py install
+
+requirements:
+  build:
+    - python
+  run:
+    - python
+
+test:
+  imports:
+    - joblib
+
+about:
+  home: http://packages.python.org/joblib/
+  license: BSD 3-Clause
+  license_file: LICENSE.txt
+  summary: 'Python function as pipeline jobs.'
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - jakirkham

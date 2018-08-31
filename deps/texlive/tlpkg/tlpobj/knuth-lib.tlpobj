@@ -1,0 +1,43 @@
+name knuth-lib
+category Package
+revision 35820
+shortdesc A small library of Metafont sources
+longdesc The collection of core TeX and Metafont macro files from DEK,
+longdesc including the plain format, plain base, and the MF logo fonts.
+containersize 30400
+containerchecksum 6fd8cc9fbd95b894231ea2d0e35444bf9f86e2047f91735ef3431eba4815f36544510249c79834cab8cf1588fbf502c9363edea5065446757fd8b9c035ea747f
+runfiles size=47
+ texmf-dist/fonts/source/public/knuth-lib/3test.mf
+ texmf-dist/fonts/source/public/knuth-lib/6test.mf
+ texmf-dist/fonts/source/public/knuth-lib/expr.mf
+ texmf-dist/fonts/source/public/knuth-lib/grayf.mf
+ texmf-dist/fonts/source/public/knuth-lib/io.mf
+ texmf-dist/fonts/source/public/knuth-lib/logo.mf
+ texmf-dist/fonts/source/public/knuth-lib/logo10.mf
+ texmf-dist/fonts/source/public/knuth-lib/logo8.mf
+ texmf-dist/fonts/source/public/knuth-lib/logo9.mf
+ texmf-dist/fonts/source/public/knuth-lib/logobf10.mf
+ texmf-dist/fonts/source/public/knuth-lib/logosl10.mf
+ texmf-dist/fonts/source/public/knuth-lib/manfnt.mf
+ texmf-dist/fonts/source/public/knuth-lib/null.mf
+ texmf-dist/fonts/source/public/knuth-lib/rtest.mf
+ texmf-dist/fonts/source/public/knuth-lib/slant.mf
+ texmf-dist/fonts/source/public/knuth-lib/test.mf
+ texmf-dist/fonts/source/public/knuth-lib/waits.mf
+ texmf-dist/fonts/source/public/knuth-lib/ztest.mf
+ texmf-dist/fonts/tfm/public/knuth-lib/logo10.tfm
+ texmf-dist/fonts/tfm/public/knuth-lib/logo8.tfm
+ texmf-dist/fonts/tfm/public/knuth-lib/logo9.tfm
+ texmf-dist/fonts/tfm/public/knuth-lib/logobf10.tfm
+ texmf-dist/fonts/tfm/public/knuth-lib/logosl10.tfm
+ texmf-dist/fonts/tfm/public/knuth-lib/manfnt.tfm
+ texmf-dist/tex/generic/knuth-lib/null.tex
+ texmf-dist/tex/plain/knuth-lib/manmac.tex
+ texmf-dist/tex/plain/knuth-lib/mftmac.tex
+ texmf-dist/tex/plain/knuth-lib/story.tex
+ texmf-dist/tex/plain/knuth-lib/testfont.tex
+ texmf-dist/tex/plain/knuth-lib/webmac.tex
+catalogue-ctan /systems/knuth/dist/lib
+catalogue-date 2017-01-28 13:27:32 +0100
+catalogue-license knuth
+catalogue-topics collection

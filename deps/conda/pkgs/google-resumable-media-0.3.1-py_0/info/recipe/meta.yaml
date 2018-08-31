@@ -1,0 +1,52 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Tue Nov 21 17:00:47 2017
+# ------------------------------------------------
+
+package:
+    name: google-resumable-media
+    version: 0.3.1
+source:
+    fn: google-resumable-media-0.3.1.tar.gz
+    sha256: 97de518f8166d442cc0b61fab308bcd319dbb970981e667ec8ded44f5ce49836
+    url: https://pypi.io/packages/source/g/google-resumable-media/google-resumable-media-0.3.1.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py_0
+requirements:
+    build:
+        - ncurses 5.9 10
+        - readline 6.2 0
+        - tk 8.5.19 2
+        - certifi 2017.11.5 py36_0
+        - zlib 1.2.11 0
+        - setuptools 36.7.2 py36_0
+        - xz 5.2.3 0
+        - sqlite 3.13.0 1
+        - openssl 1.0.2l 0
+        - python 3.6.3 1
+        - ca-certificates 2017.11.5 0
+    run:
+        - python
+        - six
+test:
+    imports:
+        - google
+        - google.resumable_media
+about:
+    dev_url: https://github.com/GoogleCloudPlatform/google-resumable-media-python
+    doc_url: https://googlecloudplatform.github.io/google-resumable-media-python
+    home: https://github.com/GoogleCloudPlatform/google-resumable-media-python
+    license: Apache-2.0
+    license_family: APACHE
+    license_file: /recipe_root/LICENSE
+    summary: Utilities for Google Media Downloads and Resumable Uploads
+extra:
+    final: true
+    recipe-maintainers:
+        - johanneskoester
+        - parthea
+        - tswast

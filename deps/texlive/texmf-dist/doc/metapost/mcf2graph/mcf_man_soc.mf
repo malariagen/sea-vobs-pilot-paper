@@ -1,0 +1,1116 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Molecular Coding Format file for mcf_manual.tex  by Akira.Yamaji 2018.01.03
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+input mcf2graph.mf;   %% it must be version 4.30 or later
+%------------------------------------------------------------------------
+sw_auxout:=0;
+sw_mol_frame:=0;
+sw_expand:=0;
+sw_solid:=2;
+%%%%%sw_arrow:=1;
+%%%%%sw_report:=1;
+%***********************************************************************
+font_wd:=35mm;
+font_ht:=25mm;
+bond_len:=6mm;
+%***********************************************************************
+beginfont("EN:Glycine")
+  MCf(<30,NH2,!0,!,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Alanine")
+  MCf(<30,NH2,!0,/_,!,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Valine")
+  MCf(<30,NH2,!0,/iPr,!,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Leucine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!,/_,!)
+endfont
+%***********************************************************************
+beginfont("EN:Isoleucine")
+  MCf(<30,NH2,!0,!,COOH,2:\,/_,!2)
+endfont
+%***********************************************************************
+beginfont("EN:Serine")
+  MCf(<30,NH2,!0,!,COOH,2:/!OH)
+endfont
+%***********************************************************************
+beginfont("EN:Threonine")
+  MCf(<30,NH2,!0,!,COOH,2:\,/_,!,OH)
+endfont
+%***********************************************************************
+beginfont("EN:Cysteine")
+  MCf(<30,NH2,!0,!,COOH,2:/!SH)
+endfont
+%***********************************************************************
+beginfont("EN:Methionine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!2,SMe)
+endfont
+%***********************************************************************
+beginfont("EN:Phenylalanine")
+  MCf(<30,NH2,!0,!,COOH,2:/!Ph)
+endfont
+%***********************************************************************
+beginfont("EN:Tyrosine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!,Ph,-3:/OH)
+endfont
+%***********************************************************************
+beginfont("EN:Triptophan")
+  MCf(<30,NH2,!0,!,COOH,2:\,!,<24,|,?5,-4=Ph,2=dr,5=dl,4:NH)
+endfont
+%***********************************************************************
+beginfont("EN:Prorine")
+  MCf(<18,?5,3:NH,4:/COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Glutamine")
+  MCf(<30,NH2,!0,!,COOH,2:\`1,-45,-45,//O,!,NH2)
+endfont
+%***********************************************************************
+beginfont("EN:Asparagine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!,//O,!,NH2)
+endfont
+%***********************************************************************
+beginfont("EN:Aspartic acid")
+  MCf(<30,NH2,!0,/!COOH,!,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Glutamic acid")
+  MCf(<30,NH2,!0,!,COOH,2:\,!2,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Lysine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!4,NH2)
+endfont
+%***********************************************************************
+beginfont("EN:Arginine")
+  MCf(<30,NH2,!0,!,COOH,2:\,-45,-45,60,NH,!,//NH,!,NH2)
+endfont
+%***********************************************************************
+beginfont("EN:Hystidine")
+  MCf(<30,NH2,!0,!,COOH,2:\,!,|,?5,{1,3}=dl,3:N,5:NH)
+endfont
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+font_wd:=60mm;
+font_ht:=35mm;
+bond_len:=8mm;
+max_bond_length:=10mm;
+ratio_thickness_bond:=0.015;
+ratio_atom_bond:=0.36;
+sw_solid:=0;
+sw_font_frame:=1;
+margin_left_right:=2mm;
+margin_top_bottom:=1mm;
+%***********************************************************************
+beginfont("EN:Chain 1")
+  font_ht:=20mm;
+  sw_numberB:=1;
+  numberB_end:=6;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<15,-30,45,-45,30,-30,60,
+       {1^-75,2^67.5,3^-60,4^75,5^-75,6^60}:/_~dt
+     )
+  ext(
+    defaultscale:=0.5;
+    labeloffset:=2bp;
+    drawarrow .7[B7s,B7e]{dir(B7dir-90)}..{dir(B1dir-90)}.7[B1s,B1e];
+    label.ulft("-30",.7[B7s,B7e]);
+    drawarrow .7[B8s,B8e]{dir(B8dir+90)}..{dir(B2dir+90)}.7[B2s,B2e];
+    label.llft("45",.7[B8s,B8e]);
+    drawarrow .7[B9s,B9e]{dir(B9dir-90)}..{dir(B3dir-90)}.7[B3s,B3e];
+    label.ulft("-45",.7[B9s,B9e]);
+    drawarrow .7[B10s,B10e]{dir(B10dir+90)}..{dir(B4dir+90)}.7[B4s,B4e];
+    label.llft("30",.7[B10s,B10e]);
+    drawarrow .7[B11s,B11e]{dir(B11dir-90)}..{dir(B5dir-90)}.7[B5s,B5e];
+    label.ulft("-30",.7[B11s,B11e]);
+    drawarrow .7[B12s,B12e]{dir(B12dir+90)}..{dir(B6dir+90)}.7[B6s,B6e];
+    label.llft("60",.7[B12s,B12e]);
+  )
+endfont
+%***********************************************************************
+beginfont("EN:Chain 2")
+  font_ht:=20mm;
+  sw_numberB:=1;
+  numberB_end:=6;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<30,!6,
+       {1^-60,2^60,3^-60,4^60,5^-60,6^60}:/_~dt
+     )
+  ext(
+    defaultscale:=0.5;
+    labeloffset:=2bp;
+    drawarrow .7[B7s,B7e]{dir(B7dir-90)}..{dir(B1dir-90)}.7[B1s,B1e];
+    label.ulft("-60",.7[B7s,B7e]);
+    drawarrow .7[B8s,B8e]{dir(B8dir+90)}..{dir(B2dir+90)}.7[B2s,B2e];
+    label.llft("60",.7[B8s,B8e]);
+    drawarrow .7[B9s,B9e]{dir(B7dir-90)}..{dir(B3dir-90)}.7[B3s,B3e];
+    label.ulft("-60",.7[B9s,B9e]);
+    drawarrow .7[B10s,B10e]{dir(B10dir+90)}..{dir(B4dir+90)}.7[B4s,B4e];
+    label.llft("60",.7[B10s,B10e]);
+    drawarrow .7[B11s,B11e]{dir(B11dir-90)}..{dir(B5dir-90)}.7[B5s,B5e];
+    label.ulft("-60",.7[B11s,B11e]);
+    drawarrow .7[B12s,B12e]{dir(B12dir+90)}..{dir(B6dir+90)}.7[B6s,B6e];
+    label.llft("60",.7[B12s,B12e]);
+  )
+endfont
+%***********************************************************************
+beginfont("EN:Jump and Branch")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_clip:=1;
+  sw_numberA:=1;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<30,!6,3:@,0,!,5:@,-30)
+endfont
+%***********************************************************************
+beginfont("EN:Jump and Branch")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_numberA:=1;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<30,!6,3:\,!)
+endfont
+%***********************************************************************
+beginfont("EN:branch1")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_numberA:=1;
+  sw_clip:=1;
+  numberA_end:=9;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<-30,!8,2:\,!,4:*\,!,6:\*,!,8:\\,!)
+endfont
+%***********************************************************************
+beginfont("EN:branch2")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_clip:=1;
+  sw_numberA:=1;
+  numberA_end:=7;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<-30,!6,2:\~dr,!,4:\`1.5,-90,6:@,15,-60)
+endfont
+%***********************************************************************
+beginfont("EN:Connect atom")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_clip:=1;
+  sw_numberA:=1;
+  ratio_chain_ring:=1;
+%----------------------------------------------------------------------
+  MCf(<30,!6,3:\,!,5~bd:&)
+endfont
+%***********************************************************************
+beginfont("EN:ring")
+  font_ht:=20mm;
+  sw_clip:=1;
+  margin_top_bottom:=3mm;
+  sw_numberB:=1;
+%----------------------------------------------------------------------
+  MCf(?6)
+endfont
+%***********************************************************************
+beginfont("EN:rotate 1")
+  font_ht:=20mm;
+  margin_top_bottom:=3mm;
+  sw_clip:=1;
+  sw_numberB:=1;
+  ratio_chain_ring:=1;
+  numberB_end:=5;
+    defaultscale:=0.5;
+    labeloffset:=2bp;
+  MCf(``1,0,0,<90,0,<-90,0,0,{1,2,3,4,5}=vf,
+      {3,4^180}:/_~dt)
+  ext(
+    drawarrow .7[B6s,B6e]{dir(B6dir+90)}..{dir(B3dir+90)}.7[B3s,B3e];
+    label.urt("90",.7[B6s,B6e]);
+    drawarrow .7[B7s,B7e]{dir(B7dir-90)}..{dir(B4dir-90)}.7[B4s,B4e];
+    label.urt("-90",.7[B7s,B7e]);
+  )
+endfont
+%***********************************************************************
+beginfont("EN:change bond 1")
+  font_wd:=70mm;
+  font_ht:=12mm;
+  bond_len:=8mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  margin_top_bottom:=3mm;
+  MCf(<30,!~dm,!,!~dl,!,!~dr,!~db,!~db,!,!~tm)
+endfont
+%***********************************************************************
+beginfont("EN:change bond 2")
+  font_ht:=12mm;
+  bond_len:=8mm;
+  margin_top_bottom:=3mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(<30,!~wf,!,!~wb,!,!~zf,!,!~zb)
+endfont
+%***********************************************************************
+beginfont("EN:change bond 3")
+  font_ht:=12mm;
+  bond_len:=8mm;
+  margin_top_bottom:=3mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(<30,!~vf,!,!~vb)
+endfont
+%***********************************************************************
+beginfont("EN:change bond 3")
+  font_ht:=12mm;
+  bond_len:=8mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  margin_top_bottom:=3mm;
+  MCf(<30,!3,1=dt,3=wv)
+endfont
+%***********************************************************************
+beginfont("EN:change bond 4")
+  font_ht:=12mm;
+  bond_len:=8mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  margin_top_bottom:=3mm;
+  MCf(<30,!3,1=bd,3=bz)
+endfont
+%***********************************************************************
+beginfont("EN:change bond 5")
+  font_ht:=12mm;
+  bond_len:=8mm;
+  margin_top_bottom:=3mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(<30,!7,{2,4,6}=dr)
+endfont
+%***********************************************************************
+beginfont("EN:over line")
+  sw_clip:=1;
+  font_ht:=20mm;
+  ratio_chain_ring:=1;
+  MCf(<-30,!8,!,60,90`8,{2~si_,4~wf_,6~wb_,8~bd_}:/_`2)
+endfont
+%***********************************************************************
+beginfont("EN:change bond length1")
+  font_ht:=12mm;
+  sw_numberB:=1;
+  MCf(<30,!2,!2`1.2,!2)
+endfont
+%***********************************************************************
+beginfont("EN:change bond length2")
+  font_ht:=12mm;
+  sw_numberB:=1;
+  MCf(<30,!2,``1.2,!4)
+endfont
+%***********************************************************************
+beginfont("EN:change ring length")
+  margin_top_bottom:=2mm;
+  font_ht:=20mm;
+  sw_clip:=1;
+  sw_numberB:=1;
+  MCf(?6,4:\,?6`1.2)
+endfont
+%***********************************************************************
+beginfont("EN:Insert atom")
+  sw_clip:=1;
+  font_ht:=10mm;
+  MCf(<30,!2,O,!2,N,!2)
+endfont
+%***********************************************************************
+beginfont("EN:change atom")
+  font_ht:=18mm;
+  MCa(.5,1)(<30,!6,2:O,{3,5}:N)
+  sw_numberA:=1;
+  MCa(.5,.05)(<30,!6,2:O,{3,5}:N)
+endfont
+%***********************************************************************
+beginfont("EN:change atom brock address 1")
+  font_wd:=70mm;
+  font_ht:=15mm;
+  MCa(0,.5)(?6,4:\,|,?6,2:O)
+  sw_numberA:=1;
+  MCd(1,.88)(1,.5)(?6,4:\,?6)
+endfont
+%***********************************************************************
+beginfont("EN:change atom brock address 2")
+  font_wd:=70mm;
+  font_ht:=15mm;
+  MCa(0,.5)(?6,4:\,|,?6,||,2:N)
+  sw_numberA:=1;
+  MCd(1,.88)(1,.5)(?6,4:\,?6)
+endfont
+%***********************************************************************
+beginfont("EN:change atom absolute address")
+  font_wd:=70mm;
+  font_ht:=15mm;
+  MCa(0,.5)(?6,4:\,?6,$2:N)
+  sw_numberA:=1;
+  MCd(1,.88)(1,.5)(?6,4:\,?6)
+endfont
+%***********************************************************************
+beginfont("EN:change atom relative adress")
+  font_wd:=70mm;
+  font_ht:=15mm;
+  MCa(0,.5)(?6,4:\,?6,-2:N)
+  sw_numberA:=3;
+  MCd(1,.88)(1,.5)(?6,4:\,?6)
+endfont
+%***********************************************************************
+beginfont("EN:fused ring")
+  font_ht:=18mm;
+  margin_top_bottom:=1.5mm;
+  sw_clip:=1;
+  sw_numberB:=1;
+  MCf(<30,?6,3=?6,3=dt,{7,8,9,10,11}=bd)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:change ring length")
+  margin_top_bottom:=2mm;
+  font_ht:=25mm;
+  sw_clip:=1;
+  sw_numberB:=1;
+  MCf(?6,4:\,?6`1.2,5=?6,11=?6,
+      {14,15,16,17,18,19,20,21,22,23}=bd,{5,11}=dt)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:fused large 6 ring")
+  font_ht:=18mm;
+  margin_top_bottom:=1.5mm;
+  sw_numberB:=1;
+  sw_clip:=1;
+  MCf(<30,?6,3=?6[13],3=dt,{7,8,9,10,11}=bd)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:fuse multi ring")
+  font_wd:=70mm;
+  font_ht:=20mm;
+  sw_numberB:=1;
+  sw_clip:=1;
+  MCf(<30,?6,{-3,-4,-4,-2,-2,-4,-4}=?6,{4,8,13,20,25,28,33}=dt)
+endfont
+%***********************************************************************
+beginfont("EN:fused ring 2")
+  font_wd:=75mm;
+  font_ht:=20mm;
+  sw_numberB:=1;
+  MCa( 0,.5)(<30,?6,3=?6,(11,4)=?6[4],{11,4}=dt,{12,13,14,15}=bd)
+  MCd(1,.9)(.5,.5)(<30,?6,3=?6,(11,4)=?5[3],{11,4}=dt,{12,13,14}=bd)
+  MCd(1,.9)( 1,.5)(<30,?6,3=?6,(11,4)=?4[2],{11,4}=dt,{12,13}=bd)
+endfont
+%***********************************************************************
+beginfont("EN:fused ring 3")
+  font_ht:=20mm;
+  margin_top_bottom:=2mm;
+  sw_numberB:=1;
+  MCa(0,1)(?6,{3,10}=?6,(16,4)=?6[3],{16,4}=dt,{17,18,19}=bd)
+  MCa(1,0)(?6,{3,10}=?6,(16,4)=?5[2],{16,4}=dt,{17,18}=bd)
+endfont
+%***********************************************************************
+beginfont("EN:fused ring 4")
+  sw_clip:=1;
+  font_ht:=22mm;
+  margin_top_bottom:=2mm;
+  sw_numberB:=1;
+  MCf(<-30,?6,{3,10,15}=?6,(21,4)=?6[2],{21,4}=dt,{22,23}=bd)
+endfont
+%***********************************************************************
+beginfont("EN:Spiro ring ")
+  sw_clip:=1;
+  font_ht:=18mm;
+  margin_top_bottom:=3mm;
+  sw_numberA:=1;
+  numberA_end:=7;
+  ratio_chain_ring:=1;
+  MCf(<30,!6,4:@,?5)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 1")
+  font_ht:=25mm;
+  sw_clip:=1;
+  MCf(<30,!,/_,!,/!,!3,/!2,!,/iPr,!3,/tBu,!,/Ph^-30,!)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 2")
+  font_ht:=15mm;
+  sw_clip:=1;
+  MCf(<-30,!`1,//O,!2`1,/*H,!2`1,*/H,!2`1,**?3,!`1)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 3")
+  font_ht:=18mm;
+  sw_clip:=1;
+  MCf(<30,``1,!2,/_~zf`2^30,!2,*/!2>lr,!2,*/!2>rl,!)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 3")
+  font_wd:=70mm;
+  font_ht:=18mm;
+  margin_top_bottom:=2mm;
+  sw_numberA:=1;
+  sw_clip:=1;
+  numberA_end:=17;
+  MCf(<-30,!16,2:/_,4:/!,6:/!2,10:/iPr,14:/tBu,16:/Ph^-60)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 4")
+  font_ht:=18mm;
+  sw_clip:=1;
+  margin_top_bottom:=2mm;
+  sw_numberA:=1; numberA_end:=7;
+  MCf(<-30,!6`1,{2~wf,4~zf,6^-30}:/_)
+endfont
+%***********************************************************************
+beginfont("EN:substituent 5")
+  font_ht:=18mm;
+  margin_top_bottom:=2mm;
+  sw_clip:=1;
+  sw_numberA:=1; numberA_end:=8;
+  MCf(<30,!7`1,3:/*_`2^30,5:*/!2>lr,7:*/!2>rl)
+endfont
+%***********************************************************************
+beginfont("EN:chain strech direction mode 1")
+  font_ht:=27mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(
+  ?4,{3^-90,3^-30,3^90}:/'(!3,"{hz}")>hz,
+     {1^-60,1`1.5,1^60}:/'(!2,"{vt}")>vt
+  )
+endfont
+%***********************************************************************
+beginfont("EN:chain strech direction mode 2")
+  font_ht:=23mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(
+  <30,!6,{3^-30,3,3^30}:/'(!,!,!,"{lr}")>lr,
+         {5^-30,5,5^30}:/'(!,!,!,"{rl}")>rl
+  )
+endfont
+%***********************************************************************
+beginfont("EN:chain strech direction mode 3")
+  font_ht:=25mm;
+  sw_clip:=1;
+  ratio_chain_ring:=1;
+  MCf(<-30,!6,{6>45}:/'(!3,"{45}"),
+              {3>'(90,-90,90)}:/'(!3,"{'(90,-90,90)}")
+  )
+endfont
+%***********************************************************************
+beginfont("EN:change atom and substituent")
+  sw_clip:=1;
+  font_ht:=15mm;
+  MCf(<30,!2,NH,!2,SO,!2,SOO,!)
+endfont
+%***********************************************************************
+beginfont("EN:Change color,font")
+  font_wd:=75mm;
+  font_ht:=18mm;
+  sw_clip:=1;
+  sw_label:=1;
+  defaultfont:="uhvr8r";
+  defaultsize:=8bp;
+  atomfontsize:=8bp;
+  margin_left_right:=3mm;
+  MCa(0,0.5)(<30,Ph,{1,5}:N,3:/COOH,4:/NO2,1:red,5:blue,3=green)
+  ext(label.urt("(draw)",p0+(0,h));)
+  atomfont:="cmr8";
+  atomfontsize:=8bp;
+  MCa(1,0.5)(<30,Ph,{1,5}:N,3:/COOH,4:/NO2)
+  ext(label.urt("(cmr8)",p0+(0,h));)
+endfont
+%***********************************************************************
+beginfont("EN:Make brock")
+  font_ht:=8mm;
+  sw_clip:=1;
+  sw_numberB:=1;
+  MCf(<30,!2,|<,``1.2,!2,>|,!2)
+endfont
+%***********************************************************************
+beginfont("EN:Chain start multi characters")
+  font_ht:=9mm;
+  sw_clip:=1;
+  sw_solid:=1;
+  MCf(<30,COOH,!0,!5,COOH)
+endfont;
+beginfont("EN:not good")
+  font_ht:=9mm;
+  margin_left_right:=5mm;
+  sw_solid:=1;
+  sw_clip:=1;
+  MCf(<30,COOH,!6,COOH)
+endfont;
+%***********************************************************************
+beginfont("EN:User definition")
+  font_ht:=12mm;
+  sw_clip:=1;
+  iBuOH:='(!,/_,!,OH);
+  MCf(<30,?6,{4,6}:/iBuOH)
+endfont
+%***********************************************************************
+beginfont("EN:Inline definition")
+  font_ht:=12mm;
+  margin_left_right:=2mm;
+  sw_clip:=1;
+  MCf(<30,!3,/'(!,/_,!,OH),!3)
+endfont
+%***********************************************************************
+beginfont("EN:Font size")
+  font_wd:=30mm;%
+  font_ht:=20mm;%
+  sw_font_frame:=1;
+  MCf(<30,
+   ?6,-4=?5,{3,8}=dl,{2,6,7,9}:N,
+     {2,6,9}:/_,{1,5}://O)
+endfont
+%***********************************************************************
+beginfont("EN:margin_left_right")
+  font_ht:=20mm;
+  sw_font_frame:=sw_mol_frame:=1;
+  margin_left_right:=0mm;
+  margin_top_bottom:=1mm;
+  MCa(0.5, 1)(<30,CH3,!0,!17,CH3)
+  margin_left_right:=0.4mm;
+  MCa(0.5,.5)(<30,CH3,!0,!17,CH3)
+  margin_left_right:=5mm;
+  MCa(0.5, 0)(<30,CH3,!0,!17,CH3)
+endfont
+%***********************************************************************
+beginfont("EN:margin_top_bottom")
+  font_ht:=20mm;
+  sw_font_frame:=sw_mol_frame:=1;
+  margin_left_right:=5mm;
+  margin_top_bottom:=0mm;
+  MCa(0.0, .5)(<30,Ph,5:/NH2)
+  margin_top_bottom:=0.4mm;
+  MCa(0.5, .5)(<30,Ph,5:/NH2)
+  margin_top_bottom:=5mm;
+  MCa(0.95, .5)(<30,Ph,5:/NH2)
+endfont
+%***********************************************************************
+beginfont("EN:offset_thickness") 
+  font_ht:=12mm;
+  offset_thickness:=0.0pt; MCa(0.08,0.5)(<30,Ph)
+  offset_thickness:=0.2pt; MCa(.5,0.5)(<30,Ph)
+  offset_thickness:=0.5pt; MCa(0.92,0.5)(<30,Ph) endfont
+%***********************************************************************
+beginfont("EN:offset_bond_gap")
+  font_ht:=12mm;
+  offset_bond_gap:=0.0pt;
+  MCa(0.08, .5)(<30,Ph)
+  offset_bond_gap:=0.3pt;   %<<== default
+  MCa(.50, .5)(<30,Ph)
+  offset_bond_gap:=1.0pt;
+  MCa(0.92, .5)(<30,Ph)
+endfont
+%***********************************************************************
+beginfont("EN:offset_atom")
+  font_ht:=14mm;
+  offset_atom:=0.0pt;
+  MCa(0.08, .5)(<30,?6,3:O)
+  offset_atom:=0.8pt;   %<<== default
+  MCa(.5, .5)(<30,?6,3:O)
+  offset_atom:=2.0pt;
+  MCa(0.92, .5)(<30,?6,3:O)
+endfont
+%***********************************************************************
+beginfont("EN:offset_wedge") 
+  offset_wedge:=0.0pt;
+  font_ht:=14mm;
+  MCa(0.08, .5)(<30,?6,5:*/_)
+  offset_wedge:=0.4pt;       %<<== default
+  MCa(  .5, .5)(<30,?6,5:*/_)
+  offset_wedge:=1.0pt;
+  MCa(0.92, .5)(<30,?6,5:*/_)
+endfont
+%***********************************************************************
+beginfont("EN:max_bond_length")
+  font_ht:=25mm;
+  sw_mol_frame:=1;
+  max_bond_length:=6mm;
+  MCa(0, .5)(<30,Ph)
+  max_bond_length:=8mm;
+  MCa(.4,.5)(<30,Ph)
+  max_bond_length:=20mm;   %<<== default
+  MCa(1, .5)(<30,Ph)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_thickness_bond")
+  font_ht:=12mm;
+  ratio_thickness_bond:=0.005;
+  MCa(0.08, .5)(<30,Ph)
+  ratio_thickness_bond:=0.015;    %<<== default
+  MCa(.5, .5)(<30,Ph)
+  ratio_thickness_bond:=0.03;
+  MCa(0.92, .5)(<30,Ph)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_char_bond")
+  font_ht:=15mm;
+  ratio_char_bond:=1.0;
+  MCa( 0, .5)(<30,?6,6:O,3:NH)
+  ratio_char_bond:=1.5;   %<<== default
+  MCa(.5, .5)(<30,?6,6:O,3:NH)
+  ratio_char_bond:=2.0;
+  MCa( 1, .5)(<30,?6,6:O,3:NH)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_bondgap_bond")
+  font_ht:=12mm;
+  ratio_bondgap_bond:=0.10;
+  MCa(0.08, .5)(<30,Ph)
+  ratio_bondgap_bond:=0.15;   %<<== default
+  MCa(.5, .5)(<30,Ph)
+  ratio_bondgap_bond:=0.20;
+  MCa(0.92, .5)(<30,Ph)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_atom_bond")
+  font_ht:=15mm;
+  ratio_atom_bond:=0.25;
+  MCa(0.08, .5)(<30,?6,3:O)
+  ratio_atom_bond:=0.33;   %<<== default
+  MCa(.5, .5)(<30,?6,3:O)
+  ratio_atom_bond:=0.45;
+  MCa(0.92, .5)(<30,?6,3:O)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_wedge_bond")
+  font_ht:=15mm;
+  ratio_wedge_bond:=0.1;
+  MCa(0.08, .5)(<30,?6,5:*/_)
+  ratio_wedge_bond:=0.12;   %<<== default
+  MCa(.5, .5)(<30,?6,5:*/_)
+  ratio_wedge_bond:=0.2;;
+  MCa(0.92, .5)(<30,?6,5:*/_)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_atomgap_atom")
+  font_ht:=8mm;
+  sw_atom_frame:=1;
+  ratio_atomgap_atom:=0.00;
+  MCa(0, .5)(<-30,!2,2:O)
+  ratio_atomgap_atom:=0.050;    %<<== default
+  MCa(.5, .5)(<-30,!2,2:O)
+  ratio_atomgap_atom:=0.12;
+  MCa(1, .5)(<-30,!2,2:O)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_chain_ring")
+  font_wd:=70mm;
+  font_ht:=15mm;
+  ratio_chain_ring:= 0.4;
+  MCa(0, .5)(<30,?6,4:/!)
+  ratio_chain_ring:= 0.66;   %<<== default
+  MCa(.45, .5)(<30,?6,4:/!)
+  ratio_chain_ring:= 1;
+  MCa(1, .5)(<30,?6,4:/!)
+endfont
+%***********************************************************************
+beginfont("EN:ratio_zebragap_bond")
+  font_ht:=15mm;
+  ratio_zebragap_bond:=0.06;
+  MCa(0.08, .5)(<-30,!2,2:/*_`1)
+  ratio_zebragap_bond:=0.12;   %<<== default
+  MCa( .5,  .5)(<-30,!2,2:/*_`1)
+  ratio_zebragap_bond:=0.20;
+  MCa(0.92, .5)(<-30,!2,2:/*_`1)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch numberingA")
+  font_ht:=20mm;
+  ratio_chain_ring:=1;
+  numberA_start:=3;  numberA_end:=8;
+  sw_numberA:=1;   MCa(.5,.9)(<30,!9)
+  sw_numberA:=2;   MCa(.5,.5)(<30,!9)
+  sw_numberA:=3;   MCa(.5,.1)(<30,!9)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch numberingB")
+  font_ht:=20mm;
+  ratio_chain_ring:=1;
+  numberB_start:=3;  numberB_end:=8;
+  sw_numberB:=1;  MCa(.5,.9)(<30,!9)
+  sw_numberB:=2;  MCa(.5,.5)(<30,!9)
+  sw_numberB:=3;  MCa(.5,.1)(<30,!9)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch clipping")
+  font_ht:=15mm;
+  sw_font_frame:=3;
+  sw_mol_frame:=1;
+  MCd(1,.7)(.2,.3)(Ph)
+  MCd(1,.7)(.8,.7)(Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:Switwch clipping")
+  font_ht:=15mm;
+  sw_font_frame:=3;
+  sw_mol_frame:=1;
+  sw_clip:=1;
+  MCd(1,.7)(.2,.3)(Ph)
+  MCd(1,.7)(.8,.7)(Ph)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch Solid ratio=0")
+  font_ht:=18mm;
+  bond_len:=8mm;
+  MCf(<30,Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:Switwch Solid ratio=1")
+  font_ht:=18mm;
+  bond_len:=8mm;
+  sw_solid:=1;
+  ratio_bond_width:=0.1;
+  MCf(<30,Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:Switwch Solid ratio=2")
+  font_ht:=18mm;
+  bond_len:=10mm;
+  sw_solid:=2;
+  MCf(<30,Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:sw_clip=1")
+  font_ht:=18mm;
+  bond_len:=10mm;
+  sw_solid:=2;
+  sw_clip:=1;
+  MCf(<30,Ph)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch Expand")
+  font_ht:=20mm;
+  MCa(0, .5)(<30,Ph,4:/COOH,3:/NH2)
+  sw_expand:=1;
+  MCa(1, .5)(<30,Ph,4:/COOH,3:/NH2)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch substituent off")
+  font_ht:=15mm;
+  MCa(.15, .5)(<30,Ph,4:/Cl,3:/F)
+  sw_subst_off:=1;
+  MCa(.85, .5)(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch bondtype off")
+  font_ht:=15mm;
+  MCa(.15, .5)(<30,Ph,4:/Cl,3:/F)
+  sw_bond_single:=1;
+  MCa(.85, .5)(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch font frame 1")
+  font_ht:=15mm;
+  margin_left_right:=5mm;
+  margin_top_bottom:=2mm;
+  sw_font_frame:=1;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+beginfont("EN:Switwch font frame 2")
+  font_ht:=15mm;
+  margin_left_right:=5mm;
+  margin_top_bottom:=2mm;
+  sw_font_frame:=2;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+beginfont("EN:Switwch font frame 3")
+  font_ht:=15mm;
+  margin_left_right:=5mm;
+  margin_top_bottom:=2mm;
+  sw_font_frame:=3;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch molecular frame")
+  font_ht:=15mm;
+  sw_mol_frame:=1;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:Switwch atom frame")
+  font_ht:=12mm;
+  sw_atom_frame:=1;
+  MCf(<30,COOH,!0,COOH)
+endfont
+%***********************************************************************
+beginfont("EN:Local setting 1")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  MCf(Ph)
+endfont
+beginfont("EN:Local setting 2")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  ratio_thickness_bond:=0.05;
+  MCf(Ph)
+endfont
+beginfont("EN:Local setting 3")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  MCf(Ph)
+endfont
+%***********************************************************************
+save_ratio:=ratio_thickness_bond;
+beginfont("EN:Local setting 1")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  MCf(Ph)
+endfont
+ratio_thickness_bond:=0.05;
+beginfont("EN:Local setting 2")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  MCf(Ph)
+endfont
+beginfont("EN:Local setting 3")
+  font_wd:=15mm;
+  font_ht:=12mm;
+  MCf(Ph)
+endfont
+ratio_thickness_bond:=save_ratio;
+%***********************************************************************
+beginfont("EN:MCd()")
+  font_wd:=60mm;
+  font_ht:=20mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCd(1,0.8)(0.1,1)(<30,Ph,4:/Cl,3:/F)
+  sw_mol_frame:=1;
+  MCd(1,0.8)(0.9,0)(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:MCa()")
+  font_wd:=60mm;
+  font_ht:=20mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCa(0.1,0.5)(<30,Ph,4:/Cl,3:/F)
+  sw_mol_frame:=1;
+  MCa(0.9,0.5)(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:MCc()")
+  font_wd:=60mm;
+  font_ht:=20mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCc(1,1)(<30,?6)
+  sw_mol_frame:=1;
+  MCc(0.5,0.5)(<30,?6)
+endfont
+%***********************************************************************
+beginfont("EN:MCf() ht1")
+  margin_left_right:=margin_top_bottom:=0.5mm;
+  font_wd:=25mm;
+  font_ht:=15mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCf(<30,Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:MCf() ht2")
+  margin_left_right:=margin_top_bottom:=0.5mm;
+  font_wd:=25mm;
+  font_ht:=15mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:MCf() vt")
+  margin_left_right:=margin_top_bottom:=0.5mm;
+  font_wd:=15mm;
+  font_ht:=25mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCf(<30,Ph)
+endfont
+%-----------------------------------------------------------------------
+beginfont("EN:MCf() vt2")
+  margin_left_right:=margin_top_bottom:=0.5mm;
+  font_wd:=15mm;
+  font_ht:=25mm;
+  sw_font_frame:=1;
+  sw_mol_frame:=1;
+  MCf(<30,Ph,4:/Cl,3:/F)
+endfont
+%***********************************************************************
+beginfont("EN:EXT()")
+  font_wd:=70mm;
+  font_ht:=30mm;
+  ratio_bond_width:=0.065;
+  sw_solid:=1;
+  MCa(0.1,0.5)(<-210,60`1,60`1,60`1,{1,3}=dl,1:/R1,4:/R2^-60)
+  ext(
+   defaultscale:=0.6;
+   label.bot("Diene",p0+(0.5w,0));
+  )
+  MCa(0.4,0.5)(<-30,-60`1,1=dl,1:/R3,2:/R4^60)
+  ext(
+   defaultscale:=0.6;
+   label.bot("Dienophile",p0+(0.5w,0));
+  )
+  MCa(0.9,0.5)(<30,?6,6=dl,2:/R2,3:/R4,4:/R3,5:/R1)
+  EXT(
+    drawarrow (0.52w,0.5h)..(0.6w,0.5h);
+    defaultscale:=0.7;
+    label("+",(0.25w,0.5h));
+    label.bot("Diels-Alder Reaction",(0.5w,h));
+  )
+endfont
+%***********************************************************************
+beginfont("EN:ext()")
+  font_wd:=50mm;
+  font_ht:=20mm;
+  MCd(1,0.7)(0,0.5)(<30,?6,3=dl,4:/CH3)
+  ext(
+    label.top("+",A7);
+    drawarrow B3{dir(B3dir-90)}..
+              {dir(B7dir+90)}0.4[B7s,B7e];
+  )
+  MCd(1,0.7)(1,0.5)(<30,?6,4://CH3)
+  ext(
+    labeloffset:=0bp;
+    label.lrt("+",A3);
+  )
+  EXT(drawdblarrow (0.4w,0.5h)..(0.55w,0.5h);)
+endfont
+sw_clip:=1;
+%***************************************************************************
+beginfont("EN:Acetamiprid","MW:222.676")
+  font_ht:=20mm;
+  MCf(<30,Ph,2:N,1:/Cl,4:\,!,N,/_,!,/_,!!,N,!,CN)
+endfont
+%***************************************************************************
+beginfont("EN:Fenitrothion","MW:277.231")
+  font_ht:=20mm;
+  MCf(<30,!,O,!,P,//S,/O!^160,!,O,!,|,Ph,3:/_,4:/NO2)
+endfont
+%***************************************************************************
+beginfont("EN:Permethrin","MW:391.288")
+  font_ht:=25mm;
+  MCf(<-30,?3,2^-35:*/_,2^35:/*_,1:\,!!,/Cl,!,Cl,
+     3:\,//O,!,O,!2,Ph,-4:\,O,-60,Ph)
+endfont
+%***************************************************************************
+beginfont("EN:Endosulfan","MW:406.904");
+  font_ht:=25mm;
+  MCf(<26,?7,7=?6[13],11:@,208~wf`1.45,8~wb:&,10=d,{3,5}:O,4:S,4://O,
+      {8,9,10,11,12^-210,12^-150}:/Cl)
+endfont;
+%***************************************************************************
+beginfont("EN:Luciferin","MW:280.33")
+  MCf(<30,Ph,3=?5,8:\,?5,{9,16}=dl,
+   {9,14}:N,{7,11}:S,1:/OH,-2:*/COOH)
+endfont
+%***************************************************************************
+beginfont("EN:Warfarin","CAS:81-81-2","FM:C19H16O4","MW:308.33")
+  font_ht:=25mm;
+   MCf(<30,Ph,3=?6,8=dl,10:O,7:/OH,9://O,8:\,/Ph`1,60,!,//O,!)
+endfont
+%***************************************************************************
+beginfont("EN:Limonin")
+  font_ht:=30mm;
+  MCf(<30,?6,{-3,-4}=?6,-5=?3,-2=wf,-1=wb,6=?5,-4=?6,-5=wf,
+      {13,15,17,20}:O,{3,12,21}://O,
+      {4~wf^60,8~zf^60,18^35,18^-35}:/_,{1^60,5^180,16^60}:/*H,
+      14:\*,|,?5,{1,4}=dl,3:O)
+endfont
+%***************************************************************************
+beginfont("EN:Sesamine")
+  font_ht:=25mm;
+  MCf(<54,?5,1=?5,{4,7}:O,{1^-54,2^54}:*/H,
+   $5:*\^-12,Ph,-3=?5,{-1,-3}:O,8:*\^-12,Ph,-3=?5,{-1,-3}:O)
+endfont
+%***************************************************************************
+beginfont("EN:Colchicine","CAS:477-27-0","FM:C21H23NO6","MW:385.41")
+  font_ht:=25mm;
+  MCf(<30,Ph,{1,2,6}:/O!,|,-4=?7,
+     |,-5=?7,{-1,-4,-6}=dl,-2://O,-3:/O!,
+     $9:\,NH,!,//O,!)
+endfont
+%***************************************************************************
+beginfont("EN:Lycorine","CAS:476-28-8","FM:C16H17NO4","MW:287.31")
+  font_ht:=25mm;
+  MCf(<30,
+    Ph,-4=?6,-2=?6,6=?5,(9,12)=?5[3],13=dl,8:N,{15,17}:O,
+    9:/*H^180,10:*/H^60,13:*/OH,14:/*OH
+  )
+endfont
+%***********************************************************************
+beginfont("EN:Gibberellin A3","CAS:77-06-5","FM:C19H22O6","MW:346.37");
+  font_ht:=20mm;
+  MCf(<18,?5,3=?7,5=?6[12],8:@,160`1.3,3:&,13=dl,6=wf,8=wb,
+     5:@,40~zf`1,O,50,//O^180,14~zb:&,
+     2:/COOH,7://_,13:*/OH,8:/*OH,14:*/_,{1^60,4^60}:*/H)
+endfont
+%***************************************************************************
+beginfont("EN:Quinine","CAS:130-95-0","FM:C20H24N2O2","MW:324.42")
+  font_ht:=25mm;
+  MCf(<30,Ph,3=Ph,7:N,6:/O!,
+      10:\,*/OH,/H~zf^-60,!,|,?6,2:N,1:*/H^60,4:*\,!!,2:@,165~zf,60,5~zb:&)
+endfont
+%***************************************************************************
+beginfont("EN:Atoropin","CAS:51-55-8","FM:C17H23NO3","MW:289.37")
+  font_ht:=25mm;
+  MCf(<-30,O,!,//O,!,!,Ph,
+     $1:@,-120~zb,|,?7,6:*\^190`1.12,N,/_,3~wb:&,$3:\~wv,!,OH)
+endfont
+%***************************************************************************
+beginfont("EN:Rotenone");
+  font_ht:=30mm;
+  MCf(<-60,?5,{-3,-2,-3,-4}=?6,{7,9,-2,-4}=dl,{3,17}=dr,
+   {2,13,16}=O,10://O,{11^-60,12^60}:*/H,{-2,-3}:/O!,1:*\,/_,!!)
+endfont;
+%***************************************************************************
+beginfont("EN:Pyrethrin I");
+  MCf(<30,?3,{3^35~wf,3^-35~zf}:/_,1:*\,!!,iPr,
+     2:\*,//O,!,O,-36~zb,|,?5,-2=dl,-1:/_,-3://O,-2:\,!4,{-1,-3}=dl)
+endfont;
+%***************************************************************************
+beginfont("EN:Validamycin")
+  font_ht:=20mm;
+  MCf(<30,?6,{5,6}:/OH,3:/!OH>rl,
+    $4:\,O,-60,|,?6,2:O,{3,4,5}:/OH,6:/!OH,
+    $1:\,NH,!,|,?6,2=dl,{4,5,6}:/OH,3:/!OH)
+endfont
+%***************************************************************************
+beginfont("EN:Paclitaxel","CAS:33069-62-4","FM:C47H51NO14","MW:853.91")
+  MCf(?6,5=dl,3:@,|<,``1,36,45,45,45,45,>|,
+    $5:&,-4=?6,-4=?4,-1=wb,-3=wf,-1:O,||,
+    {4^35,4^-35,6}:/_,{3^-60,15}:*/OH,8:/*H^-60,9:*/_^60,10://O,
+    1:\,O,!,//O,!,*/OH,!,/Ph,60~wf,NH,-60,//O,60,Ph,
+    7:\*,O,-45,//O,60,Ph,11:*\,O,-60,//O,60,12:\*^-15,O,60,//O,-60)
+endfont
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+beginfont("EN:Ampicillin","MW:349.405")
+  font_ht:=15mm;
+  MCf(<45,?4,-3=?5,2:N,7:S,
+    {3^45,4^-45}:/*H,1://O^15,5:/*COOH^-18,{6^35,6^-35}:/_,
+     4:*\^75,NH,!,//O,!,/*NH2,!,Ph)
+endfont
+%***************************************************************************
+beginfont("EN:Cholesterol","CAS:57-88-5","FM:C27H46O","MW:386.65")
+  font_ht:=15mm;
+  MCf(
+    <30,?6,{-4,-2}=?6,-4=?5,7=dl,
+      1:*/OH,{4,12}:*/_^60,9:*/H^60,
+      10:/*H^180,11:/*H^-60,17:/*H^-54,
+      -1:@,18,/*_,-60,!3,/_,!,
+     )
+endfont
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+bye

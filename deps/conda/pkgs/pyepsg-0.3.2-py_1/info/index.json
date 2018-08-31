@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "python",
+    "requests"
+  ],
+  "license": "LGPL-3.0",
+  "name": "pyepsg",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1531136125477,
+  "version": "0.3.2"
+}

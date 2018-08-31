@@ -1,0 +1,6 @@
+{
+  "c_compiler": "toolchain_c",
+  "zlib": "1.2",
+  "libpng": "1.6.34",
+  "cxx_compiler": "toolchain_cxx"
+}

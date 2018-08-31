@@ -1,0 +1,28 @@
+name bpolynomial
+category Package
+revision 15878
+shortdesc Drawing polynomial functions of up to order 3
+longdesc This MetaPost package helps plotting polynomial and root
+longdesc functions up to order three. The package provides macros to
+longdesc calculate Bezier curves exactly matching a given constant,
+longdesc linear, quadratic or cubic polynomial, or square or cubic root
+longdesc function. In addition, tangents on all functions and
+longdesc derivatives of polynomials can be calculated.
+containersize 2580
+containerchecksum c532c4d01a16985d52f242e4aeb4c583c81cc852bf4ea300164c998209d12dcc788c87cb4378c83fc2f91d766d4d45e7f26c9eddab9a571ffe30f220bfa7dbd3
+doccontainersize 198608
+doccontainerchecksum 8a5f6dac5cd6e2c131761892d64625d1ba92315dc6ba9cf18087be138078b35db59bb1ab814debc1199e7a7467477b8eba6a9324dfdf3d3fe0bbd713fb983e12
+docfiles size=67
+ texmf-dist/doc/metapost/bpolynomial/CHANGES
+ texmf-dist/doc/metapost/bpolynomial/README details="Readme"
+ texmf-dist/doc/metapost/bpolynomial/TODO
+ texmf-dist/doc/metapost/bpolynomial/bpolynomial.pdf details="Package documentation"
+ texmf-dist/doc/metapost/bpolynomial/bpolynomial.tex
+ texmf-dist/doc/metapost/bpolynomial/examples.mp
+runfiles size=3
+ texmf-dist/metapost/bpolynomial/bpolynomial.mp
+catalogue-ctan /graphics/metapost/contrib/macros/bpolynomial
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics graphics-plotfn
+catalogue-version 0.5

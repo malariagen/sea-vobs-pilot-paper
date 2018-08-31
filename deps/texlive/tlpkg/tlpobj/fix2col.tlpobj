@@ -1,0 +1,31 @@
+name fix2col
+category Package
+revision 38770
+shortdesc Fix miscellaneous two column mode features
+longdesc OBSOLETE: do not use in new documents. This package will do
+longdesc nothing in LaTeX formats after 2015/01/01 as the fixes that it
+longdesc implements were incorporated into the fixltx2e package, which
+longdesc is itself obsolete as since the 2015/01/01 release these fixes
+longdesc are in the LaTeX format itself. Fix mark handling so that
+longdesc \firstmark is taken from the first column if that column has
+longdesc any marks at all; keep two column floats like figure* in
+longdesc sequence with single column floats like figure.
+containersize 2692
+containerchecksum a1924348aeb5724701e3b488e41b4f0f2eefb0e0df82ab9f75de8870cbd19ac43027b52906c81b8982040ede788aa42d7319d51dd87d032354adea7f4d1172de
+doccontainersize 212644
+doccontainerchecksum 199c5c2179683dd86ebb9d341e163d15e437c95a01928c7393735f99f8f13b6b6be8e6ed3764369b100f51a446ccfe0b47846dbda0caf095a7fcb5d55724f9ff
+docfiles size=53
+ texmf-dist/doc/latex/fix2col/README details="Readme"
+ texmf-dist/doc/latex/fix2col/fix2col.pdf details="Package documentation"
+srccontainersize 6368
+srccontainerchecksum 79f12be20201bf6c2cfaaac08c599659fb66c160f50e5e9f0fb57d10b01c3ce666854fb716d40012241f84e0ddc261122d9e3c3af2f846baba135fa3cbafd635
+srcfiles size=6
+ texmf-dist/source/latex/fix2col/fix2col.dtx
+ texmf-dist/source/latex/fix2col/fix2col.ins
+runfiles size=2
+ texmf-dist/tex/latex/fix2col/fix2col.sty
+catalogue-ctan /macros/latex/contrib/fix2col
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics typesetting macro-supp
+catalogue-version 0.04

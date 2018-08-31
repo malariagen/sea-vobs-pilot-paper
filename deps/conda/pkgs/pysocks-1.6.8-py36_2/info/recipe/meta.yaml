@@ -1,0 +1,55 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Aug 27 18:11:23 2018
+# ------------------------------------------------
+
+package:
+    name: pysocks
+    version: 1.6.8
+source:
+    sha256: 3fe52c55890a248676fd69dc9e3c4e811718b777834bcaab7a8125cf9deac672
+    url: https://pypi.io/packages/source/P/PySocks/PySocks-1.6.8.tar.gz
+build:
+    number: '2'
+    script: /home/conda/feedstock_root/build_artifacts/pysocks_1535393600137/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py36_2
+requirements:
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.8.24 ha4d7672_0
+        - certifi 2018.8.24 py36_1
+        - libffi 3.2.1 hfc679d8_4
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - pip 18.0 py36_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.2.0 py36_0
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - wheel 0.31.1 py36_1
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - socks
+about:
+    dev_url: https://github.com/Anorov/PySocks
+    doc_url: https://github.com/Anorov/PySocks/blob/master/README.md
+    home: https://github.com/Anorov/PySocks
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A Python SOCKS client module. See https://github.com/Anorov/PySocks for
+        more information.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pmlandwehr

@@ -1,0 +1,58 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Sun Apr  1 11:13:12 2018
+# ------------------------------------------------
+
+package:
+    name: ipywidgets
+    version: 7.2.0
+source:
+    sha256: f23aac2447f593dbdc89a86833a2d59666ed44af42b23c267de380c324599507
+    url: https://pypi.io/packages/source/i/ipywidgets/ipywidgets-7.2.0.tar.gz
+build:
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    script: python -m pip install --no-deps .
+    string: py36_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - setuptools 39.0.1 py36_0
+        - pip 9.0.3 py36_0
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - python 3.6.5 0
+        - wheel 0.30.0 py36_2
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - ipython >=4.0.0
+        - ipykernel >=4.5.1
+        - traitlets >=4.3.1,<5.0.0
+        - nbformat >=4.2.0
+        - widgetsnbextension >=3.2.0,<4.0.0
+test:
+    imports:
+        - ipywidgets
+about:
+    home: https://github.com/ipython/ipywidgets
+    license: BSD 3-clause
+    license_file: COPYING.md
+    summary: Jupyter Interactive Widgets
+extra:
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - minrk
+        - pelson
+        - SylvainCorlay
+        - willingc
+        - jasongrout
+        - maartenbreddels
+        - pbugnion

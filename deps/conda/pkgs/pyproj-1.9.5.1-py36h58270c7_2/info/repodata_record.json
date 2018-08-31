@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py36h58270c7_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "numpy",
+    "proj4 >=5.1.0,<5.1.1.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "pyproj-1.9.5.1-py36h58270c7_2.tar.bz2",
+  "license": "OSI",
+  "md5": "07c0b10fe5c0068c1059f1eed95b1a65",
+  "name": "pyproj",
+  "platform": "linux",
+  "size": 137262,
+  "subdir": "linux-64",
+  "timestamp": 1535496231621,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyproj-1.9.5.1-py36h58270c7_2.tar.bz2",
+  "version": "1.9.5.1"
+}

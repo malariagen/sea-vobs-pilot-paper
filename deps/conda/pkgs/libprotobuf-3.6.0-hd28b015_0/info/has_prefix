@@ -1,0 +1,5 @@
+/opt/anaconda1anaconda2anaconda3 text lib/libprotobuf-lite.la
+/opt/anaconda1anaconda2anaconda3 text lib/libprotobuf.la
+/opt/anaconda1anaconda2anaconda3 text lib/libprotoc.la
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/protobuf-lite.pc
+/opt/anaconda1anaconda2anaconda3 text lib/pkgconfig/protobuf.pc

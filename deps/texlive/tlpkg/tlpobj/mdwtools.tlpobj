@@ -1,0 +1,62 @@
+name mdwtools
+category Package
+revision 15878
+shortdesc Miscellaneous tools by Mark Wooding
+longdesc This collection of tools includes: support for short commands
+longdesc starting with @, macros to sanitise the OT1 encoding of the
+longdesc cmtt fonts; a 'do after' command; improved footnote support;
+longdesc mathenv for various alignment in maths; list handling; mdwmath
+longdesc which adds some minor changes to LaTeX maths; a rewrite of
+longdesc LaTeX's tabular and array environments; verbatim handling; and
+longdesc syntax diagrams.
+containersize 19100
+containerchecksum 098f6055d36e762ef796398deecbda8c8948545afdafa8791d292b27ef12696c1d5e7fa4234835434cc7068b4a7bc015b36636b882e15e9f2883794151902c45
+doccontainersize 1605320
+doccontainerchecksum 5adb6268bffd292a4f5db451302664772ae4d6deb54cc9a5885ea6a76a965fd7aea807e26c227cb93be382cb0a964379531b62285c11dce388f7346e07c83fb4
+docfiles size=514
+ texmf-dist/doc/latex/mdwtools/COPYING
+ texmf-dist/doc/latex/mdwtools/README details="Bundle readme"
+ texmf-dist/doc/latex/mdwtools/at.pdf
+ texmf-dist/doc/latex/mdwtools/cmtt.pdf
+ texmf-dist/doc/latex/mdwtools/doafter.pdf
+ texmf-dist/doc/latex/mdwtools/doafter.tex
+ texmf-dist/doc/latex/mdwtools/footnote.pdf
+ texmf-dist/doc/latex/mdwtools/gpl.tex
+ texmf-dist/doc/latex/mdwtools/mathenv.tex
+ texmf-dist/doc/latex/mdwtools/mdwlist.pdf
+ texmf-dist/doc/latex/mdwtools/mdwmath.pdf
+ texmf-dist/doc/latex/mdwtools/mdwtab.pdf
+ texmf-dist/doc/latex/mdwtools/mdwtools.tex
+ texmf-dist/doc/latex/mdwtools/sverb.pdf
+ texmf-dist/doc/latex/mdwtools/syntax.pdf
+srccontainersize 104872
+srccontainerchecksum 96232db731d74b0284af71b065c82ca124c2ca868947582da8fb0cd36b0ee0fe1f94a4ab4df44b86c9e184a18d22246eccf6397169d3c31aa94ea58180d73d20
+srcfiles size=112
+ texmf-dist/source/latex/mdwtools/at.dtx
+ texmf-dist/source/latex/mdwtools/cmtt.dtx
+ texmf-dist/source/latex/mdwtools/doafter.dtx
+ texmf-dist/source/latex/mdwtools/footnote.dtx
+ texmf-dist/source/latex/mdwtools/mdwlist.dtx
+ texmf-dist/source/latex/mdwtools/mdwmath.dtx
+ texmf-dist/source/latex/mdwtools/mdwtab.dtx
+ texmf-dist/source/latex/mdwtools/mdwtools.ins
+ texmf-dist/source/latex/mdwtools/sverb.dtx
+ texmf-dist/source/latex/mdwtools/syntax.dtx
+runfiles size=31
+ texmf-dist/tex/latex/mdwtools/at.sty
+ texmf-dist/tex/latex/mdwtools/cmtt.sty
+ texmf-dist/tex/latex/mdwtools/doafter.sty
+ texmf-dist/tex/latex/mdwtools/footnote.sty
+ texmf-dist/tex/latex/mdwtools/mTTcmtt.fd
+ texmf-dist/tex/latex/mdwtools/mTTenc.def
+ texmf-dist/tex/latex/mdwtools/mathenv.sty
+ texmf-dist/tex/latex/mdwtools/mdwlist.sty
+ texmf-dist/tex/latex/mdwtools/mdwmath.sty
+ texmf-dist/tex/latex/mdwtools/mdwtab.sty
+ texmf-dist/tex/latex/mdwtools/sverb.sty
+ texmf-dist/tex/latex/mdwtools/syntax.sty
+catalogue-ctan /macros/latex/contrib/mdwtools
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license gpl
+catalogue-topics list-supp notes footnote syntax maths macro-supp table verbatim
+catalogue-version 1.05.4

@@ -1,0 +1,84 @@
+# This file created by conda-build 3.12.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Jul 27 20:45:48 2018
+# ------------------------------------------------
+
+package:
+    name: scikit-allel
+    version: 1.1.10
+source:
+    fn: scikit-allel-1.1.10.tar.gz
+    sha256: 9a862c4b0ec6001234b9bbf0a1f1a4ac2ed3f39bf4f6557ddb4baf0e53616740
+    url: https://pypi.io/packages/source/s/scikit-allel/scikit-allel-1.1.10.tar.gz
+build:
+    number: '2'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36hf8a1672_2
+requirements:
+    build:
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - toolchain_cxx_linux-64 2.1.6 0
+    host:
+        - blas 1.1 openblas
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - cython 0.28.4 py36hfc679d8_0
+        - libffi 3.2.1 3
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libgfortran 3.0.0 1
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - numpy 1.9.3 py36_blas_openblashd3ea46f_205
+        - openblas 0.2.20 8
+        - openssl 1.0.2o h470a237_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.0.0 py36_0
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - xz 5.2.4 h470a237_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - bcolz
+        - dask >=0.15
+        - h5py
+        - libgcc-ng >=4.9
+        - libstdcxx-ng >=4.9
+        - matplotlib
+        - numcodecs
+        - numexpr
+        - numpy >=1.9.3,<2.0a0
+        - pandas
+        - python >=3.6,<3.7.0a0
+        - scikit-learn
+        - scipy
+        - seaborn
+        - zarr >=2.2
+test:
+    commands:
+        - python -m nose allel -v --exclude=from_gff3_region
+    imports:
+        - allel
+        - allel.opt.io_vcf_read
+        - allel.opt.model
+        - allel.opt.stats
+        - allel.test
+        - allel.test.model
+        - allel.test.test_io_vcf_read
+    requires:
+        - nose
+about:
+    dev_url: https://github.com/cggh/scikit-allel
+    doc_url: http://scikit-allel.readthedocs.io/
+    home: http://github.com/cggh/scikit-allel
+    license: MIT
+    license_file: LICENSE
+    summary: A Python package for exploring and analysing genetic variation data.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - alimanfoo
+        - hardingnj

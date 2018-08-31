@@ -1,0 +1,65 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "f6b40de9210850938bd3b5871b04ec0449c81b31a71fc2edd771011d2aaf9dac",
+      "size_in_bytes": 4310
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "1ebc6b5460e14965fccac842c40ec85a3134a5a7bd5b5a6869386d6bcec8274b",
+      "size_in_bytes": 397
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/entry_points.txt",
+      "path_type": "hardlink",
+      "sha256": "7aa1a74c7b4454c6307d7564d59f4c842f0ed8df30baa01baf4962b0b9ab931b",
+      "size_in_bytes": 20
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "28fc1ddf8495588b62d52eaf246d1de4e46c18aa79d6bd003b5bd6b56f838191",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav-2.2.0-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "956f86b50d4f615fe3044234e5bf8f73a6b8f6ad667c2765ab0efb871e3fec8b",
+      "size_in_bytes": 14
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "64ed4015567ca012aa44afacced2a174025ef360963cbb5ef359bd804a742f5c",
+      "size_in_bytes": 188
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "268e4a7c23072d1c7e42d370bcaee112efd23410c0d934816313a3b25b485eb8",
+      "size_in_bytes": 369
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav/__pycache__/client.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "bd722db9a41efbe0882770dcd074ba59176729b2f3ddcdae0e3205edc1d5e4b4",
+      "size_in_bytes": 16162
+    },
+    {
+      "_path": "lib/python3.6/site-packages/aioeasywebdav/client.py",
+      "path_type": "hardlink",
+      "sha256": "37cfe0cd0ddd57d34a1016a3aafc143a04a6374a3d85f05bc5b0f6d91c0a0907",
+      "size_in_bytes": 19571
+    }
+  ],
+  "paths_version": 1
+}

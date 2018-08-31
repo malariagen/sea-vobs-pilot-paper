@@ -1,0 +1,260 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pcre-8.41-h470a237_2",
+  "features": "",
+  "files": [
+    "bin/pcre-config",
+    "bin/pcregrep",
+    "bin/pcretest",
+    "include/pcre.h",
+    "include/pcre_scanner.h",
+    "include/pcre_stringpiece.h",
+    "include/pcrecpp.h",
+    "include/pcrecpparg.h",
+    "include/pcreposix.h",
+    "lib/libpcre.a",
+    "lib/libpcre.la",
+    "lib/libpcre.so",
+    "lib/libpcre.so.1",
+    "lib/libpcre.so.1.2.9",
+    "lib/libpcrecpp.a",
+    "lib/libpcrecpp.la",
+    "lib/libpcrecpp.so",
+    "lib/libpcrecpp.so.0",
+    "lib/libpcrecpp.so.0.0.1",
+    "lib/libpcreposix.a",
+    "lib/libpcreposix.la",
+    "lib/libpcreposix.so",
+    "lib/libpcreposix.so.0",
+    "lib/libpcreposix.so.0.0.5",
+    "lib/pkgconfig/libpcre.pc",
+    "lib/pkgconfig/libpcrecpp.pc",
+    "lib/pkgconfig/libpcreposix.pc"
+  ],
+  "fn": "pcre-8.41-h470a237_2.tar.bz2",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pcre-8.41-h470a237_2",
+    "type": 1
+  },
+  "md5": "43bfea42af779815bca6c229cfa1766d",
+  "name": "pcre",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pcre-8.41-h470a237_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/pcre-config",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "88d450898af148362441bf28b3e0a19062e3d2bd372c702b71edf74901874922",
+        "sha256_in_prefix": "89275bde5600d3b618e157643808029ee969ac596809ee16df1febdfa88b03f7",
+        "size_in_bytes": 2385
+      },
+      {
+        "_path": "bin/pcregrep",
+        "path_type": "hardlink",
+        "sha256": "06bf8f25691451463b4a95f9aae659099d2e61b93124759877068d2675db680b",
+        "sha256_in_prefix": "06bf8f25691451463b4a95f9aae659099d2e61b93124759877068d2675db680b",
+        "size_in_bytes": 46324
+      },
+      {
+        "_path": "bin/pcretest",
+        "path_type": "hardlink",
+        "sha256": "722480ce48d33623e55c7c648847135bd0a046667acd67f3791396d35389b261",
+        "sha256_in_prefix": "722480ce48d33623e55c7c648847135bd0a046667acd67f3791396d35389b261",
+        "size_in_bytes": 82177
+      },
+      {
+        "_path": "include/pcre.h",
+        "path_type": "hardlink",
+        "sha256": "8ecb591fe637c9b4c6dcc2d180182fafcbf072ecfcbb293efd31455d946940bd",
+        "sha256_in_prefix": "8ecb591fe637c9b4c6dcc2d180182fafcbf072ecfcbb293efd31455d946940bd",
+        "size_in_bytes": 31706
+      },
+      {
+        "_path": "include/pcre_scanner.h",
+        "path_type": "hardlink",
+        "sha256": "7442638d75522e87497d442425dc51a6d69ef6bed73c8ab266dbb73343039fb6",
+        "sha256_in_prefix": "7442638d75522e87497d442425dc51a6d69ef6bed73c8ab266dbb73343039fb6",
+        "size_in_bytes": 6600
+      },
+      {
+        "_path": "include/pcre_stringpiece.h",
+        "path_type": "hardlink",
+        "sha256": "3510f9eb6e848a586c6313c9641de7434e0dcdabd1532118935f2adce58b4d07",
+        "sha256_in_prefix": "3510f9eb6e848a586c6313c9641de7434e0dcdabd1532118935f2adce58b4d07",
+        "size_in_bytes": 6312
+      },
+      {
+        "_path": "include/pcrecpp.h",
+        "path_type": "hardlink",
+        "sha256": "165767e52e03797cbbce3e6147e2436459f8b468ffecefedfd8477c157aecfe7",
+        "sha256_in_prefix": "165767e52e03797cbbce3e6147e2436459f8b468ffecefedfd8477c157aecfe7",
+        "size_in_bytes": 26529
+      },
+      {
+        "_path": "include/pcrecpparg.h",
+        "path_type": "hardlink",
+        "sha256": "89912f03f8da84f71c4645385d45e7d6af6e286601285e432249da3b5420b98b",
+        "sha256_in_prefix": "89912f03f8da84f71c4645385d45e7d6af6e286601285e432249da3b5420b98b",
+        "size_in_bytes": 6783
+      },
+      {
+        "_path": "include/pcreposix.h",
+        "path_type": "hardlink",
+        "sha256": "1770f2b30c0af2f24543428173cf6e6479e921045efdbd009fd07817b84e04ad",
+        "sha256_in_prefix": "1770f2b30c0af2f24543428173cf6e6479e921045efdbd009fd07817b84e04ad",
+        "size_in_bytes": 5452
+      },
+      {
+        "_path": "lib/libpcre.a",
+        "path_type": "hardlink",
+        "sha256": "55ca056f38d5f694ef552e4be57a713ce244956d6c4d71c7c5de04beb418bf0d",
+        "sha256_in_prefix": "55ca056f38d5f694ef552e4be57a713ce244956d6c4d71c7c5de04beb418bf0d",
+        "size_in_bytes": 445484
+      },
+      {
+        "_path": "lib/libpcre.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "ecf4dc3909c92f053df479a12144a637ffcc27c898c4800f5f2c62cba5c47c6e",
+        "sha256_in_prefix": "08f316f9869100b9621d193bba864a29a31b762236e7ebea055cd27adcd5b69c",
+        "size_in_bytes": 977
+      },
+      {
+        "_path": "lib/libpcre.so",
+        "path_type": "softlink",
+        "sha256": "ffee7ef544e08ef380926b72a3552d336557948765fe21f646fc6a6ded7fbdad",
+        "size_in_bytes": 339671
+      },
+      {
+        "_path": "lib/libpcre.so.1",
+        "path_type": "softlink",
+        "sha256": "ffee7ef544e08ef380926b72a3552d336557948765fe21f646fc6a6ded7fbdad",
+        "size_in_bytes": 339671
+      },
+      {
+        "_path": "lib/libpcre.so.1.2.9",
+        "path_type": "hardlink",
+        "sha256": "ffee7ef544e08ef380926b72a3552d336557948765fe21f646fc6a6ded7fbdad",
+        "sha256_in_prefix": "ffee7ef544e08ef380926b72a3552d336557948765fe21f646fc6a6ded7fbdad",
+        "size_in_bytes": 339671
+      },
+      {
+        "_path": "lib/libpcrecpp.a",
+        "path_type": "hardlink",
+        "sha256": "57cda66f92579910dc9d226f28693c4a5ab2b27f1ba2ca14f8d06e4e2dea163f",
+        "sha256_in_prefix": "57cda66f92579910dc9d226f28693c4a5ab2b27f1ba2ca14f8d06e4e2dea163f",
+        "size_in_bytes": 106080
+      },
+      {
+        "_path": "lib/libpcrecpp.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "83675c44f0e39b5e63b49ee187ea77e1352d043f73fdbf35c599409b71f2bb58",
+        "sha256_in_prefix": "bd97c32dae6918c55bb57e19db9256d2b9c1f8f0657930db0d3689104c60cc53",
+        "size_in_bytes": 1046
+      },
+      {
+        "_path": "lib/libpcrecpp.so",
+        "path_type": "softlink",
+        "sha256": "d8236643c7b4da6c63ba07622fd94efb37b4e4bc068eeb98216e90b88c2feaed",
+        "size_in_bytes": 74827
+      },
+      {
+        "_path": "lib/libpcrecpp.so.0",
+        "path_type": "softlink",
+        "sha256": "d8236643c7b4da6c63ba07622fd94efb37b4e4bc068eeb98216e90b88c2feaed",
+        "size_in_bytes": 74827
+      },
+      {
+        "_path": "lib/libpcrecpp.so.0.0.1",
+        "path_type": "hardlink",
+        "sha256": "d8236643c7b4da6c63ba07622fd94efb37b4e4bc068eeb98216e90b88c2feaed",
+        "sha256_in_prefix": "d8236643c7b4da6c63ba07622fd94efb37b4e4bc068eeb98216e90b88c2feaed",
+        "size_in_bytes": 74827
+      },
+      {
+        "_path": "lib/libpcreposix.a",
+        "path_type": "hardlink",
+        "sha256": "a14b178ac15c4883210981dbecb739208e24ce45ce036e4a3bebf71ff18c4467",
+        "sha256_in_prefix": "a14b178ac15c4883210981dbecb739208e24ce45ce036e4a3bebf71ff18c4467",
+        "size_in_bytes": 6728
+      },
+      {
+        "_path": "lib/libpcreposix.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c9c31749f7bd1f9a5f8a644e1577c5e129c0c9e43eed31a95a01edc4dd81f672",
+        "sha256_in_prefix": "726978d60ff8fc5e161f5f2a0425e8e0fa59ad8a9ee2579846817f463832a2b9",
+        "size_in_bytes": 1060
+      },
+      {
+        "_path": "lib/libpcreposix.so",
+        "path_type": "softlink",
+        "sha256": "a5cd31b91841ebc31d6c6cb8eedee1834ca757838af36c742dc6b76b4e10c599",
+        "size_in_bytes": 11034
+      },
+      {
+        "_path": "lib/libpcreposix.so.0",
+        "path_type": "softlink",
+        "sha256": "a5cd31b91841ebc31d6c6cb8eedee1834ca757838af36c742dc6b76b4e10c599",
+        "size_in_bytes": 11034
+      },
+      {
+        "_path": "lib/libpcreposix.so.0.0.5",
+        "path_type": "hardlink",
+        "sha256": "a5cd31b91841ebc31d6c6cb8eedee1834ca757838af36c742dc6b76b4e10c599",
+        "sha256_in_prefix": "a5cd31b91841ebc31d6c6cb8eedee1834ca757838af36c742dc6b76b4e10c599",
+        "size_in_bytes": 11034
+      },
+      {
+        "_path": "lib/pkgconfig/libpcre.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "44248cfbce59632d6a0eaf0d87e990dea8931ac090e18d96cb70aaa8669f00e6",
+        "sha256_in_prefix": "b892a6609ca61b0d826781f2d15c57ebb7659c942a6d902e87278cadc91e46e6",
+        "size_in_bytes": 345
+      },
+      {
+        "_path": "lib/pkgconfig/libpcrecpp.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "11a50939d2568de14cfc03d4309be5d203724de249342d29bb50b95cc9f32c3b",
+        "sha256_in_prefix": "2560adcf17f0a8735dd0b5b8f87d555abb26fce98b02524d5649966cdccf81fd",
+        "size_in_bytes": 291
+      },
+      {
+        "_path": "lib/pkgconfig/libpcreposix.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "1c3f1d94046b26dc303b5d0ea43ad95d0422c68b694bfcaf7670afadf7452ca5",
+        "sha256_in_prefix": "936cc1d43dec89fa7cbac5ae66cafc22413cf8f84435de9d0990a71fa4c9145d",
+        "size_in_bytes": 333
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 250367,
+  "subdir": "linux-64",
+  "timestamp": 1532607536494,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pcre-8.41-h470a237_2.tar.bz2",
+  "version": "8.41"
+}

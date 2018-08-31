@@ -1,0 +1,25 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "html5lib >=0.99999999pre,!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8",
+    "python",
+    "setuptools",
+    "six"
+  ],
+  "features": "",
+  "fn": "bleach-2.1.4-py_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "3671115256be032215ebc86d2b65037d",
+  "name": "bleach",
+  "noarch": "python",
+  "size": 21869,
+  "subdir": "noarch",
+  "timestamp": 1535049030242,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/bleach-2.1.4-py_1.tar.bz2",
+  "version": "2.1.4"
+}

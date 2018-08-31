@@ -1,0 +1,23 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "protobuf >=3.0.0",
+    "python"
+  ],
+  "features": "",
+  "fn": "googleapis-common-protos-1.5.3-py_1.tar.bz2",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "044640557a34c5ac6455cbb1b362353d",
+  "name": "googleapis-common-protos",
+  "noarch": "python",
+  "size": 28111,
+  "subdir": "noarch",
+  "timestamp": 1530648294325,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/googleapis-common-protos-1.5.3-py_1.tar.bz2",
+  "version": "1.5.3"
+}

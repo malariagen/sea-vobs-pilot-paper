@@ -1,0 +1,22 @@
+name hatching
+category Package
+revision 23818
+shortdesc MetaPost macros for hatching interior of closed paths
+longdesc The file hatching.mp contains a set of MetaPost macros for
+longdesc hatching interior of closed paths. Examples of usage are
+longdesc included.
+containersize 1528
+containerchecksum 6475ffa9739392630673415fc5d5595b86ae3c618d1b60818d2e74b613227c0cda9c9d13cf5c6552717b77aaa20a5876e07cd77e54949c8eb12f3e60bc827986
+doccontainersize 2432
+doccontainerchecksum 33a56375391f68ec7f6aea92be86bb59ea4f22a949f20015b15ed17daba1f52dd05a1cb112c78e13ebe6e29aa002704f59c5daf6d70670ea649834f5e239437e
+docfiles size=3
+ texmf-dist/doc/metapost/hatching/README details="Readme"
+ texmf-dist/doc/metapost/hatching/htchuse.mp
+ texmf-dist/doc/metapost/hatching/htchuse_.tex
+runfiles size=1
+ texmf-dist/metapost/hatching/hatching.mp
+catalogue-ctan /graphics/metapost/contrib/macros/hatching
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license pd
+catalogue-topics graphics-subpic
+catalogue-version 0.11

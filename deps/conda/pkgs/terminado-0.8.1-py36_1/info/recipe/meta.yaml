@@ -1,0 +1,65 @@
+# This file created by conda-build 3.13.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Aug 28 15:36:21 2018
+# ------------------------------------------------
+
+package:
+    name: terminado
+    version: 0.8.1
+source:
+    sha256: 55abf9ade563b8f9be1f34e4233c7b7bde726059947a593322e8a553cc4c067a
+    url: https://pypi.io/packages/source/t/terminado/terminado-0.8.1.tar.gz
+build:
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/terminado_1535470679363/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p/bin/python
+        setup.py install
+    string: py36_1
+requirements:
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.8.24 ha4d7672_0
+        - certifi 2018.8.24 py36_1
+        - libffi 3.2.1 hfc679d8_4
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.2.0 py36_0
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - ptyprocess
+        - python >=3.6,<3.7.0a0
+        - tornado >=4
+test:
+    commands:
+        - nosetests terminado
+    imports:
+        - terminado
+    requires:
+        - nose
+about:
+    description: 'Terminado is a Tornado websocket backend for the term.js Javascript
+
+        terminal emulator library.
+
+        '
+    dev_url: https://github.com/takluyver/terminado
+    doc_source_url: https://github.com/takluyver/terminado/blob/master/doc/index.rst
+    doc_url: http://terminado.readthedocs.org/en/latest/
+    home: https://github.com/jupyter/terminado
+    license: BSD-2-Clause
+    license_file: LICENSE
+    summary: Terminals served by tornado websockets
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - blink1073
+        - ocefpaf
+        - pelson
+        - takluyver

@@ -1,0 +1,97 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "769f5be1e24d9ac453c0c1724c0e4a356790fb9dd8d56368138a9ba3fab1a883",
+      "size_in_bytes": 14904
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "03ee5243ea88f2e758865faea329a763b5b2ce979365de5a76b4d482dfe6d98e",
+      "size_in_bytes": 714
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "3cd2c8cd5d44c74164a05d87e26b2c13875749654f52f91e9ddf30ac4b2bf1b6",
+      "size_in_bytes": 322
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "3095b751f713c11e04adf91244b54de36091913c33942cd1b8452ef9fd04e8ba",
+      "size_in_bytes": 25
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl-1.2.6-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "bdfdd226e421fa4ed8b6fb14ad5fce3cead3f4aaa7d023a593b20f63286d1a44",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "21214f05cca4c3699d490113b1882ce7e78c41cdf995805c068be41cb163f2ad",
+      "size_in_bytes": 30992
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/__init__.pyi",
+      "path_type": "hardlink",
+      "sha256": "55f6dab88aa2de526e922528b003ee18bea92c6f6b68c91da5b0e23b517355ac",
+      "size_in_bytes": 3206
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/__pycache__/__init__.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "2c47aff82f17634d87de1857971ea5d4b10ded9ffe46e1f21cde8f53aaea8c1b",
+      "size_in_bytes": 21512
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/__pycache__/quoting.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "1c03c2357920afb54703662553f1b824ad0b7add12c9f1336d24c3f6f98503dc",
+      "size_in_bytes": 4112
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/_quoting.c",
+      "path_type": "hardlink",
+      "sha256": "da891a31be15404a665d795a8caa1c8b343dd2626790ea00c04a10aa8c634ea9",
+      "size_in_bytes": 469973
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/_quoting.cpython-36m-x86_64-linux-gnu.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/yarl_1529019047147/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+      "sha256": "359cbc1c46296fe0d094f2ececc24ee9f2822869fa9316bacc573a4d5d0598db",
+      "size_in_bytes": 542395
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/_quoting.pyx",
+      "path_type": "hardlink",
+      "sha256": "0a0018f254527e14c97a92dac69fe5f549f028fbb933891970535e8ba365ab28",
+      "size_in_bytes": 11701
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/py.typed",
+      "path_type": "hardlink",
+      "sha256": "325dc75e7b981686a2a309727e8e8843f0e6bfd80657cba141bab0643cec344f",
+      "size_in_bytes": 13
+    },
+    {
+      "_path": "lib/python3.6/site-packages/yarl/quoting.py",
+      "path_type": "hardlink",
+      "sha256": "32405096265377586ebcbd0e24ca34a68615e02be4284e84e753971a475f9b5b",
+      "size_in_bytes": 6532
+    }
+  ],
+  "paths_version": 1
+}

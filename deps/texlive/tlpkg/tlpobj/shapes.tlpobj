@@ -1,0 +1,29 @@
+name shapes
+category Package
+revision 42428
+shortdesc Draw polygons, reentrant stars, and fractions in circles with MetaPost
+longdesc The shapes set of macros allows drawing regular polygons; their
+longdesc corresponding reentrant stars in all their variations; and
+longdesc fractionally filled circles (useful for visually demonstrating
+longdesc the nature of fractions) in MetaPost.
+containersize 1888
+containerchecksum fc6ae3dfef666d2968225894d77680b17023d8b35f6e6f10143ee0221ee5a5e9f00b3a31a5696ee835f71db384f588a296a73778bab18c73ececdd235fe409a9
+doccontainersize 183000
+doccontainerchecksum ecdc8aa22a156fb6c2435644d34e8a58c0e1017be7103afeeffa3e03c054cd7482a360dd8713dcac64d75c6f1c44c328e8a718dd7acdf849d0dc5e6436bf0c16
+docfiles size=51
+ texmf-dist/doc/metapost/shapes/CHANGES
+ texmf-dist/doc/metapost/shapes/README details="Readme"
+ texmf-dist/doc/metapost/shapes/lppl.txt
+ texmf-dist/doc/metapost/shapes/shapes.pdf details="Package documentation"
+srccontainersize 4616
+srccontainerchecksum 0e517d47c8dd5cd64dd773fc20d732f3a799bbb7bb39555ab9aa5563acf26a3668df5911b5c41e9c3230ef916b66a34a39aa6e850132aa49994fd486c2c8ba2e
+srcfiles size=5
+ texmf-dist/source/metapost/shapes/shapes.dtx
+ texmf-dist/source/metapost/shapes/shapes.ins
+runfiles size=2
+ texmf-dist/metapost/shapes/shapes.mp
+catalogue-ctan /graphics/metapost/contrib/macros/shapes
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl1.3
+catalogue-topics maths
+catalogue-version 1.1

@@ -1,0 +1,5 @@
+{
+  "cxx_compiler": "toolchain_cxx",
+  "c_compiler": "toolchain_c",
+  "zeromq": ">=4.2.5,<4.3"
+}

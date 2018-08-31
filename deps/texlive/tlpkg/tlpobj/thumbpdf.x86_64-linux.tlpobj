@@ -1,0 +1,8 @@
+name thumbpdf.x86_64-linux
+category Package
+revision 8601
+shortdesc x86_64-linux files of thumbpdf
+containersize 344
+containerchecksum 11cccb2e93423a00298961a9c5964e913366f6be269b3d9b3f4799f9457efe51da1a86d63f3b11cfc7edbc6c20fc6f2bd8dda483aaab30645041a819bd078493
+binfiles arch=x86_64-linux size=1
+ bin/x86_64-linux/thumbpdf

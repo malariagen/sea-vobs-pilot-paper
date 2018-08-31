@@ -1,0 +1,131 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Thu Apr  5 13:40:38 2018
+# ------------------------------------------------
+
+package:
+    name: biopython
+    version: '1.71'
+source:
+    fn: biopython-1.71.tar.gz
+    sha256: 4f1770a29a5b18fcaca759bbc888083cdde2b301f073439ff640570d4a93e033
+    url: https://pypi.io/packages/source/b/biopython/biopython-1.71.tar.gz
+build:
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - openblas 0.2.20 7
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - setuptools 39.0.1 py36_0
+        - blas 1.1 openblas
+        - libgfortran 3.0.0 1
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - python 3.6.5 0
+        - numpy 1.8.2 py36_blas_openblas_201
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - numpy >=1.8
+test:
+    imports:
+        - Bio
+        - Bio.Affy
+        - Bio.Align
+        - Bio.Align.Applications
+        - Bio.AlignIO
+        - Bio.Alphabet
+        - Bio.Application
+        - Bio.Blast
+        - Bio.CAPS
+        - Bio.Cluster
+        - Bio.Compass
+        - Bio.Crystal
+        - Bio.Data
+        - Bio.Emboss
+        - Bio.Entrez
+        - Bio.ExPASy
+        - Bio.FSSP
+        - Bio.GA
+        - Bio.GA.Crossover
+        - Bio.GA.Mutation
+        - Bio.GA.Repair
+        - Bio.GA.Selection
+        - Bio.GenBank
+        - Bio.Geo
+        - Bio.HMM
+        - Bio.KDTree
+        - Bio.KEGG
+        - Bio.KEGG.Compound
+        - Bio.KEGG.Enzyme
+        - Bio.KEGG.KGML
+        - Bio.KEGG.Map
+        - Bio.Medline
+        - Bio.NMR
+        - Bio.NeuralNetwork
+        - Bio.NeuralNetwork.BackPropagation
+        - Bio.NeuralNetwork.Gene
+        - Bio.Nexus
+        - Bio.PDB
+        - Bio.PDB.QCPSuperimposer
+        - Bio.Pathway
+        - Bio.Pathway.Rep
+        - Bio.Phylo
+        - Bio.Phylo.Applications
+        - Bio.Phylo.PAML
+        - Bio.PopGen
+        - Bio.PopGen.GenePop
+        - Bio.Restriction
+        - Bio.SCOP
+        - Bio.SVDSuperimposer
+        - Bio.SearchIO
+        - Bio.SearchIO.BlastIO
+        - Bio.SearchIO.ExonerateIO
+        - Bio.SearchIO.HmmerIO
+        - Bio.SearchIO._model
+        - Bio.SeqIO
+        - Bio.SeqUtils
+        - Bio.Sequencing
+        - Bio.Sequencing.Applications
+        - Bio.Statistics
+        - Bio.SubsMat
+        - Bio.SwissProt
+        - Bio.TogoWS
+        - Bio.UniGene
+        - Bio.UniProt
+        - Bio.Wise
+        - Bio._py3k
+        - Bio.codonalign
+        - Bio.cpairwise2
+        - Bio.motifs
+        - Bio.motifs.applications
+        - Bio.motifs.jaspar
+        - Bio.phenotype
+        - Bio.trie
+        - BioSQL
+about:
+    description: 'Biopython is a collection of freely available Python tools for
+
+        computational molecular biology
+
+        '
+    dev_url: https://github.com/biopython/biopython
+    doc_url: http://biopython.org
+    home: http://biopython.org
+    license: Biopython License Agreement
+    license_file: LICENSE.rst
+    summary: Collection of freely available tools for computational molecular biology
+extra:
+    final: true
+    recipe-maintainers:
+        - souravsingh
+        - peterjc

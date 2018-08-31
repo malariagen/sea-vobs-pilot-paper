@@ -1,0 +1,58 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Mon Jul 16 04:11:27 2018
+# ------------------------------------------------
+
+package:
+    name: sortedcontainers
+    version: 2.0.4
+source:
+    fn: sortedcontainers-2.0.4.tar.gz
+    sha256: 607294c6e291a270948420f7ffa1fb3ed47384a4c08db6d1e9c92d08a6981982
+    url: https://pypi.io/packages/source/s/sortedcontainers/sortedcontainers-2.0.4.tar.gz
+build:
+    noarch: python
+    number: '1'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_1
+requirements:
+    host:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py27_0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - pip 9.0.3 py27_0
+        - python 2.7.15 0
+        - readline 7.0 0
+        - setuptools 40.0.0 py27_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - wheel 0.31.1 py27_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python
+test:
+    imports:
+        - sortedcontainers
+about:
+    description: 'SortedContainers is a sorted collections library, written in pure-Python
+
+        and fast as C-extensions.
+
+        '
+    dev_url: https://github.com/grantjenks/python-sortedcontainers
+    doc_source_url: https://github.com/grantjenks/python-sortedcontainers/blob/master/docs/index.rst
+    doc_url: http://www.grantjenks.com/docs/sortedcontainers/
+    home: http://www.grantjenks.com/docs/sortedcontainers/
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: 'Python Sorted Container Types: SortedList, SortedDict, and SortedSet'
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - grantjenks
+        - msarahan
+        - nehaljwani
+        - richafrank

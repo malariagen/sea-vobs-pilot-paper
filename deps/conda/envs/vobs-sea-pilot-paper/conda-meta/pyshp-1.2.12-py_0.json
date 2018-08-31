@@ -1,0 +1,87 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyshp-1.2.12-py_0",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyshp-1.2.12-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyshp-1.2.12-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyshp-1.2.12-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyshp-1.2.12-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/pyshp-1.2.12-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/shapefile.py",
+    "lib/python3.6/site-packages/__pycache__/shapefile.cpython-36.pyc"
+  ],
+  "fn": "pyshp-1.2.12-py_0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyshp-1.2.12-py_0",
+    "type": 1
+  },
+  "md5": "92b3b3c332ba6edc59e453e94e0dace6",
+  "name": "pyshp",
+  "noarch": "python",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyshp-1.2.12-py_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "afb28f16e2a081d5467b8dba78a6af7d5b5c6510b8ee1946af9e0654f9abe2bc",
+        "sha256_in_prefix": "afb28f16e2a081d5467b8dba78a6af7d5b5c6510b8ee1946af9e0654f9abe2bc",
+        "size_in_bytes": 32497
+      },
+      {
+        "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "00d5b90590b5be7c6e69d0bdf73a424ad25af20faa5d3609d2f1a207588dfee3",
+        "sha256_in_prefix": "00d5b90590b5be7c6e69d0bdf73a424ad25af20faa5d3609d2f1a207588dfee3",
+        "size_in_bytes": 844
+      },
+      {
+        "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "site-packages/pyshp-1.2.12-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "097c2a9cb7ad421e7c270ac687124becfb1149014a706daec977bf21fd6c3345",
+        "sha256_in_prefix": "097c2a9cb7ad421e7c270ac687124becfb1149014a706daec977bf21fd6c3345",
+        "size_in_bytes": 10
+      },
+      {
+        "_path": "site-packages/shapefile.py",
+        "path_type": "hardlink",
+        "sha256": "2e809022c114057596d5bf0fe77634206b0c4e65341f49bd5c9d4dd2ca3ad85c",
+        "sha256_in_prefix": "2e809022c114057596d5bf0fe77634206b0c4e65341f49bd5c9d4dd2ca3ad85c",
+        "size_in_bytes": 52285
+      },
+      {
+        "_path": "lib/python3.6/site-packages/__pycache__/shapefile.cpython-36.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "size": 22364,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/pyshp-1.2.12-py_0.tar.bz2",
+  "version": "1.2.12"
+}

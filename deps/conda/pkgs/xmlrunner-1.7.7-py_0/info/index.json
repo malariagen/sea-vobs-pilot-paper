@@ -1,0 +1,14 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python"
+  ],
+  "license": "LGPL-3.0",
+  "name": "xmlrunner",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "version": "1.7.7"
+}

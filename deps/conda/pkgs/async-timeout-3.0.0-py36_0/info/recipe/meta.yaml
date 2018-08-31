@@ -1,0 +1,45 @@
+# This file created by conda-build 3.10.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Thu May 10 22:57:05 2018
+# ------------------------------------------------
+
+package:
+    name: async-timeout
+    version: 3.0.0
+source:
+    fn: async-timeout-3.0.0.tar.gz
+    sha256: b3c0ddc416736619bd4a95ca31de8da6920c3b9a140c64dbef2b2fa7bf521287
+    url: https://pypi.io/packages/source/a/async-timeout/async-timeout-3.0.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    build:
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - python 3.6.5 1
+        - readline 7.0 0
+        - setuptools 39.1.0 py36_0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - xz 5.2.3 0
+        - zlib 1.2.11 0
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - async_timeout
+about:
+    dev_url: http://github.com/aio-libs/async_timeout
+    home: http://github.com/aio-libs/async_timeout
+    license: Apache 2.0
+    license_file: LICENSE
+    summary: Timeout context manager for asyncio programs
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - sodre

@@ -1,0 +1,75 @@
+name fontspec
+category Package
+revision 45732
+shortdesc Advanced font selection in XeLaTeX and LuaLaTeX
+longdesc Fontspec is a package for XeLaTeX and LuaLaTeX. It provides an
+longdesc automatic and unified interface to feature-rich AAT and
+longdesc OpenType fonts through the NFSS in LaTeX running on XeTeX or
+longdesc LuaTeX engines. The package requires the l3kernel and xparse
+longdesc bundles from the LaTeX3 development team.
+depend iftex
+depend l3kernel
+depend l3packages
+depend xunicode
+depend lm
+depend euenc
+containersize 25824
+containerchecksum 17b5899c768a098f84ab75d999e97e608de0e308b5393c239f03be06317aeb25f2bcb072211b6aebb8dadb5412ea78923cb7ccc4899520da58baa6204ffd4d52
+doccontainersize 1240636
+doccontainerchecksum 391a73ba51fe63f7b16cbe26c6d18b96b510bc82477e0356d1785bdffde8db0658ad9f961c60671905583d4939ec74a88291837bb0cac6a499ce2b7153a184fb
+docfiles size=324
+ texmf-dist/doc/latex/fontspec/CHANGES.md
+ texmf-dist/doc/latex/fontspec/README.md details="Package README"
+ texmf-dist/doc/latex/fontspec/fontspec-code.pdf
+ texmf-dist/doc/latex/fontspec/fontspec-example.tex
+ texmf-dist/doc/latex/fontspec/fontspec.pdf details="Package documentation"
+srccontainersize 81388
+srccontainerchecksum 82e61c8f49d12540fd6d0d39bb4a287c681ab61977d88a96d8f7ab985f56b4713746ab8d9ccd21dc4ae396159387c36cc521d83130871ac2dbaf88be50e11361
+srcfiles size=112
+ texmf-dist/source/latex/fontspec/fontspec-api.dtx
+ texmf-dist/source/latex/fontspec/fontspec-closing.dtx
+ texmf-dist/source/latex/fontspec/fontspec-code-load.dtx
+ texmf-dist/source/latex/fontspec/fontspec-code.ltx
+ texmf-dist/source/latex/fontspec/fontspec-doc-api.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-enc.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-featset.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-fontsel.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-intro.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-luatex.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-opentype.tex
+ texmf-dist/source/latex/fontspec/fontspec-doc-style.sty
+ texmf-dist/source/latex/fontspec/fontspec-doc-xetex.tex
+ texmf-dist/source/latex/fontspec/fontspec-enc.dtx
+ texmf-dist/source/latex/fontspec/fontspec-example.tex
+ texmf-dist/source/latex/fontspec/fontspec-feat-aat.dtx
+ texmf-dist/source/latex/fontspec/fontspec-feat-opentype.dtx
+ texmf-dist/source/latex/fontspec/fontspec-fontload.dtx
+ texmf-dist/source/latex/fontspec/fontspec-graphite.dtx
+ texmf-dist/source/latex/fontspec/fontspec-interfaces.dtx
+ texmf-dist/source/latex/fontspec/fontspec-internal.dtx
+ texmf-dist/source/latex/fontspec/fontspec-keyval.dtx
+ texmf-dist/source/latex/fontspec/fontspec-lang.dtx
+ texmf-dist/source/latex/fontspec/fontspec-lua.dtx
+ texmf-dist/source/latex/fontspec/fontspec-math.dtx
+ texmf-dist/source/latex/fontspec/fontspec-msg.dtx
+ texmf-dist/source/latex/fontspec/fontspec-opening.dtx
+ texmf-dist/source/latex/fontspec/fontspec-opentype.dtx
+ texmf-dist/source/latex/fontspec/fontspec-patches.dtx
+ texmf-dist/source/latex/fontspec/fontspec-scripts.dtx
+ texmf-dist/source/latex/fontspec/fontspec-user.dtx
+ texmf-dist/source/latex/fontspec/fontspec-vars.dtx
+ texmf-dist/source/latex/fontspec/fontspec-xfss.dtx
+ texmf-dist/source/latex/fontspec/fontspec.dtx
+ texmf-dist/source/latex/fontspec/fontspec.ins
+ texmf-dist/source/latex/fontspec/fontspec.ltx
+runfiles size=75
+ texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+ texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+ texmf-dist/tex/latex/fontspec/fontspec.cfg
+ texmf-dist/tex/latex/fontspec/fontspec.lua
+ texmf-dist/tex/latex/fontspec/fontspec.sty
+catalogue-ctan /macros/latex/contrib/fontspec
+catalogue-date 2017-11-09 13:17:35 +0100
+catalogue-license lppl1.3c
+catalogue-topics font-sel luatex xetex
+catalogue-version 2.6g

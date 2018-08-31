@@ -1,0 +1,27 @@
+name latexbug
+category Package
+revision 45559
+shortdesc Bug-classification for LaTeX related bugs
+longdesc The package is written in order to help identifying the
+longdesc rightful addressee for a bug report. The LaTeX team asks that
+longdesc it will be loaded in any test file that is intended to be sent
+longdesc to the LaTeX bug database as part of a bug report.
+containersize 4624
+containerchecksum 175e6055cc3aba4b284426a5e8e77bcf834d3d97f12c22e165f894be2147818b0dbd252b6b3575048f217a32cdfdb27b7f2dd98693817e62d2d24cd7778d6063
+doccontainersize 185360
+doccontainerchecksum e1d77f7dc625dbf76e1b46e267e1af3dd932f26fdf3bea283589b1ac3b5427537a7756a1501e32d5ab7871bd6e4435f5e4fd7df7fc7059ae066fb63fe775f907
+docfiles size=47
+ texmf-dist/doc/latex/latexbug/README.md details="Readme"
+ texmf-dist/doc/latex/latexbug/latexbug.pdf details="Package documentation"
+srccontainersize 8744
+srccontainerchecksum 1fdce6f354ae6a5e248611fa39e152749041cb6a760117e17429a1d358c47cdd6a3659188a08025fb1674106c8ba7bcb48de4556f492b154464079d293557d29
+srcfiles size=9
+ texmf-dist/source/latex/latexbug/latexbug.dtx
+ texmf-dist/source/latex/latexbug/latexbug.ins
+runfiles size=5
+ texmf-dist/tex/latex/latexbug/latexbug.sty
+catalogue-ctan /macros/latex/required/latexbug
+catalogue-date 2017-10-19 14:07:35 +0200
+catalogue-license lppl1.3c
+catalogue-topics latex-doc latex-devel
+catalogue-version 1.0d

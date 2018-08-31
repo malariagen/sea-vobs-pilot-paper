@@ -1,0 +1,32 @@
+name xltxtra
+category Package
+revision 39453
+shortdesc "Extras" for LaTeX users of XeTeX
+longdesc This package was previously used to provide a number of
+longdesc features that were useful for typesetting documents with
+longdesc XeLaTeX. Many of those features have now been incorporated into
+longdesc the fontspec package and other packages, but the package
+longdesc persists for backwards compatibility. Nowadays, loading xltxtra
+longdesc will: load the fontspec, metalogo, and realscripts packages;
+longdesc redefine \showhyphens so it works correctly; and define two
+longdesc extra commands: \vfrac and \namedglyph.
+depend metalogo
+containersize 2608
+containerchecksum 04a4c8b97ef73c943f4ce2b20fae952be7c1d745ef173fbaafe8706219b41c1bc25534336fa03b019990baba7e947509029680c2e8993dcdc0759233405b5a16
+doccontainersize 132468
+doccontainerchecksum 46fa53bfbe6ad5cf63afa4c3deda98cdd468db3187920a6478411b7fff0f634f7ffa5aacad1d9b27ba89ef44c962e4c774fe9f429a9856d9879b9a8d40297282
+docfiles size=34
+ texmf-dist/doc/latex/xltxtra/README details="Readme"
+ texmf-dist/doc/latex/xltxtra/xltxtra.pdf details="Package documentation"
+srccontainersize 6588
+srccontainerchecksum dc786d5ad240a795dd502e430810f6bf9eb63e74b3505d1267636de38bb17d4a6000a4486855f660ad5228c7e9717c5b84cbe47205c2e53ad588240ba939a1ac
+srcfiles size=6
+ texmf-dist/source/latex/xltxtra/xltxtra.dtx
+ texmf-dist/source/latex/xltxtra/xltxtra.ins
+runfiles size=2
+ texmf-dist/tex/latex/xltxtra/xltxtra.sty
+catalogue-ctan /macros/latex/contrib/xltxtra
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics xetex
+catalogue-version 0.6

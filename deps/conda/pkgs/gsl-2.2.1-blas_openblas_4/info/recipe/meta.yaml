@@ -1,0 +1,41 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Fri Nov 17 11:10:01 2017
+# ------------------------------------------------
+
+package:
+    name: gsl
+    version: 2.2.1
+source:
+    patches: ''
+    sha256: 13d23dc7b0824e1405f3f7e7d0776deee9b8f62c62860bf66e7852d402b8b024
+    url: http://ftpmirror.gnu.org/gsl/gsl-2.2.1.tar.gz
+build:
+    features:
+        - blas_openblas
+    noarch: ''
+    noarch_python: false
+    number: '4'
+    string: blas_openblas_4
+requirements:
+    build:
+        - libgfortran 3.0.0 1
+        - blas 1.1 openblas
+        - openblas 0.2.20 4
+    run:
+        - blas 1.1 openblas
+        - openblas 0.2.20|0.2.20.*
+test:
+    commands:
+        - gsl-config --prefix
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    home: http://www.gnu.org/software/gsl/
+    license: GPL-3.0
+    license_file: COPYING
+    summary: GNU Scientific Library.
+extra:
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - kwilcox

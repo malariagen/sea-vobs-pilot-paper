@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "fontconfig 2.12.*",
+    "freetype 2.8.1",
+    "glib 2.55.*",
+    "icu 58.*",
+    "libpng >=1.6.32,<1.6.35",
+    "pixman 0.34.*",
+    "zlib 1.2.11"
+  ],
+  "features": "",
+  "fn": "cairo-1.14.10-0.tar.bz2",
+  "license": "LGPL 2.1 or MPL 1.1",
+  "md5": "c2893f3f0079afbeb2e10664edff46bd",
+  "name": "cairo",
+  "platform": "linux",
+  "size": 1310236,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/cairo-1.14.10-0.tar.bz2",
+  "version": "1.14.10"
+}

@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "license": "Apache 2.0 or BSD 3-Clause",
+  "name": "cryptography-vectors",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1534274230876,
+  "version": "2.3.1"
+}

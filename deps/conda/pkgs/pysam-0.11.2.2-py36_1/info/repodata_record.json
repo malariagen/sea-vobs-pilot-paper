@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py36_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bcftools >=1.4.1",
+    "curl",
+    "htslib >=1.4.1",
+    "libgcc",
+    "python 3.6*",
+    "samtools >=1.4.1",
+    "zlib"
+  ],
+  "features": "",
+  "fn": "pysam-0.11.2.2-py36_1.tar.bz2",
+  "license": "MIT",
+  "md5": "f56d88da7fedf69dc6d25a95c9184737",
+  "name": "pysam",
+  "platform": "linux",
+  "size": 7045405,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/pysam-0.11.2.2-py36_1.tar.bz2",
+  "version": "0.11.2.2"
+}

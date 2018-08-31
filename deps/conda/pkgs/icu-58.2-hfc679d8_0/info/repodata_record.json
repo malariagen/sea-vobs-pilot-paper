@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "hfc679d8_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "libstdcxx-ng >=4.9"
+  ],
+  "features": "",
+  "fn": "icu-58.2-hfc679d8_0.tar.bz2",
+  "license": "MIT",
+  "md5": "e17d61a82f7b047eefca832b07ed8846",
+  "name": "icu",
+  "platform": "linux",
+  "size": 23959837,
+  "subdir": "linux-64",
+  "timestamp": 1529858169029,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/icu-58.2-hfc679d8_0.tar.bz2",
+  "version": "58.2"
+}

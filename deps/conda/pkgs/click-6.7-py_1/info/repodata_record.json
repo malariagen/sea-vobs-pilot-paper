@@ -1,0 +1,21 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "click-6.7-py_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "7e678ee655772565584184a3d692936e",
+  "name": "click",
+  "noarch": "python",
+  "size": 54840,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/click-6.7-py_1.tar.bz2",
+  "version": "6.7"
+}

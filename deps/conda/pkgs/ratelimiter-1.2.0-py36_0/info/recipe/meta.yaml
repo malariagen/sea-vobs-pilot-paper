@@ -1,0 +1,56 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Thu Aug 10 13:52:41 2017
+# ------------------------------------------------
+
+package:
+    name: ratelimiter
+    version: 1.2.0
+source:
+    fn: ratelimiter-1.2.0.tar.gz
+    sha256: f724b256264afdeab0225ec174728b0f8af1afd1cc122463150daf226b411fb6
+    url: https://pypi.io/packages/source/r/ratelimiter/ratelimiter-1.2.0.tar.gz
+build:
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py36_0
+requirements:
+    build:
+        - ncurses 5.9 10
+        - readline 6.2 0
+        - tk 8.5.19 2
+        - ca-certificates 2017.7.27.1 0
+        - zlib 1.2.11 0
+        - certifi 2017.7.27.1 py36_0
+        - python 3.6.2 0
+        - sqlite 3.13.0 1
+        - setuptools 36.2.2 py36_0
+        - openssl 1.0.2l 0
+        - xz 5.2.2 0
+    run:
+        - python
+test:
+    imports:
+        - ratelimiter
+about:
+    description: 'This package provides the ratelimiter module, which ensures that
+        an operation
+
+        will not be executed more than a given number of times on a given period.
+
+        This can prove useful when working with third parties APIs which require
+
+        for example a maximum of 10 requests per second.
+
+        '
+    home: https://github.com/RazerM/ratelimiter
+    license: Apache-2.0
+    license_family: APACHE
+    license_file: /recipe_root/LICENSE
+    summary: Simple Python module providing rate limiting.
+extra:
+    final: true
+    recipe-maintainers:
+        - johanneskoester

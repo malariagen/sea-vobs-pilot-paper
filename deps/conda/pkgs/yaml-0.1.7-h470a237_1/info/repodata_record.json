@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "h470a237_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9"
+  ],
+  "features": "",
+  "fn": "yaml-0.1.7-h470a237_1.tar.bz2",
+  "license": "MIT",
+  "md5": "0e9b74d942b5c48af1491bc8bedfccdd",
+  "name": "yaml",
+  "platform": "linux",
+  "size": 78447,
+  "subdir": "linux-64",
+  "timestamp": 1533652610856,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/yaml-0.1.7-h470a237_1.tar.bz2",
+  "version": "0.1.7"
+}

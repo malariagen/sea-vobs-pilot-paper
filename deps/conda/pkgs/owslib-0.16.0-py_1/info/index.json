@@ -1,0 +1,20 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "lxml",
+    "pyproj",
+    "python",
+    "python-dateutil",
+    "pytz",
+    "requests"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "owslib",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1535498980638,
+  "version": "0.16.0"
+}

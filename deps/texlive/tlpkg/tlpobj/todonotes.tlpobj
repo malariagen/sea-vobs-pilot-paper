@@ -1,0 +1,33 @@
+name todonotes
+category Package
+revision 42423
+shortdesc Marking things to do in a LaTeX document
+longdesc The package lets the user mark things to do later, in a simple
+longdesc and visually appealing way. The package takes several options
+longdesc to enable customization/finetuning of the visual appearance.
+containersize 3928
+containerchecksum 8ef1a655d294ea573f0257b560ea37b327f4f9cf6857dccf37a75ba8934f9de33b2ee67b79cb04792f87d1d665b1002fabf14e304e9776d9018efb74c1ad2252
+doccontainersize 425664
+doccontainerchecksum aaa45808147d23ae5282405a9d5a18895c831574c2456fae29590e60841d54b2efeabfea8cd701a23e6dca7f355cb90f66fb89c6dd878fe994b445a1f81407b7
+docfiles size=111
+ texmf-dist/doc/latex/todonotes/README details="Readme"
+ texmf-dist/doc/latex/todonotes/examples/alterAppearenceOfListOfTodos.pdf
+ texmf-dist/doc/latex/todonotes/examples/alterAppearenceOfListOfTodos.tex
+ texmf-dist/doc/latex/todonotes/examples/externalize.pdf
+ texmf-dist/doc/latex/todonotes/examples/externalize.tex
+ texmf-dist/doc/latex/todonotes/examples/saveColorByUsingLayers.pdf
+ texmf-dist/doc/latex/todonotes/examples/saveColorByUsingLayers.tex
+ texmf-dist/doc/latex/todonotes/todonotes.pdf details="Package documentation"
+srccontainersize 16704
+srccontainerchecksum eb7910ec7bb48aa04ceaab4b673db91306c23be509c3e29ea2586a39b6d2d6fc024d69df2c1bd478be31e2f4a52dbda152de8523b258647729233df67cef096b
+srcfiles size=18
+ texmf-dist/source/latex/todonotes/todonotes.dtx
+ texmf-dist/source/latex/todonotes/todonotes.ins
+runfiles size=5
+ texmf-dist/tex/latex/todonotes/todonotes.sty
+catalogue-also todo
+catalogue-ctan /macros/latex/contrib/todonotes
+catalogue-date 2016-11-02 14:55:56 +0100
+catalogue-license lppl1.2
+catalogue-topics notes editorial
+catalogue-version 1.0.5

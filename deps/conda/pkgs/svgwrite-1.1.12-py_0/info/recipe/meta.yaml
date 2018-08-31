@@ -1,0 +1,51 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Mon Feb 12 10:04:23 2018
+# ------------------------------------------------
+
+package:
+    name: svgwrite
+    version: 1.1.12
+source:
+    fn: svgwrite-1.1.12.zip
+    sha256: 968c99f193f34f0fa7f0b3e82f49b93789c7c45cd89ce190480f16020d41ab79
+    url: https://pypi.io/packages/source/s/svgwrite/svgwrite-1.1.12.zip
+build:
+    noarch: python
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record=record.txt
+    string: py_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - python 3.6.4 0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - readline 7.0 0
+        - zlib 1.2.11 0
+        - setuptools 38.4.0 py36_0
+        - tk 8.6.7 0
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - pyparsing 2.2.0 py36_0
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - pyparsing >=2.0.1
+test:
+    imports:
+        - svgwrite
+about:
+    description: A Python library to create SVG drawings.
+    dev_url: https://github.com/mozman/svgwrite
+    doc_url: http://svgwrite.readthedocs.io
+    home: https://github.com/mozman/svgwrite
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE.TXT
+    summary: A Python library to create SVG drawings.
+extra:
+    final: true
+    recipe-maintainers:
+        - jeromekelleher

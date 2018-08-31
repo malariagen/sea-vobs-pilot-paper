@@ -1,0 +1,42 @@
+name xcolor
+category Package
+revision 41044
+shortdesc Driver-independent color extensions for LaTeX and pdfLaTeX
+longdesc The package starts from the basic facilities of the color
+longdesc package, and provides easy driver-independent access to several
+longdesc kinds of color tints, shades, tones, and mixes of arbitrary
+longdesc colors. It allows a user to select a document-wide target color
+longdesc model and offers complete tools for conversion between eight
+longdesc color models. Additionally, there is a command for alternating
+longdesc row colors plus repeated non-aligned material (like horizontal
+longdesc lines) in tables. Colors can be mixed like
+longdesc \color{red!30!green!40!blue}.
+containersize 17276
+containerchecksum fbb4b15ec7a7fa3f19f928844d8c4b96ae974ca2262f8e1b7ccf6f6a7a87772dd3270445c3778b896afba7c390e32cdb96e21c38069f8109e10dd67c100f17bf
+doccontainersize 669984
+doccontainerchecksum 58d7256c992e58b0117cde5fabb7f80c9aeb3fc6cdfd67ef82f687da88fa70d7f62650abce7200a5624b9e926e7577e49d67a34d7e9de7bafaf42271fd50b1dc
+docfiles size=211
+ texmf-dist/doc/latex/xcolor/ChangeLog
+ texmf-dist/doc/latex/xcolor/README details="Readme"
+ texmf-dist/doc/latex/xcolor/xcolor.lox
+ texmf-dist/doc/latex/xcolor/xcolor.pdf details="Package documentation"
+ texmf-dist/doc/latex/xcolor/xcolor1.tex
+ texmf-dist/doc/latex/xcolor/xcolor2.pdf details="Examples of usage with pstricks"
+ texmf-dist/doc/latex/xcolor/xcolor2.tex
+ texmf-dist/doc/latex/xcolor/xcolor3.tex
+ texmf-dist/doc/latex/xcolor/xcolor4.tex
+srccontainersize 77032
+srccontainerchecksum f083851438561f7b85f3df3d04df2194d31e2608ff39c3cbd778dae782e7cd78826ddff4798baba977be0b213d3012d315c5fb064a460840f03e44a56bed2f58
+srcfiles size=85
+ texmf-dist/source/latex/xcolor/xcolor.dtx
+ texmf-dist/source/latex/xcolor/xcolor.ins
+runfiles size=20
+ texmf-dist/dvips/xcolor/xcolor.pro
+ texmf-dist/tex/latex/xcolor/svgnam.def
+ texmf-dist/tex/latex/xcolor/x11nam.def
+ texmf-dist/tex/latex/xcolor/xcolor.sty
+catalogue-ctan /macros/latex/contrib/xcolor
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl1.2
+catalogue-topics colour
+catalogue-version 2.12

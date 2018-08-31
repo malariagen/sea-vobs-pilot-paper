@@ -1,0 +1,123 @@
+{
+  "arch": "x86_64",
+  "build": "py36h58270c7_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "libgcc-ng >=4.9",
+    "numpy",
+    "proj4 >=5.1.0,<5.1.1.0a0",
+    "python >=3.6,<3.7.0a0"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyproj-1.9.5.1-py36h58270c7_2",
+  "features": "",
+  "files": [
+    "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/installed-files.txt",
+    "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/pyproj/__init__.py",
+    "lib/python3.6/site-packages/pyproj/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyproj/__pycache__/datadir.cpython-36.pyc",
+    "lib/python3.6/site-packages/pyproj/_proj.cpython-36m-x86_64-linux-gnu.so",
+    "lib/python3.6/site-packages/pyproj/datadir.py"
+  ],
+  "fn": "pyproj-1.9.5.1-py36h58270c7_2.tar.bz2",
+  "license": "OSI",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyproj-1.9.5.1-py36h58270c7_2",
+    "type": 1
+  },
+  "md5": "07c0b10fe5c0068c1059f1eed95b1a65",
+  "name": "pyproj",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/pyproj-1.9.5.1-py36h58270c7_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink",
+        "sha256": "8373aa7718c95f947864bd64659ef8e5d69d2e86d167ece79a2bb3a62d1f1164",
+        "sha256_in_prefix": "8373aa7718c95f947864bd64659ef8e5d69d2e86d167ece79a2bb3a62d1f1164",
+        "size_in_bytes": 1037
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink",
+        "sha256": "6adceebd94d18b0704e0fc66fbf96a813fcad91af5519050fa269b3950d49f81",
+        "sha256_in_prefix": "6adceebd94d18b0704e0fc66fbf96a813fcad91af5519050fa269b3950d49f81",
+        "size_in_bytes": 4342
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink",
+        "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "sha256_in_prefix": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+        "size_in_bytes": 1
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/installed-files.txt",
+        "path_type": "hardlink",
+        "sha256": "1eb4181832d7e53ed967ce377b0583fa9a578d77e0accc0a6d754f73b17a74dd",
+        "sha256_in_prefix": "1eb4181832d7e53ed967ce377b0583fa9a578d77e0accc0a6d754f73b17a74dd",
+        "size_in_bytes": 238
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj-1.9.5.1-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "sha256_in_prefix": "d4337e6e4f28c268b5c035332fbbc72a0a9d533d0387d38eb05338a2ea5e65bb",
+        "size_in_bytes": 7
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "5f23f76b073511572887bd70d29ad2b402c4eba2e93245c5242256c4b11c60ce",
+        "sha256_in_prefix": "5f23f76b073511572887bd70d29ad2b402c4eba2e93245c5242256c4b11c60ce",
+        "size_in_bytes": 38788
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "aa81ab2d48d39db9d6fd3ddc27a6742fc7355dc7fd91fed5d31bf6a8e8019d05",
+        "sha256_in_prefix": "aa81ab2d48d39db9d6fd3ddc27a6742fc7355dc7fd91fed5d31bf6a8e8019d05",
+        "size_in_bytes": 32714
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj/__pycache__/datadir.cpython-36.pyc",
+        "path_type": "hardlink",
+        "sha256": "5b166d2107277e510b8bce87c8535a28ac7e6de198b8606fecbbc844365a07d9",
+        "sha256_in_prefix": "5b166d2107277e510b8bce87c8535a28ac7e6de198b8606fecbbc844365a07d9",
+        "size_in_bytes": 416
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj/_proj.cpython-36m-x86_64-linux-gnu.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/home/conda/feedstock_root/build_artifacts/pyproj_1535496203733/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "51d9d7de3b4ed55962c52574b79ff6c6d955b13f4a655adece74ac750943e6b0",
+        "sha256_in_prefix": "12aa25504e66e286155742bc2943c10c6878fdc956b53041dfb5ecb4ab24afbe",
+        "size_in_bytes": 324312
+      },
+      {
+        "_path": "lib/python3.6/site-packages/pyproj/datadir.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "b50558f481ce6923f68ba36734fefa365e2a477929c6542405e022a698a48d42",
+        "sha256_in_prefix": "0b4ca0b03a4e6c2caaa5fc4840b38563380611d6948feb4f4929e6756baa3abd",
+        "size_in_bytes": 61
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "None",
+  "size": 137262,
+  "subdir": "linux-64",
+  "timestamp": 1535496231621,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/pyproj-1.9.5.1-py36h58270c7_2.tar.bz2",
+  "version": "1.9.5.1"
+}

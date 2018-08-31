@@ -1,0 +1,32 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "bleach",
+    "entrypoints >=0.2.2",
+    "jinja2",
+    "jupyter_client >=4.2",
+    "jupyter_core",
+    "mistune >=0.7.4",
+    "nbformat >=4.4",
+    "pandoc",
+    "pandocfilters >=1.4.1",
+    "pygments",
+    "python",
+    "testpath",
+    "traitlets"
+  ],
+  "features": "",
+  "fn": "nbconvert-5.3.1-py_1.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "79011e043b9e3934b8351f328e0933fe",
+  "name": "nbconvert",
+  "noarch": "python",
+  "size": 327878,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/nbconvert-5.3.1-py_1.tar.bz2",
+  "version": "5.3.1"
+}

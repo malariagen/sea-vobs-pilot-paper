@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36hf9f622e_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "pycparser-2.18-py36hf9f622e_1.tar.bz2",
+  "license": "BSD 3-clause",
+  "license_family": "BSD",
+  "md5": "e001dd2f049ea6d6c77cfe37b73ff3be",
+  "name": "pycparser",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1505691641245,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/pycparser-2.18-py36hf9f622e_1.tar.bz2",
+  "version": "2.18"
+}

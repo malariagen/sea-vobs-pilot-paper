@@ -1,0 +1,62 @@
+# This file created by conda-build 2.1.17
+# meta.yaml template originally from:
+# /recipe_root, last modified Sat Nov 25 12:19:15 2017
+# ------------------------------------------------
+
+package:
+    name: fontconfig
+    version: 2.12.6
+source:
+    patches:
+        - fcf.patch
+    sha256: cf0c30807d08f6a28ab46c61b8dbd55c97d2f292cf88f3a07d3384687f31f017
+    url: http://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.6.tar.bz2
+build:
+    binary_has_prefix_files:
+        - lib/libfontconfig.so.1.9.2
+    noarch: ''
+    noarch_python: false
+    number: '0'
+    string: '0'
+requirements:
+    build:
+        - libiconv 1.15 0
+        - libtool 2.4.6 0
+        - libpng 1.6.34 0
+        - zlib 1.2.11 0
+        - xz 5.2.3 0
+        - icu 58.2 0
+        - libxml2 2.9.5 2
+        - gperf 3.0.4 0
+        - freetype 2.8.1 0
+        - pkg-config 0.29.1 2
+    run:
+        - freetype 2.8.1
+        - libiconv 1.15
+        - libpng >=1.6.32,<1.6.35
+        - libxml2 2.9.*
+        - icu 58.*
+test:
+    commands:
+        - fc-cache --help
+        - fc-cat --help
+        - fc-list --help
+        - fc-match --help
+        - fc-pattern --help
+        - fc-query --help
+        - fc-scan --help
+        - fc-validate --help
+        - test -f "${PREFIX}/lib/libfontconfig.a"
+        - test -f "${PREFIX}/lib/libfontconfig.so"
+        - conda inspect linkages -p $PREFIX $PKG_NAME
+about:
+    home: http://www.freedesktop.org/wiki/Software/fontconfig/
+    license: MIT
+    summary: A library for configuring and customizing font access.
+extra:
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - jakirkham
+        - ocefpaf
+        - pkgw

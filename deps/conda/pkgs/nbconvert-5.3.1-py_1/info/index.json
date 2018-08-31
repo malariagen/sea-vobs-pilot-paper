@@ -1,0 +1,26 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "bleach",
+    "entrypoints >=0.2.2",
+    "jinja2",
+    "jupyter_client >=4.2",
+    "jupyter_core",
+    "mistune >=0.7.4",
+    "nbformat >=4.4",
+    "pandoc",
+    "pandocfilters >=1.4.1",
+    "pygments",
+    "python",
+    "testpath",
+    "traitlets"
+  ],
+  "license": "BSD 3-Clause",
+  "name": "nbconvert",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "version": "5.3.1"
+}

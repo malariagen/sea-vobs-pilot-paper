@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "depends": [
+    "msgpack-python",
+    "numpy",
+    "python 3.6*"
+  ],
+  "license": "MIT",
+  "name": "numcodecs",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "version": "0.5.5"
+}

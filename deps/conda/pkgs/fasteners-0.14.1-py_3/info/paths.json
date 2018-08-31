@@ -1,0 +1,107 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "2c3a505e14b4ee2eded03bdff043f98b654cac83f94831473a7ebbdab717568c",
+      "size_in_bytes": 2851
+    },
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "c18b9d32abcb1864947d537f0658db1709e02c44504020846cf15a4a6627f418",
+      "size_in_bytes": 509
+    },
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "02441de76f55065f3555e2ea7972ed64f277410ccc66c64e33707f9c2a7394ce",
+      "size_in_bytes": 718
+    },
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "b47499bc20b431f9b8388065710181dad35b29cb6ecd7729b3dde95bc765e636",
+      "size_in_bytes": 19
+    },
+    {
+      "_path": "site-packages/fasteners-0.14.1-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "333e3672cac8592be57649ded05834db4aca52a1201a2d741094fe0e39c3eac3",
+      "size_in_bytes": 10
+    },
+    {
+      "_path": "site-packages/fasteners/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "fd20cf77246f772389ad7470fe62ac38b1754e8562c6679840fb4c7e900aa5e2",
+      "size_in_bytes": 1121
+    },
+    {
+      "_path": "site-packages/fasteners/_utils.py",
+      "path_type": "hardlink",
+      "sha256": "0f111443846d6b64cf040db3f5a5633a1183bea8c0c57bb4c9ab7d3d87fb0ceb",
+      "size_in_bytes": 4108
+    },
+    {
+      "_path": "site-packages/fasteners/lock.py",
+      "path_type": "hardlink",
+      "sha256": "1fa765d28a99475b735f0df1a452ab06f56ef8f2ca6b7d8c216667acfbdf58e4",
+      "size_in_bytes": 11338
+    },
+    {
+      "_path": "site-packages/fasteners/process_lock.py",
+      "path_type": "hardlink",
+      "sha256": "d2fc5a08824fe33e009cfd2f0ea83ddc7907132b66c4e3e007d403a0504fd43c",
+      "size_in_bytes": 8631
+    },
+    {
+      "_path": "site-packages/fasteners/test.py",
+      "path_type": "hardlink",
+      "sha256": "14eaf4db39591d540b50e78d2476eb451c50407c53e70553ffd37cc4c8b2439d",
+      "size_in_bytes": 766
+    },
+    {
+      "_path": "site-packages/fasteners/tests/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/fasteners/tests/test_decorators.py",
+      "path_type": "hardlink",
+      "sha256": "22c78110d494692f5f7225a4213f09dcff3db4c0ca85450491ab39d993926e2a",
+      "size_in_bytes": 2547
+    },
+    {
+      "_path": "site-packages/fasteners/tests/test_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "ced8e5287905200b9f0421e65c172aa1350fb5e399683f4e5204031f50321afa",
+      "size_in_bytes": 995
+    },
+    {
+      "_path": "site-packages/fasteners/tests/test_lock.py",
+      "path_type": "hardlink",
+      "sha256": "8ae7b5c767f109511c11a349ce428ce73a937e2721719e67dfe6e6af60dc0047",
+      "size_in_bytes": 13620
+    },
+    {
+      "_path": "site-packages/fasteners/tests/test_process_lock.py",
+      "path_type": "hardlink",
+      "sha256": "ba1cdeaba183bfed08523db767464e72f08c1139535a0eb991d581680057f5fa",
+      "size_in_bytes": 8049
+    },
+    {
+      "_path": "site-packages/fasteners/version.py",
+      "path_type": "hardlink",
+      "sha256": "745c942bf21524e3178fd0bb8dd8d29ae3d1c48f938031d30a4f7b331c2bead0",
+      "size_in_bytes": 782
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,31 @@
+# This file created by conda-build 2.1.4
+# meta.yaml template originally from:
+# /recipe_root, last modified Sat Feb 25 08:09:21 2017
+# ------------------------------------------------
+
+package:
+    name: heapdict
+    version: 1.0.0
+source:
+    fn: heapdict-1.0.0.tar.gz
+    sha256: 4c8e581f1651ca78da35820fc80b0d50fc060032517f2c7efd9169e204db3793
+    url: https://github.com/DanielStutzbach/heapdict/archive/v1.0.0.tar.gz
+build:
+    number: '0'
+    script: python setup.py install
+    string: py36_0
+requirements:
+    build: []
+    run:
+        - python
+test:
+    imports:
+        - heapdict
+about:
+    home: http://stutzbachenterprises.com/
+    license: BSD 3-Clause
+    summary: A Heap MutableMapping.
+extra:
+    recipe-maintainers:
+        - mrocklin
+        - ocefpaf

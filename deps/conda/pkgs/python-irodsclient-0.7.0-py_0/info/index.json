@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "prettytable >=0.7.2",
+    "python",
+    "six >=1.10.0",
+    "xmlrunner >=1.7.7"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "python-irodsclient",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "version": "0.7.0"
+}

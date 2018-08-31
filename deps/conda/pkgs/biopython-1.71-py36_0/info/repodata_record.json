@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.8",
+    "python 3.6*"
+  ],
+  "features": "",
+  "fn": "biopython-1.71-py36_0.tar.bz2",
+  "license": "Biopython License Agreement",
+  "md5": "7906b5f17d1bdf350d44922044c9afa3",
+  "name": "biopython",
+  "platform": "linux",
+  "size": 2755408,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/biopython-1.71-py36_0.tar.bz2",
+  "version": "1.71"
+}

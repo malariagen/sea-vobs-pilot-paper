@@ -1,0 +1,549 @@
+{
+  "arch": "x86_64",
+  "build": "py36_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python 3.6*",
+    "setuptools"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/nose-1.3.7-py36_2",
+  "features": "",
+  "files": [
+    "bin/nosetests",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/PKG-INFO",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/SOURCES.txt",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/dependency_links.txt",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/entry_points.txt",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/not-zip-safe",
+    "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/top_level.txt",
+    "lib/python3.6/site-packages/nose/__init__.py",
+    "lib/python3.6/site-packages/nose/__main__.py",
+    "lib/python3.6/site-packages/nose/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/__main__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/case.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/commands.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/config.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/core.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/exc.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/failure.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/importer.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/inspector.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/loader.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/proxy.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/pyversion.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/result.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/selector.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/suite.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/twistedtools.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/__pycache__/util.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/case.py",
+    "lib/python3.6/site-packages/nose/commands.py",
+    "lib/python3.6/site-packages/nose/config.py",
+    "lib/python3.6/site-packages/nose/core.py",
+    "lib/python3.6/site-packages/nose/exc.py",
+    "lib/python3.6/site-packages/nose/ext/__init__.py",
+    "lib/python3.6/site-packages/nose/ext/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/ext/__pycache__/dtcompat.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/ext/dtcompat.py",
+    "lib/python3.6/site-packages/nose/failure.py",
+    "lib/python3.6/site-packages/nose/importer.py",
+    "lib/python3.6/site-packages/nose/inspector.py",
+    "lib/python3.6/site-packages/nose/loader.py",
+    "lib/python3.6/site-packages/nose/plugins/__init__.py",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/allmodules.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/attrib.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/base.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/builtin.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/capture.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/collect.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/cover.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/debug.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/deprecated.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/doctests.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/errorclass.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/failuredetail.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/isolate.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/logcapture.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/manager.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/multiprocess.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/plugintest.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/prof.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/skip.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/testid.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/__pycache__/xunit.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/plugins/allmodules.py",
+    "lib/python3.6/site-packages/nose/plugins/attrib.py",
+    "lib/python3.6/site-packages/nose/plugins/base.py",
+    "lib/python3.6/site-packages/nose/plugins/builtin.py",
+    "lib/python3.6/site-packages/nose/plugins/capture.py",
+    "lib/python3.6/site-packages/nose/plugins/collect.py",
+    "lib/python3.6/site-packages/nose/plugins/cover.py",
+    "lib/python3.6/site-packages/nose/plugins/debug.py",
+    "lib/python3.6/site-packages/nose/plugins/deprecated.py",
+    "lib/python3.6/site-packages/nose/plugins/doctests.py",
+    "lib/python3.6/site-packages/nose/plugins/errorclass.py",
+    "lib/python3.6/site-packages/nose/plugins/failuredetail.py",
+    "lib/python3.6/site-packages/nose/plugins/isolate.py",
+    "lib/python3.6/site-packages/nose/plugins/logcapture.py",
+    "lib/python3.6/site-packages/nose/plugins/manager.py",
+    "lib/python3.6/site-packages/nose/plugins/multiprocess.py",
+    "lib/python3.6/site-packages/nose/plugins/plugintest.py",
+    "lib/python3.6/site-packages/nose/plugins/prof.py",
+    "lib/python3.6/site-packages/nose/plugins/skip.py",
+    "lib/python3.6/site-packages/nose/plugins/testid.py",
+    "lib/python3.6/site-packages/nose/plugins/xunit.py",
+    "lib/python3.6/site-packages/nose/proxy.py",
+    "lib/python3.6/site-packages/nose/pyversion.py",
+    "lib/python3.6/site-packages/nose/result.py",
+    "lib/python3.6/site-packages/nose/selector.py",
+    "lib/python3.6/site-packages/nose/sphinx/__init__.py",
+    "lib/python3.6/site-packages/nose/sphinx/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/sphinx/__pycache__/pluginopts.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/sphinx/pluginopts.py",
+    "lib/python3.6/site-packages/nose/suite.py",
+    "lib/python3.6/site-packages/nose/tools/__init__.py",
+    "lib/python3.6/site-packages/nose/tools/__pycache__/__init__.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/tools/__pycache__/nontrivial.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/tools/__pycache__/trivial.cpython-36.pyc",
+    "lib/python3.6/site-packages/nose/tools/nontrivial.py",
+    "lib/python3.6/site-packages/nose/tools/trivial.py",
+    "lib/python3.6/site-packages/nose/twistedtools.py",
+    "lib/python3.6/site-packages/nose/usage.txt",
+    "lib/python3.6/site-packages/nose/util.py"
+  ],
+  "fn": "nose-1.3.7-py36_2.tar.bz2",
+  "license": "LGPL-2.1",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/nose-1.3.7-py36_2",
+    "type": 1
+  },
+  "md5": "44c4f395ba223e45a0aa0125ee92b62f",
+  "name": "nose",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/nose-1.3.7-py36_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nosetests",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "6cab97dd82135639275de3199b7993eda65e918407e51e651b8b450545e3a83c"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/PKG-INFO",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/SOURCES.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/dependency_links.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/entry_points.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/not-zip-safe",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose-1.3.7-py3.6.egg-info/top_level.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__main__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/__main__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/case.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/commands.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/config.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/core.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/exc.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/failure.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/importer.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/inspector.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/loader.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/proxy.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/pyversion.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/result.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/selector.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/suite.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/twistedtools.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/__pycache__/util.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/case.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/commands.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/config.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/core.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/exc.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/ext/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/ext/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/ext/__pycache__/dtcompat.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/ext/dtcompat.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/failure.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/importer.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/inspector.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/loader.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/allmodules.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/attrib.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/base.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/builtin.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/capture.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/collect.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/cover.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/debug.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/deprecated.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/doctests.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/errorclass.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/failuredetail.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/isolate.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/logcapture.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/manager.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/multiprocess.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/plugintest.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/prof.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/skip.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/testid.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/__pycache__/xunit.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/allmodules.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/attrib.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/base.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/builtin.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/capture.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/collect.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/cover.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/debug.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/deprecated.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/doctests.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/errorclass.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/failuredetail.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/isolate.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/logcapture.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/manager.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/multiprocess.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/plugintest.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/prof.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/skip.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/testid.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/plugins/xunit.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/proxy.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/pyversion.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/result.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/selector.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/sphinx/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/sphinx/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/sphinx/__pycache__/pluginopts.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/sphinx/pluginopts.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/suite.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/__init__.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/__pycache__/__init__.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/__pycache__/nontrivial.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/__pycache__/trivial.cpython-36.pyc",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/nontrivial.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/tools/trivial.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/twistedtools.py",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/usage.txt",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/python3.6/site-packages/nose/util.py",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "nose==1.3.7",
+  "size": 207130,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/nose-1.3.7-py36_2.tar.bz2",
+  "version": "1.3.7"
+}

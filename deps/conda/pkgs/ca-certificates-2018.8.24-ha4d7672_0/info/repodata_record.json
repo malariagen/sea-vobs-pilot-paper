@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "ha4d7672_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [],
+  "features": "",
+  "fn": "ca-certificates-2018.8.24-ha4d7672_0.tar.bz2",
+  "license": "ISC",
+  "md5": "3b198f9e3af1fe32b03852a4fe154f78",
+  "name": "ca-certificates",
+  "platform": "linux",
+  "size": 138880,
+  "subdir": "linux-64",
+  "timestamp": 1535111650484,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/ca-certificates-2018.8.24-ha4d7672_0.tar.bz2",
+  "version": "2018.8.24"
+}

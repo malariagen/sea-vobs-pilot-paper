@@ -1,0 +1,6 @@
+#!/home/chris/Git/vobs-sea-pilot-paper/deps/conda/envs/vobs-sea-pilot-paper/bin/python
+if __name__ == '__main__':
+    import sys
+    import msprime.cli
+
+    sys.exit(msprime.cli.mspms_main())

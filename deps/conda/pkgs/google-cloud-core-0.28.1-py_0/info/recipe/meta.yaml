@@ -1,0 +1,52 @@
+# This file created by conda-build 2.1.18
+# meta.yaml template originally from:
+# /recipe_root, last modified Fri Mar  2 12:09:24 2018
+# ------------------------------------------------
+
+package:
+    name: google-cloud-core
+    version: 0.28.1
+source:
+    fn: google-cloud-core-0.28.1.tar.gz
+    sha256: 89e8140a288acec20c5e56159461d3afa4073570c9758c05d4e6cb7f2f8cc440
+    url: https://pypi.io/packages/source/g/google-cloud-core/google-cloud-core-0.28.1.tar.gz
+build:
+    noarch: python
+    noarch_python: false
+    number: '0'
+    script: python setup.py install --single-version-externally-managed --record record.txt
+    string: py_0
+requirements:
+    build:
+        - certifi 2018.1.18 py36_0
+        - python 3.6.4 0
+        - xz 5.2.3 0
+        - openssl 1.0.2n 0
+        - readline 7.0 0
+        - setuptools 38.5.1 py36_0
+        - zlib 1.2.11 0
+        - tk 8.6.7 0
+        - ca-certificates 2018.1.18 0
+        - ncurses 5.9 10
+        - sqlite 3.20.1 2
+    run:
+        - python
+        - google-api-core >=0.1.1,<2.0.0dev
+test:
+    imports:
+        - google.cloud.client
+about:
+    description: This library is not meant to stand-alone. Instead it defines common
+        helpers (e.g. base Client and Connection classes) used by all of the  google-cloud-*.
+    dev_url: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
+    doc_url: https://googlecloudplatform.github.io/google-cloud-python/stable/google-cloud-api.html
+    home: https://github.com/GoogleCloudPlatform/google-cloud-python/tree/master/core
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: 'API Client library for Google Cloud: Core Helpers'
+extra:
+    final: true
+    recipe-maintainers:
+        - parthea
+        - tswast

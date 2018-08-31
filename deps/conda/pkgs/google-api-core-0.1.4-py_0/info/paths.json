@@ -1,0 +1,191 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/google/api_core/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "18846f099d2dd5ee6bdf1545693bb20660451c815de57926b38d21b720a7ebda",
+      "size_in_bytes": 784
+    },
+    {
+      "_path": "site-packages/google/api_core/datetime_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "4478cbd1276fe725e82f3b7c525c46e8410ea1ff44fe564e17e4185a1db329d6",
+      "size_in_bytes": 5408
+    },
+    {
+      "_path": "site-packages/google/api_core/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "737e53de8b1cbc69b6b09887941df53eff59386f2253b13a1a6d5102ed72574e",
+      "size_in_bytes": 13842
+    },
+    {
+      "_path": "site-packages/google/api_core/future/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "4d082b7b1367f0fc42e10842e120db291b2647cbd7add3e2a659281054c55cb8",
+      "size_in_bytes": 709
+    },
+    {
+      "_path": "site-packages/google/api_core/future/_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "4f2f3e2ce4e667877325057bc09f1f1778ec3cee5f51721032e822e9be6b687b",
+      "size_in_bytes": 1248
+    },
+    {
+      "_path": "site-packages/google/api_core/future/base.py",
+      "path_type": "hardlink",
+      "sha256": "f1d56ab12353d366d2cc2434a809a078475dfb05e5525867651e1f101a4a602a",
+      "size_in_bytes": 1784
+    },
+    {
+      "_path": "site-packages/google/api_core/future/polling.py",
+      "path_type": "hardlink",
+      "sha256": "4961e7960d018a9b3d91bbba708be5855a5559796f8bc44c2ed97ea016de45d5",
+      "size_in_bytes": 5531
+    },
+    {
+      "_path": "site-packages/google/api_core/gapic_v1/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "d7180980b8a68e5385204c846b22679ac7cc66f9dc089e4a1844115843ddf944",
+      "size_in_bytes": 848
+    },
+    {
+      "_path": "site-packages/google/api_core/gapic_v1/client_info.py",
+      "path_type": "hardlink",
+      "sha256": "4cec7bdad9fe1515b33f9a963dc172cbc57bbe660463f7e73ed570af201c1fd3",
+      "size_in_bytes": 3177
+    },
+    {
+      "_path": "site-packages/google/api_core/gapic_v1/config.py",
+      "path_type": "hardlink",
+      "sha256": "882c3b7c3d2b0a65ac50a4aee2617b82527c0e5794fb2438aac743c80e3d6fee",
+      "size_in_bytes": 5863
+    },
+    {
+      "_path": "site-packages/google/api_core/gapic_v1/method.py",
+      "path_type": "hardlink",
+      "sha256": "f5a58a449c6e34814e64703163041e99457adf293d399787ab241ab6ac05386d",
+      "size_in_bytes": 9307
+    },
+    {
+      "_path": "site-packages/google/api_core/gapic_v1/routing_header.py",
+      "path_type": "hardlink",
+      "sha256": "32de454eb71f4dbdb1bbeea8154f5eafd48c21d1a3392e5259870b5ceecd5319",
+      "size_in_bytes": 1665
+    },
+    {
+      "_path": "site-packages/google/api_core/general_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "285b26f6f6fab308a9796e5a0d326e0006e50297071a2d2a5245899ab061a5b9",
+      "size_in_bytes": 1111
+    },
+    {
+      "_path": "site-packages/google/api_core/grpc_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "b4e535fe823b4a4374a390aace734a334dda800fc66e6f8b42e5d0593ecbd247",
+      "size_in_bytes": 11055
+    },
+    {
+      "_path": "site-packages/google/api_core/operation.py",
+      "path_type": "hardlink",
+      "sha256": "bce760a235c95734bf7e26e1dcc70f99db76172860a7113d27bdadacb9232ff8",
+      "size_in_bytes": 11081
+    },
+    {
+      "_path": "site-packages/google/api_core/operations_v1/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "cf5a236b6ff6fa7930c4a86e7f05ed096ba3dbd9c6186bdeda9ade96bd26640d",
+      "size_in_bytes": 770
+    },
+    {
+      "_path": "site-packages/google/api_core/operations_v1/operations_client.py",
+      "path_type": "hardlink",
+      "sha256": "ecc343d14f29f8d50f59e969934d76b71489cf70499e9b5c2e5dfaab6a2b5b01",
+      "size_in_bytes": 12811
+    },
+    {
+      "_path": "site-packages/google/api_core/operations_v1/operations_client_config.py",
+      "path_type": "hardlink",
+      "sha256": "acae0a1518582eae3933087064b7456a219bf29a4dfabeff10fa0924ed0f94b8",
+      "size_in_bytes": 2268
+    },
+    {
+      "_path": "site-packages/google/api_core/page_iterator.py",
+      "path_type": "hardlink",
+      "sha256": "65074b06d1c13db2ace54a6823a0042ecc8679ceabf06673a801efee7250cd36",
+      "size_in_bytes": 18874
+    },
+    {
+      "_path": "site-packages/google/api_core/path_template.py",
+      "path_type": "hardlink",
+      "sha256": "986a53d8e0ca2ead79dd0a45999c65bc8f01b0f2e577e94f18cb2f45dc0d2751",
+      "size_in_bytes": 6616
+    },
+    {
+      "_path": "site-packages/google/api_core/protobuf_helpers.py",
+      "path_type": "hardlink",
+      "sha256": "99d59bd11a2fa3c8ba6374feebd9fbe0c9760a9b5269aa001ba7f7d16dd6456d",
+      "size_in_bytes": 8483
+    },
+    {
+      "_path": "site-packages/google/api_core/retry.py",
+      "path_type": "hardlink",
+      "sha256": "eb34accd881ebd97786bd45668f51c9917dc39f498bdbd36faa8f67349dc14c5",
+      "size_in_bytes": 11427
+    },
+    {
+      "_path": "site-packages/google/api_core/timeout.py",
+      "path_type": "hardlink",
+      "sha256": "ed497e16bd2cb512afa7b55d203a8107e4e6ac7a807b2fcda88cfb04f7355d15",
+      "size_in_bytes": 7391
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6-nspkg.pth",
+      "path_type": "hardlink",
+      "sha256": "c47e604f1738522a583f7aab6cffb80821cd18157dede051e10aa185e0af065e",
+      "size_in_bytes": 539
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "1010c2aea3ca7f3d9be994229a9499d57e43389aa55781aab965a919e97db405",
+      "size_in_bytes": 1596
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "6097450a6e8e03af2d98cf6bc11eb2f07ef181d8d655eadfe39800073046adaf",
+      "size_in_bytes": 1853
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/namespace_packages.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "a3e4b3897813e219fc28420691f44f06df58e345295e0d3fc40627e00d628db0",
+      "size_in_bytes": 210
+    },
+    {
+      "_path": "site-packages/google_api_core-0.1.4-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ff542f48922114019fc5befd0fa0e107b494c365fa4f8af09f3fcb2eb6dc0f77",
+      "size_in_bytes": 7
+    }
+  ],
+  "paths_version": 1
+}

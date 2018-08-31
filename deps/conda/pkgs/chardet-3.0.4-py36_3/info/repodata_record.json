@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "py36_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "chardet-3.0.4-py36_3.tar.bz2",
+  "license": "LGPL2",
+  "license_family": "GPL",
+  "md5": "33c31953fe07d9ee1824b6bf68714385",
+  "name": "chardet",
+  "platform": "linux",
+  "size": 192959,
+  "subdir": "linux-64",
+  "timestamp": 1533432467026,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/linux-64/chardet-3.0.4-py36_3.tar.bz2",
+  "version": "3.0.4"
+}

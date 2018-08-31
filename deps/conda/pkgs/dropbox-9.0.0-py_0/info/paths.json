@@ -1,0 +1,209 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "aeced36bbda13bca27564d84797c2da8cae19addf603367b7df41e25de6055ef",
+      "size_in_bytes": 5807
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "b3cf63c66d2ddc5d9a81a19793615484d00c48bfb32e8037b623803363daa68f",
+      "size_in_bytes": 848
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "7e4ff3fd221fc330e8bb63e7ef7d65e1beddfd38dd3eb452e1859b63768b3661",
+      "size_in_bytes": 1361
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "761d54ae4fadcc359f92b0729bddfa0c3e9f75acf9ed50c1256dafca2b521243",
+      "size_in_bytes": 28
+    },
+    {
+      "_path": "site-packages/dropbox-9.0.0-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "ef986947a1808a55af13c1e7bdc61a662fdae019bb811ca77ac84b2bee81bbf7",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "site-packages/dropbox/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f8d2c03dcc104871726ff070d6e25d4c304924d661fd1a92986e16b9144289b4",
+      "size_in_bytes": 205
+    },
+    {
+      "_path": "site-packages/dropbox/async.py",
+      "path_type": "hardlink",
+      "sha256": "bbf991f1de58fa107b11c599f189e479519c820c02c3a2ceb9ea949bb53d3e74",
+      "size_in_bytes": 241
+    },
+    {
+      "_path": "site-packages/dropbox/async_.py",
+      "path_type": "hardlink",
+      "sha256": "121077f869c3be6a54a67ec0d1fdd59471765e74b71d8f637161e042a43160f6",
+      "size_in_bytes": 9610
+    },
+    {
+      "_path": "site-packages/dropbox/auth.py",
+      "path_type": "hardlink",
+      "sha256": "1cfc91fdf5a8c8dfb2cc3e749f5bed6f898d7a402a0ffe14071e9065188bbdb3",
+      "size_in_bytes": 22220
+    },
+    {
+      "_path": "site-packages/dropbox/base.py",
+      "path_type": "hardlink",
+      "sha256": "93d96235c990995d884f171086c7951aea6ae820136ae5dde0a19277d641c3d8",
+      "size_in_bytes": 168413
+    },
+    {
+      "_path": "site-packages/dropbox/base_team.py",
+      "path_type": "hardlink",
+      "sha256": "9766146ce7d289f783c3ab70c75f8c31a8f5953270a2995ea3db6d1d52e7e510",
+      "size_in_bytes": 63283
+    },
+    {
+      "_path": "site-packages/dropbox/common.py",
+      "path_type": "hardlink",
+      "sha256": "20b76a352e3fb672efcad4d08a2749b6f032c7ff5cc192003702c149a02488ef",
+      "size_in_bytes": 13892
+    },
+    {
+      "_path": "site-packages/dropbox/dropbox.py",
+      "path_type": "hardlink",
+      "sha256": "a66a71f019c253e045e66e97f6a6040c430a77625d719aae31d4cd3570f93875",
+      "size_in_bytes": 25197
+    },
+    {
+      "_path": "site-packages/dropbox/exceptions.py",
+      "path_type": "hardlink",
+      "sha256": "5067bbb0cbe717c56827408731116996c3a471d7a6c62ca10e73d7a5a94da51e",
+      "size_in_bytes": 3425
+    },
+    {
+      "_path": "site-packages/dropbox/file_properties.py",
+      "path_type": "hardlink",
+      "sha256": "58a6541aaa44a03c2e0d594def28efd26fbb5ffdaac7763e95e1142ec69f9457",
+      "size_in_bytes": 100184
+    },
+    {
+      "_path": "site-packages/dropbox/file_requests.py",
+      "path_type": "hardlink",
+      "sha256": "ca3c0268bf493efaabff31b5677ff76737833839ee1430fd85e749133b01f38b",
+      "size_in_bytes": 42739
+    },
+    {
+      "_path": "site-packages/dropbox/files.py",
+      "path_type": "hardlink",
+      "sha256": "3bb757f2c77faa817fe524916b5d4407917a55e4e07402d952d894c12fbe65d5",
+      "size_in_bytes": 373500
+    },
+    {
+      "_path": "site-packages/dropbox/oauth.py",
+      "path_type": "hardlink",
+      "sha256": "36d380bd9046a0cd7483c2165be730eb9150fa88d193d124d6845785ae9559ae",
+      "size_in_bytes": 18272
+    },
+    {
+      "_path": "site-packages/dropbox/paper.py",
+      "path_type": "hardlink",
+      "sha256": "aa7acb9932c8710d3c3bbd20883886beac3f4bbba4565d174ad66f97535143ec",
+      "size_in_bytes": 136801
+    },
+    {
+      "_path": "site-packages/dropbox/seen_state.py",
+      "path_type": "hardlink",
+      "sha256": "e573d1bf89844f924bf59a14cbd4e7a1714b34e2ed184a6e6bb35b31e7411359",
+      "size_in_bytes": 3015
+    },
+    {
+      "_path": "site-packages/dropbox/session.py",
+      "path_type": "hardlink",
+      "sha256": "3601b9561165cac9d82015481fa880a9ce1c2b30f588ea94e0b55ec2a028a907",
+      "size_in_bytes": 1752
+    },
+    {
+      "_path": "site-packages/dropbox/sharing.py",
+      "path_type": "hardlink",
+      "sha256": "0400e524e3d98fd6fbaaf73029caad4e7ae6917b68cbb36a4669d3bc11959756",
+      "size_in_bytes": 589089
+    },
+    {
+      "_path": "site-packages/dropbox/stone_base.py",
+      "path_type": "hardlink",
+      "sha256": "8cdfb29a0de1b0b5e59b722ca09aaa9da25625a0fba25a8115c745e56dfd18aa",
+      "size_in_bytes": 3884
+    },
+    {
+      "_path": "site-packages/dropbox/stone_serializers.py",
+      "path_type": "hardlink",
+      "sha256": "2f3188f6679301d7b8e69f7de3bd32e9634bb932f0ccbac12cf5e75d5cc86df3",
+      "size_in_bytes": 43023
+    },
+    {
+      "_path": "site-packages/dropbox/stone_validators.py",
+      "path_type": "hardlink",
+      "sha256": "25803657d7550d43b5c8e7aaa21f8d836f18528f4cbe2e0a4c7e9c8f798da1f8",
+      "size_in_bytes": 24546
+    },
+    {
+      "_path": "site-packages/dropbox/team.py",
+      "path_type": "hardlink",
+      "sha256": "0f0d578d9e5b3cecf3608755004bb23f6c037a73c12320f60eb06285d59a2bac",
+      "size_in_bytes": 582382
+    },
+    {
+      "_path": "site-packages/dropbox/team_common.py",
+      "path_type": "hardlink",
+      "sha256": "aefec25e050178d08f7c5c3eaa8fe3d4742148f8c3ac4a12002d032622046374",
+      "size_in_bytes": 16541
+    },
+    {
+      "_path": "site-packages/dropbox/team_log.py",
+      "path_type": "hardlink",
+      "sha256": "5cc8987693b2b461dc751d42ac01083bce81852c089e17adbb7986b969c5197d",
+      "size_in_bytes": 2085264
+    },
+    {
+      "_path": "site-packages/dropbox/team_policies.py",
+      "path_type": "hardlink",
+      "sha256": "aced91923b349463d1c1357af2432a1b4b28d7be91c0321a46a25adcce4a4159",
+      "size_in_bytes": 43004
+    },
+    {
+      "_path": "site-packages/dropbox/trusted-certs.crt",
+      "path_type": "hardlink",
+      "sha256": "17f42a19bf0e636bf55456dcdba1462b48ffef8d88eb3e7f0c244a6e5a7b5e5f",
+      "size_in_bytes": 79896
+    },
+    {
+      "_path": "site-packages/dropbox/users.py",
+      "path_type": "hardlink",
+      "sha256": "715a5e6b6b72bae4093c1ceb683df9d8ce49f79f3bf1b69f96f1527ce3180176",
+      "size_in_bytes": 55718
+    },
+    {
+      "_path": "site-packages/dropbox/users_common.py",
+      "path_type": "hardlink",
+      "sha256": "cd362ffd82d346a850a49411b4c13b76c4032c9574d20749b1f6605c99e9ecc3",
+      "size_in_bytes": 2295
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,55 @@
+{
+  "paths": [
+    {
+      "_path": "lib/python3.6/site-packages/__pycache__/fastcluster.cpython-36.pyc",
+      "path_type": "hardlink",
+      "sha256": "49788c9f9a628ffbc5c09164862f54d4e8604f3f2a3908c343ac7e9016621946",
+      "size_in_bytes": 18058
+    },
+    {
+      "_path": "lib/python3.6/site-packages/_fastcluster.cpython-36m-x86_64-linux-gnu.so",
+      "file_mode": "binary",
+      "path_type": "hardlink",
+      "prefix_placeholder": "/feedstock_root/build_artefacts/fastcluster_1513573975680/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+      "sha256": "a92033aed7bc7d70682859b15f414b8bcdbb35e690350fa6e4d19f9833abb79e",
+      "size_in_bytes": 437671
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster-1.1.24-py3.6.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "bde0d114d9a6b37515b220ba804d27e45e7acbec6b9a0766b1655a464dd7e59a",
+      "size_in_bytes": 3723
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster-1.1.24-py3.6.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "69273643071c410b12cbc41f2ff5f93656b9943af1682181c5bea2d26ff65d3c",
+      "size_in_bytes": 470
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster-1.1.24-py3.6.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster-1.1.24-py3.6.egg-info/requires.txt",
+      "path_type": "hardlink",
+      "sha256": "0e473692b9aa2da9eb1a38d2167f68c747cf31f48491dcc00291a72443df6c32",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster-1.1.24-py3.6.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "860c0bd8737d4fc79dec4af07438805f755a735876741e974cdddf797f236a8f",
+      "size_in_bytes": 25
+    },
+    {
+      "_path": "lib/python3.6/site-packages/fastcluster.py",
+      "path_type": "hardlink",
+      "sha256": "3c574c439e0fb4975ed7b3e35059aab3dc563908853cd7445aba16f7f6e80dc0",
+      "size_in_bytes": 18793
+    }
+  ],
+  "paths_version": 1
+}

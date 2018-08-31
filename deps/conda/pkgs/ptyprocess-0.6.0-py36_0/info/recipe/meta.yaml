@@ -1,0 +1,43 @@
+# This file created by conda-build 3.10.9
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Sun Jun 24 02:43:15 2018
+# ------------------------------------------------
+
+package:
+    name: ptyprocess
+    version: 0.6.0
+source:
+    fn: ptyprocess-0.6.0.tar.gz
+    sha256: 923f299cc5ad920c68f2bc0bc98b75b9f838b93b599941a6b63ddbc2476394c0
+    url: https://pypi.io/packages/source/p/ptyprocess/ptyprocess-0.6.0.tar.gz
+build:
+    number: '0'
+    string: py36_0
+requirements:
+    build:
+        - ca-certificates 2018.4.16 0
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - ncurses 5.9 10
+        - openssl 1.0.2o 0
+        - python 3.6.5 1
+        - readline 7.0 0
+        - sqlite 3.20.1 2
+        - tk 8.6.7 0
+        - xz 5.2.3 0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - python >=3.6,<3.7.0a0
+test:
+    imports:
+        - ptyprocess
+about:
+    home: https://github.com/pexpect/ptyprocess
+    license: ISC
+    summary: Run a subprocess in a pseudo terminal
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - takluyver

@@ -1,0 +1,8 @@
+{
+  "cxx_compiler": "toolchain_cxx",
+  "libssh2": "1.8",
+  "openssl": "1.0.2",
+  "zlib": "1.2",
+  "krb5": "1.14",
+  "c_compiler": "toolchain_c"
+}

@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "1",
+  "build_number": 1,
+  "depends": [
+    "ncurses 5.9",
+    "openssl 1.0.*",
+    "readline 7.0",
+    "sqlite 3.20.*",
+    "tk 8.6.*",
+    "xz 5.2.*",
+    "zlib 1.2.11"
+  ],
+  "license": "PSF",
+  "name": "python",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "version": "3.6.5"
+}

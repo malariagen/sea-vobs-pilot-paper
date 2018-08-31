@@ -1,0 +1,31 @@
+name cite
+category Package
+revision 36428
+shortdesc Improved citation handling in LaTeX
+longdesc The package supports compressed, sorted lists of numerical
+longdesc citations, and also deals with various punctuation and other
+longdesc issues of representation, including comprehensive management of
+longdesc break points. The package is compatible with both hyperref and
+longdesc backref. The package is (unsurprisingly) part of the cite
+longdesc bundle of the author's citation-related packages.
+containersize 20100
+containerchecksum 3c4bb7a6d11b6361cfa7ddef0ddbae35fca232d63bdc0e99e06169caec61b288c037930056006550e6f151d0c3b01b26712f3b099d3e366e5c346227fd782f70
+doccontainersize 221776
+doccontainerchecksum 7ead26735886f26ab8b006b080c55a390808037e24d640e6be6f625b1ea7a4738efae8e2f02b8597ca7a1ca2b0b90b201cb2f0667054a2ca406e66358e942c7d
+docfiles size=65
+ texmf-dist/doc/latex/cite/README details="Bundle readme"
+ texmf-dist/doc/latex/cite/chapterbib.ltx
+ texmf-dist/doc/latex/cite/chapterbib.pdf
+ texmf-dist/doc/latex/cite/cite.ltx
+ texmf-dist/doc/latex/cite/cite.pdf details="Package documentation"
+runfiles size=18
+ texmf-dist/tex/latex/cite/chapterbib.sty
+ texmf-dist/tex/latex/cite/cite.sty
+ texmf-dist/tex/latex/cite/drftcite.sty
+ texmf-dist/tex/latex/cite/overcite.sty
+catalogue-also natbib
+catalogue-ctan /macros/latex/contrib/cite
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license other-free
+catalogue-topics cite-supp
+catalogue-version 5.5

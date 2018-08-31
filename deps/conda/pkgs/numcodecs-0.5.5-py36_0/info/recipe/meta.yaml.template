@@ -1,0 +1,53 @@
+{% set name = "numcodecs" %}
+{% set version = "0.5.5" %}
+{% set sha256 = "7fdb60c40e902933f2ca4f65c8489d56697e7b0e4dffac4cb48ac58d8cce3aad" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 0
+  script:
+    - export DISABLE_NUMCODECS_AVX2=""  # [unix]
+    - set DISABLE_NUMCODECS_AVX2=""  # [win]
+    - python setup.py install --single-version-externally-managed --record record.txt
+
+requirements:
+  build:
+    - python
+    - cython
+    - setuptools
+    - setuptools_scm
+  run:
+    - python
+    - numpy
+    - msgpack-python
+    - backports.lzma  # [py27]
+
+test:
+  requires:
+    - pytest
+  imports:
+    - numcodecs
+    - numcodecs.blosc
+    - numcodecs.lz4
+    - numcodecs.zstd
+  commands:
+    - pytest -v --pyargs numcodecs
+
+about:
+  home: https://github.com/zarr-developers/numcodecs
+  license: MIT
+  license_file: LICENSE
+  summary: A Python package providing buffer compression and transformation codecs for use in data storage and communication applications.
+
+extra:
+  recipe-maintainers:
+    - alimanfoo
+    - jakirkham

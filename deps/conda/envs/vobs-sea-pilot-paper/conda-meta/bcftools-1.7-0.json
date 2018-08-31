@@ -1,0 +1,359 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/linux-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 1.0*",
+    "curl",
+    "libgcc",
+    "xz 5.2*",
+    "zlib 1.2.11*"
+  ],
+  "extracted_package_dir": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/bcftools-1.7-0",
+  "features": "",
+  "files": [
+    "bin/bcftools",
+    "bin/color-chrs.pl",
+    "bin/guess-ploidy.py",
+    "bin/plot-roh.py",
+    "bin/plot-vcfstats",
+    "bin/run-roh.pl",
+    "bin/vcfutils.pl",
+    "libexec/bcftools/GTisec.so",
+    "libexec/bcftools/GTsubset.so",
+    "libexec/bcftools/ad-bias.so",
+    "libexec/bcftools/af-dist.so",
+    "libexec/bcftools/check-ploidy.so",
+    "libexec/bcftools/check-sparsity.so",
+    "libexec/bcftools/color-chrs.so",
+    "libexec/bcftools/counts.so",
+    "libexec/bcftools/dosage.so",
+    "libexec/bcftools/fill-AN-AC.so",
+    "libexec/bcftools/fill-from-fasta.so",
+    "libexec/bcftools/fill-tags.so",
+    "libexec/bcftools/fixploidy.so",
+    "libexec/bcftools/fixref.so",
+    "libexec/bcftools/frameshifts.so",
+    "libexec/bcftools/guess-ploidy.so",
+    "libexec/bcftools/impute-info.so",
+    "libexec/bcftools/isecGT.so",
+    "libexec/bcftools/mendelian.so",
+    "libexec/bcftools/missing2ref.so",
+    "libexec/bcftools/prune.so",
+    "libexec/bcftools/setGT.so",
+    "libexec/bcftools/split.so",
+    "libexec/bcftools/tag2tag.so",
+    "libexec/bcftools/trio-switch-rate.so",
+    "share/man/man1/bcftools.1"
+  ],
+  "fn": "bcftools-1.7-0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/bcftools-1.7-0",
+    "type": 1
+  },
+  "md5": "c946d562029b83b940e2a6e94d1e7568",
+  "name": "bcftools",
+  "package_tarball_full_path": "/home/chris/Git/vobs-sea-pilot-paper/deps/conda/pkgs/bcftools-1.7-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/bcftools",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b199198b4fe586e2e78a6ddc85a7ac12ef481b22d9269db0ef8f4563a58046ec",
+        "sha256_in_prefix": "e2de6cea960a2a4a68dfe6b713d42e4eeb15dd3a78f9a66783d0273b91f1f90d",
+        "size_in_bytes": 6622383
+      },
+      {
+        "_path": "bin/color-chrs.pl",
+        "path_type": "hardlink",
+        "sha256": "341bf8d087fa73801d2d39d4bda9c94bd05fd13e720a98b9d2f176ca29613c9f",
+        "sha256_in_prefix": "341bf8d087fa73801d2d39d4bda9c94bd05fd13e720a98b9d2f176ca29613c9f",
+        "size_in_bytes": 16947
+      },
+      {
+        "_path": "bin/guess-ploidy.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d91b1c8db7c608480734aa3564fd6f67d16fd3460a5222da615632e0893751cf",
+        "sha256_in_prefix": "5997d9ef5a4fd08b87eb10267aac2257468d636c3bbf556026396265343fdeb7",
+        "size_in_bytes": 4357
+      },
+      {
+        "_path": "bin/plot-roh.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "c2c0f92058003c6d2e98383378486e6e6d7a8ea98f0fd3d780e2d6cf001bc2be",
+        "sha256_in_prefix": "86426fc8f89aa680214834ba694019f22435e8c639271a05d94a15a2bd483b22",
+        "size_in_bytes": 14600
+      },
+      {
+        "_path": "bin/plot-vcfstats",
+        "path_type": "hardlink",
+        "sha256": "0242caa38766d11b5a5c422e5c08086e09da5965f5406d4db69f16714a74f9ee",
+        "sha256_in_prefix": "0242caa38766d11b5a5c422e5c08086e09da5965f5406d4db69f16714a74f9ee",
+        "size_in_bytes": 75746
+      },
+      {
+        "_path": "bin/run-roh.pl",
+        "path_type": "hardlink",
+        "sha256": "3d84f62422276a662ac5a7df0258cc30f9387f658fd813dccc226897d6e7d6ce",
+        "sha256_in_prefix": "3d84f62422276a662ac5a7df0258cc30f9387f658fd813dccc226897d6e7d6ce",
+        "size_in_bytes": 12341
+      },
+      {
+        "_path": "bin/vcfutils.pl",
+        "path_type": "hardlink",
+        "sha256": "81beca7f7df5a8775cdd56a5fbea733b0b31e8efe82f532060006a3972bb9f30",
+        "sha256_in_prefix": "81beca7f7df5a8775cdd56a5fbea733b0b31e8efe82f532060006a3972bb9f30",
+        "size_in_bytes": 18199
+      },
+      {
+        "_path": "libexec/bcftools/GTisec.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "644f84b1cfc9dd37496efb84391850ef6024130c457d459218baf6eb203b9c41",
+        "sha256_in_prefix": "a76660dbf30166c056e44465ff4feb7fe29b61f9a6d650502dfc02bade51c9cb",
+        "size_in_bytes": 48464
+      },
+      {
+        "_path": "libexec/bcftools/GTsubset.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "90b5055973c530d431c605a6f43f986d2ce161d6bba70d6a0c6185480e5870aa",
+        "sha256_in_prefix": "6af2e15a81036328ef6a8b6009ee8f851cf4659c6357b9dc02c9dc11eb7a5eb0",
+        "size_in_bytes": 24547
+      },
+      {
+        "_path": "libexec/bcftools/ad-bias.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "3f37a7d64b1c6afcec06be29be13300282caed45e734fa6422a83d09778c7937",
+        "sha256_in_prefix": "07e1ad71dd1d82e42f045d62dd88ee828ac985a6ea3339492280d5f8b6d7983e",
+        "size_in_bytes": 279295
+      },
+      {
+        "_path": "libexec/bcftools/af-dist.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "6246ef93c9f0a6ef99acfd53f15cb757cd5a0f7ce831f849e88e65c0d597ed1e",
+        "sha256_in_prefix": "e236d6b665c75926fc72b1c0fb8b289127f385f4137ca9a6c6cf0629fb784d47",
+        "size_in_bytes": 36717
+      },
+      {
+        "_path": "libexec/bcftools/check-ploidy.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "8b7e8fd31e822f3f07d65a2946324785f13915cde973872b8c93a39d3e19a7ad",
+        "sha256_in_prefix": "19796c0697b8bef19994289a234c66a51ba6564a222745bdaa3e8a1e217c2e7b",
+        "size_in_bytes": 25413
+      },
+      {
+        "_path": "libexec/bcftools/check-sparsity.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "faef4532dae7121e2c19a5bba7dbce488b9fd8e930ec6c347a5be753dd202c2a",
+        "sha256_in_prefix": "d4378965fa9f1e55c91ba47559af796e40fc24be648635559f00bab281cadb24",
+        "size_in_bytes": 36625
+      },
+      {
+        "_path": "libexec/bcftools/color-chrs.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "133638d44109349e7db14bea36e4d53d8e786959a16d38c3c80b58b0d74e6c20",
+        "sha256_in_prefix": "9dbb20691b49ebd3c52673bd3e0d9cc7e4c08c1dedd83e4f78175664433f8428",
+        "size_in_bytes": 81549
+      },
+      {
+        "_path": "libexec/bcftools/counts.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "e76f06f23d3d4c6e84c76c07bc6db5e2cdc7829400d2c76da5c3a9e6259408e7",
+        "sha256_in_prefix": "d11b3325bfb601d15a652e4426c7dbbb0cb5b5ba168b258c2a9d90d96720571b",
+        "size_in_bytes": 18540
+      },
+      {
+        "_path": "libexec/bcftools/dosage.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "141508ee57ec546aff86e03295a430d56760edf82f5d80a0af7880eea2cebb8b",
+        "sha256_in_prefix": "314ef1db3ae7b750cd6352d5ea946ef9dc5c0d0699631ad5a122ec3de5d17ea2",
+        "size_in_bytes": 35855
+      },
+      {
+        "_path": "libexec/bcftools/fill-AN-AC.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "6f5eb700ac35238a9e7335b59284f2b3e0fe865de8721c91f35ec360de496e0e",
+        "sha256_in_prefix": "6ce7ea01210b2b5b0a72e5f78696babe922dad9e2434d6f9ab37d0a5a7f1d452",
+        "size_in_bytes": 19624
+      },
+      {
+        "_path": "libexec/bcftools/fill-from-fasta.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b3c820359b67b6c6fbb6c1a86cb3555912390c5846a4dfa407c94463471961b6",
+        "sha256_in_prefix": "2aafa8df6f85499a5f2abaeaf1efc1af3719ac460d64053425675085b04b3785",
+        "size_in_bytes": 269242
+      },
+      {
+        "_path": "libexec/bcftools/fill-tags.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b6a5dcbd95206f1f619668668c7d356dde409ed7ae809abf0fa82020136a75e9",
+        "sha256_in_prefix": "66a3e329e89d2c16d6c0fe413e2040b0ae54afb691bdbe7c82b6354fd0725dbf",
+        "size_in_bytes": 87676
+      },
+      {
+        "_path": "libexec/bcftools/fixploidy.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "7ed6e459a0ff5224bee6a4be7f6d66704a9cdcc7950a72cca4efd021362c9a3e",
+        "sha256_in_prefix": "d0f390c89753edf03e1f04c43b3388f310303c4d8896897ecf244269cb361a47",
+        "size_in_bytes": 156826
+      },
+      {
+        "_path": "libexec/bcftools/fixref.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "3d667cd39a8cbb07dfab906074f467d6f962635d825261d97d7389ae57da18e2",
+        "sha256_in_prefix": "1848f0a94a478c19358b54048e7466ea8471473d967d1071fffb9941dc083213",
+        "size_in_bytes": 70084
+      },
+      {
+        "_path": "libexec/bcftools/frameshifts.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "4ab5885363f2df78b9444631c7cd048a1899f8d7b7b70d072495e2d429549f4b",
+        "sha256_in_prefix": "3e0e4bba0f5f727bd8e79f5613725aa0b8b1fd71ef9f2005b0cc705e66e58d99",
+        "size_in_bytes": 27150
+      },
+      {
+        "_path": "libexec/bcftools/guess-ploidy.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "1c810fae5159459ce1d25fe11719c5222e59ac36b14d4134b3e418e3f20bfdb8",
+        "sha256_in_prefix": "ce35e1edfc2c5d9921ecea33a84af46e15bab58d4ca8d39d97097ad431f345de",
+        "size_in_bytes": 52225
+      },
+      {
+        "_path": "libexec/bcftools/impute-info.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "cd0f7f4aba1d707b7cd4b30759960c304144f8723885d5e06cb097f402a29b03",
+        "sha256_in_prefix": "53fff96a434d4641ca3adf0e882ef89888d93e3a6ae1805386d4b87ef5785ef0",
+        "size_in_bytes": 24432
+      },
+      {
+        "_path": "libexec/bcftools/isecGT.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "7f1efab4f2f3d2e9e970027c136e88b5ba3e8e901b55a4ccc682dd99d3a14b86",
+        "sha256_in_prefix": "0d176682a5b40a17d0201602ae5fe3c01c46ae6e9ce7263f50dc94b17c3cae74",
+        "size_in_bytes": 38664
+      },
+      {
+        "_path": "libexec/bcftools/mendelian.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "deff7851fc3521bb46d9655b339411099bb1d28c260cbe2b260d1fc1089ceddf",
+        "sha256_in_prefix": "1e3cd480f10686f4d2ae0445eafbab9be301e95f432b13a23a3a6a86d8dd6854",
+        "size_in_bytes": 52948
+      },
+      {
+        "_path": "libexec/bcftools/missing2ref.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "b0085a2610cefc8ea6f4df155fb2a81c8bea0f9f1ccbe3e1f20e8b5686df37ff",
+        "sha256_in_prefix": "c7b92be69e57dacbbabf1f50a84aad72d798b4b73b3cc99d4912e501d6bc43ab",
+        "size_in_bytes": 23578
+      },
+      {
+        "_path": "libexec/bcftools/prune.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "2c8fa0643e17d24042eb151b4a524e4d466af07ccd3338162a2f322af1a3a230",
+        "sha256_in_prefix": "cbbd948c341f0fc6544c7fdbdb83b437e4bf4748eca505ba5c687c8811a1623c",
+        "size_in_bytes": 38743
+      },
+      {
+        "_path": "libexec/bcftools/setGT.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "42589e8aeb615dc1a0521a825accee07d1b6a003a782f33e4862dabacb436b32",
+        "sha256_in_prefix": "7be1bf871d0d74ca6f806ea42aa291bff4a19b7c859f6b74d117acbca2bc50b5",
+        "size_in_bytes": 280220
+      },
+      {
+        "_path": "libexec/bcftools/split.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "ed32410602fdc6fc221812a64c53bdbd5b826c25b3305f6de495effdf1ce61ce",
+        "sha256_in_prefix": "48eb5564bf05485a49c35f7977d5df004a681663763c8262cf1d40745a9da53b",
+        "size_in_bytes": 92204
+      },
+      {
+        "_path": "libexec/bcftools/tag2tag.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "e4d7b631866775dc2164be7931a1fb0b515717faa8239f3c0669fbcdbc09c46e",
+        "sha256_in_prefix": "47883a9e7241571969f8979078820ee2881c436cbeb8f8eb3946d487710026eb",
+        "size_in_bytes": 31834
+      },
+      {
+        "_path": "libexec/bcftools/trio-switch-rate.so",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/conda/conda-bld/bcftools_1519915798478/_b_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "f43ad89fb1be2362b496a0aec41206fc8d3ba093f7cc7d0f5903c25e72c0fe2b",
+        "sha256_in_prefix": "431f1d7b0952decae5631323680fee57e50690e8c4ca60799ce90328e73e13d9",
+        "size_in_bytes": 49884
+      },
+      {
+        "_path": "share/man/man1/bcftools.1",
+        "path_type": "hardlink",
+        "sha256": "645e12b16076e156988f0f12e803ce8d791c98f12b7307d1d0b331070a5016e3",
+        "sha256_in_prefix": "645e12b16076e156988f0f12e803ce8d791c98f12b7307d1d0b331070a5016e3",
+        "size_in_bytes": 125482
+      }
+    ],
+    "paths_version": 1
+  },
+  "platform": "linux",
+  "requested_spec": "bcftools==1.7",
+  "size": 2857163,
+  "subdir": "linux-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/linux-64/bcftools-1.7-0.tar.bz2",
+  "version": "1.7"
+}

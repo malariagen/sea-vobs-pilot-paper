@@ -1,0 +1,26 @@
+name tetex.x86_64-linux
+category TLCore
+revision 45860
+shortdesc x86_64-linux files of tetex
+containersize 740
+containerchecksum 27f09cdab8930d2ade9cb5f721f002aab5e5afcf398f1169bbbfecb8be197f534e0411089d751ddf9b7d8217863e4d0160b1de238998041d894a2eb33dce5149
+binfiles arch=x86_64-linux size=19
+ bin/x86_64-linux/allcm
+ bin/x86_64-linux/allec
+ bin/x86_64-linux/allneeded
+ bin/x86_64-linux/dvi2fax
+ bin/x86_64-linux/dvired
+ bin/x86_64-linux/fmtutil
+ bin/x86_64-linux/fmtutil-sys
+ bin/x86_64-linux/fmtutil-user
+ bin/x86_64-linux/kpsepath
+ bin/x86_64-linux/kpsetool
+ bin/x86_64-linux/kpsewhere
+ bin/x86_64-linux/kpsexpand
+ bin/x86_64-linux/texconfig
+ bin/x86_64-linux/texconfig-dialog
+ bin/x86_64-linux/texconfig-sys
+ bin/x86_64-linux/texlinks
+ bin/x86_64-linux/updmap
+ bin/x86_64-linux/updmap-sys
+ bin/x86_64-linux/updmap-user

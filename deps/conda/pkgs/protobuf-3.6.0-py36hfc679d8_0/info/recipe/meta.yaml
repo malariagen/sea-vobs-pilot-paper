@@ -1,0 +1,82 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 15 13:12:51 2018
+# ------------------------------------------------
+
+package:
+    name: protobuf
+    version: 3.6.0
+source:
+    patches:
+        - 0001-Python-3.7-compat-const-char.patch
+    sha256: 50a5753995b3142627ac55cfd496cebc418a2e575ca0236e29033c67bd5665f4
+    url: https://github.com/google/protobuf/archive/v3.6.0/protobuf-v3.6.0.tar.gz
+build:
+    number: '0'
+    string: py36hfc679d8_0
+requirements:
+    build:
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - toolchain_cxx_linux-64 2.1.6 0
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.8.13 py36_0
+        - libffi 3.2.1 hfc679d8_4
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libprotobuf 3.6.0 hd28b015_0
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.0.0 py36_1
+        - six 1.11.0 py36_1
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - xz 5.2.4 h470a237_1
+        - zlib 1.2.11 h470a237_3
+    run:
+        - libgcc-ng >=4.9
+        - libprotobuf 3.6.0.*
+        - libprotobuf >=3.6.0,<3.6.1.0a0
+        - libstdcxx-ng >=4.9
+        - python >=3.6,<3.7.0a0
+        - setuptools
+        - six
+test:
+    commands:
+        - python -c "from google.protobuf.internal import api_implementation; assert
+            api_implementation.Type() == 'cpp'"
+    imports:
+        - google
+        - google.protobuf
+        - google.protobuf.compiler
+        - google.protobuf.internal
+        - google.protobuf.pyext
+        - google.protobuf.util
+about:
+    description: 'Protocol buffers are Google''s language-neutral, platform-neutral,
+        extensible
+
+        mechanism for serializing structured data,think XML, but smaller, faster,
+        and simpler.
+
+        '
+    doc_source_url: https://github.com/google/protobuf/blob/master/README.md
+    doc_url: https://developers.google.com/protocol-buffers/docs/tutorials
+    home: https://developers.google.com/protocol-buffers/
+    license: BSD 3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Protocol Buffers - Google's data interchange format.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dopplershift
+        - hajapy
+        - jakirkham
+        - jjhelmus
+        - ocefpaf

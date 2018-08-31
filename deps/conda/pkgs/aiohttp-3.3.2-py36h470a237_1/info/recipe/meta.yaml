@@ -1,0 +1,66 @@
+# This file created by conda-build 3.12.0
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Aug  3 02:09:43 2018
+# ------------------------------------------------
+
+package:
+    name: aiohttp
+    version: 3.3.2
+source:
+    fn: aiohttp-3.3.2.tar.gz
+    sha256: f20deec7a3fbaec7b5eb7ad99878427ad2ee4cc16a46732b705e8121cbb3cc12
+    url: https://pypi.io/packages/source/a/aiohttp/aiohttp-3.3.2.tar.gz
+build:
+    number: '1'
+    script: /home/conda/feedstock_root/build_artifacts/aiohttp_1533262257401/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py36h470a237_1
+requirements:
+    build:
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - cython 0.28.4 py36hfc679d8_1
+        - libffi 3.2.1 3
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - pip 18.0 py36_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.0.0 py36_1
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - wheel 0.31.1 py36_1
+        - xz 5.2.4 h470a237_0
+        - zlib 1.2.11 h470a237_3
+    run:
+        - async-timeout >=3.0,<4.0
+        - attrs >=17.3.0
+        - chardet >=2.0,<4.0
+        - idna_ssl >=1,<2
+        - libgcc-ng >=4.9
+        - multidict >=4.0,<5.0
+        - python >=3.6,<3.7.0a0
+        - yarl >=1.0,<2.0
+test:
+    imports:
+        - aiohttp
+about:
+    dev_url: https://github.com/aio-libs/aiohttp
+    doc_source_url: https://github.com/aio-libs/aiohttp/tree/master/docs
+    doc_url: http://aiohttp.readthedocs.io/
+    home: https://github.com/aio-libs/aiohttp
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE.txt
+    summary: Async http client/server framework (asyncio)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - sodre

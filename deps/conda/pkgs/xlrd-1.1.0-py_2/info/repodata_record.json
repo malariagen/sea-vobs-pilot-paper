@@ -1,0 +1,21 @@
+{
+  "build": "py_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "xlrd-1.1.0-py_2.tar.bz2",
+  "license": "BSD 3-Clause and BSD with advertising",
+  "license_family": "BSD",
+  "md5": "f278eedf55ae4d74fe9f84c3befe679b",
+  "name": "xlrd",
+  "noarch": "python",
+  "size": 112442,
+  "subdir": "noarch",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/xlrd-1.1.0-py_2.tar.bz2",
+  "version": "1.1.0"
+}

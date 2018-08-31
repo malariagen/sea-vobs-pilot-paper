@@ -1,0 +1,22 @@
+{
+  "arch": "x86_64",
+  "build": "py36h372c433_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/linux-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.6,<3.7.0a0"
+  ],
+  "features": "",
+  "fn": "six-1.11.0-py36h372c433_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1912b4563535b2c12b5f80ac514e2e01",
+  "name": "six",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "timestamp": 1508610520093,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/linux-64/six-1.11.0-py36h372c433_1.tar.bz2",
+  "version": "1.11.0"
+}

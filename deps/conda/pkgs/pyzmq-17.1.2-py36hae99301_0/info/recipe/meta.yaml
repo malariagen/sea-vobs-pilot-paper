@@ -1,0 +1,72 @@
+# This file created by conda-build 3.12.1
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Fri Aug 10 15:44:32 2018
+# ------------------------------------------------
+
+package:
+    name: pyzmq
+    version: 17.1.2
+source:
+    fn: pyzmq-17.1.2.tar.gz
+    sha256: a72b82ac1910f2cf61a49139f4974f994984475f771b0faa730839607eeedddf
+    url: https://pypi.io/packages/source/p/pyzmq/pyzmq-17.1.2.tar.gz
+build:
+    number: '0'
+    string: py36hae99301_0
+requirements:
+    build:
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - pkg-config 0.29.2 h470a237_3
+        - toolchain 2.1.6 0
+        - toolchain_c_linux-64 2.1.6 0
+        - toolchain_cxx_linux-64 2.1.6 0
+    host:
+        - bzip2 1.0.6 h470a237_2
+        - ca-certificates 2018.4.16 0
+        - certifi 2018.4.16 py36_0
+        - libffi 3.2.1 3
+        - libgcc-ng 7.2.0 hdf63c60_3
+        - libsodium 1.0.16 0
+        - libstdcxx-ng 7.2.0 hdf63c60_3
+        - ncurses 6.1 hfc679d8_1
+        - openssl 1.0.2o h470a237_1
+        - pip 18.0 py36_1
+        - python 3.6.6 h5001a0f_0
+        - readline 7.0 haf1bffa_1
+        - setuptools 40.0.0 py36_1
+        - sqlite 3.24.0 h2f33b56_0
+        - tk 8.6.8 0
+        - wheel 0.31.1 py36_1
+        - xz 5.2.4 h470a237_1
+        - zeromq 4.2.5 hfc679d8_5
+        - zlib 1.2.11 h470a237_3
+    run:
+        - libgcc-ng >=4.9
+        - libsodium
+        - libstdcxx-ng >=4.9
+        - python >=3.6,<3.7.0a0
+        - zeromq >=4.2.5,<4.3.0a0
+test:
+    commands:
+        - py.test --pyargs zmq.tests.test_socket
+    imports:
+        - zmq
+        - zmq.backend.cython.socket
+        - zmq.backend.cython.utils
+        - zmq.devices.monitoredqueue
+    requires:
+        - pytest
+about:
+    home: https://github.com/zeromq/pyzmq
+    license: BSD 3-clause
+    summary: Python bindings for zeromq
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohanMabille
+        - SylvainCorlay
+        - jakirkham
+        - minrk
+        - msarahan
+        - pelson

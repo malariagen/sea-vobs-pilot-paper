@@ -1,0 +1,16 @@
+site-packages/attr/__init__.py
+site-packages/attr/_compat.py
+site-packages/attr/_config.py
+site-packages/attr/_funcs.py
+site-packages/attr/_make.py
+site-packages/attr/converters.py
+site-packages/attr/exceptions.py
+site-packages/attr/filters.py
+site-packages/attr/validators.py
+site-packages/attrs-18.1.0-py2.7.egg-info/PKG-INFO
+site-packages/attrs-18.1.0-py2.7.egg-info/SOURCES.txt
+site-packages/attrs-18.1.0-py2.7.egg-info/dependency_links.txt
+site-packages/attrs-18.1.0-py2.7.egg-info/installed-files.txt
+site-packages/attrs-18.1.0-py2.7.egg-info/not-zip-safe
+site-packages/attrs-18.1.0-py2.7.egg-info/requires.txt
+site-packages/attrs-18.1.0-py2.7.egg-info/top_level.txt

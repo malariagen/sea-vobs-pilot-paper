@@ -1,0 +1,36 @@
+name type1cm
+category Package
+revision 21820
+shortdesc Arbitrary size font selection in LaTeX
+longdesc LaTeX, by default, restricts the sizes at which you can use its
+longdesc default computer modern fonts, to a fixed set of discrete sizes
+longdesc (effectively, a set specified by Knuth). The type1cm package
+longdesc removes this restriction; this is particularly useful when
+longdesc using scalable versions of the cm fonts (Bakoma, or the
+longdesc versions from BSR/Y&Y, or True Type versions from Kinch, PCTeX,
+longdesc etc.). In fact, since modern distributions will automatically
+longdesc generate any bitmap font you might need, type1cm has wider
+longdesc application than just those using scaleable versions of the
+longdesc fonts. Note that the LaTeX distribution now contains a package
+longdesc fix-cm, which performs the task of type1cm, as well as doing
+longdesc the same job for T1- and TS1-encoded ec fonts.
+containersize 2060
+containerchecksum 36faa62fe329acd51920f93f5e65265b5c03de246b7de807f97d4b171236094dff9b0836f69689b5164e3b51fc1bcb0f39355253a95d08be73bafd396173de7d
+doccontainersize 324928
+doccontainerchecksum 81667d071b87b7f2070815de7fcef230938b129a38f2a58d127f277514760e8cff31180e5898b323b5d046ee8a2ac46cacbba7f113b95763d1a054b5717e1cee
+docfiles size=83
+ texmf-dist/doc/latex/type1cm/type1cm-doc.pdf details="Package documentation"
+ texmf-dist/doc/latex/type1cm/type1cm-doc.tex
+ texmf-dist/doc/latex/type1cm/type1cm.txt
+srccontainersize 2460
+srccontainerchecksum 10025238d480f2277886532a2fb8e8c4dec82bd222cdb2fc05df177a30cc48dab7c1b0b2a34f46fd9449678cef9dfa17c1e3ded86eb8d08695c7c4cb0d48624c
+srcfiles size=4
+ texmf-dist/source/latex/type1cm/type1cm.fdd
+ texmf-dist/source/latex/type1cm/type1cm.ins
+runfiles size=2
+ texmf-dist/tex/latex/type1cm/type1cm.sty
+catalogue-also type1ec fix-cm
+catalogue-ctan /macros/latex/contrib/type1cm
+catalogue-date 2016-06-24 19:18:15 +0200
+catalogue-license lppl
+catalogue-topics font-supp

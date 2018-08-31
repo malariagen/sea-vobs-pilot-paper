@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "8dbd32cf3df4c10d3ec0061e7dfa1ad2ea32ced28d9f8b48148d6193574cd362",
+      "size_in_bytes": 710
+    },
+    {
+      "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "2e316701adf261a738590acc54494cb84ddb9d4dda22a863cef0d48bb43a3556",
+      "size_in_bytes": 230
+    },
+    {
+      "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "114ef9832b41ec9389840d9729122c27ae65b512b164df20a67e6dc0f5e1627d",
+      "size_in_bytes": 93
+    },
+    {
+      "_path": "site-packages/prettytable-0.7.2-py2.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "528a09acd9ba89ab39e0b4e395a757b5d6e30b536df6c81dff5b7fdb85170534",
+      "size_in_bytes": 12
+    },
+    {
+      "_path": "site-packages/prettytable.py",
+      "path_type": "hardlink",
+      "sha256": "7db30219256548be448ad71156bff6888773ac8f34018d4ec3b7d92849486231",
+      "size_in_bytes": 54204
+    }
+  ],
+  "paths_version": 1
+}

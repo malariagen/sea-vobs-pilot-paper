@@ -1,0 +1,48 @@
+name euenc
+category Package
+revision 19795
+shortdesc Unicode font encoding definitions for XeTeX
+longdesc Font encoding definitions for unicode fonts loaded by LaTeX in
+longdesc XeTeX or LuaTeX. The package provides two encodings: EU1,
+longdesc designed for use with XeTeX, which the fontspec uses for
+longdesc unicode fonts which require no macro-level processing for
+longdesc accents, and EU2, which provides the same facilities for use
+longdesc with LuaTeX. Neither encoding places any restriction on the
+longdesc glyphs provided by a font; use of EU2 causes the package
+longdesc euxunicode to be loaded (the package is part of this
+longdesc distribution). The package includes font definition files for
+longdesc use with the Latin Modern OpenType fonts.
+containersize 3264
+containerchecksum 612282ac0c8e37530cc61668ea62012e523568cdddfef85453e04d3a2d5e06c2f1f1a6bdef362575de796122f602c7dc2bd59c8c99d5b763b3d6d38f4f0884f6
+doccontainersize 145800
+doccontainerchecksum 8077ef14346931b9b46b380a70960586c40eb1aebad1a51e98ce8e0ec65996f439756ca9cb2102d34161256bb5e224ce81c381fa0baaf8163b21faadd6317ab5
+docfiles size=38
+ texmf-dist/doc/latex/euenc/README details="Readme"
+ texmf-dist/doc/latex/euenc/euenc.pdf details="Package documentation"
+ texmf-dist/doc/latex/euenc/test-euxlm.ltx
+srccontainersize 6872
+srccontainerchecksum c7e29144eca59718e385d16dfceb2ba287275b6dd180da7bc72ed27ffb9385ba339b1039b1886fd015351fe184adbddc8d418c83a24949cceffac08497e402c7
+srcfiles size=6
+ texmf-dist/source/latex/euenc/Makefile
+ texmf-dist/source/latex/euenc/euenc.dtx
+runfiles size=14
+ texmf-dist/tex/latex/euenc/eu1enc.def
+ texmf-dist/tex/latex/euenc/eu1lmdh.fd
+ texmf-dist/tex/latex/euenc/eu1lmr.fd
+ texmf-dist/tex/latex/euenc/eu1lmss.fd
+ texmf-dist/tex/latex/euenc/eu1lmssq.fd
+ texmf-dist/tex/latex/euenc/eu1lmtt.fd
+ texmf-dist/tex/latex/euenc/eu1lmvtt.fd
+ texmf-dist/tex/latex/euenc/eu2enc.def
+ texmf-dist/tex/latex/euenc/eu2lmdh.fd
+ texmf-dist/tex/latex/euenc/eu2lmr.fd
+ texmf-dist/tex/latex/euenc/eu2lmss.fd
+ texmf-dist/tex/latex/euenc/eu2lmssq.fd
+ texmf-dist/tex/latex/euenc/eu2lmtt.fd
+ texmf-dist/tex/latex/euenc/eu2lmvtt.fd
+catalogue-also xunicode
+catalogue-ctan /macros/latex/contrib/euenc
+catalogue-date 2016-10-08 11:33:19 +0200
+catalogue-license lppl1.3
+catalogue-topics font-supp unicode
+catalogue-version 0.1h

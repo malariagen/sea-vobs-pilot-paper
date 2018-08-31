@@ -1,0 +1,12 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [],
+  "license": "Tcl/Tk",
+  "license_family": "BSD",
+  "name": "tk",
+  "platform": "linux",
+  "subdir": "linux-64",
+  "version": "8.6.8"
+}
