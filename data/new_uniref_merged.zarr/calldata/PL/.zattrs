@@ -1,0 +1,6 @@
+{
+    "Description": "Normalized, Phred-scaled likelihoods for genotypes as defined in the VCF specification",
+    "ID": "PL",
+    "Number": "G",
+    "Type": "Integer"
+}

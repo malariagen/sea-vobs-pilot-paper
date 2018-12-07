@@ -1,0 +1,6 @@
+{
+    "Description": "Number of times tandem repeat unit is repeated, for each allele (including reference)",
+    "ID": "RPA",
+    "Number": ".",
+    "Type": "Integer"
+}

@@ -1,0 +1,6 @@
+{
+    "Description": "Fraction of Reads Containing Spanning Deletions",
+    "ID": "Dels",
+    "Number": "1",
+    "Type": "Float"
+}

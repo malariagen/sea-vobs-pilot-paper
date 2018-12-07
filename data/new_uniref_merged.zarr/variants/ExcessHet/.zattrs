@@ -1,0 +1,6 @@
+{
+    "Description": "Phred-scaled p-value for exact test of excess heterozygosity",
+    "ID": "ExcessHet",
+    "Number": "1",
+    "Type": "Float"
+}
