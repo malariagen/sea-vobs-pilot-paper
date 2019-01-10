@@ -1,0 +1,30 @@
+1. Called variants with gatk
+
+bash gatk_caller_all.sh
+
+2. bgzipped and tabixed these vcfs using
+
+bash gzip.sh
+bash tabix.sh  
+
+3. merged using vcftools - big mistake, took 24hrs
+
+perl ~/soft/vcftools_0.1.13/perl/vcf-merge `ls *gz` > merged.vcf
+
+4. Turn into zarr format using somthing like this - TODO
+
+
+def build_sample_zarr(input, output):
+    allel.vcf_to_zarr(
+        input=input,
+        output=output,
+        compressor=zarr.Blosc(cname='zstd', clevel=5, shuffle=0),
+        overwrite=True,
+        fields=['*'],
+        alt_number=3,
+        chunk_length=2**18,
+        log=sys.stdout,
+)
+
+
+build_sample_zarr(input_vcf, output_path)

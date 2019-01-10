@@ -1,0 +1,6 @@
+{
+    "Description": "Allelic depths for the ref and alt alleles in the order listed",
+    "ID": "AD",
+    "Number": ".",
+    "Type": "Integer"
+}
