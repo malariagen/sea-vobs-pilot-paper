@@ -1,0 +1,160 @@
+ROMA_ID,Sanger_ID,Public_name,Sample_type,Status,External_ID,Species_complex,Species,Collection_date,Collection_time,Collection_location,GPS,Collection_context,Collection_method,Sex,Specimen_type
+VBS00001,4248STDY6436122,4248STDY6436122,Genomic DNA,sequenced,1175-S01-0001,Annularis group,An. annularis,24-Jul-13,23,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00002,4248STDY6436123,4248STDY6436123,Genomic DNA,sequenced,1175-S01-0002,Annularis group,An. annularis,24-Jul-13,24,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00003,4248STDY6436124,4248STDY6436124,Genomic DNA,sequenced,1175-S01-0003,Annularis group,An. annularis,23-Jul-13,20,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00004,4248STDY6436125,4248STDY6436125,Genomic DNA,sequenced,1175-S01-0004,Annularis group,An. annularis,22-Jul-13,3,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00005,4248STDY6436126,4248STDY6436126,Genomic DNA,sequenced,1175-S01-0005,Annularis group,An. annularis,21-Jul-13,20,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00006,4248STDY6436127,4248STDY6436127,Genomic DNA,sequenced,1175-S01-0006,Annularis group,An. nivipes,17-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00007,4248STDY6634661,4248STDY6634661,WGA,Not sequenced,1175-S01-0007,Annularis group,An. nivipes,16-Aug-13,1,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00008,4248STDY6436128,4248STDY6436128,Genomic DNA,sequenced,1175-S01-0008,Annularis group,An. nivipes,14-Aug-13,1,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00009,4248STDY6436129,4248STDY6436129,Genomic DNA,sequenced,1175-S01-0009,Annularis group,An. nivipes,17-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00010,4248STDY6436130,4248STDY6436130,Genomic DNA,sequenced,1175-S01-0010,Annularis group,An. nivipes,17-Aug-13,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00011,4248STDY6436131,4248STDY6436131,Genomic DNA,sequenced,1175-S01-0011,Annularis group,An. pallidus,13-Jun-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00012,4248STDY6436132,4248STDY6436132,Genomic DNA,sequenced,1175-S01-0012,Annularis group,An. pallidus,13-Jun-14,22,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00013,4248STDY6436133,4248STDY6436133,Genomic DNA,sequenced,1175-S01-0013,Annularis group,An. pallidus,13-Jun-14,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00014,4248STDY6436134,4248STDY6436134,Genomic DNA,sequenced,1175-S01-0014,Annularis group,An. pallidus,13-May-14,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00015,4248STDY6436135,4248STDY6436135,Genomic DNA,sequenced,1175-S01-0015,Annularis group,An. pallidus,13-May-14,23,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00016,4248STDY6634662,4248STDY6634662,WGA,Not sequenced,1175-S01-0016,Annularis group,An. philippinensis,17-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00017,4248STDY6436136,4248STDY6436136,Genomic DNA,sequenced,1175-S01-0017,Annularis group,An. philippinensis,16-Aug-13,24,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00018,4248STDY6436137,4248STDY6436137,Genomic DNA,sequenced,1175-S01-0018,Annularis group,An. philippinensis,17-Aug-13,4,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00019,4248STDY6634663,4248STDY6634663,WGA,sequenced,1175-S01-0019,Annularis group,An. philippinensis,16-Aug-13,23,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00020,4248STDY6436138,4248STDY6436138,Genomic DNA,sequenced,1175-S01-0020,Annularis group,An. philippinensis,17-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00021,4248STDY6436139,4248STDY6436139,Genomic DNA,sequenced,1175-S01-0021,Barbirostris group,An. barbirostris,17-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00022,4248STDY6436140,4248STDY6436140,Genomic DNA,sequenced,1175-S01-0022,Barbirostris group,An. barbirostris,17-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00023,4248STDY6436141,4248STDY6436141,Genomic DNA,sequenced,1175-S01-0023,Barbirostris group,An. barbirostris,7-Dec-09,,Thmar Da,12.155 / 102.735,indoor,CDC-light trap,Female,Wild caught adult
+VBS00024,4248STDY6436142,4248STDY6436142,Genomic DNA,sequenced,1175-S01-0024,Barbirostris group,An. barbirostris,7-Dec-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00025,4248STDY6436143,4248STDY6436143,Genomic DNA,sequenced,1175-S01-0025,Barbirostris group,An. barbirostris,17-Jan-10,,Thmar Da,12.155 / 102.735,indoor,CDC-light trap,Female,Wild caught adult
+VBS00026,4248STDY6436144,4248STDY6436144,Genomic DNA,sequenced,1175-S01-0026,Barbirostris group,An. barbirostris (barbirostris clade III),17-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00027,4248STDY6634664,4248STDY6634664,WGA,Not sequenced,1175-S01-0027,Barbirostris group,An. barbirostris (barbirostris clade III),16-Aug-13,18,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00028,4248STDY6634665,4248STDY6634665,WGA,Not sequenced,1175-S01-0028,Barbirostris group,An. barbirostris (barbirostris clade III),15-Aug-13,18,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00029,4248STDY6436145,4248STDY6436145,Genomic DNA,sequenced,1175-S01-0029,Barbirostris group,An. barbirostris (barbirostris clade III),15-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00030,4248STDY6436146,4248STDY6436146,Genomic DNA,sequenced,1175-S01-0030,Barbirostris group,An. barbirostris (barbirostris clade III),17-Aug-13,23,Angkrong,12.3129167 / 103.570388,outdoor,human landing catch,Female,Wild caught adult
+VBS00031,4248STDY6436147,4248STDY6436147,Genomic DNA,sequenced,1175-S01-0031,Barbirostris group,An. campestris,23-Feb-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00032,4248STDY6436148,4248STDY6436148,Genomic DNA,sequenced,1175-S01-0032,Barbirostris group,An. campestris,25-Feb-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00033,4248STDY6436149,4248STDY6436149,Genomic DNA,sequenced,1175-S01-0033,Barbirostris group,An. campestris,19-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00034,4248STDY6436150,4248STDY6436150,Genomic DNA,sequenced,1175-S01-0034,Barbirostris group,An. campestris,19-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00035,4248STDY6436151,4248STDY6436151,Genomic DNA,sequenced,1175-S01-0035,Barbirostris group,An. campestris,26-Feb-10,,Thmar Da,12.155 / 102.735,indoor,CDC-light trap,Female,Wild caught adult
+VBS00036,4248STDY6436152,4248STDY6436152,Genomic DNA,sequenced,1175-S01-0036,Barbirostris group,An. dissidens,8-Dec-14,21,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00037,4248STDY6436153,4248STDY6436153,Genomic DNA,sequenced,1175-S01-0037,Barbirostris group,An. dissidens,7-Dec-14,2,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00038,4248STDY6436154,4248STDY6436154,Genomic DNA,sequenced,1175-S01-0038,Barbirostris group,An. saeungae (barbirostris clade IV),16-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00039,4248STDY6634666,4248STDY6634666,WGA,sequenced,1175-S01-0039,Barbirostris group,An. saeungae (barbirostris clade IV),13-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,human landing catch,Female,Wild caught adult
+VBS00040,4248STDY6436155,4248STDY6436155,Genomic DNA,sequenced,1175-S01-0040,Barbirostris group,An. saeungae (barbirostris clade IV),16-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00041,4248STDY6436156,4248STDY6436156,Genomic DNA,sequenced,1175-S01-0041,Barbirostris group,An. saeungae (barbirostris clade IV),16-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,barrier fence,Female,Wild caught adult
+VBS00042,4248STDY6634667,4248STDY6634667,WGA,sequenced,1175-S01-0042,Barbirostris group,An. saeungae (barbirostris clade IV),14-Aug-13,,Angkrong,12.3129167 / 103.570388,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00043,4248STDY6436157,4248STDY6436157,Genomic DNA,sequenced,1175-S01-0043,Barbirostris group,An. wejchoochotei,7-Aug-13,20,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00044,4248STDY6436158,4248STDY6436158,Genomic DNA,sequenced,1175-S01-0044,Barbirostris group,An. wejchoochotei,6-Aug-13,21,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00045,4248STDY6436159,4248STDY6436159,Genomic DNA,sequenced,1175-S01-0045,Barbirostris group,An. wejchoochotei,7-Aug-13,19,Chean Mok,13.7698056 / 104.920388,outdoor,human landing catch,Female,Wild caught adult
+VBS00046,4248STDY6436160,4248STDY6436160,Genomic DNA,sequenced,1175-S01-0046,Barbirostris group,An. wejchoochotei,1-Aug-13,22,Chean Mok,13.7698056 / 104.920388,outdoor,human landing catch,Female,Wild caught adult
+VBS00047,4248STDY6436161,4248STDY6436161,Genomic DNA,sequenced,1175-S01-0047,Barbirostris group,An. wejchoochotei,5-Aug-13,3,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00048,4248STDY6436162,4248STDY6436162,Genomic DNA,sequenced,1175-S01-0048,Leucosphyrus group,An. dirus A,20-Nov-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00049,4248STDY6436163,4248STDY6436163,Genomic DNA,sequenced,1175-S01-0049,Leucosphyrus group,An. dirus A,5-Apr-10,,Thmar Da,12.155 / 102.735,indoor,CDC-light trap,Female,Wild caught adult
+VBS00050,4248STDY6436164,4248STDY6436164,Genomic DNA,sequenced,1175-S01-0050,Leucosphyrus group,An. dirus A,5-May-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00051,4248STDY6634668,4248STDY6634668,WGA,sequenced,1175-S01-0051,Leucosphyrus group,An. dirus A,7-Dec-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00052,4248STDY6436165,4248STDY6436165,Genomic DNA,sequenced,1175-S01-0052,Leucosphyrus group,An. dirus A,24-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00053,4248STDY6634669,4248STDY6634669,WGA,sequenced,1175-S01-0053,Funestus group,An. aconitus,7-Aug-13,4,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00054,4248STDY6634670,4248STDY6634670,WGA,Not sequenced,1175-S01-0054,Funestus group,An. aconitus,7-Aug-13,1,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00055,4248STDY6634671,4248STDY6634671,WGA,sequenced,1175-S01-0055,Funestus group,An. aconitus,6-Aug-13,2,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00056,4248STDY6634672,4248STDY6634672,WGA,Not sequenced,1175-S01-0056,Funestus group,An. aconitus,6-Aug-13,2,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00057,4248STDY6634673,4248STDY6634673,WGA,Not sequenced,1175-S01-0057,Funestus group,An. aconitus,3-Aug-13,21,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00058,4248STDY6634674,4248STDY6634674,WGA,Not sequenced,1175-S01-0058,Funestus group,An. minimus A,6-Dec-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00059,4248STDY6436166,4248STDY6436166,Genomic DNA,sequenced,1175-S01-0059,Funestus group,An. minimus A,6-Dec-09,,Thmar Da,12.155 / 102.735,indoor,CDC-light trap,Female,Wild caught adult
+VBS00060,4248STDY6634675,4248STDY6634675,WGA,Not sequenced,1175-S01-0060,Funestus group,An. minimus A,1-May-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00061,4248STDY6634676,4248STDY6634676,WGA,sequenced,1175-S01-0061,Funestus group,An. minimus A,2-May-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00062,4248STDY6634677,4248STDY6634677,WGA,Not sequenced,1175-S01-0062,Funestus group,An. minimus A,26-Feb-09,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00063,4248STDY6634678,4248STDY6634678,WGA,sequenced,1175-S01-0063,Funestus group,An. jeyporiensis,17-Aug-13,1,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00064,4248STDY6634679,4248STDY6634679,WGA,sequenced,1175-S01-0064,Funestus group,An. jeyporiensis,24-Jul-13,1,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00065,4248STDY6634680,4248STDY6634680,WGA,sequenced,1175-S01-0065,Funestus group,An. jeyporiensis,22-Jul-13,5,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00066,4248STDY6634681,4248STDY6634681,WGA,sequenced,1175-S01-0066,Funestus group,An. jeyporiensis,23-Jul-13,24,Sayas,13.5476389 / 107.024555,outdoor,human landing catch,Female,Wild caught adult
+VBS00067,4248STDY6634682,4248STDY6634682,WGA,Not sequenced,1175-S01-0067,Funestus group,An. pampanai,22-Nov-09,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00068,4248STDY6436167,4248STDY6436167,Genomic DNA,sequenced,1175-S01-0068,Funestus group,An. pampanai,19-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00069,4248STDY6436168,4248STDY6436168,Genomic DNA,sequenced,1175-S01-0069,Funestus group,An. pampanai,24-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00070,4248STDY6634683,4248STDY6634683,WGA,Not sequenced,1175-S01-0070,Funestus group,An. pampanai,1-May-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00071,4248STDY6436169,4248STDY6436169,Genomic DNA,sequenced,1175-S01-0071,Funestus group,An. pampanai,3-May-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00072,4248STDY6436170,4248STDY6436170,Genomic DNA,sequenced,1175-S01-0072,Hyrcanus group,An. argyropus,24-Jul-13,20,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00073,4248STDY6634684,4248STDY6634684,WGA,Not sequenced,1175-S01-0073,Hyrcanus group,An. argyropus,24-Jul-13,3,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00074,4248STDY6436171,4248STDY6436171,Genomic DNA,sequenced,1175-S01-0074,Hyrcanus group,An. argyropus,24-Jul-13,1,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00075,4248STDY6436172,4248STDY6436172,Genomic DNA,sequenced,1175-S01-0075,Hyrcanus group,An. argyropus,23-Jul-13,24,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00076,4248STDY6436173,4248STDY6436173,Genomic DNA,sequenced,1175-S01-0076,Hyrcanus group,An. argyropus,23-Jul-13,4,Sayas,13.5476389 / 107.024555,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00077,4248STDY6634685,4248STDY6634685,WGA,Not sequenced,1175-S01-0077,Hyrcanus group,An. crawfordi,16-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00078,4248STDY6634686,4248STDY6634686,WGA,sequenced,1175-S01-0078,Hyrcanus group,An. crawfordi,12-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00079,4248STDY6634687,4248STDY6634687,WGA,sequenced,1175-S01-0079,Hyrcanus group,An. crawfordi,16-Aug-13,3,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00080,4248STDY6634688,4248STDY6634688,WGA,Not sequenced,1175-S01-0080,Hyrcanus group,An. crawfordi,16-Aug-13,18,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00081,4248STDY6634689,4248STDY6634689,WGA,sequenced,1175-S01-0081,Hyrcanus group,An. crawfordi,12-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00082,4248STDY6436174,4248STDY6436174,Genomic DNA,sequenced,1175-S01-0082,Hyrcanus group,An. hyrcanus,19-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00083,4248STDY6436175,4248STDY6436175,Genomic DNA,sequenced,1175-S01-0083,Hyrcanus group,An. hyrcanus,21-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00084,4248STDY6634690,4248STDY6634690,WGA,sequenced,1175-S01-0084,Hyrcanus group,An. hyrcanus,24-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00085,4248STDY6436176,4248STDY6436176,Genomic DNA,sequenced,1175-S01-0085,Hyrcanus group,An. hyrcanus,23-Nov-09,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00086,4248STDY6436177,4248STDY6436177,Genomic DNA,sequenced,1175-S01-0086,Hyrcanus group,An. hyrcanus,6-Dec-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00087,4248STDY6634691,4248STDY6634691,WGA,sequenced,1175-S01-0087,Hyrcanus group,An. peditaeniatus,14-Mar-14,4,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00088,4248STDY6436178,4248STDY6436178,Genomic DNA,sequenced,1175-S01-0088,Hyrcanus group,An. peditaeniatus,14-Mar-14,4,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00089,4248STDY6634692,4248STDY6634692,WGA,sequenced,1175-S01-0089,Hyrcanus group,An. peditaeniatus,16-Mar-14,19,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00090,4248STDY6436179,4248STDY6436179,Genomic DNA,sequenced,1175-S01-0090,Hyrcanus group,An. peditaeniatus,15-Mar-14,2,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00091,4248STDY6436180,4248STDY6436180,Genomic DNA,sequenced,1175-S01-0091,Hyrcanus group,An. peditaeniatus,15-Mar-14,20,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00092,4248STDY6634693,4248STDY6634693,WGA,Not sequenced,1175-S01-0092,Hyrcanus group,An. nigerrimus,15-Mar-14,21,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00093,4248STDY6634694,4248STDY6634694,WGA,sequenced,1175-S01-0093,Hyrcanus group,An. nigerrimus,16-Mar-14,21,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00094,4248STDY6634695,4248STDY6634695,WGA,sequenced,1175-S01-0094,Hyrcanus group,An. nigerrimus,15-Mar-14,24,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00095,4248STDY6634696,4248STDY6634696,WGA,sequenced,1175-S01-0095,Hyrcanus group,An. nigerrimus,16-Mar-14,19,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00096,4248STDY6634697,4248STDY6634697,WGA,sequenced,1175-S01-0096,Hyrcanus group,An. nigerrimus,14-Mar-14,18,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00097,4248STDY6436181,4248STDY6436181,Genomic DNA,sequenced,1175-S01-0097,Hyrcanus group,An. nitidus,13-May-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00098,4248STDY6436182,4248STDY6436182,Genomic DNA,sequenced,1175-S01-0098,Hyrcanus group,An. nitidus,8-Sep-14,4,Chamkar San,13.595 / 106.995,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00099,4248STDY6436183,4248STDY6436183,Genomic DNA,sequenced,1175-S01-0099,Hyrcanus group,An. nitidus,9-Sep-14,3,Chamkar San,13.595 / 106.995,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00100,4248STDY6634698,4248STDY6634698,WGA,sequenced,1175-S01-0100,Hyrcanus group,An. nitidus,17-Aug-13,22,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00101,4248STDY6436184,4248STDY6436184,Genomic DNA,sequenced,1175-S01-0101,Hyrcanus group,An. nitidus,16-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00102,4248STDY6436185,4248STDY6436185,Genomic DNA,sequenced,1175-S01-0102,Kochi group,An. kochi,13-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,human landing catch,Female,Wild caught adult
+VBS00103,4248STDY6436186,4248STDY6436186,Genomic DNA,sequenced,1175-S01-0103,Kochi group,An. kochi,17-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00104,4248STDY6634699,4248STDY6634699,WGA,sequenced,1175-S01-0104,Kochi group,An. kochi,16-Aug-13,24,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00105,4248STDY6634700,4248STDY6634700,WGA,Not sequenced,1175-S01-0105,Kochi group,An. kochi,15-Aug-13,2,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00106,4248STDY6436187,4248STDY6436187,Genomic DNA,sequenced,1175-S01-0106,Kochi group,An. kochi,16-Aug-13,4,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00107,4248STDY6436188,4248STDY6436188,Genomic DNA,sequenced,1175-S01-0107,Maculatus group,An. sawadwongporni (maculatus A),17-Aug-13,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00108,4248STDY6634701,4248STDY6634701,WGA,sequenced,1175-S01-0108,Maculatus group,An. sawadwongporni (maculatus A),17-Aug-13,22,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00109,4248STDY6634702,4248STDY6634702,WGA,Not sequenced,1175-S01-0109,Maculatus group,An. sawadwongporni (maculatus A),17-Aug-13,19,Angkrong,12.3129167 / 103.570388,outdoor,human landing catch,Female,Wild caught adult
+VBS00110,4248STDY6634703,4248STDY6634703,WGA,sequenced,1175-S01-0110,Maculatus group,An. sawadwongporni (maculatus A),15-Aug-13,2,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00111,4248STDY6634704,4248STDY6634704,WGA,Not sequenced,1175-S01-0111,Maculatus group,An. sawadwongporni (maculatus A),14-Aug-13,23,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00112,4248STDY6436189,4248STDY6436189,Genomic DNA,sequenced,1175-S01-0112,Maculatus group,An. rampae (maculatus K),6-Dec-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00113,4248STDY6436190,4248STDY6436190,Genomic DNA,sequenced,1175-S01-0113,Maculatus group,An. rampae (maculatus K),26-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00114,4248STDY6436191,4248STDY6436191,Genomic DNA,sequenced,1175-S01-0114,Maculatus group,An. rampae (maculatus K),26-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00115,4248STDY6436192,4248STDY6436192,Genomic DNA,sequenced,1175-S01-0115,Maculatus group,An. rampae (maculatus K),26-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00116,4248STDY6634705,4248STDY6634705,WGA,Not sequenced,1175-S01-0116,Maculatus group,An. rampae (maculatus K),21-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00117,4248STDY6634706,4248STDY6634706,WGA,sequenced,1175-S01-0117,An. karwari (Neocellia series),An. karwari,14-Aug-13,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00118,4248STDY6634707,4248STDY6634707,WGA,sequenced,1175-S01-0118,An. karwari (Neocellia series),An. karwari,14-Aug-13,22,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00119,4248STDY6634708,4248STDY6634708,WGA,Not sequenced,1175-S01-0119,An. karwari (Neocellia series),An. karwari,14-Aug-13,3,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00120,4248STDY6634709,4248STDY6634709,WGA,Not sequenced,1175-S01-0120,An. karwari (Neocellia series),An. karwari,12-Aug-13,24,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00121,4248STDY6634710,4248STDY6634710,WGA,sequenced,1175-S01-0121,An. karwari (Neocellia series),An. karwari,16-Aug-13,22,Angkrong,12.3129167 / 103.570388,outdoor,human landing catch,Female,Wild caught adult
+VBS00122,4248STDY6436193,4248STDY6436193,Genomic DNA,sequenced,1175-S01-0122,Leucosphyrus group,An. balabacensis,25-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00123,4248STDY6634711,4248STDY6634711,WGA,sequenced,1175-S01-0123,Leucosphyrus group,An. balabacensis,27-Oct-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00124,4248STDY6634712,4248STDY6634712,WGA,sequenced,1175-S01-0124,Jamesii group,An. jamesii,17-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00125,4248STDY6634713,4248STDY6634713,WGA,sequenced,1175-S01-0125,Jamesii group,An. jamesii,6-Aug-13,,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00126,4248STDY6634714,4248STDY6634714,WGA,Not sequenced,1175-S01-0126,Jamesii group,An. jamesii,24-Oct-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00127,4248STDY6436194,4248STDY6436194,Genomic DNA,sequenced,1175-S01-0127,Jamesii group,An. jamesii,28-Jun-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00128,4248STDY6436195,4248STDY6436195,Genomic DNA,sequenced,1175-S01-0128,Jamesii group,An. jamesii,28-Jun-09,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00129,4248STDY6634715,4248STDY6634715,WGA,Not sequenced,1175-S01-0129,Jamesii group,An. sinensis,13-Jun-14,3,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00130,4248STDY6634716,4248STDY6634716,WGA,sequenced,1175-S01-0130,Hyrcanus group,An. sinensis,13-May-14,4,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00131,4248STDY6634717,4248STDY6634717,WGA,Not sequenced,1175-S01-0131,Hyrcanus group,An. sinensis,13-Jun-14,1,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00132,4248STDY6436196,4248STDY6436196,Genomic DNA,sequenced,1175-S01-0132,Hyrcanus group,An. sinensis,13-May-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00133,4248STDY6634718,4248STDY6634718,WGA,sequenced,1175-S01-0133,Hyrcanus group,An. sinensis,13-May-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00134,4248STDY6634719,4248STDY6634719,WGA,sequenced,1175-S01-0134,Jamesii group,An. splendidus,6-Aug-13,24,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00135,4248STDY6436197,4248STDY6436197,Genomic DNA,sequenced,1175-S01-0135,Jamesii group,An. splendidus,5-Aug-13,23,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00136,4248STDY6436198,4248STDY6436198,Genomic DNA,sequenced,1175-S01-0136,Jamesii group,An. splendidus,5-Aug-13,23,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00137,4248STDY6436199,4248STDY6436199,Genomic DNA,sequenced,1175-S01-0137,Jamesii group,An. splendidus,2-Aug-13,21,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00138,4248STDY6436200,4248STDY6436200,Genomic DNA,sequenced,1175-S01-0138,Jamesii group,An. splendidus,2-Aug-13,21,Chean Mok,13.7698056 / 104.920388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00139,4248STDY6436201,4248STDY6436201,Genomic DNA,sequenced,1175-S01-0139,Subpictus group,An. subpictus,26-Oct-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00140,4248STDY6634720,4248STDY6634720,WGA,Not sequenced,1175-S01-0140,Subpictus group,An. subpictus,9-Aug-10,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
+VBS00141,4248STDY6634721,4248STDY6634721,WGA,Not sequenced,1175-S01-0141,Subpictus group,An. subpictus,19-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00142,4248STDY6634722,4248STDY6634722,WGA,sequenced,1175-S01-0142,Subpictus group,An. subpictus,17-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00143,4248STDY6436202,4248STDY6436202,Genomic DNA,sequenced,1175-S01-0143,Subpictus group,An. subpictus,23-Oct-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00144,4248STDY6436203,4248STDY6436203,Genomic DNA,sequenced,1175-S01-0144,Ludlowae group,An. sundaicus,26-Feb-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00145,4248STDY6436204,4248STDY6436204,Genomic DNA,sequenced,1175-S01-0145,Ludlowae group,An. sundaicus,18-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00146,4248STDY6436205,4248STDY6436205,Genomic DNA,sequenced,1175-S01-0146,Ludlowae group,An. sundaicus,20-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00147,4248STDY6436206,4248STDY6436206,Genomic DNA,sequenced,1175-S01-0147,Ludlowae group,An. sundaicus,18-Jan-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00148,4248STDY6436207,4248STDY6436207,Genomic DNA,sequenced,1175-S01-0148,Ludlowae group,An. sundaicus,21-Mar-10,,Thmar Da,12.155 / 102.735,outdoor,human landing catch,Female,Wild caught adult
+VBS00149,4248STDY6634723,4248STDY6634723,WGA,sequenced,1175-S01-0149,Tessellatus group,An. tessellatus,17-Aug-13,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00150,4248STDY6634724,4248STDY6634724,WGA,sequenced,1175-S01-0150,Tessellatus group,An. tessellatus,17-Aug-13,4,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00151,4248STDY6634725,4248STDY6634725,WGA,Not sequenced,1175-S01-0151,Tessellatus group,An. tessellatus,16-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00152,4248STDY6634726,4248STDY6634726,WGA,Not sequenced,1175-S01-0152,Tessellatus group,An. tessellatus,16-Aug-13,20,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00153,4248STDY6634727,4248STDY6634727,WGA,Not sequenced,1175-S01-0153,Tessellatus group,An. tessellatus,17-Aug-13,24,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00154,4248STDY6436208,4248STDY6436208,Genomic DNA,sequenced,1175-S01-0154,Subpictus group,An. vagus,15-Mar-14,23,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00155,4248STDY6436209,4248STDY6436209,Genomic DNA,sequenced,1175-S01-0155,Subpictus group,An. vagus,15-Mar-14,19,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00156,4248STDY6436210,4248STDY6436210,Genomic DNA,sequenced,1175-S01-0156,Subpictus group,An. vagus,14-Mar-14,19,Veal,12.275 / 103.715,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00157,4248STDY6436211,4248STDY6436211,Genomic DNA,sequenced,1175-S01-0157,Subpictus group,An. vagus,13-Jun-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00158,4248STDY6436212,4248STDY6436212,Genomic DNA,sequenced,1175-S01-0158,Subpictus group,An. vagus,13-May-14,21,Angkrong,12.3129167 / 103.570388,outdoor,cow-baited tent,Female,Wild caught adult
+VBS00159,4248STDY6634728,4248STDY6634728,WGA,Not sequenced,1175-S01-0159,Subpictus group,An. varuna,22-Nov-09,,Thmar Da,12.155 / 102.735,outdoor,CDC-light trap,Female,Wild caught adult
